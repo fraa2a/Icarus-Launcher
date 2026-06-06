@@ -1,2 +1,0 @@
-ALTER TABLE profiles ADD COLUMN sync_enabled INTEGER NOT NULL DEFAULT 1;
-ALTER TABLE profiles ADD COLUMN sync_overrides JSONB NULL;

@@ -393,6 +393,8 @@ async function fetchInstance() {
 			staleTime: 30_000,
 		})
 	}
+
+	updateBreadcrumbs()
 }
 
 function fetchDeferredData() {
@@ -471,18 +473,19 @@ const tabs = computed(() => [
 	},
 ])
 
-if (instance.value) {
-	breadcrumbs.setName(
-		'Instance',
-		instance.value.name.length > 40
-			? instance.value.name.substring(0, 40) + '...'
-			: instance.value.name,
-	)
-	breadcrumbs.setContext({
-		name: instance.value.name,
-		link: route.path,
-		query: route.query,
-	})
+function updateBreadcrumbs() {
+	if (instance.value) {
+		const name =
+			instance.value.name.length > 40
+				? instance.value.name.substring(0, 40) + '...'
+				: instance.value.name
+		breadcrumbs.setName('Instance', name)
+		breadcrumbs.setContext({
+			name: instance.value.name,
+			link: route.path,
+			query: route.query,
+		})
+	}
 }
 
 const options = ref<InstanceType<typeof ContextMenu> | null>(null)

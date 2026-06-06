@@ -1,2 +1,0 @@
-ALTER TABLE mods
-ADD COLUMN components JSONB NOT NULL DEFAULT '{}';
