@@ -85,7 +85,6 @@ import { commonMessages } from '#ui/utils/common-messages'
 
 import { injectFileManager } from '../providers/file-manager'
 import type { FileContextMenuOption, FileItem } from '../types'
-import { joinDisplayPath } from '../utils'
 
 const { formatMessage } = useVIntl()
 const { addNotification } = injectNotificationManager()
@@ -130,7 +129,9 @@ function handleCopyFilename() {
 
 function getFullPath() {
 	if (!currentItem.value) return ''
-	return joinDisplayPath(ctx.basePath?.value, currentItem.value.path)
+	const basePath = ctx.basePath?.value
+	const itemPath = currentItem.value.path
+	return basePath ? `${basePath}/${itemPath}`.replace(/\/+/g, '/') : itemPath
 }
 
 function handleCopyPath() {

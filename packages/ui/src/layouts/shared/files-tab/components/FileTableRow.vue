@@ -132,7 +132,6 @@ import {
 } from '../composables/file-drag-state'
 import { injectFileManager } from '../providers/file-manager'
 import type { FileItem } from '../types'
-import { joinDisplayPath } from '../utils'
 
 const { formatMessage } = useVIntl()
 const { addNotification } = injectNotificationManager()
@@ -205,7 +204,8 @@ const fileExtension = computed(() => getFileExtension(props.name))
 const isZip = computed(() => fileExtension.value === 'zip')
 
 function getFullPath() {
-	return joinDisplayPath(ctx.basePath?.value, props.path)
+	const basePath = ctx.basePath?.value
+	return basePath ? `${basePath}/${props.path}`.replace(/\/+/g, '/') : props.path
 }
 
 const menuOptions = computed(() => {
