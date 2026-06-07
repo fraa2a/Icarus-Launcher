@@ -10,7 +10,7 @@ import {
 	useVIntl,
 } from '@icarus/ui'
 import { open } from '@tauri-apps/plugin-dialog'
-import { ref } from 'vue'
+import { ref, watch } from 'vue'
 
 import { PackageIcon, VersionIcon } from '@/assets/icons'
 import ModalWrapper from '@/components/ui/modal/ModalWrapper.vue'
@@ -109,6 +109,17 @@ const initFiles = async () => {
 		value,
 	])
 }
+
+watch(
+	() => props.instance.path,
+	async () => {
+		nameInput.value = props.instance.name
+		exportDescription.value = ''
+		versionInput.value = '1.0.0'
+		showingFiles.value = false
+		await initFiles()
+	},
+)
 
 await initFiles()
 
@@ -329,4 +340,3 @@ const exportPack = async () => {
 	gap: 1rem;
 }
 </style>
-

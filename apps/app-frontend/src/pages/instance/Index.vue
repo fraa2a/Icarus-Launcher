@@ -387,6 +387,18 @@ async function fetchInstance() {
 	fetchDeferredData()
 
 	if (instance.value) {
+		breadcrumbs.setName(
+			'Instance',
+			instance.value.name.length > 40
+				? instance.value.name.substring(0, 40) + '...'
+				: instance.value.name,
+		)
+		breadcrumbs.setContext({
+			name: instance.value.name,
+			link: route.path,
+			query: route.query,
+		})
+
 		queryClient.prefetchQuery({
 			queryKey: ['worlds', instance.value.path],
 			queryFn: () => refreshWorlds(instance.value!.path),
@@ -470,20 +482,6 @@ const tabs = computed(() => [
 		icon: TerminalSquareIcon,
 	},
 ])
-
-if (instance.value) {
-	breadcrumbs.setName(
-		'Instance',
-		instance.value.name.length > 40
-			? instance.value.name.substring(0, 40) + '...'
-			: instance.value.name,
-	)
-	breadcrumbs.setContext({
-		name: instance.value.name,
-		link: route.path,
-		query: route.query,
-	})
-}
 
 const options = ref<InstanceType<typeof ContextMenu> | null>(null)
 
@@ -860,4 +858,3 @@ Button {
 	}
 }
 </style>
-
