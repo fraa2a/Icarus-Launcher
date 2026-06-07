@@ -1,0 +1,332 @@
+<script setup>
+import { PlusIcon, XIcon } from '@icarus/assets'
+import {
+	ButtonStyled,
+	Checkbox,
+	commonMessages,
+	defineMessages,
+	injectNotificationManager,
+	StyledInput,
+	useVIntl,
+} from '@icarus/ui'
+import { open } from '@tauri-apps/plugin-dialog'
+import { ref } from 'vue'
+
+import { PackageIcon, VersionIcon } from '@/assets/icons'
+import ModalWrapper from '@/components/ui/modal/ModalWrapper.vue'
+import { export_profile_mrpack, get_pack_export_candidates } from '@/helpers/profile.js'
+
+const { handleError } = injectNotificationManager()
+const { formatMessage } = useVIntl()
+
+const messages = defineMessages({
+	header: { id: 'app.export-modal.header', defaultMessage: 'Export modpack' },
+	modpackNameLabel: { id: 'app.export-modal.modpack-name-label', defaultMessage: 'Modpack Name' },
+	modpackNamePlaceholder: {
+		id: 'app.export-modal.modpack-name-placeholder',
+		defaultMessage: 'Modpack name',
+	},
+	versionNumberLabel: {
+		id: 'app.export-modal.version-number-label',
+		defaultMessage: 'Version number',
+	},
+	versionNumberPlaceholder: {
+		id: 'app.export-modal.version-number-placeholder',
+		defaultMessage: '1.0.0',
+	},
+	descriptionPlaceholder: {
+		id: 'app.export-modal.description-placeholder',
+		defaultMessage: 'Enter modpack description...',
+	},
+	selectFilesLabel: {
+		id: 'app.export-modal.select-files-label',
+		defaultMessage: 'Select files and folders to include in pack',
+	},
+	exportButton: { id: 'app.export-modal.export-button', defaultMessage: 'Export' },
+})
+
+const props = defineProps({
+	instance: {
+		type: Object,
+		required: true,
+	},
+})
+
+defineExpose({
+	show: () => {
+		exportModal.value.show()
+		initFiles()
+	},
+})
+
+const exportModal = ref(null)
+const nameInput = ref(props.instance.name)
+const exportDescription = ref('')
+const versionInput = ref('1.0.0')
+const files = ref([])
+const folders = ref([])
+const showingFiles = ref(false)
+
+const initFiles = async () => {
+	const newFolders = new Map()
+	const sep = '/'
+	files.value = []
+	await get_pack_export_candidates(props.instance.path).then((filePaths) =>
+		filePaths
+			.map((folder) => ({
+				path: folder,
+				name: folder.split(sep).pop(),
+				selected:
+					folder.startsWith('mods') ||
+					folder.startsWith('datapacks') ||
+					folder.startsWith('resourcepacks') ||
+					folder.startsWith('shaderpacks') ||
+					folder.startsWith('config'),
+				disabled:
+					folder === 'profile.json' ||
+					folder.startsWith('Icarus_logs') ||
+					folder.startsWith('.fabric'),
+			}))
+			.filter((pathData) => !pathData.path.includes('.DS_Store'))
+			.forEach((pathData) => {
+				const parent = pathData.path.split(sep).slice(0, -1).join(sep)
+				if (parent !== '') {
+					if (newFolders.has(parent)) {
+						newFolders.get(parent).push(pathData)
+					} else {
+						newFolders.set(parent, [pathData])
+					}
+				} else {
+					files.value.push(pathData)
+				}
+			}),
+	)
+	folders.value = [...newFolders.entries()].map(([name, value]) => [
+		{
+			name,
+			showingMore: false,
+		},
+		value,
+	])
+}
+
+await initFiles()
+
+const exportPack = async () => {
+	const filesToExport = files.value.filter((file) => file.selected).map((file) => file.path)
+	folders.value.forEach((args) => {
+		args[1].forEach((child) => {
+			if (child.selected) {
+				filesToExport.push(child.path)
+			}
+		})
+	})
+	const outputPath = await open({
+		directory: true,
+		multiple: false,
+	})
+
+	if (outputPath) {
+		export_profile_mrpack(
+			props.instance.path,
+			outputPath + `/${nameInput.value} ${versionInput.value}.mrpack`,
+			filesToExport,
+			versionInput.value,
+			exportDescription.value,
+			nameInput.value,
+		).catch((err) => handleError(err))
+		exportModal.value.hide()
+	}
+}
+</script>
+
+<template>
+	<ModalWrapper ref="exportModal" :header="formatMessage(messages.header)">
+		<div class="modal-body">
+			<div class="labeled_input">
+				<p>{{ formatMessage(messages.modpackNameLabel) }}</p>
+				<StyledInput
+					v-model="nameInput"
+					:icon="PackageIcon"
+					type="text"
+					:placeholder="formatMessage(messages.modpackNamePlaceholder)"
+					clearable
+				/>
+			</div>
+			<div class="labeled_input">
+				<p>{{ formatMessage(messages.versionNumberLabel) }}</p>
+				<StyledInput
+					v-model="versionInput"
+					:icon="VersionIcon"
+					type="text"
+					:placeholder="formatMessage(messages.versionNumberPlaceholder)"
+					clearable
+				/>
+			</div>
+			<div class="adjacent-input">
+				<div class="labeled_input">
+					<p>{{ formatMessage(commonMessages.descriptionLabel) }}</p>
+
+					<StyledInput
+						v-model="exportDescription"
+						multiline
+						:placeholder="formatMessage(messages.descriptionPlaceholder)"
+					/>
+				</div>
+			</div>
+
+			<div class="table">
+				<div class="table-head">
+					<div class="table-cell row-wise">
+						{{ formatMessage(messages.selectFilesLabel) }}
+						<ButtonStyled circular>
+							<button @click="() => (showingFiles = !showingFiles)">
+								<PlusIcon v-if="!showingFiles" />
+								<XIcon v-else />
+							</button>
+						</ButtonStyled>
+					</div>
+				</div>
+				<div v-if="showingFiles" class="table-content">
+					<div v-for="[path, children] in folders" :key="path.name" class="table-row">
+						<div class="table-cell file-entry">
+							<div class="file-primary">
+								<Checkbox
+									:model-value="children.every((child) => child.selected)"
+									:label="path.name"
+									class="select-checkbox"
+									:disabled="children.every((x) => x.disabled)"
+									@update:model-value="
+										(newValue) => children.forEach((child) => (child.selected = newValue))
+									"
+								/>
+								<Checkbox
+									v-model="path.showingMore"
+									class="select-checkbox dropdown"
+									collapsing-toggle-style
+								/>
+							</div>
+							<div v-if="path.showingMore" class="file-secondary">
+								<div v-for="child in children" :key="child.path" class="file-secondary-row">
+									<Checkbox
+										v-model="child.selected"
+										:label="child.name"
+										class="select-checkbox"
+										:disabled="child.disabled"
+									/>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div v-for="file in files" :key="file.path" class="table-row">
+						<div class="table-cell file-entry">
+							<div class="file-primary">
+								<Checkbox
+									v-model="file.selected"
+									:label="file.name"
+									:disabled="file.disabled"
+									class="select-checkbox"
+								/>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="button-row push-right">
+				<ButtonStyled type="outlined">
+					<button @click="exportModal.hide">
+						<XIcon />
+						{{ formatMessage(commonMessages.cancelButton) }}
+					</button>
+				</ButtonStyled>
+				<ButtonStyled color="brand">
+					<button @click="exportPack">
+						<PackageIcon />
+						{{ formatMessage(messages.exportButton) }}
+					</button>
+				</ButtonStyled>
+			</div>
+		</div>
+	</ModalWrapper>
+</template>
+
+<style scoped lang="scss">
+.modal-body {
+	display: flex;
+	flex-direction: column;
+	gap: var(--gap-md);
+}
+
+.labeled_input {
+	display: flex;
+	flex-direction: column;
+	gap: var(--gap-sm);
+
+	p {
+		margin: 0;
+	}
+}
+
+.select-checkbox {
+	gap: var(--gap-sm);
+
+	button.checkbox {
+		border: none;
+	}
+
+	&.dropdown {
+		margin-left: auto;
+	}
+}
+
+.table-content {
+	max-height: 18rem;
+	overflow-y: auto;
+}
+
+.table {
+	border: 1px solid var(--color-bg);
+}
+
+.file-entry {
+	display: flex;
+	flex-direction: column;
+	gap: var(--gap-sm);
+}
+
+.file-primary {
+	display: flex;
+	align-items: center;
+	gap: var(--gap-sm);
+}
+
+.file-secondary {
+	margin-left: var(--gap-xl);
+	display: flex;
+	flex-direction: column;
+	gap: var(--gap-sm);
+	height: 100%;
+	vertical-align: center;
+}
+
+.file-secondary-row {
+	display: flex;
+	align-items: center;
+	gap: var(--gap-sm);
+}
+
+.button-row {
+	display: flex;
+	gap: var(--gap-sm);
+	align-items: center;
+}
+
+.row-wise {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	gap: 1rem;
+}
+</style>
+

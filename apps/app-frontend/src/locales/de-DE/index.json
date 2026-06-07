@@ -1,0 +1,603 @@
+{
+  "app.auth-servers.unreachable.body": {
+    "message": "Die Authentifizierungsserver von Minecraft sind eventuell momentan nicht erreichbar. Überprüfe deine Internetverbindung und versuche es später erneut."
+  },
+  "app.auth-servers.unreachable.header": {
+    "message": "Authentifizierungsserver sind nicht erreichbar"
+  },
+  "app.browse.add-server-to-instance": {
+    "message": "Server zu Instanz hinzufügen"
+  },
+  "app.browse.add-servers-to-instance": {
+    "message": "Server zu deiner Instanz hinzufügen"
+  },
+  "app.browse.add-to-instance": {
+    "message": "Zur Instanz hinzufügen"
+  },
+  "app.browse.add-to-instance-name": {
+    "message": "Zu {instanceName} hinzufügen"
+  },
+  "app.browse.added": {
+    "message": "Hinzugefügt"
+  },
+  "app.browse.already-added": {
+    "message": "Bereits hinzugefügt"
+  },
+  "app.browse.discover-content": {
+    "message": "Inhalte entdecken"
+  },
+  "app.browse.discover-servers": {
+    "message": "Server entdecken"
+  },
+  "app.browse.hide-added-servers": {
+    "message": "Hinzugefügte Server ausblenden"
+  },
+  "app.browse.hide-installed-content": {
+    "message": "Installierte Inhalte ausblenden"
+  },
+  "app.browse.install-content-to-instance": {
+    "message": "Inhalt in Instanz installieren"
+  },
+  "app.export-modal.description-placeholder": {
+    "message": "Beschreibung des Modpacks eingeben..."
+  },
+  "app.export-modal.export-button": {
+    "message": "Exportieren"
+  },
+  "app.export-modal.header": {
+    "message": "Modpack exportieren"
+  },
+  "app.export-modal.modpack-name-label": {
+    "message": "Modpackname"
+  },
+  "app.export-modal.modpack-name-placeholder": {
+    "message": "Modpackname"
+  },
+  "app.export-modal.select-files-label": {
+    "message": "Wähle Dateien und Ordner aus, die in das Paket sollen"
+  },
+  "app.export-modal.version-number-label": {
+    "message": "Versionsnummer"
+  },
+  "app.export-modal.version-number-placeholder": {
+    "message": "1.0.0"
+  },
+  "app.instance.confirm-delete.admonition-body": {
+    "message": "Alle Daten deiner Instanz werden permanent gelöscht, einschließlich deiner Welten, Konfigurationen und allen installierten Inhalten."
+  },
+  "app.instance.confirm-delete.admonition-header": {
+    "message": "Diese Aktion kann nicht rückgängig gemacht werden"
+  },
+  "app.instance.confirm-delete.delete-button": {
+    "message": "Instanz löschen"
+  },
+  "app.instance.confirm-delete.header": {
+    "message": "Instanz löschen"
+  },
+  "app.instance.modpack-already-installed.body": {
+    "message": "Dieses Modpack ist bereits in der Instanz <bold>{instanceName}</bold> installiert. Möchtest du es wirklich duplizieren?"
+  },
+  "app.instance.modpack-already-installed.create": {
+    "message": "Erstellen"
+  },
+  "app.instance.modpack-already-installed.header": {
+    "message": "Modpack bereits installiert"
+  },
+  "app.instance.modpack-already-installed.instance": {
+    "message": "Instanz"
+  },
+  "app.instance.mods.content-type-project": {
+    "message": "Projekt"
+  },
+  "app.instance.mods.project-was-added": {
+    "message": "\"{name}\" wurde hinzugefügt"
+  },
+  "app.instance.mods.projects-were-added": {
+    "message": "{count} Projekte wurden hinzugefügt"
+  },
+  "app.instance.mods.share-text": {
+    "message": "Schau dir die Projekte an, die ich in meinem Modpack verwende!"
+  },
+  "app.instance.mods.share-title": {
+    "message": "Modpackinhalte teilen"
+  },
+  "app.instance.mods.successfully-uploaded": {
+    "message": "Erfolgreich hochgeladen"
+  },
+  "app.instance.worlds.add-server": {
+    "message": "Server hinzufügen"
+  },
+  "app.instance.worlds.browse-servers": {
+    "message": "Server durchsuchen"
+  },
+  "app.instance.worlds.delete-world-description": {
+    "message": "„{name}“ wird **endgültig gelöscht**, und es gibt keine Möglichkeit, sie wiederherzustellen."
+  },
+  "app.instance.worlds.delete-world-title": {
+    "message": "Möchtest du diese Welt wirklich endgültig löschen?"
+  },
+  "app.instance.worlds.filter-modded": {
+    "message": "Modifiziert"
+  },
+  "app.instance.worlds.filter-offline": {
+    "message": "Offline"
+  },
+  "app.instance.worlds.filter-online": {
+    "message": "Online"
+  },
+  "app.instance.worlds.filter-vanilla": {
+    "message": "Vanilla"
+  },
+  "app.instance.worlds.no-worlds-description": {
+    "message": "Füge einen Server hinzu oder durchsuche, um loszulegen"
+  },
+  "app.instance.worlds.no-worlds-heading": {
+    "message": "Keine Server oder Welten hinzugefügt"
+  },
+  "app.instance.worlds.remove-server-description": {
+    "message": "„{name}“ wird aus deiner Liste entfernt, auch im Spiel, und es gibt keine Möglichkeit, ihn wiederherzustellen."
+  },
+  "app.instance.worlds.remove-server-description-with-address": {
+    "message": "„{name}“ ({address}) wird aus deiner Liste entfernt, inklusive im Spiel, und es gibt keine Möglichkeit, ihn wiederherzustellen."
+  },
+  "app.instance.worlds.remove-server-title": {
+    "message": "Möchtest du {name} wirklich entfernen?"
+  },
+  "app.instance.worlds.search-worlds-placeholder": {
+    "message": "Durchsuche {count} Welten..."
+  },
+  "app.instance.worlds.this-server": {
+    "message": "dieser Server"
+  },
+  "app.modal.install-to-play.content-required": {
+    "message": "Inhalte benötigt"
+  },
+  "app.modal.install-to-play.header": {
+    "message": "Installieren zum Spielen"
+  },
+  "app.modal.install-to-play.install-button": {
+    "message": "Installieren"
+  },
+  "app.modal.install-to-play.mod-count": {
+    "message": "{count, plural, one {# Mod} other {# Mods}}"
+  },
+  "app.modal.install-to-play.required-modpack": {
+    "message": "Benötigtes Modpack"
+  },
+  "app.modal.install-to-play.server-requires-mods": {
+    "message": "Dieser Server benötigt Mods zum Spielen. Klicke auf Installieren um die nötigen Dateien von Icarus herunterzuladen und danach direkt dem Server beizutreten."
+  },
+  "app.modal.install-to-play.shared-instance": {
+    "message": "Geteilte Instanz"
+  },
+  "app.modal.install-to-play.shared-server-instance": {
+    "message": "Geteilte Serverinstanz"
+  },
+  "app.modal.install-to-play.view-contents": {
+    "message": "Inhalte ansehen"
+  },
+  "app.modal.update-to-play.header": {
+    "message": "Aktualisieren zum Spielen"
+  },
+  "app.modal.update-to-play.update-required": {
+    "message": "Aktualisierung erforderlich"
+  },
+  "app.modal.update-to-play.update-required-description": {
+    "message": "Zum Spielen von {name} ist eine Aktualisierung erforderlich. Bitte aktualisiere auf die neueste Version, um das Spiel zu starten."
+  },
+  "app.settings.developer-mode-enabled": {
+    "message": "Entwicklermodus aktiviert."
+  },
+  "app.settings.downloading": {
+    "message": "Lade v{version} herunter"
+  },
+  "app.settings.tabs.appearance": {
+    "message": "Erscheinungsbild"
+  },
+  "app.settings.tabs.default-instance-options": {
+    "message": "Standard Instanz-Einstellungen"
+  },
+  "app.settings.tabs.java-installations": {
+    "message": "Java-Installationen"
+  },
+  "app.settings.tabs.language": {
+    "message": "Sprache"
+  },
+  "app.settings.tabs.privacy": {
+    "message": "Datenschutz"
+  },
+  "app.settings.tabs.resource-management": {
+    "message": "Ressourcenmanagement"
+  },
+  "app.update-popup.body": {
+    "message": "Icarus Launcher v{version} ist bereit zur Installation! Neu laden, um jetzt zu aktualisieren, oder automatisch, wenn du die Icarus Launcher schließt."
+  },
+  "app.update-popup.body.download-complete": {
+    "message": "Icarus Launcher v{version} wurde heruntergeladen. Neu laden, um jetzt zu aktualisieren, oder automatisch aktualisieren, wenn du die Icarus Launcher schließt."
+  },
+  "app.update-popup.body.linux": {
+    "message": "Icarus Launcher v{version} ist verfügbar. Verwende deinen Paketmanager, um die neuesten Funktionen und Fehlerbehebungen zu installieren!"
+  },
+  "app.update-popup.body.metered": {
+    "message": "Icarus Launcher v{version} ist jetzt verfügbar! Da du ein getaktetes Netzwerk nutzt, haben wir den Download nicht automatisch gestartet."
+  },
+  "app.update-popup.changelog": {
+    "message": "Änderungen"
+  },
+  "app.update-popup.download": {
+    "message": "Herunterladen ({size})"
+  },
+  "app.update-popup.download-complete": {
+    "message": "Download abgeschlossen"
+  },
+  "app.update-popup.reload": {
+    "message": "Neu laden"
+  },
+  "app.update-popup.title": {
+    "message": "Aktualisierung verfügbar"
+  },
+  "app.update.complete-toast.text": {
+    "message": "Hier klicken, um das Änderungsprotokoll anzuzeigen."
+  },
+  "app.update.complete-toast.title": {
+    "message": "Version {version} wurde erfolgreich installiert!"
+  },
+  "app.update.download-update": {
+    "message": "Update herunterladen"
+  },
+  "app.update.downloading-update": {
+    "message": "Update wird heruntergeladen ({percent}%)"
+  },
+  "app.update.reload-to-update": {
+    "message": "Neu laden, um das Update zu installieren"
+  },
+  "app.world.server-modal.placeholder-address": {
+    "message": "example.Icarus.gg"
+  },
+  "app.world.server-modal.select-an-option": {
+    "message": "Wählen eine Option"
+  },
+  "app.world.world-item.incompatible-version": {
+    "message": "Inkompatible Version {version}"
+  },
+  "app.world.world-item.not-played-yet": {
+    "message": "Noch nicht gespielt"
+  },
+  "app.world.world-item.offline": {
+    "message": "Offline"
+  },
+  "app.world.world-item.players-online": {
+    "message": "{count} online"
+  },
+  "friends.action.add-friend": {
+    "message": "Freund hinzufügen"
+  },
+  "friends.action.view-friend-requests": {
+    "message": "{count} {count, plural, one {Freundesanfrage} other {Freundesanfragen}}"
+  },
+  "friends.add-friend.submit": {
+    "message": "Freundschaftsanfrage senden"
+  },
+  "friends.add-friend.title": {
+    "message": "Einen Freund hinzufügen"
+  },
+  "friends.add-friend.username.description": {
+    "message": "Er kann vom Minecraft-Nutzernamen abweichen!"
+  },
+  "friends.add-friend.username.placeholder": {
+    "message": "Icarus-Benutzernamen eingeben..."
+  },
+  "friends.add-friend.username.title": {
+    "message": "Wie lautet der Icarus-Benutzername deines Freundes?"
+  },
+  "friends.add-friends-to-share": {
+    "message": "<link>Freunde hinzufügen</link>, um zu sehen, was sie spielen!"
+  },
+  "friends.friend.cancel-request": {
+    "message": "Anfrage abbrechen"
+  },
+  "friends.friend.remove-friend": {
+    "message": "Freund entfernen"
+  },
+  "friends.friend.request-sent": {
+    "message": "Freundschaftsanfrage gesendet"
+  },
+  "friends.friend.view-profile": {
+    "message": "Profil anzeigen"
+  },
+  "friends.heading": {
+    "message": "Freunde"
+  },
+  "friends.heading.active": {
+    "message": "Aktiv"
+  },
+  "friends.heading.offline": {
+    "message": "Offline"
+  },
+  "friends.heading.online": {
+    "message": "Online"
+  },
+  "friends.heading.pending": {
+    "message": "Ausstehend"
+  },
+  "friends.no-friends-match": {
+    "message": "Keine Freunde die \"{query}\" entsprechen"
+  },
+  "friends.search-friends-placeholder": {
+    "message": "Freunde durchsuchen..."
+  },
+  "friends.section.heading": {
+    "message": "{title} - {count}"
+  },
+  "friends.sign-in-to-add-friends": {
+    "message": "<link>Melde dich bei einem Icarus-Konto an</link>, um Freunde hinzuzufügen und zu sehen, was sie gerade spielen!"
+  },
+  "instance.add-server.add-and-play": {
+    "message": "Hinzufügen und spielen"
+  },
+  "instance.add-server.add-server": {
+    "message": "Server hinzufügen"
+  },
+  "instance.add-server.resource-pack.disabled": {
+    "message": "Deaktiviert"
+  },
+  "instance.add-server.resource-pack.enabled": {
+    "message": "Aktiviert"
+  },
+  "instance.add-server.resource-pack.prompt": {
+    "message": "Nachfragen"
+  },
+  "instance.add-server.title": {
+    "message": "Server hinzufügen"
+  },
+  "instance.edit-server.title": {
+    "message": "Server bearbeiten"
+  },
+  "instance.edit-world.hide-from-home": {
+    "message": "Von der Startseite verbergen"
+  },
+  "instance.edit-world.name": {
+    "message": "Name"
+  },
+  "instance.edit-world.placeholder-name": {
+    "message": "Minecraft-Welt"
+  },
+  "instance.edit-world.reset-icon": {
+    "message": "Icon zurücksetzen"
+  },
+  "instance.edit-world.title": {
+    "message": "Welt bearbeiten"
+  },
+  "instance.files.adding-files": {
+    "message": "Dateien werden hinzugefügt ({completed}/{total})"
+  },
+  "instance.files.save-as": {
+    "message": "Speichern unter..."
+  },
+  "instance.server-modal.address": {
+    "message": "Adresse"
+  },
+  "instance.server-modal.name": {
+    "message": "Name"
+  },
+  "instance.server-modal.placeholder-name": {
+    "message": "Minecraft-Server"
+  },
+  "instance.server-modal.resource-pack": {
+    "message": "Ressourcenpaket"
+  },
+  "instance.settings.tabs.general": {
+    "message": "Allgemein"
+  },
+  "instance.settings.tabs.general.delete": {
+    "message": "Instanz löschen"
+  },
+  "instance.settings.tabs.general.delete.button": {
+    "message": "Instanz löschen"
+  },
+  "instance.settings.tabs.general.delete.description": {
+    "message": "Löscht eine Instanz dauerhaft von deinem Gerät, einschließlich deiner Welten, Einstellungen und aller installierten Inhalte. Sei vorsichtig, eine gelöschte Instanz ist nicht wiederherstellbar."
+  },
+  "instance.settings.tabs.general.deleting.button": {
+    "message": "Wird gelöscht..."
+  },
+  "instance.settings.tabs.general.duplicate-button": {
+    "message": "Kopieren"
+  },
+  "instance.settings.tabs.general.duplicate-button.tooltip.installing": {
+    "message": "Kann während der Installation nicht dupliziert werden."
+  },
+  "instance.settings.tabs.general.duplicate-instance": {
+    "message": "Instanz duplizieren"
+  },
+  "instance.settings.tabs.general.duplicate-instance.description": {
+    "message": "Erstellt eine Kopie dieser Instanz, inklusive aller Welten, Einstellungen, Mods, usw."
+  },
+  "instance.settings.tabs.general.edit-icon": {
+    "message": "Icon bearbeiten"
+  },
+  "instance.settings.tabs.general.edit-icon.remove": {
+    "message": "Icon entfernen"
+  },
+  "instance.settings.tabs.general.edit-icon.replace": {
+    "message": "Icon ersetzen"
+  },
+  "instance.settings.tabs.general.edit-icon.select": {
+    "message": "Icon auswählen"
+  },
+  "instance.settings.tabs.general.library-groups": {
+    "message": "Bibliotheksgruppen"
+  },
+  "instance.settings.tabs.general.library-groups.create": {
+    "message": "Neue Gruppe erstellen"
+  },
+  "instance.settings.tabs.general.library-groups.description": {
+    "message": "Bibliotheksgruppen ermöglichen es dir, deine Instanzen in verschiedene Abschnitte deiner Bibliothek zu organisieren."
+  },
+  "instance.settings.tabs.general.library-groups.enter-name": {
+    "message": "Gruppenname eingeben"
+  },
+  "instance.settings.tabs.general.name": {
+    "message": "Name"
+  },
+  "instance.settings.tabs.hooks": {
+    "message": "Startargumente"
+  },
+  "instance.settings.tabs.hooks.custom-hooks": {
+    "message": "Benutzerdefinierte Startargumente"
+  },
+  "instance.settings.tabs.hooks.description": {
+    "message": "Hooks ermöglichen es fortgeschrittenen Benutzern, bestimmte Systembefehle vor und nach dem Spielstart auszuführen."
+  },
+  "instance.settings.tabs.hooks.post-exit": {
+    "message": "Nach dem Beenden"
+  },
+  "instance.settings.tabs.hooks.post-exit.description": {
+    "message": "Wird nach dem Beenden des Spiels ausgeführt."
+  },
+  "instance.settings.tabs.hooks.post-exit.enter": {
+    "message": "Nach Spielbeendigung auszuführender Befehl eingeben..."
+  },
+  "instance.settings.tabs.hooks.pre-launch": {
+    "message": "Vor dem Start"
+  },
+  "instance.settings.tabs.hooks.pre-launch.description": {
+    "message": "Wird vor dem Starten der Instanz ausgeführt."
+  },
+  "instance.settings.tabs.hooks.pre-launch.enter": {
+    "message": "Vor Spielstart auszuführenden Befehl eingeben..."
+  },
+  "instance.settings.tabs.hooks.title": {
+    "message": "Start-Hooks"
+  },
+  "instance.settings.tabs.hooks.wrapper": {
+    "message": "Wrapper"
+  },
+  "instance.settings.tabs.hooks.wrapper.description": {
+    "message": "Wrapperbefehl für den Start von Minecraft."
+  },
+  "instance.settings.tabs.hooks.wrapper.enter": {
+    "message": "Wrapperbefehl eingeben..."
+  },
+  "instance.settings.tabs.installation": {
+    "message": "Installation"
+  },
+  "instance.settings.tabs.installation.loader-version": {
+    "message": "{loader} Version"
+  },
+  "instance.settings.tabs.java": {
+    "message": "Java und Arbeitsspeicher"
+  },
+  "instance.settings.tabs.java.environment-variables": {
+    "message": "Umgebungsvariablen"
+  },
+  "instance.settings.tabs.java.hooks": {
+    "message": "Hooks"
+  },
+  "instance.settings.tabs.java.java-arguments": {
+    "message": "Java-Argumente"
+  },
+  "instance.settings.tabs.java.java-installation": {
+    "message": "Java-Installation"
+  },
+  "instance.settings.tabs.java.java-memory": {
+    "message": "Zugewiesener Arbeitsspeicher"
+  },
+  "instance.settings.tabs.window": {
+    "message": "Fenster"
+  },
+  "instance.settings.tabs.window.custom-window-settings": {
+    "message": "Benutzerdefinierte Fenstereinstellungen"
+  },
+  "instance.settings.tabs.window.fullscreen": {
+    "message": "Vollbild"
+  },
+  "instance.settings.tabs.window.fullscreen.description": {
+    "message": "Lässt das Spiel im Vollbildmodus starten (mit Verwendung von options.txt)."
+  },
+  "instance.settings.tabs.window.height": {
+    "message": "Höhe"
+  },
+  "instance.settings.tabs.window.height.description": {
+    "message": "Die Höhe des Spielfensters beim Start."
+  },
+  "instance.settings.tabs.window.height.enter": {
+    "message": "Höhe eingeben..."
+  },
+  "instance.settings.tabs.window.width": {
+    "message": "Breite"
+  },
+  "instance.settings.tabs.window.width.description": {
+    "message": "Die Breite des Spielfensters beim Start."
+  },
+  "instance.settings.tabs.window.width.enter": {
+    "message": "Breite eingeben..."
+  },
+  "instance.worlds.a_minecraft_server": {
+    "message": "Ein Minecraft-Server"
+  },
+  "instance.worlds.cant_connect": {
+    "message": "Verbindung mit Server nicht möglich"
+  },
+  "instance.worlds.copy_address": {
+    "message": "Adresse kopieren"
+  },
+  "instance.worlds.dont_show_on_home": {
+    "message": "Nicht auf der Startseite anzeigen"
+  },
+  "instance.worlds.game_already_open": {
+    "message": "Instanz ist bereits geöffnet"
+  },
+  "instance.worlds.hardcore": {
+    "message": "Hardcore-Modus"
+  },
+  "instance.worlds.incompatible_server": {
+    "message": "Server ist nicht kompatibel"
+  },
+  "instance.worlds.linked_server": {
+    "message": "Von Serverprojekt verwaltet"
+  },
+  "instance.worlds.no_contact": {
+    "message": "Server konnte nicht erreicht werden"
+  },
+  "instance.worlds.no_server_quick_play": {
+    "message": "Du kannst erst ab Minecraft Alpha 1.0.5+ direkt einem Server beitreten"
+  },
+  "instance.worlds.no_singleplayer_quick_play": {
+    "message": "Du kannst erst ab Minecraft 1.20+ direkt in Einzelspieler-Welten springen"
+  },
+  "instance.worlds.play_instance": {
+    "message": "Instanz spielen"
+  },
+  "instance.worlds.view_instance": {
+    "message": "Instanz anzeigen"
+  },
+  "instance.worlds.world_in_use": {
+    "message": "Welt wird aktuell benutzt"
+  },
+  "search.filter.locked.instance": {
+    "message": "Von der Instanz vorgegeben"
+  },
+  "search.filter.locked.instance-game-version.title": {
+    "message": "Spielversion ist von der Instanz vorgegeben"
+  },
+  "search.filter.locked.instance-loader.title": {
+    "message": "Der Loader ist von der Instanz vorgegeben"
+  },
+  "search.filter.locked.instance.sync": {
+    "message": "Mit Instanz synchronisieren"
+  },
+  "search.filter.locked.server": {
+    "message": "Vom Server vorgegeben"
+  },
+  "search.filter.locked.server-environment.title": {
+    "message": "Nur clientseitige Mods können der Serverinstanz hinzugefügt werden"
+  },
+  "search.filter.locked.server-game-version.title": {
+    "message": "Spielversion vom Server vorgegeben"
+  },
+  "search.filter.locked.server-loader.title": {
+    "message": "Loader vom Server vorgegeben"
+  }
+}
+

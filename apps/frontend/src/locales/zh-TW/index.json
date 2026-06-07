@@ -1,0 +1,3627 @@
+{
+  "action.cancel": {
+    "message": "取消"
+  },
+  "action.continue": {
+    "message": "繼續"
+  },
+  "admin.billing.error.not-found": {
+    "message": "找不到使用者"
+  },
+  "app-marketing.download.description": {
+    "message": "我們的桌面應用程式可在所有平臺上使用，請選擇你所需的版本。"
+  },
+  "app-marketing.download.download-appimage": {
+    "message": "下載 AppImage"
+  },
+  "app-marketing.download.download-beta": {
+    "message": "下載 Beta 版"
+  },
+  "app-marketing.download.download-deb": {
+    "message": "下載 DEB"
+  },
+  "app-marketing.download.download-rpm": {
+    "message": "下載 RPM"
+  },
+  "app-marketing.download.flathub": {
+    "message": "取得自 Flathub"
+  },
+  "app-marketing.download.linux": {
+    "message": "Linux"
+  },
+  "app-marketing.download.linux-disclaimer": {
+    "message": "Icarus Launcher 的 Linux 版本在特定系統與設定上<issues-link>已知存在問題</issues-link>。若 Icarus Launcher 在你的系統上執行不穩定，我們建議你嘗試使用 <prism-link>Prism Launcher</prism-link> 等其他應用程式，以輕鬆安裝 Icarus 的內容。"
+  },
+  "app-marketing.download.mac": {
+    "message": "Mac"
+  },
+  "app-marketing.download.options-title": {
+    "message": "下載選項"
+  },
+  "app-marketing.download.terms": {
+    "message": "下載 Icarus Launcher，即表示您同意我們的《<terms-link>使用條款</terms-link>》及《<privacy-link>隱私權政策</privacy-link>》。"
+  },
+  "app-marketing.download.title": {
+    "message": "下載 Icarus Launcher（Beta 版）"
+  },
+  "app-marketing.download.windows": {
+    "message": "Windows"
+  },
+  "app-marketing.features.follow.description": {
+    "message": "收藏你喜愛的內容，並一鍵接收更新。"
+  },
+  "app-marketing.features.follow.title": {
+    "message": "追蹤專案"
+  },
+  "app-marketing.features.importing.description": {
+    "message": "從你之前使用的啟動器匯入所有喜愛的設定檔，幾秒鐘內即可輕鬆上手 Icarus Launcher！"
+  },
+  "app-marketing.features.importing.gdlauncher-alt": {
+    "message": "GDLauncher"
+  },
+  "app-marketing.features.importing.multimc-alt": {
+    "message": "MultiMC"
+  },
+  "app-marketing.features.importing.title": {
+    "message": "匯入設定檔"
+  },
+  "app-marketing.features.mod-management.actions": {
+    "message": "動作"
+  },
+  "app-marketing.features.mod-management.byAuthor": {
+    "message": "作者：{author}"
+  },
+  "app-marketing.features.mod-management.description": {
+    "message": "Icarus 讓你可以輕鬆集中管理所有模組。你可以一鍵安裝、移除及更新模組。"
+  },
+  "app-marketing.features.mod-management.installed-mods": {
+    "message": "已安裝模組"
+  },
+  "app-marketing.features.mod-management.name": {
+    "message": "名稱"
+  },
+  "app-marketing.features.mod-management.search-mods": {
+    "message": "搜尋模組"
+  },
+  "app-marketing.features.mod-management.title": {
+    "message": "模組管理"
+  },
+  "app-marketing.features.mod-management.version": {
+    "message": "版本"
+  },
+  "app-marketing.features.offline.description": {
+    "message": "無論你是否連線到網路，都能遊玩你的模組。"
+  },
+  "app-marketing.features.offline.title": {
+    "message": "離線模式"
+  },
+  "app-marketing.features.open-source.description": {
+    "message": "Icarus Launcher 完全開源。你可以在我們的 <github-link>GitHub</github-link> 上查看原始碼！"
+  },
+  "app-marketing.features.open-source.title": {
+    "message": "開放原始碼"
+  },
+  "app-marketing.features.performance.activity-monitor": {
+    "message": "活動監視器"
+  },
+  "app-marketing.features.performance.cpu-percent": {
+    "message": "% CPU"
+  },
+  "app-marketing.features.performance.description": {
+    "message": "Icarus Launcher 的效能優於許多主流的模組管理員，且僅使用 150 MB 記憶體！"
+  },
+  "app-marketing.features.performance.discord": {
+    "message": "Discord"
+  },
+  "app-marketing.features.performance.good-performance": {
+    "message": "效能表現優異"
+  },
+  "app-marketing.features.performance.google-chrome": {
+    "message": "Google Chrome"
+  },
+  "app-marketing.features.performance.infinite-mb": {
+    "message": "∞ MB"
+  },
+  "app-marketing.features.performance.infinite-times-infinite-mb": {
+    "message": "∞ × ∞ MB"
+  },
+  "app-marketing.features.performance.less-than-150mb": {
+    "message": "< 150 MB"
+  },
+  "app-marketing.features.performance.Icarus-app": {
+    "message": "Icarus Launcher"
+  },
+  "app-marketing.features.performance.one-billion-percent": {
+    "message": "10 億 %"
+  },
+  "app-marketing.features.performance.process-name": {
+    "message": "處理程序名稱"
+  },
+  "app-marketing.features.performance.ram": {
+    "message": "記憶體"
+  },
+  "app-marketing.features.performance.small": {
+    "message": "低"
+  },
+  "app-marketing.features.performance.title": {
+    "message": "高效能"
+  },
+  "app-marketing.features.play.description": {
+    "message": "使用 Icarus Launcher 下載並遊玩你喜愛的模組和模組包。"
+  },
+  "app-marketing.features.play.title": {
+    "message": "遊玩你喜愛的模組"
+  },
+  "app-marketing.features.sharing.description": {
+    "message": "透過 Icarus 上託管的數千種模組與模組包，建立、分享並遊玩你的模組包。"
+  },
+  "app-marketing.features.sharing.modpack": {
+    "message": "模組包"
+  },
+  "app-marketing.features.sharing.share-button": {
+    "message": "分享"
+  },
+  "app-marketing.features.sharing.title": {
+    "message": "分享模組包"
+  },
+  "app-marketing.features.unlike-any-launcher": {
+    "message": "前所未有的"
+  },
+  "app-marketing.features.website.description": {
+    "message": "Icarus Launcher 已與網站完全整合，因此你可透過應用程式存取所有喜愛的專案！"
+  },
+  "app-marketing.features.website.title": {
+    "message": "網站整合"
+  },
+  "app-marketing.features.youve-used-before": {
+    "message": "啟動器體驗"
+  },
+  "app-marketing.hero.app-screenshot-alt": {
+    "message": "Icarus Launcher 的螢幕擷取畫面，顯示已開啟 Cobblemon 實例的「內容」頁面。"
+  },
+  "app-marketing.hero.description": {
+    "message": "Icarus Launcher 是一款獨特的開源啟動器，它讓你可以輕鬆遊玩並保持你喜愛模組的最新狀態，所有功能都整合在一個簡潔小巧的應用程式中。"
+  },
+  "app-marketing.hero.download-button": {
+    "message": "下載 Icarus Launcher"
+  },
+  "app-marketing.hero.download-Icarus-app": {
+    "message": "下載 Icarus Launcher"
+  },
+  "app-marketing.hero.download-Icarus-app-for-os": {
+    "message": "下載適用於 {os} 的 Icarus Launcher"
+  },
+  "app-marketing.hero.minecraft-screenshot-alt": {
+    "message": "Cobblemon 實例主選單的螢幕擷取畫面。"
+  },
+  "app-marketing.hero.more-download-options": {
+    "message": "更多下載選項"
+  },
+  "app-marketing.hide-other-packages": {
+    "message": "隱藏其他軟體包"
+  },
+  "app-marketing.not-recommended": {
+    "message": "除非你清楚自己在做什麼，否則我們不建議使用這些軟體包。"
+  },
+  "app-marketing.show-other-packages": {
+    "message": "顯示其他軟體包"
+  },
+  "auth.authorize.action.authorize": {
+    "message": "授權"
+  },
+  "auth.authorize.action.decline": {
+    "message": "拒絕"
+  },
+  "auth.authorize.app-info": {
+    "message": "由 <creator-link>{creator}</creator-link> 開發的「<strong>{appName}</strong>」將可執行下列操作："
+  },
+  "auth.authorize.authorize-app-name": {
+    "message": "授權「{appName}」"
+  },
+  "auth.authorize.error.no-redirect-url": {
+    "message": "找不到回應中的重新導向位置"
+  },
+  "auth.authorize.redirect-url": {
+    "message": "系統會將你重新導向至 <redirect-url>{url}</redirect-url>"
+  },
+  "auth.reset-password.method-choice.action": {
+    "message": "傳送密碼重設電子郵件"
+  },
+  "auth.reset-password.method-choice.description": {
+    "message": "請在下方輸入你的電子郵件地址，系統將傳送密碼重設連結，協助你取回帳號。"
+  },
+  "auth.reset-password.notification.email-sent.text": {
+    "message": "如果你的帳號中先前已儲存該電子郵件地址，系統已將一封內含指示的電子郵件傳送給你。"
+  },
+  "auth.reset-password.notification.email-sent.title": {
+    "message": "電子郵件已送出"
+  },
+  "auth.reset-password.notification.password-reset.text": {
+    "message": "你現在可以使用新密碼登入帳號了。"
+  },
+  "auth.reset-password.notification.password-reset.title": {
+    "message": "密碼重設成功"
+  },
+  "auth.reset-password.post-challenge.action": {
+    "message": "重設密碼"
+  },
+  "auth.reset-password.post-challenge.confirm-password.label": {
+    "message": "確認密碼"
+  },
+  "auth.reset-password.post-challenge.description": {
+    "message": "請在下方輸入新密碼以登入你的帳號。"
+  },
+  "auth.reset-password.title": {
+    "message": "重設密碼"
+  },
+  "auth.reset-password.title.long": {
+    "message": "重設你的密碼"
+  },
+  "auth.sign-in.2fa.description": {
+    "message": "請輸入雙重驗證碼以繼續。"
+  },
+  "auth.sign-in.2fa.label": {
+    "message": "輸入雙重驗證碼"
+  },
+  "auth.sign-in.2fa.placeholder": {
+    "message": "輸入驗證碼..."
+  },
+  "auth.sign-in.additional-options": {
+    "message": "<forgot-password-link>忘記密碼？</forgot-password-link> • <create-account-link>建立帳號</create-account-link>"
+  },
+  "auth.sign-in.sign-in-with": {
+    "message": "使用以下方式登入"
+  },
+  "auth.sign-in.title": {
+    "message": "登入"
+  },
+  "auth.sign-in.use-password": {
+    "message": "或使用密碼"
+  },
+  "auth.sign-up.action.create-account": {
+    "message": "建立帳號"
+  },
+  "auth.sign-up.legal-dislaimer": {
+    "message": "建立帳號即表示您同意 Icarus 的《<terms-link>使用條款</terms-link>》及《<privacy-policy-link>隱私權政策</privacy-policy-link>》。"
+  },
+  "auth.sign-up.notification.password-mismatch.text": {
+    "message": "密碼不相符！"
+  },
+  "auth.sign-up.sign-in-option.title": {
+    "message": "已經有帳號了？"
+  },
+  "auth.sign-up.subscribe.label": {
+    "message": "訂閱 Icarus 的最新消息"
+  },
+  "auth.sign-up.title": {
+    "message": "註冊"
+  },
+  "auth.sign-up.title.create-account": {
+    "message": "或自行建立帳號"
+  },
+  "auth.sign-up.title.sign-up-with": {
+    "message": "使用以下方式註冊"
+  },
+  "auth.verify-email.action.account-settings": {
+    "message": "帳號設定"
+  },
+  "auth.verify-email.already-verified.description": {
+    "message": "你的電子郵件地址已經完成過驗證！"
+  },
+  "auth.verify-email.already-verified.title": {
+    "message": "電子郵件已經驗證"
+  },
+  "auth.verify-email.failed-verification.action": {
+    "message": "重新傳送驗證電子郵件"
+  },
+  "auth.verify-email.failed-verification.description": {
+    "message": "系統無法驗證你的電子郵件。請在登入後，透過資訊主頁重新傳送驗證電子郵件。"
+  },
+  "auth.verify-email.failed-verification.description.logged-in": {
+    "message": "系統無法驗證你的電子郵件。請透過下方按鈕重新傳送驗證電子郵件。"
+  },
+  "auth.verify-email.failed-verification.title": {
+    "message": "電子郵件驗證失敗"
+  },
+  "auth.verify-email.post-verification.description": {
+    "message": "你的電子郵件地址已成功驗證！"
+  },
+  "auth.verify-email.post-verification.title": {
+    "message": "電子郵件驗證"
+  },
+  "auth.verify-email.title": {
+    "message": "驗證電子郵件"
+  },
+  "auth.welcome.checkbox.subscribe": {
+    "message": "訂閱 Icarus 的最新消息"
+  },
+  "auth.welcome.description": {
+    "message": "你現在已加入由創作者與探索者組成的精彩社群，大家都在積極打造、下載並持續掌握優質模組的最新動態。"
+  },
+  "auth.welcome.label.tos": {
+    "message": "建立帳號即表示您已同意 Icarus 的《<terms-link>使用條款</terms-link>》及《<privacy-policy-link>隱私權政策</privacy-policy-link>》。"
+  },
+  "auth.welcome.long-title": {
+    "message": "歡迎來到 Icarus！"
+  },
+  "auth.welcome.title": {
+    "message": "歡迎"
+  },
+  "collection.button.edit-icon": {
+    "message": "編輯圖示"
+  },
+  "collection.button.remove-icon": {
+    "message": "移除圖示"
+  },
+  "collection.button.remove-project": {
+    "message": "移除專案"
+  },
+  "collection.button.replace-icon": {
+    "message": "取代圖示"
+  },
+  "collection.button.select-icon": {
+    "message": "選擇圖示"
+  },
+  "collection.button.unfollow-project": {
+    "message": "取消追蹤專案"
+  },
+  "collection.delete-modal.description": {
+    "message": "這將永久刪除這個收藏。此動作無法復原。"
+  },
+  "collection.delete-modal.title": {
+    "message": "你確定要刪除這個收藏嗎？"
+  },
+  "collection.description": {
+    "message": "{description} — 前往 Icarus 查看 {username} 的收藏「{name}」"
+  },
+  "collection.description.following": {
+    "message": "由系統自動產生的收藏，包含你正在追蹤的所有專案。"
+  },
+  "collection.editing": {
+    "message": "編輯收藏"
+  },
+  "collection.error.not-found": {
+    "message": "找不到收藏"
+  },
+  "collection.label.created-at": {
+    "message": "建立時間：{ago}"
+  },
+  "collection.label.curated-by": {
+    "message": "策劃者"
+  },
+  "collection.label.no-projects": {
+    "message": "收藏中暫無專案"
+  },
+  "collection.label.projects-count": {
+    "message": "{count, plural, =0 {還沒有專案} other {<stat>{count}</stat> 個{type}}}"
+  },
+  "collection.label.updated-at": {
+    "message": "更新時間：{ago}"
+  },
+  "collection.return-link.dashboard-collections": {
+    "message": "你的收藏"
+  },
+  "collection.return-link.user": {
+    "message": "{user} 的個人檔案"
+  },
+  "collection.title": {
+    "message": "{name} - 收藏"
+  },
+  "create-project-version.create-modal.stage.add-files.admonition": {
+    "message": "補充檔案是用於提供原始碼等支援性資源，而非用於替代版本或變體。"
+  },
+  "create.collection.collection-info": {
+    "message": "你的新收藏將建立為公開收藏，{count, plural,=0 {不包含任何專案}other {包含 # 個專案}}。"
+  },
+  "create.collection.create-collection": {
+    "message": "建立收藏"
+  },
+  "create.collection.name-label": {
+    "message": "名稱"
+  },
+  "create.collection.name-placeholder": {
+    "message": "輸入收藏名稱..."
+  },
+  "create.collection.summary-description": {
+    "message": "用一兩句話描述你的收藏。"
+  },
+  "create.collection.summary-label": {
+    "message": "簡介"
+  },
+  "create.collection.summary-placeholder": {
+    "message": "這個收藏關於……"
+  },
+  "create.collection.title": {
+    "message": "建立收藏"
+  },
+  "create.limit-alert.approaching-limit": {
+    "message": "即將達到{type}上限 ({current}/{max})"
+  },
+  "create.limit-alert.approaching-limit-description": {
+    "message": "你即將達到{type}上限，如果你需要超過 {max} 個{typePlural}，請聯絡客服。"
+  },
+  "create.limit-alert.contact-support": {
+    "message": "聯絡客服"
+  },
+  "create.limit-alert.limit-reached": {
+    "message": "已達{type}上限"
+  },
+  "create.limit-alert.limit-reached-description": {
+    "message": "你已達到{type}的上限 {max}。請聯絡客服以提高你的上限。"
+  },
+  "create.limit-alert.type-collection": {
+    "message": "收藏"
+  },
+  "create.limit-alert.type-organization": {
+    "message": "組織"
+  },
+  "create.limit-alert.type-plural-collection": {
+    "message": "收藏"
+  },
+  "create.limit-alert.type-plural-organization": {
+    "message": "組織"
+  },
+  "create.limit-alert.type-plural-project": {
+    "message": "專案"
+  },
+  "create.limit-alert.type-project": {
+    "message": "專案"
+  },
+  "create.organization.create-organization": {
+    "message": "建立組織"
+  },
+  "create.organization.name-label": {
+    "message": "名稱"
+  },
+  "create.organization.name-placeholder": {
+    "message": "輸入組織名稱..."
+  },
+  "create.organization.ownership-info": {
+    "message": "你將是這個組織的擁有者，但你可以隨時邀請其他成員並轉移擁有權。"
+  },
+  "create.organization.summary-description": {
+    "message": "用一兩句話描述你的組織。"
+  },
+  "create.organization.summary-label": {
+    "message": "簡介"
+  },
+  "create.organization.summary-placeholder": {
+    "message": "一個用於……的組織"
+  },
+  "create.organization.title": {
+    "message": "建立組織"
+  },
+  "create.organization.url-label": {
+    "message": "網址"
+  },
+  "create.project.create-project": {
+    "message": "建立專案"
+  },
+  "create.project.missing-fields-tooltip": {
+    "message": "缺少欄位：{fields}"
+  },
+  "create.project.name-label": {
+    "message": "名稱"
+  },
+  "create.project.name-placeholder": {
+    "message": "輸入專案名稱..."
+  },
+  "create.project.owner-description": {
+    "message": "請將專案擁有者設為你自己，或是你所屬的組織。"
+  },
+  "create.project.owner-label": {
+    "message": "擁有者"
+  },
+  "create.project.server-project-title": {
+    "message": "建立伺服器專案"
+  },
+  "create.project.summary-description": {
+    "message": "用一兩句話描述你的專案。"
+  },
+  "create.project.summary-label": {
+    "message": "簡介"
+  },
+  "create.project.summary-placeholder": {
+    "message": "這個專案加入了……"
+  },
+  "create.project.title": {
+    "message": "建立專案"
+  },
+  "create.project.type-label": {
+    "message": "類型"
+  },
+  "create.project.type-project": {
+    "message": "專案"
+  },
+  "create.project.type-server": {
+    "message": "伺服器"
+  },
+  "create.project.url-label": {
+    "message": "網址"
+  },
+  "create.project.visibility-description": {
+    "message": "你的專案核准後的瀏覽權限。"
+  },
+  "create.project.visibility-private": {
+    "message": "私人"
+  },
+  "create.project.visibility-public": {
+    "message": "公開"
+  },
+  "create.project.visibility-unlisted": {
+    "message": "不公開"
+  },
+  "dashboard.affiliate-links.create.button": {
+    "message": "建立聯盟連結"
+  },
+  "dashboard.affiliate-links.empty.no-codes": {
+    "message": "未找到推廣代碼。"
+  },
+  "dashboard.affiliate-links.error.title": {
+    "message": "載入聯盟連結時發生錯誤"
+  },
+  "dashboard.affiliate-links.header": {
+    "message": "你的聯盟連結"
+  },
+  "dashboard.affiliate-links.revoke-confirm.body": {
+    "message": "這將永久撤銷聯盟代碼「{id}」，並且任何使用這個代碼的現有連結將不再有效。"
+  },
+  "dashboard.affiliate-links.revoke-confirm.button": {
+    "message": "撤銷"
+  },
+  "dashboard.affiliate-links.revoke-confirm.title": {
+    "message": "你確定要撤銷「{title}」聯盟連結嗎？"
+  },
+  "dashboard.affiliate-links.search": {
+    "message": "搜尋聯盟連結..."
+  },
+  "dashboard.analytics.from-projects": {
+    "message": "來自 {count} {count, plural, one {project} other {projects}}"
+  },
+  "dashboard.analytics.total-downloads": {
+    "message": "總下載量"
+  },
+  "dashboard.analytics.total-followers": {
+    "message": "總關注者"
+  },
+  "dashboard.collections.button.create-new": {
+    "message": "新增"
+  },
+  "dashboard.collections.empty.get-started-hint": {
+    "message": "建立你的第一個收藏，立即開始！"
+  },
+  "dashboard.collections.empty.no-collections": {
+    "message": "你還沒有任何收藏"
+  },
+  "dashboard.collections.empty.no-match": {
+    "message": "沒有收藏符合你的搜尋字詞"
+  },
+  "dashboard.collections.empty.no-match-hint": {
+    "message": "試試調整篩選器或搜尋字詞。"
+  },
+  "dashboard.collections.label.projects-count": {
+    "message": "{count} 個專案"
+  },
+  "dashboard.collections.label.search-input": {
+    "message": "搜尋收藏"
+  },
+  "dashboard.collections.long-title": {
+    "message": "你的收藏"
+  },
+  "dashboard.collections.placeholder.search": {
+    "message": "搜尋收藏集…"
+  },
+  "dashboard.collections.sort.name-ascending": {
+    "message": "姓名（A-Z）"
+  },
+  "dashboard.collections.sort.recently-created": {
+    "message": "最近創建"
+  },
+  "dashboard.collections.sort.recently-updated": {
+    "message": "最近更新"
+  },
+  "dashboard.creator-tax-form-modal.confirmation.download-button": {
+    "message": "下載 {formType}"
+  },
+  "dashboard.creator-tax-form-modal.confirmation.success": {
+    "message": "你的 {formType} 稅務表單已成功送出！"
+  },
+  "dashboard.creator-tax-form-modal.confirmation.support-text": {
+    "message": "你現在可以自由提領了。如果你有任何疑問，或需要更新你的資料，請<support-link>聯絡客服</support-link>。"
+  },
+  "dashboard.creator-tax-form-modal.confirmation.title": {
+    "message": "一切就緒！🎉"
+  },
+  "dashboard.creator-tax-form-modal.entity.description": {
+    "message": "「外國實體」係指在美國境外設立的商業實體（例如非美國公司、合夥事業或有限責任公司）。"
+  },
+  "dashboard.creator-tax-form-modal.entity.foreign-entity": {
+    "message": "外國實體"
+  },
+  "dashboard.creator-tax-form-modal.entity.private-individual": {
+    "message": "稅務表單"
+  },
+  "dashboard.creator-tax-form-modal.entity.question": {
+    "message": "你是自然人，還是隸屬於外國機構？"
+  },
+  "dashboard.creator-tax-form-modal.header": {
+    "message": "稅務表單"
+  },
+  "dashboard.creator-tax-form-modal.security.description": {
+    "message": "Icarus 透過第三方供應商 Track1099 安全地收集及儲存你的稅務表單。<security-link>在這裡了解更多。</security-link>"
+  },
+  "dashboard.creator-tax-form-modal.security.header": {
+    "message": "安全措施"
+  },
+  "dashboard.creator-tax-form-modal.us-citizen.question": {
+    "message": "你是美國公民嗎？"
+  },
+  "dashboard.creator-withdraw-modal.complete-tax-form": {
+    "message": "填寫稅務表單"
+  },
+  "dashboard.creator-withdraw-modal.continue-with-limit": {
+    "message": "在有限制的情況下繼續"
+  },
+  "dashboard.creator-withdraw-modal.details-label": {
+    "message": "詳細資訊"
+  },
+  "dashboard.creator-withdraw-modal.fee-breakdown-amount": {
+    "message": "金額"
+  },
+  "dashboard.creator-withdraw-modal.fee-breakdown-exchange-rate": {
+    "message": "匯率"
+  },
+  "dashboard.creator-withdraw-modal.fee-breakdown-fee": {
+    "message": "費用"
+  },
+  "dashboard.creator-withdraw-modal.fee-breakdown-gift-card-value": {
+    "message": "禮物卡面額"
+  },
+  "dashboard.creator-withdraw-modal.fee-breakdown-net-amount": {
+    "message": "淨額"
+  },
+  "dashboard.creator-withdraw-modal.fee-breakdown-usd-equivalent": {
+    "message": "等值美元"
+  },
+  "dashboard.creator-withdraw-modal.kyc.business-entity": {
+    "message": "企業實體"
+  },
+  "dashboard.creator-withdraw-modal.kyc.entity-description": {
+    "message": "企業實體是指經註冊的組織，例如股份有限公司、合夥企業或有限責任公司 (LLC)。"
+  },
+  "dashboard.creator-withdraw-modal.kyc.entity-question": {
+    "message": "你是以個人還是以企業身分進行提領？"
+  },
+  "dashboard.creator-withdraw-modal.kyc.private-individual": {
+    "message": "個人"
+  },
+  "dashboard.creator-withdraw-modal.method-selection.country-placeholder": {
+    "message": "選擇你的國家或地區"
+  },
+  "dashboard.creator-withdraw-modal.method-selection.country-search-placeholder": {
+    "message": "搜尋國家或地區..."
+  },
+  "dashboard.creator-withdraw-modal.method-selection.error-text": {
+    "message": "無法擷取可用的付款方式。請稍後再試。"
+  },
+  "dashboard.creator-withdraw-modal.method-selection.error-title": {
+    "message": "載入付款方式失敗"
+  },
+  "dashboard.creator-withdraw-modal.method-selection.region": {
+    "message": "地區"
+  },
+  "dashboard.creator-withdraw-modal.method-selection.region-tooltip": {
+    "message": "部分付款方式在特定地區無法使用。"
+  },
+  "dashboard.creator-withdraw-modal.method-selection.select-method": {
+    "message": "選擇提領方式"
+  },
+  "dashboard.creator-withdraw-modal.method-selection.tax-limit-warning": {
+    "message": "你的提領上限是 <b>{amount}</b>，請<tax-link>填寫稅務表單</tax-link>以提取更多款項。"
+  },
+  "dashboard.creator-withdraw-modal.muralpay-details.account-owner": {
+    "message": "帳戶擁有者"
+  },
+  "dashboard.creator-withdraw-modal.muralpay-details.bank-account-owner": {
+    "message": "銀行帳戶持有者"
+  },
+  "dashboard.creator-withdraw-modal.muralpay-details.bank-account-owner-description": {
+    "message": "請輸入獲授權代表企業操作此銀行帳戶的人員姓名。"
+  },
+  "dashboard.creator-withdraw-modal.muralpay-details.coin": {
+    "message": "幣種"
+  },
+  "dashboard.creator-withdraw-modal.muralpay-details.crypto-warning-header": {
+    "message": "確認你的錢包地址"
+  },
+  "dashboard.creator-withdraw-modal.muralpay-details.document-number-national-id": {
+    "message": "身分證字號"
+  },
+  "dashboard.creator-withdraw-modal.muralpay-details.document-number-national-id-placeholder": {
+    "message": "輸入身分證字號"
+  },
+  "dashboard.creator-withdraw-modal.muralpay-details.document-number-passport": {
+    "message": "護照號碼"
+  },
+  "dashboard.creator-withdraw-modal.muralpay-details.document-number-passport-placeholder": {
+    "message": "輸入護照號碼"
+  },
+  "dashboard.creator-withdraw-modal.muralpay-details.document-number-resident-id": {
+    "message": "居民身分證號碼"
+  },
+  "dashboard.creator-withdraw-modal.muralpay-details.document-number-resident-id-placeholder": {
+    "message": "輸入居民身分證號碼"
+  },
+  "dashboard.creator-withdraw-modal.muralpay-details.document-number-ruc": {
+    "message": "稅務登記號碼 (RUC)"
+  },
+  "dashboard.creator-withdraw-modal.muralpay-details.document-number-ruc-placeholder": {
+    "message": "輸入稅務登記號碼"
+  },
+  "dashboard.creator-withdraw-modal.muralpay-details.document-number-tax-id": {
+    "message": "稅務識別號"
+  },
+  "dashboard.creator-withdraw-modal.muralpay-details.document-number-tax-id-placeholder": {
+    "message": "輸入稅務識別號"
+  },
+  "dashboard.creator-withdraw-modal.muralpay-details.network": {
+    "message": "網路"
+  },
+  "dashboard.creator-withdraw-modal.nearing-threshold": {
+    "message": "你即將達到提領門檻。你目前可以提領 <b>{amountRemaining}</b>，但若想提領更多，則需要填寫稅務表單。"
+  },
+  "dashboard.creator-withdraw-modal.paypal-details.account": {
+    "message": "帳戶"
+  },
+  "dashboard.creator-withdraw-modal.paypal-details.disconnect-account": {
+    "message": "取消連結帳戶"
+  },
+  "dashboard.creator-withdraw-modal.paypal-details.payment-method": {
+    "message": "付款方式"
+  },
+  "dashboard.creator-withdraw-modal.paypal-details.paypal-account": {
+    "message": "PayPal 帳戶"
+  },
+  "dashboard.creator-withdraw-modal.paypal-details.paypal-auth-description": {
+    "message": "連結你的 PayPal 帳戶以直接接收款項。"
+  },
+  "dashboard.creator-withdraw-modal.paypal-details.save-success": {
+    "message": "Venmo 使用者名稱已儲存成功！"
+  },
+  "dashboard.creator-withdraw-modal.paypal-details.sign-in-with-paypal": {
+    "message": "使用 PayPal 登入"
+  },
+  "dashboard.creator-withdraw-modal.paypal-details.venmo-description": {
+    "message": "輸入你的 Venmo 使用者名稱以收取款項。"
+  },
+  "dashboard.creator-withdraw-modal.paypal-details.venmo-handle": {
+    "message": "Venmo 使用者名稱"
+  },
+  "dashboard.creator-withdraw-modal.paypal-details.venmo-handle-placeholder": {
+    "message": "@使用者名稱"
+  },
+  "dashboard.creator-withdraw-modal.stage.completion": {
+    "message": "提領完成"
+  },
+  "dashboard.creator-withdraw-modal.stage.method-selection": {
+    "message": "提領方式"
+  },
+  "dashboard.creator-withdraw-modal.stage.tax-form": {
+    "message": "稅務表單"
+  },
+  "dashboard.creator-withdraw-modal.tax-form-required.body": {
+    "message": "如要提領全額可用餘額 <b>{available}</b>，請先完成下方表單。此為稅務申報所需，僅需設定一次即可。"
+  },
+  "dashboard.creator-withdraw-modal.tax-form-required.body-with-limit": {
+    "message": "你必須填寫 W-9 或 W-8 表單以供 Icarus 的稅務紀錄使用，以便我們符合稅務法規。"
+  },
+  "dashboard.creator-withdraw-modal.tax-form-required.header": {
+    "message": "需提交稅務表單"
+  },
+  "dashboard.creator-withdraw-modal.tremendous-details.available-denominations-label": {
+    "message": "可選面額"
+  },
+  "dashboard.creator-withdraw-modal.tremendous-details.balance-worth-hint": {
+    "message": "你的餘額 {usdBalance} 目前價值為 {localBalance}。"
+  },
+  "dashboard.creator-withdraw-modal.tremendous-details.enter-amount-hint": {
+    "message": "尋找接近此金額的禮物卡。"
+  },
+  "dashboard.creator-withdraw-modal.tremendous-details.enter-denomination-placeholder": {
+    "message": "輸入金額"
+  },
+  "dashboard.creator-withdraw-modal.tremendous-details.payment-method": {
+    "message": "付款方式"
+  },
+  "dashboard.creator-withdraw-modal.tremendous-details.reward": {
+    "message": "獎勵"
+  },
+  "dashboard.creator-withdraw-modal.tremendous-details.reward-placeholder": {
+    "message": "選擇獎勵"
+  },
+  "dashboard.creator-withdraw-modal.tremendous-details.reward-plural": {
+    "message": "獎勵"
+  },
+  "dashboard.creator-withdraw-modal.tremendous-details.search-amount-label": {
+    "message": "搜尋金額"
+  },
+  "dashboard.creator-withdraw-modal.tremendous-details.select-denomination-hint": {
+    "message": "選擇面額："
+  },
+  "dashboard.creator-withdraw-modal.tremendous-details.select-denomination-required": {
+    "message": "請選擇面額以繼續"
+  },
+  "dashboard.creator-withdraw-modal.tremendous-details.unverified-email-header": {
+    "message": "未驗證的電子郵件"
+  },
+  "dashboard.creator-withdraw-modal.tremendous-details.unverified-email-message": {
+    "message": "你輸入的收件電子郵件地址與你的 Icarus 帳號並無關聯。若獎勵已寄送至錯誤的電子郵件地址，Icarus 將無法協助追回。"
+  },
+  "dashboard.creator-withdraw-modal.tremendous-details.usd-paypal-warning-header": {
+    "message": "可享受較低的手續費"
+  },
+  "dashboard.creator-withdraw-modal.tremendous-details.usd-paypal-warning-message": {
+    "message": "你為 PayPal 國際交易選擇了美元。<direct-paypal-link>切換到直接 PayPal 連結</direct-paypal-link>以獲得更優惠的手續費（約 2% 而不是約 6%）。"
+  },
+  "dashboard.creator-withdraw-modal.withdraw-button": {
+    "message": "提領"
+  },
+  "dashboard.creator-withdraw-modal.withdraw-limit": {
+    "message": "提領限額"
+  },
+  "dashboard.creator-withdraw-modal.withdraw-limit-used": {
+    "message": "你已用盡你的提領額度：<b>{withdrawLimit}</b>。你必須填寫一份稅務表單才能提領更多金額。"
+  },
+  "dashboard.head-title": {
+    "message": "儀表板"
+  },
+  "dashboard.notifications.button.mark-all-as-read": {
+    "message": "全部標記為已讀"
+  },
+  "dashboard.notifications.button.view-history": {
+    "message": "查看歷史記錄"
+  },
+  "dashboard.notifications.empty.no-unread": {
+    "message": "您沒有任何未讀通知。"
+  },
+  "dashboard.notifications.error.loading": {
+    "message": "載入通知時發生錯誤："
+  },
+  "dashboard.notifications.history.label": {
+    "message": "歷史"
+  },
+  "dashboard.notifications.history.title": {
+    "message": "通知歷史記錄"
+  },
+  "dashboard.notifications.link.see-all": {
+    "message": "看全部"
+  },
+  "dashboard.notifications.link.view-history": {
+    "message": "查看通知記錄"
+  },
+  "dashboard.notifications.link.view-more": {
+    "message": "看更多 {extraNotifs} 條 {extraNotifs, plural, one {通知} other {通知}}"
+  },
+  "dashboard.notifications.loading": {
+    "message": "正在載入通知…"
+  },
+  "dashboard.revenue.available-now": {
+    "message": "可提領"
+  },
+  "dashboard.revenue.balance": {
+    "message": "餘額"
+  },
+  "dashboard.revenue.estimated-tooltip.msg1": {
+    "message": "預估收益在開放領取前可能有所變動。"
+  },
+  "dashboard.revenue.estimated-tooltip.msg2": {
+    "message": "按這裡了解 Icarus 如何處理你的收入。"
+  },
+  "dashboard.revenue.estimated-with-date": {
+    "message": "預計時間：{date}"
+  },
+  "dashboard.revenue.processing": {
+    "message": "處理中"
+  },
+  "dashboard.revenue.processing.tooltip": {
+    "message": "收入會一直處於處理中狀態直到月底，然後在 60 天後才會變成可供提領的金額。"
+  },
+  "dashboard.revenue.stats.received": {
+    "message": "已收到"
+  },
+  "dashboard.revenue.stats.transactions": {
+    "message": "交易"
+  },
+  "dashboard.revenue.stats.withdrawn": {
+    "message": "提領"
+  },
+  "dashboard.revenue.tos": {
+    "message": "透過上傳專案至 Icarus 並從您的帳號中提領款項，即表示您同意我們的《<terms-link>獎勵計畫條款</terms-link>》。請了解更多關於《<info-link>獎勵計畫</info-link>》的資訊。"
+  },
+  "dashboard.revenue.transactions.btn.download-csv": {
+    "message": "下載為 CSV 檔案"
+  },
+  "dashboard.revenue.transactions.header": {
+    "message": "交易"
+  },
+  "dashboard.revenue.transactions.none": {
+    "message": "沒有交易紀錄"
+  },
+  "dashboard.revenue.transactions.none.desc": {
+    "message": "你的付款和提領紀錄將顯示在這裡。"
+  },
+  "dashboard.revenue.transactions.see-all": {
+    "message": "查看全部"
+  },
+  "dashboard.revenue.withdraw.blocked-tin-mismatch": {
+    "message": "由於你的稅務識別碼 (TIN) 或社會安全號碼 (SSN) 與美國國稅局 (IRS) 的紀錄不符，你的提領功能已暫時鎖定。請聯絡客服以重設並重新提交你的稅務表單。"
+  },
+  "dashboard.revenue.withdraw.card.description": {
+    "message": "從你可用的餘額提領至任何付款方式。"
+  },
+  "dashboard.revenue.withdraw.card.title": {
+    "message": "提領"
+  },
+  "dashboard.revenue.withdraw.header": {
+    "message": "提領"
+  },
+  "dashboard.withdraw.completion.account": {
+    "message": "帳戶"
+  },
+  "dashboard.withdraw.completion.amount": {
+    "message": "金額"
+  },
+  "dashboard.withdraw.completion.date": {
+    "message": "日期"
+  },
+  "dashboard.withdraw.completion.email-confirmation": {
+    "message": "你會在 <b>{email}</b> 收到一封電子郵件，其中包含提領款項的兌現說明。"
+  },
+  "dashboard.withdraw.completion.exchange-rate": {
+    "message": "匯率"
+  },
+  "dashboard.withdraw.completion.fee": {
+    "message": "費用"
+  },
+  "dashboard.withdraw.completion.method": {
+    "message": "提領方式"
+  },
+  "dashboard.withdraw.completion.net-amount": {
+    "message": "沒有餘額"
+  },
+  "dashboard.withdraw.completion.recipient": {
+    "message": "收件人"
+  },
+  "dashboard.withdraw.completion.title": {
+    "message": "提領成功"
+  },
+  "dashboard.withdraw.completion.transactions-button": {
+    "message": "交易"
+  },
+  "dashboard.withdraw.completion.wallet": {
+    "message": "錢包"
+  },
+  "dashboard.withdraw.error.account-not-linked.text": {
+    "message": "請先綁定你的付款帳戶再進行提領。"
+  },
+  "dashboard.withdraw.error.account-not-linked.title": {
+    "message": "帳戶未連結"
+  },
+  "dashboard.withdraw.error.email-verification.text": {
+    "message": "提領前須先驗證你的電子郵件地址。"
+  },
+  "dashboard.withdraw.error.email-verification.title": {
+    "message": "需要驗證電子郵件地址"
+  },
+  "dashboard.withdraw.error.generic.text": {
+    "message": "我們無法提交你的提領申請，請檢查你的詳細資訊或聯絡客服尋求支援。\n{error}"
+  },
+  "dashboard.withdraw.error.generic.title": {
+    "message": "無法提領"
+  },
+  "dashboard.withdraw.error.insufficient-balance.text": {
+    "message": "你的帳戶餘額不足，無法進行此次提領。"
+  },
+  "dashboard.withdraw.error.insufficient-balance.title": {
+    "message": "餘額不足"
+  },
+  "dashboard.withdraw.error.invalid-address.text": {
+    "message": "無法驗證你提供的地址。請檢查你的地址資訊。"
+  },
+  "dashboard.withdraw.error.invalid-address.title": {
+    "message": "帳戶驗證失敗"
+  },
+  "dashboard.withdraw.error.invalid-bank.text": {
+    "message": "你提供的銀行帳戶資料無效。請核對你的資訊。"
+  },
+  "dashboard.withdraw.error.invalid-bank.title": {
+    "message": "銀行帳戶資料無效"
+  },
+  "dashboard.withdraw.error.invalid-wallet.text": {
+    "message": "你提供的加密貨幣錢包帳戶無效。請仔細核對後再試一次。"
+  },
+  "dashboard.withdraw.error.invalid-wallet.title": {
+    "message": "錢包帳戶無效"
+  },
+  "dashboard.withdraw.error.minimum-not-met.text": {
+    "message": "提領金額（扣除手續費後）未達最低提領額度。請提高你的提領金額。"
+  },
+  "dashboard.withdraw.error.minimum-not-met.title": {
+    "message": "金額過低"
+  },
+  "dashboard.withdraw.error.paypal-country-mismatch.text": {
+    "message": "請使用適合你所在地區的 PayPal 轉帳選項（美國或國際）。"
+  },
+  "dashboard.withdraw.error.paypal-country-mismatch.title": {
+    "message": "PayPal 地區不相符"
+  },
+  "dashboard.withdraw.error.tax-form.text": {
+    "message": "你必須填寫稅務表單才能提交提領申請。"
+  },
+  "dashboard.withdraw.error.tax-form.title": {
+    "message": "請填寫稅務表單"
+  },
+  "error.collection.404.list_item.1": {
+    "message": "你可能輸錯了該收藏的網址。"
+  },
+  "error.collection.404.list_item.2": {
+    "message": "該收藏可能已設為私人。"
+  },
+  "error.collection.404.list_item.3": {
+    "message": "該收藏可能因違反我們的《<tou-link>使用條款</tou-link>》，已被 Icarus 的管理團隊下架。"
+  },
+  "error.collection.404.list_title": {
+    "message": "原因："
+  },
+  "error.collection.404.title": {
+    "message": "找不到收藏"
+  },
+  "error.generic.404.subtitle": {
+    "message": "你要找的頁面似乎不存在。"
+  },
+  "error.generic.404.title": {
+    "message": "找不到頁面"
+  },
+  "error.generic.451.subtitle": {
+    "message": "此頁面因法律因素（例如政府審查或正在進行的法律程序）而被封鎖。"
+  },
+  "error.generic.451.title": {
+    "message": "因法律原因無法提供內容"
+  },
+  "error.generic.default.list_item.1": {
+    "message": "前往我們的<status-link>狀態頁面</status-link>，查看 Icarus 是否停機。"
+  },
+  "error.generic.default.list_item.2": {
+    "message": "如果這個問題持續發生，你或許會想加入我們的 <discord-link>Discord 伺服器</discord-link>，通知 Icarus 團隊。"
+  },
+  "error.generic.default.list_title": {
+    "message": "請在幾分鐘後再試一次。"
+  },
+  "error.generic.default.subtitle": {
+    "message": "出了點狀況。"
+  },
+  "error.generic.default.title": {
+    "message": "糟糕！"
+  },
+  "error.organization.404.list_item.1": {
+    "message": "你可能輸錯了該組織的網址。"
+  },
+  "error.organization.404.list_item.2": {
+    "message": "該組織的擁有者可能已變更網址或已將其刪除。"
+  },
+  "error.organization.404.list_item.3": {
+    "message": "該組織可能因違反我們的《<tou-link>使用條款</tou-link>》，已被 Icarus 的管理團隊下架。"
+  },
+  "error.organization.404.list_title": {
+    "message": "原因："
+  },
+  "error.organization.404.title": {
+    "message": "找不到組織"
+  },
+  "error.project.404.list_item.1": {
+    "message": "你可能輸錯了該專案的網址。"
+  },
+  "error.project.404.list_item.2": {
+    "message": "該專案的擁有者可能已變更網址或已將其刪除。"
+  },
+  "error.project.404.list_item.3": {
+    "message": "該專案可能因違反我們的《<tou-link>使用條款</tou-link>》，已被 Icarus 的管理團隊下架。"
+  },
+  "error.project.404.list_title": {
+    "message": "原因："
+  },
+  "error.project.404.title": {
+    "message": "找不到專案"
+  },
+  "error.user.404.list_item.1": {
+    "message": "你可能輸錯了該使用者的使用者名稱。"
+  },
+  "error.user.404.list_item.2": {
+    "message": "該使用者可能已變更使用者名稱或已刪除帳號。"
+  },
+  "error.user.404.list_item.3": {
+    "message": "該使用者的帳號可能因違反 Icarus 的《<tou-link>使用條款</tou-link>》，已被終止。"
+  },
+  "error.user.404.list_title": {
+    "message": "原因："
+  },
+  "error.user.404.title": {
+    "message": "找不到使用者"
+  },
+  "frog": {
+    "message": "你被耍了！🐸"
+  },
+  "frog.altText": {
+    "message": "一幅逼真的青蛙迷宮繪畫"
+  },
+  "frog.title": {
+    "message": "青蛙"
+  },
+  "hosting-marketing.available-locations": {
+    "message": "服務範圍遍及北美、歐洲與東南亞，提供廣泛的區域覆蓋。"
+  },
+  "hosting-marketing.billing.monthly": {
+    "message": "按月付費"
+  },
+  "hosting-marketing.billing.quarterly": {
+    "message": "按季付費"
+  },
+  "hosting-marketing.billing.save-with-quarterly": {
+    "message": "選擇季繳方案，現省 16%！"
+  },
+  "hosting-marketing.billing.starting-at": {
+    "message": "每月 {price} 起"
+  },
+  "hosting-marketing.billing.yearly": {
+    "message": "年付"
+  },
+  "hosting-marketing.faq.burst-threads": {
+    "message": "CPU 爆發執行緒如何運作？"
+  },
+  "hosting-marketing.faq.burst-threads.answer": {
+    "message": "當你的伺服器負載較重時，我們會暫時讓它使用額外的 CPU 執行緒，幫你緩解延遲飆升與不穩定的情況。這能防止 TPS（每秒刻數）低於 20，確保遊戲體驗盡可能流暢。由於這些額外的 CPU 執行緒只會在高負載期間短暫提供，因此可能不會出現在 Spark 報告或其他效能分析工具中。"
+  },
+  "hosting-marketing.faq.cpu-kind": {
+    "message": "Icarus Hosting 伺服器執行於哪種 CPU？"
+  },
+  "hosting-marketing.faq.cpu-kind.answer": {
+    "message": "Icarus Hosting 伺服器搭載 AMD Ryzen 7900 與 7950X3D 同等級的高效能 CPU，時脈達 5 GHz 以上，並搭配 DDR5 記憶體。"
+  },
+  "hosting-marketing.faq.currency": {
+    "message": "價格是以哪種貨幣計算？"
+  },
+  "hosting-marketing.faq.currency.answer": {
+    "message": "所有價格均以美金 (USD) 標示。"
+  },
+  "hosting-marketing.faq.ddos-protection": {
+    "message": "Icarus Hosting 伺服器有 DDoS 防護嗎？"
+  },
+  "hosting-marketing.faq.ddos-protection.answer": {
+    "message": "有的。所有 Icarus Hosting 伺服器都具備 DDoS 防護，部分地區的防禦容量最高可達 17 Tbps。"
+  },
+  "hosting-marketing.faq.heading": {
+    "message": "常見問題"
+  },
+  "hosting-marketing.faq.how-fast": {
+    "message": "Icarus Hosting 伺服器的速度有多快？"
+  },
+  "hosting-marketing.faq.how-fast.answer.one": {
+    "message": "Icarus Hosting 伺服器託管於非常現代的高效能硬體上，但很難確切說明這會如何反映在你的伺服器速度上，因為影響因素很多，像是你在伺服器上執行的模組、資料包、插件，甚至是玩家的行為。"
+  },
+  "hosting-marketing.faq.how-fast.answer.two": {
+    "message": "大部分的效能問題通常是出自未經最佳化的模組包、模組、資料包或插件，進而導致伺服器卡頓。由於我們的伺服器規格非常高階，只要你針對執行的內容選擇適合的方案，通常不會遇到什麼麻煩。"
+  },
+  "hosting-marketing.faq.increase-storage": {
+    "message": "我可以增加伺服器的儲存空間嗎？"
+  },
+  "hosting-marketing.faq.increase-storage.answer": {
+    "message": "可以，你可以增加伺服器的儲存空間，而且完全不需要額外費用。如果你需要更多儲存空間，請聯絡 Icarus 支援團隊。"
+  },
+  "hosting-marketing.faq.location": {
+    "message": "Icarus Hosting 伺服器位於哪裡？我可以選擇區域嗎？"
+  },
+  "hosting-marketing.faq.location.answer": {
+    "message": "我們目前在北美、歐洲與東南亞設有伺服器，你可以在購買時選擇。未來還會推出更多區域！如果你想切換區域，請聯絡支援團隊。"
+  },
+  "hosting-marketing.faq.versions-loaders": {
+    "message": "可以使用哪些 Minecraft 版本與載入器？"
+  },
+  "hosting-marketing.faq.versions-loaders.answer.one": {
+    "message": "Icarus Hosting 伺服器支援自 1.2.5 起的任何 Minecraft Java 版版本，包含快照版本也能執行。"
+  },
+  "hosting-marketing.faq.versions-loaders.answer.two": {
+    "message": "我們也支援多種模組與插件載入器，模組包含 Fabric、Quilt、Forge 與 NeoForge，插件則支援 Paper 與 Purpur。支援狀況取決於該載入器是否支援你選擇的 Minecraft 版本。"
+  },
+  "hosting-marketing.get-started": {
+    "message": "立即開始"
+  },
+  "hosting-marketing.hero.button.manage-your-servers": {
+    "message": "管理你的伺服器"
+  },
+  "hosting-marketing.hero.button.start-a-new-server": {
+    "message": "啟動新的伺服器"
+  },
+  "hosting-marketing.hero.button.start-your-server": {
+    "message": "立即啟動你的伺服器"
+  },
+  "hosting-marketing.hero.host-with-Icarus": {
+    "message": "使用 Icarus Hosting 託⁠管你的下一個伺服器"
+  },
+  "hosting-marketing.hero.hosting-description": {
+    "message": "Icarus Hosting 可讓你用最簡單的方式，託管個人的 Minecraft Java 版伺服器。你可以直接在 Icarus 平臺內，無縫安裝並暢玩你喜愛的模組與模組包。"
+  },
+  "hosting-marketing.included.advanced-networking": {
+    "message": "進階網路管理"
+  },
+  "hosting-marketing.included.advanced-networking.description": {
+    "message": "為你的伺服器新增自訂網域、為需要特定連接埠的模組保留多達 15 個連接埠，以及更多功能。"
+  },
+  "hosting-marketing.included.backups-included": {
+    "message": "內建備份服務"
+  },
+  "hosting-marketing.included.backups-included.description": {
+    "message": "每個伺服器均包含 15 份安全儲存於異地的備份。"
+  },
+  "hosting-marketing.included.custom-url": {
+    "message": "自訂網址"
+  },
+  "hosting-marketing.included.custom-url.description": {
+    "message": "使用自訂的 <contrast>Icarus.gg</contrast> 網址分享你的伺服器。"
+  },
+  "hosting-marketing.included.description": {
+    "message": "每個伺服器都隨附一系列功能，旨在提供唯有 Icarus 才能帶給你的託管體驗。"
+  },
+  "hosting-marketing.included.file-manager": {
+    "message": "直覺好用的檔案管理員"
+  },
+  "hosting-marketing.included.file-manager.description": {
+    "message": "輕鬆搜尋、管理、編輯檔案，並直接上傳至你的伺服器。"
+  },
+  "hosting-marketing.included.heading": {
+    "message": "隨附所有你需要的強大功能。"
+  },
+  "hosting-marketing.included.help": {
+    "message": "隨時為你提供協助"
+  },
+  "hosting-marketing.included.help.description": {
+    "message": "隨時聯絡 Icarus 團隊來取得伺服器相關協助。"
+  },
+  "hosting-marketing.included.powerful-console": {
+    "message": "強大的主控臺、伺服器設定檔管理員，以及更多功能"
+  },
+  "hosting-marketing.included.powerful-console.description": {
+    "message": "Icarus Hosting 配備了多樣強大工具，讓你輕鬆管理你的伺服器。"
+  },
+  "hosting-marketing.included.sftp-access": {
+    "message": "SFTP 存取"
+  },
+  "hosting-marketing.included.sftp-access.description": {
+    "message": "透過 Icarus Hosting 內建的 SFTP 功能，直接存取你的伺服器檔案。"
+  },
+  "hosting-marketing.included.with-your-server": {
+    "message": "伺服器內含功能"
+  },
+  "hosting-marketing.know-what-you-need": {
+    "message": "知道自己需要什麼規格？"
+  },
+  "hosting-marketing.medal.info": {
+    "message": "試用由 <orange>Medal</orange> 提供的 5 天免費 <orange>3 GB 伺服器</orange>"
+  },
+  "hosting-marketing.medal.learn-more": {
+    "message": "了解更多"
+  },
+  "hosting-marketing.medal.text-secondary": {
+    "message": "限時優惠。無需信用卡。僅限美國伺服器使用。"
+  },
+  "hosting-marketing.pick-customized-plan": {
+    "message": "根據你需要的規格挑選自訂方案。"
+  },
+  "hosting-marketing.server-for-everyone": {
+    "message": "適合每個人的方案"
+  },
+  "hosting-marketing.why.all-on-Icarus": {
+    "message": "在 Icarus 統籌管理一切"
+  },
+  "hosting-marketing.why.all-on-Icarus.description": {
+    "message": "你的伺服器、模組、玩家等所有資訊都在 Icarus 上，不需要在多個平臺間切換。"
+  },
+  "hosting-marketing.why.consistently-fast": {
+    "message": "始終如一的高速體驗"
+  },
+  "hosting-marketing.why.consistently-fast.description": {
+    "message": "我們的基礎設施絕不過載，這表示你在 Icarus 託管的伺服器永遠都能發揮完整效能。"
+  },
+  "hosting-marketing.why.description": {
+    "message": "從 Icarus 上的數千個模組包中挑選，或是打造你專屬的組合。準備好遊玩時，直接邀請你的好友加入。"
+  },
+  "hosting-marketing.why.heading": {
+    "message": "找到模組包，秒變伺服器。"
+  },
+  "hosting-marketing.why.modern-reliable-hosting": {
+    "message": "體驗現代且可靠的託管服務"
+  },
+  "hosting-marketing.why.modern-reliable-hosting.description": {
+    "message": "Icarus Hosting 伺服器採用<contrast>高效能 AMD CPU 與 DDR5 記憶體</contrast>，並執行於自研軟體之上，確保你的伺服器執行流暢。"
+  },
+  "hosting-marketing.why.where-mods-are": {
+    "message": "在模組所在之處盡情暢玩"
+  },
+  "hosting-marketing.why.where-mods-are.description": {
+    "message": "Icarus Hosting 將模組與模組包的安裝流程完美整合到你的伺服器中。"
+  },
+  "hosting-marketing.why.why-Icarus-hosting": {
+    "message": "為什麼選擇 Icarus Hosting？"
+  },
+  "hosting-marketing.why.your-favorite-mods": {
+    "message": "所有你喜愛的模組通通都有"
+  },
+  "hosting-marketing.why.your-favorite-mods.description": {
+    "message": "自由選擇原版、Fabric、Forge、Quilt 或 NeoForge。只要在 Icarus 上找得到的，都能在你的伺服器上執行。"
+  },
+  "hosting.plan.out-of-stock": {
+    "message": "缺貨"
+  },
+  "hosting.plan.select-plan": {
+    "message": "選擇方案"
+  },
+  "landing.button.discover-mods": {
+    "message": "探索模組"
+  },
+  "landing.button.go-to-dashboard": {
+    "message": "前往資訊主頁"
+  },
+  "landing.creator.feature.constantly-evolving.description": {
+    "message": "透過 Icarus 團隊持續不斷的更新，享受最佳的模組體驗"
+  },
+  "landing.creator.feature.constantly-evolving.title": {
+    "message": "持續進化"
+  },
+  "landing.creator.feature.data-statistics.description": {
+    "message": "取得頁面瀏覽量、下載次數和收益的詳細報告"
+  },
+  "landing.creator.feature.data-statistics.title": {
+    "message": "數據與統計"
+  },
+  "landing.creator.feature.discovery.description": {
+    "message": "透過搜尋、我們的首頁、Discord 伺服器以及未來更多方式，讓你的專案被數千名使用者發現！"
+  },
+  "landing.creator.feature.discovery.title": {
+    "message": "探索與曝光"
+  },
+  "landing.creator.feature.diverse-ecosystem.description": {
+    "message": "透過 Minotaur 與你的建構工具整合，在你發布新版本時即可自動上傳"
+  },
+  "landing.creator.feature.diverse-ecosystem.title": {
+    "message": "多元生態系"
+  },
+  "landing.creator.feature.monetization.description": {
+    "message": "從你的專案頁面獲得廣告收入，並隨時提領你的資金"
+  },
+  "landing.creator.feature.monetization.title": {
+    "message": "營利"
+  },
+  "landing.creator.feature.team-management.description": {
+    "message": "輕鬆邀請你的團隊成員並管理角色與權限"
+  },
+  "landing.creator.feature.team-management.title": {
+    "message": "團隊管理"
+  },
+  "landing.error.failedToLoadRandomProjects": {
+    "message": "載入隨機專案失敗 :("
+  },
+  "landing.feature.follow.description": {
+    "message": "隨時接收你喜愛專案的更新通知，掌握最新動態。"
+  },
+  "landing.feature.follow.heading": {
+    "message": "追蹤你喜愛的專案"
+  },
+  "landing.feature.launcher.description": {
+    "message": "Icarus 的開源 API 讓啟動器能夠深度整合 Icarus。你可以透過<link>我們的應用程式</link>，以及 ATLauncher、MultiMC 和 Prism Launcher 等熱門啟動器使用 Icarus。"
+  },
+  "landing.feature.launcher.heading": {
+    "message": "使用你偏好的啟動器遊玩"
+  },
+  "landing.feature.search.description": {
+    "message": "Icarus 快如閃電的搜尋與強大的篩選功能，讓你能隨打即找。"
+  },
+  "landing.feature.search.heading": {
+    "message": "輕鬆快速找到你想要的內容"
+  },
+  "landing.heading.the-place-for-minecraft": {
+    "message": "Minecraft {content}首選平臺"
+  },
+  "landing.heading.the-place-for-minecraft.data-packs": {
+    "message": "資料包"
+  },
+  "landing.heading.the-place-for-minecraft.modpacks": {
+    "message": "模組包"
+  },
+  "landing.heading.the-place-for-minecraft.mods": {
+    "message": "模組"
+  },
+  "landing.heading.the-place-for-minecraft.plugins": {
+    "message": "插件"
+  },
+  "landing.heading.the-place-for-minecraft.resource-packs": {
+    "message": "資源包"
+  },
+  "landing.heading.the-place-for-minecraft.servers": {
+    "message": "伺服器"
+  },
+  "landing.heading.the-place-for-minecraft.shaders": {
+    "message": "光影包"
+  },
+  "landing.launcher.atlauncher-label": {
+    "message": "ATLauncher"
+  },
+  "landing.launcher.graphic-alt": {
+    "message": "一個簡化的 Minecraft 視窗圖片，其中 Mojang Studios 標誌採用 Icarus 綠色。"
+  },
+  "landing.launcher.Icarus-app-label": {
+    "message": "Icarus Launcher"
+  },
+  "landing.launcher.prism-launcher-label": {
+    "message": "Prism Launcher"
+  },
+  "landing.notifications.has-been-updated": {
+    "message": "{title} 已更新！"
+  },
+  "landing.notifications.heading": {
+    "message": "通知"
+  },
+  "landing.notifications.received-time": {
+    "message": "收到時間：{time}"
+  },
+  "landing.notifications.version-released": {
+    "message": "已針對 {gameVersion} 發布了版本 {version}"
+  },
+  "landing.section.for-creators.description": {
+    "message": "為你的創作打造一個線上家園，並觸及廣大的忠實玩家群。"
+  },
+  "landing.section.for-creators.label": {
+    "message": "創作者專區"
+  },
+  "landing.section.for-creators.tagline": {
+    "message": "讓你的創作走向世界"
+  },
+  "landing.section.for-players.description": {
+    "message": "從奇幻生態域到受詛咒的地下城，你一定能找到將遊戲體驗提升到新境界的內容。"
+  },
+  "landing.section.for-players.label": {
+    "message": "玩家專區"
+  },
+  "landing.section.for-players.tagline": {
+    "message": "探索超過 {count, number} 個創作"
+  },
+  "landing.subheading": {
+    "message": "透過我們為社群打造的開源平臺，探索、遊玩並分享 Minecraft 內容。"
+  },
+  "layout.action.change-theme": {
+    "message": "更換主題"
+  },
+  "layout.action.create-new": {
+    "message": "新增..."
+  },
+  "layout.action.file-lookup": {
+    "message": "檔案查詢"
+  },
+  "layout.action.lookup-by-email": {
+    "message": "依電子郵件查詢"
+  },
+  "layout.action.manage-affiliates": {
+    "message": "管理聯盟連結"
+  },
+  "layout.action.manage-server-notices": {
+    "message": "管理伺服器通知"
+  },
+  "layout.action.new-collection": {
+    "message": "新增收藏"
+  },
+  "layout.action.new-organization": {
+    "message": "新增組織"
+  },
+  "layout.action.new-project": {
+    "message": "新增專案"
+  },
+  "layout.action.new-server-project": {
+    "message": "新的伺服器"
+  },
+  "layout.action.publish": {
+    "message": "發布"
+  },
+  "layout.action.reports": {
+    "message": "審查檢舉"
+  },
+  "layout.action.review-projects": {
+    "message": "專案審查"
+  },
+  "layout.action.tech-review": {
+    "message": "技術審查"
+  },
+  "layout.avatar.alt": {
+    "message": "你的頭貼"
+  },
+  "layout.banner.account-action": {
+    "message": "帳號需採取行動"
+  },
+  "layout.banner.add-email.button": {
+    "message": "前往帳號設定"
+  },
+  "layout.banner.add-email.description": {
+    "message": "為了安全起見，Icarus 需要你為帳號註冊電子郵件地址。"
+  },
+  "layout.banner.build-fail.description": {
+    "message": "Icarus 的前端無法從 API 取得資料，導致本次部署失敗。這可能是服務中斷或設定錯誤所致。請在 API 恢復可用時，再重新嘗試。錯誤碼：{errors}；目前的 API 網址是：{url}"
+  },
+  "layout.banner.build-fail.title": {
+    "message": "建構時無法從 API 取得狀態資料。"
+  },
+  "layout.banner.preview.description": {
+    "message": "如果你是想前往 Icarus 的官方網站，請前往 <link>https://Icarus.com</link>。這個預覽部署版本僅供 Icarus 工作人員測試使用。它是基於 <branch-link>{owner}/{branch}</branch-link> @ {commit} 建構而成。"
+  },
+  "layout.banner.preview.title": {
+    "message": "這是 Icarus 網站的預覽部署版本。"
+  },
+  "layout.banner.staging.description": {
+    "message": "預備環境與 Icarus 的正式資料庫完全獨立。\n它被用於測試與除錯，因此你執行的 Icarus 後端或前端，可能是比正式實例還要新的開發中版本。"
+  },
+  "layout.banner.staging.title": {
+    "message": "你正在查看 Icarus 的預備環境"
+  },
+  "layout.banner.subscription-payment-failed.button": {
+    "message": "更新帳務資訊"
+  },
+  "layout.banner.subscription-payment-failed.description": {
+    "message": "一個或多個訂閱續訂失敗了。請更新你的付款方式，以免失去存取權！"
+  },
+  "layout.banner.subscription-payment-failed.title": {
+    "message": "需進行帳務處理。"
+  },
+  "layout.banner.tax.action": {
+    "message": "填寫稅務表單"
+  },
+  "layout.banner.tax.description": {
+    "message": "你今年已從 Icarus 提領超過 {threshold}。為符合稅務法規，你需要填寫一份稅務表單。在提交這個表格之前，你的提領將暫停。"
+  },
+  "layout.banner.tax.title": {
+    "message": "需填寫稅務表單"
+  },
+  "layout.banner.tin-mismatch.action": {
+    "message": "聯絡客服"
+  },
+  "layout.banner.tin-mismatch.description": {
+    "message": "由於你的納稅人識別號碼 (TIN) 或社會安全號碼 (SSN) 與美國國稅局 (IRS) 的紀錄不符，你的提領功能已暫時鎖定。請聯絡客服以重設並重新提交你的稅務表單。"
+  },
+  "layout.banner.tin-mismatch.title": {
+    "message": "稅務表單提交失敗"
+  },
+  "layout.banner.verify-email.action": {
+    "message": "重新傳送驗證電子郵件"
+  },
+  "layout.banner.verify-email.description": {
+    "message": "為了安全起見，Icarus 需要你驗證與你的帳號連結的電子郵件地址。"
+  },
+  "layout.footer.about": {
+    "message": "關於"
+  },
+  "layout.footer.about.careers": {
+    "message": "加入我們"
+  },
+  "layout.footer.about.changelog": {
+    "message": "更新日誌"
+  },
+  "layout.footer.about.news": {
+    "message": "新聞"
+  },
+  "layout.footer.about.rewards-program": {
+    "message": "獎勵計畫"
+  },
+  "layout.footer.about.status": {
+    "message": "服務狀態"
+  },
+  "layout.footer.legal": {
+    "message": "法律"
+  },
+  "layout.footer.legal-disclaimer": {
+    "message": "非官方 MINECRAFT 服務。未經 MOJANG 或 MICROSOFT 核准或與之關聯。"
+  },
+  "layout.footer.legal.copyright-policy": {
+    "message": "著作權政策與 DMCA"
+  },
+  "layout.footer.legal.privacy-policy": {
+    "message": "隱私權政策"
+  },
+  "layout.footer.legal.rules": {
+    "message": "內容規範"
+  },
+  "layout.footer.legal.security-notice": {
+    "message": "安全聲明"
+  },
+  "layout.footer.legal.terms-of-use": {
+    "message": "使用條款"
+  },
+  "layout.footer.Icarus-information": {
+    "message": "Icarus 資訊"
+  },
+  "layout.footer.open-source": {
+    "message": "Icarus 是<github-link>開源專案</github-link>。"
+  },
+  "layout.footer.products": {
+    "message": "產品"
+  },
+  "layout.footer.products.app": {
+    "message": "Icarus Launcher"
+  },
+  "layout.footer.products.plus": {
+    "message": "Icarus+"
+  },
+  "layout.footer.products.servers": {
+    "message": "Icarus Hosting"
+  },
+  "layout.footer.resources": {
+    "message": "資源"
+  },
+  "layout.footer.resources.api-docs": {
+    "message": "API 文件"
+  },
+  "layout.footer.resources.help-center": {
+    "message": "說明中心"
+  },
+  "layout.footer.resources.report-issues": {
+    "message": "回報問題"
+  },
+  "layout.footer.resources.translate": {
+    "message": "協助翻譯"
+  },
+  "layout.footer.social.bluesky": {
+    "message": "Bluesky"
+  },
+  "layout.footer.social.discord": {
+    "message": "Discord"
+  },
+  "layout.footer.social.github": {
+    "message": "GitHub"
+  },
+  "layout.footer.social.mastodon": {
+    "message": "Mastodon"
+  },
+  "layout.footer.social.x": {
+    "message": "X"
+  },
+  "layout.menu-toggle.action": {
+    "message": "切換選單"
+  },
+  "layout.meta.description": {
+    "message": "前往 Icarus 下載 Minecraft 模組、插件、資料包、光影包、資源包和模組包。使用現代、易於使用的介面和 API 在 Icarus 上探索及發布專案。"
+  },
+  "layout.meta.og-description": {
+    "message": "探索及發布 Minecraft 內容！"
+  },
+  "layout.mobile.close-menu": {
+    "message": "關閉選單"
+  },
+  "layout.mobile.open-menu": {
+    "message": "開啟選單"
+  },
+  "layout.nav.active-reports": {
+    "message": "處理中的檢舉"
+  },
+  "layout.nav.discover": {
+    "message": "探索"
+  },
+  "layout.nav.discover-content": {
+    "message": "探索內容"
+  },
+  "layout.nav.get-Icarus-app": {
+    "message": "取得 Icarus Launcher"
+  },
+  "layout.nav.home": {
+    "message": "首頁"
+  },
+  "layout.nav.host-a-server": {
+    "message": "託管伺服器"
+  },
+  "layout.nav.Icarus-app": {
+    "message": "Icarus Launcher"
+  },
+  "layout.nav.Icarus-home-page": {
+    "message": "Icarus 首頁"
+  },
+  "layout.nav.my-servers": {
+    "message": "我的伺服器"
+  },
+  "layout.nav.organizations": {
+    "message": "組織"
+  },
+  "layout.nav.profile": {
+    "message": "個人檔案"
+  },
+  "layout.nav.projects": {
+    "message": "專案"
+  },
+  "layout.nav.revenue": {
+    "message": "收益"
+  },
+  "layout.nav.saved-projects": {
+    "message": "儲存專案"
+  },
+  "layout.nav.search": {
+    "message": "搜尋"
+  },
+  "layout.nav.upgrade-to-Icarus-plus": {
+    "message": "升級至 Icarus+"
+  },
+  "moderation.moderate": {
+    "message": "管理"
+  },
+  "moderation.page.projects": {
+    "message": "專案"
+  },
+  "moderation.page.reports": {
+    "message": "檢舉"
+  },
+  "moderation.page.technicalReview": {
+    "message": "技術審查"
+  },
+  "muralpay.account-type.checking": {
+    "message": "支票帳戶"
+  },
+  "muralpay.account-type.savings": {
+    "message": "儲蓄帳戶"
+  },
+  "muralpay.country.at": {
+    "message": "奧地利"
+  },
+  "muralpay.country.be": {
+    "message": "比利時"
+  },
+  "muralpay.country.cy": {
+    "message": "賽普勒斯"
+  },
+  "muralpay.country.de": {
+    "message": "德國"
+  },
+  "muralpay.country.ee": {
+    "message": "愛沙尼亞"
+  },
+  "muralpay.country.es": {
+    "message": "西班牙"
+  },
+  "muralpay.country.fi": {
+    "message": "芬蘭"
+  },
+  "muralpay.country.fr": {
+    "message": "法國"
+  },
+  "muralpay.country.gr": {
+    "message": "希臘"
+  },
+  "muralpay.country.ie": {
+    "message": "愛爾蘭"
+  },
+  "muralpay.country.it": {
+    "message": "義大利"
+  },
+  "muralpay.country.lt": {
+    "message": "立陶宛"
+  },
+  "muralpay.country.lu": {
+    "message": "盧森堡"
+  },
+  "muralpay.country.lv": {
+    "message": "拉脫維亞"
+  },
+  "muralpay.country.mt": {
+    "message": "馬爾他"
+  },
+  "muralpay.country.nl": {
+    "message": "荷蘭"
+  },
+  "muralpay.country.pt": {
+    "message": "葡萄牙"
+  },
+  "muralpay.country.sk": {
+    "message": "斯洛伐克"
+  },
+  "muralpay.document-type.national-id": {
+    "message": "國民身分證"
+  },
+  "muralpay.document-type.passport": {
+    "message": "護照"
+  },
+  "muralpay.document-type.resident-id": {
+    "message": "居民身分證"
+  },
+  "muralpay.document-type.ruc": {
+    "message": "RUC"
+  },
+  "muralpay.document-type.tax-id": {
+    "message": "稅籍編號"
+  },
+  "muralpay.field.account-number": {
+    "message": "帳號"
+  },
+  "muralpay.field.account-number-cbu-cvu": {
+    "message": "帳號 (CBU/CVU)"
+  },
+  "muralpay.field.account-number-cci": {
+    "message": "帳號 (CCI)"
+  },
+  "muralpay.field.account-number-type": {
+    "message": "帳號類別"
+  },
+  "muralpay.field.account-type": {
+    "message": "帳戶類型"
+  },
+  "muralpay.field.bank-account-number": {
+    "message": "帳戶名稱"
+  },
+  "muralpay.field.clabe": {
+    "message": "CLABE"
+  },
+  "muralpay.field.country": {
+    "message": "國家或地區"
+  },
+  "muralpay.field.cpf-cnpj": {
+    "message": "CPF/CNPJ"
+  },
+  "muralpay.field.cuit-cuil": {
+    "message": "CUIT/CUIL"
+  },
+  "muralpay.field.document-type": {
+    "message": "文件類型"
+  },
+  "muralpay.field.iban": {
+    "message": "IBAN"
+  },
+  "muralpay.field.phone-number": {
+    "message": "電話號碼"
+  },
+  "muralpay.field.pix-email": {
+    "message": "PIX 電子郵件"
+  },
+  "muralpay.field.pix-key-type": {
+    "message": "PIX 金鑰類別"
+  },
+  "muralpay.field.pix-phone": {
+    "message": "PIX 手機號碼"
+  },
+  "muralpay.field.random-key": {
+    "message": "隨機金鑰"
+  },
+  "muralpay.field.routing-number": {
+    "message": "路由號碼"
+  },
+  "muralpay.field.swift-bic": {
+    "message": "SWIFT/BIC"
+  },
+  "muralpay.field.wallet-address": {
+    "message": "錢包帳戶"
+  },
+  "muralpay.help.cbu-cvu": {
+    "message": "CBU（阿根廷銀行帳戶碼）或 CVU（虛擬帳戶碼）"
+  },
+  "muralpay.help.cci": {
+    "message": "跨行帳戶代碼 (CCI)"
+  },
+  "muralpay.help.clabe": {
+    "message": "銀行標準代碼 (CLABE)"
+  },
+  "muralpay.help.cpf-cnpj": {
+    "message": "巴西稅務識別碼"
+  },
+  "muralpay.help.cuit-cuil": {
+    "message": "阿根廷稅務識別碼"
+  },
+  "muralpay.help.iban": {
+    "message": "國際銀行帳號"
+  },
+  "muralpay.help.swift-bic": {
+    "message": "銀行識別碼"
+  },
+  "muralpay.pix-type.bank-account": {
+    "message": "銀行帳戶"
+  },
+  "muralpay.pix-type.document": {
+    "message": "CPF/CNPJ"
+  },
+  "muralpay.pix-type.email": {
+    "message": "電子郵件"
+  },
+  "muralpay.pix-type.phone": {
+    "message": "電話號碼"
+  },
+  "muralpay.placeholder.account-number": {
+    "message": "輸入帳號名稱"
+  },
+  "muralpay.placeholder.cbu-cvu": {
+    "message": "輸入 CBU 或 CVU"
+  },
+  "muralpay.placeholder.cbu-cvu-type": {
+    "message": "CBU 或 CVU"
+  },
+  "muralpay.placeholder.cci": {
+    "message": "輸入 20 位數的 CCI"
+  },
+  "muralpay.placeholder.cuit-cuil": {
+    "message": "輸入 CUIT 或 CUIL"
+  },
+  "muralpay.placeholder.enter-account-number": {
+    "message": "輸入帳號名稱"
+  },
+  "muralpay.placeholder.enter-clabe": {
+    "message": "輸入 18 位數的帳戶編號"
+  },
+  "muralpay.placeholder.enter-cpf-cnpj": {
+    "message": "輸入 CPF 或 CNPJ"
+  },
+  "muralpay.placeholder.enter-iban": {
+    "message": "輸入 IBAN"
+  },
+  "muralpay.placeholder.enter-pix-email": {
+    "message": "輸入 PIX email"
+  },
+  "muralpay.placeholder.enter-random-key": {
+    "message": "輸入隨機金鑰"
+  },
+  "muralpay.placeholder.enter-routing-number": {
+    "message": "輸入 9 位數的路由號碼"
+  },
+  "muralpay.placeholder.enter-swift-bic": {
+    "message": "輸入 SWIFT/BIC 銀行識別碼"
+  },
+  "muralpay.placeholder.iban-crc": {
+    "message": "輸入哥斯大黎加 IBAN"
+  },
+  "muralpay.placeholder.phone-cop": {
+    "message": "+57..."
+  },
+  "muralpay.placeholder.pix-phone": {
+    "message": "+55..."
+  },
+  "muralpay.placeholder.wallet-address-eth": {
+    "message": "0x..."
+  },
+  "muralpay.rail.fiat-ars.name": {
+    "message": "銀行轉帳 (ARS)"
+  },
+  "muralpay.rail.fiat-brl.name": {
+    "message": "PIX 轉帳 (BRL)"
+  },
+  "muralpay.rail.fiat-clp.name": {
+    "message": "銀行轉帳 (CLP)"
+  },
+  "muralpay.rail.fiat-cop.name": {
+    "message": "銀行轉帳 (COP)"
+  },
+  "muralpay.rail.fiat-crc.name": {
+    "message": "銀行轉帳 (CRC)"
+  },
+  "muralpay.rail.fiat-eur.name": {
+    "message": "銀行轉帳 (EUR)"
+  },
+  "muralpay.rail.fiat-mxn.name": {
+    "message": "銀行轉帳 (MXN)"
+  },
+  "muralpay.rail.fiat-pen.name": {
+    "message": "銀行轉帳 (PEN)"
+  },
+  "muralpay.rail.fiat-usd-peru.name": {
+    "message": "銀行轉帳 (USD - Peru)"
+  },
+  "muralpay.rail.fiat-usd.name": {
+    "message": "銀行轉帳 (USD)"
+  },
+  "muralpay.rail.fiat-zar.name": {
+    "message": "銀行轉帳 (ZAR)"
+  },
+  "muralpay.rail.usdc-base.name": {
+    "message": "USDC 兌換 (Base)"
+  },
+  "muralpay.rail.usdc-celo.name": {
+    "message": "USDC 兌換 (Celo)"
+  },
+  "muralpay.rail.usdc-ethereum.name": {
+    "message": "USDC (Ethereum)"
+  },
+  "muralpay.rail.usdc-polygon.name": {
+    "message": "加密貨幣 (USDC)"
+  },
+  "muralpay.warning.wallet-address": {
+    "message": "請仔細檢查你的錢包帳戶。發送到錯誤帳戶的資金將無法追回。"
+  },
+  "profile.bio.fallback.creator": {
+    "message": "一位 Icarus 創作者。"
+  },
+  "profile.bio.fallback.user": {
+    "message": "一位 Icarus 使用者。"
+  },
+  "profile.button.billing": {
+    "message": "管理使用者帳務"
+  },
+  "profile.button.edit-role": {
+    "message": "編輯角色"
+  },
+  "profile.button.info": {
+    "message": "檢視使用者詳細資訊"
+  },
+  "profile.button.manage-projects": {
+    "message": "管理專案"
+  },
+  "profile.button.remove-affiliate": {
+    "message": "移除聯盟行銷夥伴資格"
+  },
+  "profile.button.set-affiliate": {
+    "message": "設為聯盟行銷夥伴"
+  },
+  "profile.details.label.auth-providers": {
+    "message": "驗證提供者"
+  },
+  "profile.details.label.email": {
+    "message": "電子郵件"
+  },
+  "profile.details.label.email-verified": {
+    "message": "電子郵件已驗證"
+  },
+  "profile.details.label.has-password": {
+    "message": "是否有密碼"
+  },
+  "profile.details.label.has-totp": {
+    "message": "是否有 TOTP"
+  },
+  "profile.details.label.payment-methods": {
+    "message": "付款方式"
+  },
+  "profile.details.tooltip.email-not-verified": {
+    "message": "電子郵件尚未驗證"
+  },
+  "profile.details.tooltip.email-verified": {
+    "message": "電子郵件已驗證"
+  },
+  "profile.error.not-found": {
+    "message": "找不到使用者"
+  },
+  "profile.label.affiliate": {
+    "message": "聯盟行銷"
+  },
+  "profile.label.badges": {
+    "message": "徽章"
+  },
+  "profile.label.collection": {
+    "message": "收藏"
+  },
+  "profile.label.downloads": {
+    "message": "下載次數：{count}"
+  },
+  "profile.label.joined": {
+    "message": "加入時間"
+  },
+  "profile.label.no-collections": {
+    "message": "這個使用者沒有任何收藏！"
+  },
+  "profile.label.no-collections-auth": {
+    "message": "你還沒有任何收藏。\n你想要<create-link>建立一個</create-link>嗎？"
+  },
+  "profile.label.no-projects": {
+    "message": "這個使用者沒有任何專案！"
+  },
+  "profile.label.no-projects-auth": {
+    "message": "你還沒有任何專案。\n你想要<create-link>建立一個</create-link>嗎？"
+  },
+  "profile.label.organizations": {
+    "message": "組織"
+  },
+  "profile.label.projects": {
+    "message": "{count} 個專案"
+  },
+  "profile.label.saving": {
+    "message": "儲存中..."
+  },
+  "profile.meta.description": {
+    "message": "前往 Icarus 下載 {username} 的專案"
+  },
+  "profile.meta.description-with-bio": {
+    "message": "{bio} — 前往 Icarus 下載 {username} 的專案"
+  },
+  "profile.stats.projects-followers": {
+    "message": "<stat>{count}</stat> 位專案追蹤者"
+  },
+  "profile.user-id": {
+    "message": "使用者 ID：{id}"
+  },
+  "project-member-header.error-decline": {
+    "message": "拒絕團隊邀請失敗"
+  },
+  "project-member-header.error-join": {
+    "message": "接受團隊邀請失敗"
+  },
+  "project-member-header.invitation-no-role": {
+    "message": "你已被邀請加入這個專案。請接受或拒絕該邀請。"
+  },
+  "project-member-header.invitation-title": {
+    "message": "邀請加入專案"
+  },
+  "project-member-header.invitation-with-role": {
+    "message": "你已被邀請成為這個專案的成員，擔任「{role}」的角色。"
+  },
+  "project-member-header.success-decline": {
+    "message": "你拒絕了團隊邀請"
+  },
+  "project-member-header.success-join": {
+    "message": "你加入了專案團隊"
+  },
+  "project-moderation-nags.publishing-checklist": {
+    "message": "發布檢查清單"
+  },
+  "project-moderation-nags.required": {
+    "message": "必填"
+  },
+  "project-moderation-nags.resubmit-for-review": {
+    "message": "重新提交審查"
+  },
+  "project-moderation-nags.resubmit-for-review-desc": {
+    "message": "你的專案已被 Icarus 工作人員{status, select, rejected {拒絕} withheld {擱置} other {{status}}}。在大部分情況下，你可以在處理完工作人員的留言訊息後，重新提交審核。"
+  },
+  "project-moderation-nags.submit-checklist-tooltip": {
+    "message": "你必須完成發布檢查清單中的必要步驟！"
+  },
+  "project-moderation-nags.submit-for-review": {
+    "message": "提交審查"
+  },
+  "project-moderation-nags.submit-for-review-button": {
+    "message": "提交審查"
+  },
+  "project-moderation-nags.submit-for-review-desc": {
+    "message": "你的專案只有專案成員才能查看。它必須經過管理員審查才能發布。"
+  },
+  "project-moderation-nags.suggestion": {
+    "message": "建議"
+  },
+  "project-moderation-nags.visit-moderation-page": {
+    "message": "前往審查頁面"
+  },
+  "project-moderation-nags.warning": {
+    "message": "警告"
+  },
+  "project-type.collection.plural": {
+    "message": "收藏"
+  },
+  "project-type.collection.singular": {
+    "message": "收藏"
+  },
+  "project-type.datapack.plural": {
+    "message": "資料包"
+  },
+  "project-type.datapack.singular": {
+    "message": "資料包"
+  },
+  "project-type.minecraft_java_server.plural": {
+    "message": "伺服器"
+  },
+  "project-type.minecraft_java_server.singular": {
+    "message": "伺服器"
+  },
+  "project-type.mod.plural": {
+    "message": "模組"
+  },
+  "project-type.mod.singular": {
+    "message": "模組"
+  },
+  "project-type.modpack.plural": {
+    "message": "模組包"
+  },
+  "project-type.modpack.singular": {
+    "message": "模組包"
+  },
+  "project-type.plugin.plural": {
+    "message": "插件"
+  },
+  "project-type.plugin.singular": {
+    "message": "插件"
+  },
+  "project-type.project.plural": {
+    "message": "專案"
+  },
+  "project-type.project.singular": {
+    "message": "專案"
+  },
+  "project-type.resourcepack.plural": {
+    "message": "資源包"
+  },
+  "project-type.resourcepack.singular": {
+    "message": "資源包"
+  },
+  "project-type.server.plural": {
+    "message": "伺服器"
+  },
+  "project-type.server.singular": {
+    "message": "伺服器"
+  },
+  "project-type.shader.plural": {
+    "message": "光影包"
+  },
+  "project-type.shader.singular": {
+    "message": "光影包"
+  },
+  "project.about.details.created": {
+    "message": "建立時間：{date}"
+  },
+  "project.about.details.licensed": {
+    "message": "授權條款：{license}"
+  },
+  "project.about.details.published": {
+    "message": "發布時間：{date}"
+  },
+  "project.about.details.submitted": {
+    "message": "提交時間：{date}"
+  },
+  "project.about.details.title": {
+    "message": "詳細資訊"
+  },
+  "project.about.details.updated": {
+    "message": "更新時間：{date}"
+  },
+  "project.actions.create-server": {
+    "message": "建立伺服器"
+  },
+  "project.actions.create-server-tooltip": {
+    "message": "建立伺服器"
+  },
+  "project.actions.dont-show-again": {
+    "message": "不再顯示"
+  },
+  "project.actions.review-project": {
+    "message": "審查專案"
+  },
+  "project.actions.servers-promo.description": {
+    "message": "Icarus Hosting 是讓你與朋友輕鬆遊玩的最佳方式！"
+  },
+  "project.actions.servers-promo.pricing": {
+    "message": "{price} 起<small> / 月</small>"
+  },
+  "project.actions.servers-promo.title": {
+    "message": "建立伺服器"
+  },
+  "project.collections.create-new": {
+    "message": "建立新收藏"
+  },
+  "project.collections.none-found": {
+    "message": "找不到收藏。"
+  },
+  "project.description.title": {
+    "message": "描述"
+  },
+  "project.details.licensed": {
+    "message": "授權條款"
+  },
+  "project.download.game-version": {
+    "message": "遊戲版本：{version}"
+  },
+  "project.download.game-version-error": {
+    "message": "錯誤：找不到適合的遊戲版本"
+  },
+  "project.download.game-version-tooltip": {
+    "message": "{title} 僅適用於 {version}"
+  },
+  "project.download.game-version-unsupported-tooltip": {
+    "message": "{title} 不支援 {platform} {gameVersion}"
+  },
+  "project.download.install-with-app": {
+    "message": "使用 Icarus Launcher 安裝"
+  },
+  "project.download.no-app": {
+    "message": "還沒有 Icarus Launcher 嗎？"
+  },
+  "project.download.no-versions-available": {
+    "message": "{platform} {gameVersion} 沒有可用的版本。"
+  },
+  "project.download.platform": {
+    "message": "平臺：{platform}"
+  },
+  "project.download.platform-error": {
+    "message": "錯誤：找不到平臺"
+  },
+  "project.download.platform-tooltip": {
+    "message": "{title} 僅適用於 {platform}"
+  },
+  "project.download.platform-unsupported-tooltip": {
+    "message": "{title} 不支援 {platform} {gameVersion}"
+  },
+  "project.download.search-game-versions": {
+    "message": "搜尋遊戲版本..."
+  },
+  "project.download.search-game-versions-label": {
+    "message": "搜尋遊戲版本..."
+  },
+  "project.download.select-game-version": {
+    "message": "搜尋遊戲版本"
+  },
+  "project.download.select-platform": {
+    "message": "選擇平臺"
+  },
+  "project.download.show-all-versions": {
+    "message": "顯示所有版本"
+  },
+  "project.download.title": {
+    "message": "下載 {title}"
+  },
+  "project.environment.migration-no-permission.message": {
+    "message": "我們剛剛對 Icarus 的執行環境系統進行了全面更新，並提供了新的選項。你沒有權限修改這些設定，請通知專案中的其他成員以確定環境詮釋資料否正確。"
+  },
+  "project.environment.migration-no-permission.title": {
+    "message": "環境詮釋資料需要審查"
+  },
+  "project.environment.migration.learn-more": {
+    "message": "深入了解這項變更"
+  },
+  "project.environment.migration.message": {
+    "message": "我們剛剛對 Icarus 的執行環境系統進行了全面更新，並提供了新的選項。請確定詮釋資料是否正確。"
+  },
+  "project.environment.migration.review-button": {
+    "message": "審查執行環境設定"
+  },
+  "project.environment.migration.title": {
+    "message": "請審查環境詮釋資料"
+  },
+  "project.error.loading": {
+    "message": "載入專案資料時發生錯誤{message}"
+  },
+  "project.error.page-not-found": {
+    "message": "找不到頁面"
+  },
+  "project.error.project-not-found": {
+    "message": "找不到專案"
+  },
+  "project.gallery.title": {
+    "message": "圖庫"
+  },
+  "project.license.error": {
+    "message": "取得授權條款文字內容時發生錯誤。"
+  },
+  "project.license.loading": {
+    "message": "正在載入授權條款文字..."
+  },
+  "project.license.title": {
+    "message": "授權條款"
+  },
+  "project.moderation.title": {
+    "message": "審查"
+  },
+  "project.navigation.changelog": {
+    "message": "更新日誌"
+  },
+  "project.notification.icon-updated.message": {
+    "message": "你的專案的圖示已更新。"
+  },
+  "project.notification.icon-updated.title": {
+    "message": "專案圖示已更新"
+  },
+  "project.notification.updated.message": {
+    "message": "你的專案已更新。"
+  },
+  "project.notification.updated.title": {
+    "message": "專案已更新"
+  },
+  "project.settings.general.name.description": {
+    "message": "請避免使用前綴、後綴、括弧內容或額外描述，僅填寫專案的實際名稱。"
+  },
+  "project.settings.general.name.placeholder.1": {
+    "message": "例如：Nether Overhaul 2"
+  },
+  "project.settings.general.name.placeholder.2": {
+    "message": "例如：Construction Equipment"
+  },
+  "project.settings.general.name.placeholder.3": {
+    "message": "例如：Better than Caving"
+  },
+  "project.settings.general.name.placeholder.4": {
+    "message": "例如：Enhanced Portals"
+  },
+  "project.settings.general.name.placeholder.5": {
+    "message": "例如：Dangerous Mobs"
+  },
+  "project.settings.general.name.title": {
+    "message": "名稱"
+  },
+  "project.settings.general.tagline.description": {
+    "message": "用一句話總結你的專案。"
+  },
+  "project.settings.general.tagline.placeholder.1": {
+    "message": "例如：Overhauls game progression to revolve around the Nether."
+  },
+  "project.settings.general.tagline.placeholder.2": {
+    "message": "例如：Adds wearable construction gear."
+  },
+  "project.settings.general.tagline.placeholder.3": {
+    "message": "例如：Adds realistic mineshaft-building mechanics."
+  },
+  "project.settings.general.tagline.placeholder.4": {
+    "message": "例如：Improves how Nether portals link to each other."
+  },
+  "project.settings.general.tagline.placeholder.5": {
+    "message": "例如：Adds powerful boss versions of the normal mobs to encounter in the night."
+  },
+  "project.settings.general.tagline.title": {
+    "message": "標語"
+  },
+  "project.settings.general.url.title": {
+    "message": "網址"
+  },
+  "project.settings.title": {
+    "message": "設定"
+  },
+  "project.settings.visit-dashboard": {
+    "message": "前往專案資訊主頁"
+  },
+  "project.stats.downloads-label": {
+    "message": "次下載"
+  },
+  "project.stats.followers-label": {
+    "message": "位追蹤者"
+  },
+  "project.status.archived.message": {
+    "message": "{title} 已封存。{title} 將不會再收到任何後續更新，除非作者決定解除封存該專案。"
+  },
+  "project.versions.title": {
+    "message": "版本"
+  },
+  "report.already-reported": {
+    "message": "你已檢舉 {title}"
+  },
+  "report.already-reported-description": {
+    "message": "你已經針對這個{item, select, project {專案} version {版本} user {使用者} other {內容}}提交過檢舉報告。如果你有更多資訊，可以為該報告補充詳細說明。"
+  },
+  "report.back-to-item": {
+    "message": "返回{item, select, project {專案} version {版本} user {使用者} other {內容}}"
+  },
+  "report.body.description": {
+    "message": "若可行且相關，請一併附上連結與圖片。空白或資訊不足的檢舉將會被關閉且不予處理。"
+  },
+  "report.body.title": {
+    "message": "請提供檢舉的更多背景資訊"
+  },
+  "report.checking": {
+    "message": "正在檢查{item, select, project {專案} version {版本} user {使用者} other {內容}}..."
+  },
+  "report.could-not-find": {
+    "message": "找不到{item, select, project {專案} version {版本} user {使用者} other {內容}}"
+  },
+  "report.for.violation": {
+    "message": "違反 Icarus《<rules-link>內容規範</rules-link>》或《<terms-link>使用條款</terms-link>》"
+  },
+  "report.for.violation.description": {
+    "message": "範例包括惡意內容、垃圾內容、冒犯性內容、欺騙性內容、誤導性及違法內容。"
+  },
+  "report.form-not-for": {
+    "message": "這個表單不適用於："
+  },
+  "report.go-to-report": {
+    "message": "前往檢舉"
+  },
+  "report.not-for.bug-reports": {
+    "message": "錯誤報告"
+  },
+  "report.not-for.bug-reports.description": {
+    "message": "你可以將錯誤回報至他們的<issues-link>議題追蹤器</issues-link>。"
+  },
+  "report.not-for.dmca": {
+    "message": "DMCA 下架"
+  },
+  "report.not-for.dmca.description": {
+    "message": "請參閱我們的《<policy-link>著作權政策</policy-link>》。"
+  },
+  "report.note.copyright.1": {
+    "message": "請注意，你並「非」提交 DMCA 下架要求，而是針對重新上傳內容進行檢舉。"
+  },
+  "report.note.copyright.2": {
+    "message": "如果你原本打算提交 DMCA 下架要求（此為法律行動），則請參閱我們的《<copyright-policy-link>著作權政策</copyright-policy-link>》。"
+  },
+  "report.note.malicious.1": {
+    "message": "針對惡意或欺騙性內容的檢舉，必須附上該行為的實質證據，例如程式碼樣本。"
+  },
+  "report.note.malicious.2": {
+    "message": "Microsoft Defender、VirusTotal 或 AI 惡意軟體偵測的摘要，不構成充分證據，且將不予採納。"
+  },
+  "report.please-report": {
+    "message": "請檢舉："
+  },
+  "report.question.content-id": {
+    "message": "該{item, select, project {專案} version {版本} user {使用者} other {內容}}的 ID 是什麼？"
+  },
+  "report.question.content-type": {
+    "message": "你要檢舉什麼類型的內容？"
+  },
+  "report.question.report-reason": {
+    "message": "這個{item, select, project {專案} version {版本} user {使用者} other {內容}}違反了 Icarus 的哪項規範？"
+  },
+  "report.report-content": {
+    "message": "向管理員檢舉內容"
+  },
+  "report.report-item": {
+    "message": "向管理員檢舉 {title}"
+  },
+  "report.submit": {
+    "message": "提交檢舉"
+  },
+  "scopes.analytics.description": {
+    "message": "存取你的分析資料"
+  },
+  "scopes.analytics.label": {
+    "message": "讀取數據分析"
+  },
+  "scopes.category.analytics": {
+    "message": "數據分析"
+  },
+  "scopes.category.collections": {
+    "message": "收藏"
+  },
+  "scopes.category.notifications": {
+    "message": "通知"
+  },
+  "scopes.category.organizations": {
+    "message": "組織"
+  },
+  "scopes.category.pats": {
+    "message": "個人存取權杖"
+  },
+  "scopes.category.payouts": {
+    "message": "撥款"
+  },
+  "scopes.category.projects": {
+    "message": "專案"
+  },
+  "scopes.category.reports": {
+    "message": "檢舉"
+  },
+  "scopes.category.sessions": {
+    "message": "工作階段"
+  },
+  "scopes.category.threads": {
+    "message": "討論串"
+  },
+  "scopes.category.user-account": {
+    "message": "使用者帳號"
+  },
+  "scopes.category.versions": {
+    "message": "版本"
+  },
+  "scopes.collectionCreate.description": {
+    "message": "建立收藏"
+  },
+  "scopes.collectionCreate.label": {
+    "message": "建立收藏"
+  },
+  "scopes.collectionDelete.description": {
+    "message": "刪除收藏"
+  },
+  "scopes.collectionDelete.label": {
+    "message": "刪除收藏"
+  },
+  "scopes.collectionRead.description": {
+    "message": "讀取收藏"
+  },
+  "scopes.collectionRead.label": {
+    "message": "讀取收藏"
+  },
+  "scopes.collectionWrite.description": {
+    "message": "寫入收藏"
+  },
+  "scopes.collectionWrite.label": {
+    "message": "寫入收藏"
+  },
+  "scopes.notificationRead.description": {
+    "message": "讀取你的通知"
+  },
+  "scopes.notificationRead.label": {
+    "message": "讀取通知"
+  },
+  "scopes.notificationWrite.description": {
+    "message": "查看及刪除你的通知"
+  },
+  "scopes.notificationWrite.label": {
+    "message": "寫入通知"
+  },
+  "scopes.organizationCreate.description": {
+    "message": "建立組織"
+  },
+  "scopes.organizationCreate.label": {
+    "message": "建立組織"
+  },
+  "scopes.organizationDelete.description": {
+    "message": "刪除組織"
+  },
+  "scopes.organizationDelete.label": {
+    "message": "刪除組織"
+  },
+  "scopes.organizationRead.description": {
+    "message": "讀取組織"
+  },
+  "scopes.organizationRead.label": {
+    "message": "讀取組織"
+  },
+  "scopes.organizationWrite.description": {
+    "message": "寫入組織"
+  },
+  "scopes.organizationWrite.label": {
+    "message": "寫入組織"
+  },
+  "scopes.patCreate.description": {
+    "message": "建立個人 API 權杖"
+  },
+  "scopes.patCreate.label": {
+    "message": "建立個人存取權杖"
+  },
+  "scopes.patDelete.description": {
+    "message": "刪除你的個人 API 權杖"
+  },
+  "scopes.patDelete.label": {
+    "message": "刪除個人存取權杖"
+  },
+  "scopes.patRead.description": {
+    "message": "檢視已建立的 API 權杖"
+  },
+  "scopes.patRead.label": {
+    "message": "讀取個人存取權杖"
+  },
+  "scopes.patWrite.description": {
+    "message": "編輯個人 API 權杖"
+  },
+  "scopes.patWrite.label": {
+    "message": "寫入個人存取權杖"
+  },
+  "scopes.payoutsRead.description": {
+    "message": "讀取你的撥款資料"
+  },
+  "scopes.payoutsRead.label": {
+    "message": "讀取撥款資料"
+  },
+  "scopes.payoutsWrite.description": {
+    "message": "提領"
+  },
+  "scopes.payoutsWrite.label": {
+    "message": "寫入撥款資料"
+  },
+  "scopes.performAnalytics.description": {
+    "message": "執行數據分析動作"
+  },
+  "scopes.performAnalytics.label": {
+    "message": "執行數據分析"
+  },
+  "scopes.projectCreate.description": {
+    "message": "建立新專案"
+  },
+  "scopes.projectCreate.label": {
+    "message": "建立專案"
+  },
+  "scopes.projectDelete.description": {
+    "message": "刪除你的專案"
+  },
+  "scopes.projectDelete.label": {
+    "message": "刪除專案"
+  },
+  "scopes.projectRead.description": {
+    "message": "讀取你的所有專案"
+  },
+  "scopes.projectRead.label": {
+    "message": "讀取專案"
+  },
+  "scopes.projectWrite.description": {
+    "message": "寫入專案資料"
+  },
+  "scopes.projectWrite.label": {
+    "message": "寫入專案"
+  },
+  "scopes.reportCreate.description": {
+    "message": "建立檢舉"
+  },
+  "scopes.reportCreate.label": {
+    "message": "建立檢舉"
+  },
+  "scopes.reportDelete.description": {
+    "message": "刪除檢舉"
+  },
+  "scopes.reportDelete.label": {
+    "message": "刪除檢舉"
+  },
+  "scopes.reportRead.description": {
+    "message": "讀取檢舉"
+  },
+  "scopes.reportRead.label": {
+    "message": "讀取檢舉"
+  },
+  "scopes.reportWrite.description": {
+    "message": "編輯檢舉"
+  },
+  "scopes.reportWrite.label": {
+    "message": "寫入檢舉"
+  },
+  "scopes.sessionAccess.description": {
+    "message": "存取由 Icarus 提供的工作階段"
+  },
+  "scopes.sessionAccess.label": {
+    "message": "存取工作階段"
+  },
+  "scopes.sessionDelete.description": {
+    "message": "刪除工作階段"
+  },
+  "scopes.sessionDelete.label": {
+    "message": "刪除工作階段"
+  },
+  "scopes.sessionRead.description": {
+    "message": "讀取活躍工作階段"
+  },
+  "scopes.sessionRead.label": {
+    "message": "讀取工作階段"
+  },
+  "scopes.threadRead.description": {
+    "message": "讀取討論串"
+  },
+  "scopes.threadRead.label": {
+    "message": "讀取討論串"
+  },
+  "scopes.threadWrite.description": {
+    "message": "寫入討論串"
+  },
+  "scopes.threadWrite.label": {
+    "message": "寫入討論串"
+  },
+  "scopes.userAuthWrite.description": {
+    "message": "修改你的驗證資料"
+  },
+  "scopes.userAuthWrite.label": {
+    "message": "寫入驗證資料"
+  },
+  "scopes.userDelete.description": {
+    "message": "刪除你的帳號"
+  },
+  "scopes.userDelete.label": {
+    "message": "刪除你的帳號"
+  },
+  "scopes.userRead.description": {
+    "message": "存取你的個人檔案公開資訊"
+  },
+  "scopes.userRead.label": {
+    "message": "讀取使用者資料"
+  },
+  "scopes.userReadEmail.description": {
+    "message": "讀取你的電子郵件地址"
+  },
+  "scopes.userReadEmail.label": {
+    "message": "讀取使用者電子郵件地址"
+  },
+  "scopes.userWrite.description": {
+    "message": "寫入你的個人檔案"
+  },
+  "scopes.userWrite.label": {
+    "message": "寫入使用者資料"
+  },
+  "scopes.versionCreate.description": {
+    "message": "建立新版本"
+  },
+  "scopes.versionCreate.label": {
+    "message": "建立版本"
+  },
+  "scopes.versionDelete.description": {
+    "message": "刪除一個版本"
+  },
+  "scopes.versionDelete.label": {
+    "message": "刪除版本"
+  },
+  "scopes.versionRead.description": {
+    "message": "讀取所有版本"
+  },
+  "scopes.versionRead.label": {
+    "message": "讀取版本"
+  },
+  "scopes.versionWrite.description": {
+    "message": "寫入版本資料"
+  },
+  "scopes.versionWrite.label": {
+    "message": "寫入版本"
+  },
+  "search.filter.game-version-shader-message": {
+    "message": "舊版本的光影包很有可能可以在新版本上運作，且通常只會發生些微的小問題。"
+  },
+  "search.filter.locked.server": {
+    "message": "由該伺服器提供"
+  },
+  "search.filter.locked.server-game-version.title": {
+    "message": "遊戲版本由伺服器提供"
+  },
+  "search.filter.locked.server-loader.title": {
+    "message": "載入器由伺服器提供"
+  },
+  "search.filter.locked.server.sync": {
+    "message": "與伺服器同步"
+  },
+  "servers.notice.actions": {
+    "message": "動作"
+  },
+  "servers.notice.begins": {
+    "message": "開始時間"
+  },
+  "servers.notice.dismissable": {
+    "message": "可關閉"
+  },
+  "servers.notice.expires": {
+    "message": "到期日"
+  },
+  "servers.notice.id": {
+    "message": "ID"
+  },
+  "servers.notice.level": {
+    "message": "等級"
+  },
+  "servers.notice.undismissable": {
+    "message": "不可關閉"
+  },
+  "servers.notices.create-notice": {
+    "message": "建立通知"
+  },
+  "servers.notices.no-notices": {
+    "message": "無通知"
+  },
+  "servers.plan.large.description": {
+    "message": "適合 15 到 25 位玩家、大型模組包或重度模組環境。"
+  },
+  "servers.plan.medium.description": {
+    "message": "適合 6 到 15 位玩家及多個模組。"
+  },
+  "servers.plan.small.description": {
+    "message": "適合 1 到 5 位好友及少量輕量模組。"
+  },
+  "settings.account.button.complete-setup": {
+    "message": "完成設定"
+  },
+  "settings.account.data-export.action.download": {
+    "message": "下載匯出"
+  },
+  "settings.account.data-export.action.generate": {
+    "message": "生成匯出"
+  },
+  "settings.account.data-export.action.generating": {
+    "message": "正在生成匯出..."
+  },
+  "settings.account.data-export.description": {
+    "message": "申請你上傳至 Icarus 的所有個人資料複本。此程序可能需要幾分鐘的時間才能完成。"
+  },
+  "settings.account.data-export.title": {
+    "message": "資料匯出"
+  },
+  "settings.account.delete.confirm.description": {
+    "message": "這個動作將會**立即刪除您的所有使用者資料與追蹤清單**。這不會刪除你的專案。帳號刪除後將無法還原。<br><br>若你需要帳號相關協助，請至 [Icarus Discord](https://discord.Icarus.com) 取得支援。"
+  },
+  "settings.account.delete.confirm.proceed": {
+    "message": "刪除這個帳號"
+  },
+  "settings.account.delete.confirm.title": {
+    "message": "你確定要刪除你的帳號嗎？"
+  },
+  "settings.account.delete.section.action": {
+    "message": "刪除帳號"
+  },
+  "settings.account.delete.section.description": {
+    "message": "一旦刪除帳號，將無法復原。刪除帳號後，除了專案以外，所有關聯資料都將從我們的伺服器中移除。"
+  },
+  "settings.account.delete.section.title": {
+    "message": "刪除帳號"
+  },
+  "settings.account.email.action.save": {
+    "message": "儲存電子郵件"
+  },
+  "settings.account.email.field.label": {
+    "message": "電子郵件地址"
+  },
+  "settings.account.email.field.placeholder": {
+    "message": "輸入你的電子郵件地址..."
+  },
+  "settings.account.email.modal.header.add": {
+    "message": "新增電子郵件"
+  },
+  "settings.account.email.modal.header.change": {
+    "message": "變更電子郵件"
+  },
+  "settings.account.email.modal.notice": {
+    "message": "你的帳號資訊不會公開顯示。"
+  },
+  "settings.account.password.action.remove": {
+    "message": "移除密碼"
+  },
+  "settings.account.password.action.save": {
+    "message": "儲存"
+  },
+  "settings.account.password.error.mismatch": {
+    "message": "輸入的密碼不相符！"
+  },
+  "settings.account.password.field.confirm-current.description": {
+    "message": "請輸入你的密碼以繼續。"
+  },
+  "settings.account.password.field.confirm-current.label": {
+    "message": "確認密碼"
+  },
+  "settings.account.password.field.confirm-current.placeholder": {
+    "message": "確認密碼"
+  },
+  "settings.account.password.field.confirm-new.label": {
+    "message": "確認新密碼"
+  },
+  "settings.account.password.field.confirm-new.placeholder": {
+    "message": "確認新密碼"
+  },
+  "settings.account.password.field.new.label": {
+    "message": "新密碼"
+  },
+  "settings.account.password.field.new.placeholder": {
+    "message": "新密碼"
+  },
+  "settings.account.password.field.old.label": {
+    "message": "舊密碼"
+  },
+  "settings.account.password.field.old.placeholder": {
+    "message": "舊密碼"
+  },
+  "settings.account.password.modal.header.add": {
+    "message": "新增密碼"
+  },
+  "settings.account.password.modal.header.change": {
+    "message": "變更密碼"
+  },
+  "settings.account.password.modal.header.remove": {
+    "message": "移除密碼"
+  },
+  "settings.account.providers.action.add": {
+    "message": "新增"
+  },
+  "settings.account.providers.modal.header": {
+    "message": "驗證提供商"
+  },
+  "settings.account.providers.table.actions": {
+    "message": "動作"
+  },
+  "settings.account.providers.table.provider": {
+    "message": "提供商"
+  },
+  "settings.account.security.email.action.add": {
+    "message": "新增電子郵件"
+  },
+  "settings.account.security.email.action.change": {
+    "message": "變更電子郵件"
+  },
+  "settings.account.security.email.description": {
+    "message": "變更與你帳號相關聯的電子郵件。"
+  },
+  "settings.account.security.email.title": {
+    "message": "電子郵件"
+  },
+  "settings.account.security.password.action.add": {
+    "message": "新增密碼"
+  },
+  "settings.account.security.password.action.change": {
+    "message": "變更密碼"
+  },
+  "settings.account.security.password.description.change": {
+    "message": "變更用於登入你帳號的密碼。"
+  },
+  "settings.account.security.password.description.change-or-remove": {
+    "message": "變更或移除用於登入你帳號的密碼。"
+  },
+  "settings.account.security.password.description.set": {
+    "message": "請設定永久密碼，以便登入你的帳號。"
+  },
+  "settings.account.security.password.title": {
+    "message": "密碼"
+  },
+  "settings.account.security.providers.action.manage": {
+    "message": "管理登入提供商"
+  },
+  "settings.account.security.providers.description": {
+    "message": "從你的帳號新增或移除登入方式，包括 GitHub、GitLab、Microsoft、Discord、Steam 以及 Google。"
+  },
+  "settings.account.security.providers.title": {
+    "message": "管理驗證提供商"
+  },
+  "settings.account.security.title": {
+    "message": "帳號安全性"
+  },
+  "settings.account.security.two-factor.action.remove": {
+    "message": "移除 2FA"
+  },
+  "settings.account.security.two-factor.action.setup": {
+    "message": "設定 2FA"
+  },
+  "settings.account.security.two-factor.description": {
+    "message": "為你的帳號登入程序增加額外的安全防護。"
+  },
+  "settings.account.security.two-factor.title": {
+    "message": "雙重驗證"
+  },
+  "settings.account.two-factor.backup.intro": {
+    "message": "請下載這些備用碼並將其儲存在安全的地方。若你失去裝置的存取權，可以使用這些備用碼替代 2FA 驗證碼！請務必像保護密碼一樣妥善保管這些代碼。"
+  },
+  "settings.account.two-factor.backup.single-use": {
+    "message": "備份碼只能使用一次。"
+  },
+  "settings.account.two-factor.error.incorrect-code": {
+    "message": "輸入的驗證碼不正確！"
+  },
+  "settings.account.two-factor.field.code.description": {
+    "message": "請輸入兩步驟驗證碼以繼續。"
+  },
+  "settings.account.two-factor.field.code.label": {
+    "message": "輸入雙重驗證碼"
+  },
+  "settings.account.two-factor.field.code.placeholder": {
+    "message": "輸入驗證碼..."
+  },
+  "settings.account.two-factor.setup.intro": {
+    "message": "雙重驗證要求必須使用第二部裝置才能登入，藉此確保你的帳號安全性。"
+  },
+  "settings.account.two-factor.setup.manual-secret": {
+    "message": "如果無法掃描 QR code，你可以手動輸入金鑰："
+  },
+  "settings.account.two-factor.setup.scan": {
+    "message": "請使用 <authy-link>Authy</authy-link>、<microsoft-authenticator-link>Microsoft Authenticator</microsoft-authenticator-link> 或任何其他兩步驟驗證 (2FA) 應用程式掃描 QR 碼以開始。"
+  },
+  "settings.account.two-factor.verify.description": {
+    "message": "請輸入驗證程式中的一次性驗證碼以驗證存取權。"
+  },
+  "settings.account.two-factor.verify.label": {
+    "message": "驗證碼"
+  },
+  "settings.applications.about": {
+    "message": "關於"
+  },
+  "settings.applications.button.add-more": {
+    "message": "新增更多"
+  },
+  "settings.applications.button.add-redirect-uri": {
+    "message": "新增重新導向 URI"
+  },
+  "settings.applications.button.cancel": {
+    "message": "取消"
+  },
+  "settings.applications.button.create": {
+    "message": "建立應用程式"
+  },
+  "settings.applications.button.delete": {
+    "message": "刪除"
+  },
+  "settings.applications.button.edit": {
+    "message": "編輯"
+  },
+  "settings.applications.button.new": {
+    "message": "新的應用程式"
+  },
+  "settings.applications.button.save-changes": {
+    "message": "儲存變更"
+  },
+  "settings.applications.button.upload-icon": {
+    "message": "上傳圖示"
+  },
+  "settings.applications.client-id": {
+    "message": "用戶端 ID"
+  },
+  "settings.applications.client-secret": {
+    "message": "用戶端密碼"
+  },
+  "settings.applications.created-on": {
+    "message": "建立時間：{date}"
+  },
+  "settings.applications.delete.confirm.button": {
+    "message": "刪除這個應用程式"
+  },
+  "settings.applications.delete.confirm.description": {
+    "message": "這將永久刪除這個應用程式並撤銷所有存取權杖。（永遠！）"
+  },
+  "settings.applications.delete.confirm.title": {
+    "message": "你確定要刪除這個應用程式？"
+  },
+  "settings.applications.description.intro": {
+    "message": "應用程式可用於在你的產品中驗證 Icarus 使用者的身分。如需更多資訊，請參閱 <docs-link>Icarus 的 API 文件</docs-link>。"
+  },
+  "settings.applications.field.description": {
+    "message": "描述"
+  },
+  "settings.applications.field.description.placeholder": {
+    "message": "輸入應用程式的描述..."
+  },
+  "settings.applications.field.icon": {
+    "message": "圖示"
+  },
+  "settings.applications.field.name": {
+    "message": "名稱"
+  },
+  "settings.applications.field.name.placeholder": {
+    "message": "輸入應用程式的名稱..."
+  },
+  "settings.applications.field.redirect-uri.placeholder": {
+    "message": "https://example.com/auth/callback"
+  },
+  "settings.applications.field.redirect-uris": {
+    "message": "重新導向 URI"
+  },
+  "settings.applications.field.scopes": {
+    "message": "權限範圍"
+  },
+  "settings.applications.field.url": {
+    "message": "網址"
+  },
+  "settings.applications.field.url.placeholder": {
+    "message": "https://example.com"
+  },
+  "settings.applications.head-title": {
+    "message": "應用程式"
+  },
+  "settings.applications.modal.header": {
+    "message": "應用程式資訊"
+  },
+  "settings.applications.notification.icon-updated.description": {
+    "message": "你的應用程式的圖示已更新。"
+  },
+  "settings.applications.notification.icon-updated.title": {
+    "message": "圖示已更新"
+  },
+  "settings.applications.secret.disclaimer": {
+    "message": "請立即儲存你的密碼，離開這個頁面後將不再顯示！"
+  },
+  "settings.authorizations.about-this-app": {
+    "message": "關於這個應用程式"
+  },
+  "settings.authorizations.by": {
+    "message": "作者"
+  },
+  "settings.authorizations.description": {
+    "message": "當你使用 Icarus 帳號授權應用程式時，即代表你授予該應用程式存取你帳戶的權限。你可以隨時在這裡管理並審查帳號的存取權。"
+  },
+  "settings.authorizations.empty-state": {
+    "message": "目前無法顯示你已授權的應用程式，我們正在努力修正這個問題。請稍後再回來查看！"
+  },
+  "settings.authorizations.head-title": {
+    "message": "授權"
+  },
+  "settings.authorizations.revoke.action": {
+    "message": "撤銷"
+  },
+  "settings.authorizations.revoke.confirm.description": {
+    "message": "這將撤銷該應用程式存取你帳號的權限。你隨時可以於稍後重新授權。"
+  },
+  "settings.authorizations.revoke.confirm.title": {
+    "message": "你確定要撤銷這個應用程式的授權嗎？"
+  },
+  "settings.billing.charges.description": {
+    "message": "你對 Icarus 帳號的所有過往支付紀錄皆會列於這裡："
+  },
+  "settings.billing.charges.product.medal-trial": {
+    "message": "Medal 伺服器試用方案"
+  },
+  "settings.billing.charges.product.midas": {
+    "message": "Icarus Plus"
+  },
+  "settings.billing.charges.product.pyro": {
+    "message": "Icarus Hosting"
+  },
+  "settings.billing.charges.title": {
+    "message": "過往支付紀錄"
+  },
+  "settings.billing.expires": {
+    "message": "到期日：{date}"
+  },
+  "settings.billing.interval.month": {
+    "message": "月"
+  },
+  "settings.billing.interval.monthly": {
+    "message": "每月"
+  },
+  "settings.billing.interval.quarter": {
+    "message": "季"
+  },
+  "settings.billing.interval.quarterly.adjective": {
+    "message": "每季"
+  },
+  "settings.billing.interval.year": {
+    "message": "年"
+  },
+  "settings.billing.interval.yearly": {
+    "message": "每年"
+  },
+  "settings.billing.midas.benefits.ad-free": {
+    "message": "在 Icarus.com 與 Icarus Launcher 上享受無廣告的瀏覽體驗"
+  },
+  "settings.billing.midas.benefits.badge": {
+    "message": "在你的個人檔案顯示 Icarus+ 徽章"
+  },
+  "settings.billing.midas.benefits.support": {
+    "message": "直接支持 Icarus 與創作者"
+  },
+  "settings.billing.midas.benefits.title": {
+    "message": "福利"
+  },
+  "settings.billing.midas.save-per-year": {
+    "message": "改用年繳計費，每年現省 {amount}！"
+  },
+  "settings.billing.midas.status.cancelled.line1": {
+    "message": "你已取消訂閱。"
+  },
+  "settings.billing.midas.status.cancelled.line2": {
+    "message": "在目前計費週期結束前，你仍可繼續享有福利。"
+  },
+  "settings.billing.midas.status.failed": {
+    "message": "你的訂閱支付方式失敗。請更新你的支付方式。"
+  },
+  "settings.billing.midas.status.open": {
+    "message": "你目前訂閱的方案為："
+  },
+  "settings.billing.midas.status.processing": {
+    "message": "我們正在處理你的付款。一旦付款完成，系統將立即啟用你的福利。"
+  },
+  "settings.billing.midas.upsell": {
+    "message": "立即訂閱 Icarus Plus！"
+  },
+  "settings.billing.modal.cancel.action": {
+    "message": "取消訂閱"
+  },
+  "settings.billing.modal.cancel.description": {
+    "message": "這將取消你的訂閱。你將保留你的權益，直到本期計費週期結束。"
+  },
+  "settings.billing.modal.cancel.title": {
+    "message": "你確定要取消訂閱嗎？"
+  },
+  "settings.billing.modal.delete.action": {
+    "message": "移除這個付款方式"
+  },
+  "settings.billing.modal.delete.description": {
+    "message": "這將會永遠移除這個付款方式（真的，再也回不去了）。"
+  },
+  "settings.billing.modal.delete.title": {
+    "message": "你確定要移除這個付款方式嗎？"
+  },
+  "settings.billing.next": {
+    "message": "下期："
+  },
+  "settings.billing.or-yearly-save": {
+    "message": "或以每年 {price} 訂閱（現省 {percent}%！）"
+  },
+  "settings.billing.payment_method.action.add": {
+    "message": "新增付款方式"
+  },
+  "settings.billing.payment_method.action.history": {
+    "message": "查看交易紀錄"
+  },
+  "settings.billing.payment_method.action.primary": {
+    "message": "設為主要付款方式"
+  },
+  "settings.billing.payment_method.card_expiry": {
+    "message": "到期日 {month}/{year}"
+  },
+  "settings.billing.payment_method.none": {
+    "message": "你尚未新增任何付款方式。"
+  },
+  "settings.billing.payment_method.primary": {
+    "message": "主要"
+  },
+  "settings.billing.payment_method.title": {
+    "message": "付款方式"
+  },
+  "settings.billing.plan.title": {
+    "message": "{size}方案"
+  },
+  "settings.billing.price.per-interval": {
+    "message": "{price} / {interval}"
+  },
+  "settings.billing.price.slash-interval": {
+    "message": "/{interval}"
+  },
+  "settings.billing.pyro.cpu": {
+    "message": "{shared} 個共用 CPU（最高可爆發至 {bursts} 個 CPU）"
+  },
+  "settings.billing.pyro.linked-server.not-found": {
+    "message": "找不到與這個訂閱相關聯的伺服器。這可能有幾種原因：如果你才剛購買伺服器，這屬於正常現象，伺服器的佈署過程最多可能需要一小時。若你已購買一段時間，則伺服器可能已被停用。如果這與你的預期不符，請將以下資訊提供給 Icarus 客服團隊："
+  },
+  "settings.billing.pyro.linked-server.server-id": {
+    "message": "伺服器 ID：{id}"
+  },
+  "settings.billing.pyro.linked-server.stripe-id": {
+    "message": "Stripe ID：{id}"
+  },
+  "settings.billing.pyro.ram": {
+    "message": "{gb} GB 記憶體"
+  },
+  "settings.billing.pyro.resubscribe.error.text": {
+    "message": "重新訂閱你的 Icarus 伺服器時發生錯誤。"
+  },
+  "settings.billing.pyro.resubscribe.error.title": {
+    "message": "重新訂閱時發生錯誤"
+  },
+  "settings.billing.pyro.resubscribe.request-submitted.text": {
+    "message": "若伺服器目前處於取消狀態，可能需要 10 至 15 分鐘來完成伺服器設定。"
+  },
+  "settings.billing.pyro.resubscribe.request-submitted.title": {
+    "message": "已送出重新訂閱請求"
+  },
+  "settings.billing.pyro.resubscribe.success.text": {
+    "message": "伺服器方案已重新訂閱成功"
+  },
+  "settings.billing.pyro.status.failed": {
+    "message": "你的訂閱扣款失敗。請更新你的付款方式，然後重新訂閱。"
+  },
+  "settings.billing.pyro.status.processing": {
+    "message": "你的付款正在處理中。完成付款後，系統將立即啟用你的伺服器。"
+  },
+  "settings.billing.pyro.storage": {
+    "message": "{gb} GB SSD"
+  },
+  "settings.billing.pyro.swap": {
+    "message": "{gb} GB 置換空間"
+  },
+  "settings.billing.pyro_subscription.description": {
+    "message": "管理你的 Icarus 伺服器訂閱。"
+  },
+  "settings.billing.pyro_subscription.title": {
+    "message": "Icarus 伺服器訂閱"
+  },
+  "settings.billing.renews": {
+    "message": "將於{date}續訂"
+  },
+  "settings.billing.resubscribe": {
+    "message": "重新訂閱"
+  },
+  "settings.billing.since": {
+    "message": "自{date}起"
+  },
+  "settings.billing.subscribe": {
+    "message": "訂閱"
+  },
+  "settings.billing.subscription.description": {
+    "message": "管理你的 Icarus 訂閱。"
+  },
+  "settings.billing.subscription.title": {
+    "message": "訂閱"
+  },
+  "settings.billing.switch.switching-to-interval": {
+    "message": "正在切換至{interval}計費"
+  },
+  "settings.billing.switch.to-interval": {
+    "message": "切換至{interval}計費"
+  },
+  "settings.billing.switch.tooltip.monthly-additional-per-year": {
+    "message": "每月帳單將額外收取 {amount}／年"
+  },
+  "settings.billing.switches-to-billing-on": {
+    "message": "於 {date} 轉換為 {interval} 付款週期"
+  },
+  "settings.billing.update-method": {
+    "message": "更新方式"
+  },
+  "settings.billing.upgrade": {
+    "message": "升級"
+  },
+  "settings.display.banner.developer-mode.button": {
+    "message": "停用開發人員模式"
+  },
+  "settings.display.banner.developer-mode.description": {
+    "message": "開發人員模式<strong>已啟用</strong>。這個模式可以讓你查看 Icarus 各項內容的內部 ID，如果你是使用 Icarus API 的開發人員，這項功能可能會對你有所幫助。按 5 次頁面底部的 Icarus 標誌即可切換開發人員模式。"
+  },
+  "settings.display.flags.description": {
+    "message": "針對這部裝置，設定要啟用或停用的特定功能。"
+  },
+  "settings.display.flags.title": {
+    "message": "功能開關"
+  },
+  "settings.display.notification.developer-mode-deactivated.text": {
+    "message": "開發者模式已被停用"
+  },
+  "settings.display.notification.developer-mode-deactivated.title": {
+    "message": "開發者模式已停用"
+  },
+  "settings.display.project-list-layouts.datapack": {
+    "message": "資料包頁面"
+  },
+  "settings.display.project-list-layouts.description": {
+    "message": "依你偏好，設定這部裝置的專案清單版面配置。"
+  },
+  "settings.display.project-list-layouts.mod": {
+    "message": "模組頁面"
+  },
+  "settings.display.project-list-layouts.mode.gallery": {
+    "message": "圖庫"
+  },
+  "settings.display.project-list-layouts.mode.grid": {
+    "message": "網格"
+  },
+  "settings.display.project-list-layouts.mode.rows": {
+    "message": "列"
+  },
+  "settings.display.project-list-layouts.modpack": {
+    "message": "模組包頁面"
+  },
+  "settings.display.project-list-layouts.plugin": {
+    "message": "插件頁面"
+  },
+  "settings.display.project-list-layouts.resourcepack": {
+    "message": "資源包頁面"
+  },
+  "settings.display.project-list-layouts.server": {
+    "message": "伺服器頁面"
+  },
+  "settings.display.project-list-layouts.shader": {
+    "message": "光影包頁面"
+  },
+  "settings.display.project-list-layouts.title": {
+    "message": "專案清單版面配置"
+  },
+  "settings.display.project-list-layouts.user": {
+    "message": "使用者個人檔案頁面"
+  },
+  "settings.display.project-list.layouts.collection": {
+    "message": "收藏"
+  },
+  "settings.display.sidebar.advanced-rendering.description": {
+    "message": "啟用進階繪製（如模糊效果）；若無硬體加速可能會導致效能問題。"
+  },
+  "settings.display.sidebar.advanced-rendering.title": {
+    "message": "進階繪製"
+  },
+  "settings.display.sidebar.external-links-new-tab.description": {
+    "message": "在新分頁中開啟 Icarus 的外部連結。這項設定僅適用於外部連結，內部連結和 Markdown 說明中的連結仍會在同一個分頁中開啟，而廣告和編輯頁面的連結會在新分頁中開啟。"
+  },
+  "settings.display.sidebar.external-links-new-tab.title": {
+    "message": "在新分頁中開啟外部連結"
+  },
+  "settings.display.sidebar.hide-app-promos.description": {
+    "message": "在主導覽列中隱藏「下載 Icarus Launcher」按鈕。你仍可在登入頁面或頁尾找到 Icarus 應用程式頁面。"
+  },
+  "settings.display.sidebar.hide-app-promos.title": {
+    "message": "隱藏 Icarus Launcher 廣告"
+  },
+  "settings.display.sidebar.left-aligned-content-sidebar.title": {
+    "message": "內容頁面左側邊欄"
+  },
+  "settings.display.sidebar.right-aligned-content-sidebar.description": {
+    "message": "使側邊欄靠頁面內容左側對齊。"
+  },
+  "settings.display.sidebar.right-aligned-filters-sidebar.description": {
+    "message": "使篩選側邊欄靠搜尋結果右側對齊。"
+  },
+  "settings.display.sidebar.right-aligned-filters-sidebar.title": {
+    "message": "搜尋頁面右側篩選側邊欄"
+  },
+  "settings.display.theme.description": {
+    "message": "依照偏好，設定這部裝置的 Icarus 主題顏色。"
+  },
+  "settings.display.theme.title": {
+    "message": "色彩主題"
+  },
+  "settings.head-title": {
+    "message": "顯示設定"
+  },
+  "settings.pats.action.create": {
+    "message": "建立個人存取權杖"
+  },
+  "settings.pats.description": {
+    "message": "可用於存取 Icarus 的 API。你可以隨時建立或撤銷。欲了解更多資訊，請參閱 <doc-link>Icarus API 文件</doc-link>。"
+  },
+  "settings.pats.modal.create.action": {
+    "message": "建立個人存取權杖"
+  },
+  "settings.pats.modal.create.expires.label": {
+    "message": "到期日"
+  },
+  "settings.pats.modal.create.name.label": {
+    "message": "名稱"
+  },
+  "settings.pats.modal.create.name.placeholder": {
+    "message": "輸入個人存取權杖的名稱..."
+  },
+  "settings.pats.modal.create.title": {
+    "message": "建立個人存取權杖"
+  },
+  "settings.pats.modal.delete.action": {
+    "message": "刪除這個權杖"
+  },
+  "settings.pats.modal.delete.description": {
+    "message": "這將會永遠移除這個權杖（真的，再也回不去了）。"
+  },
+  "settings.pats.modal.delete.title": {
+    "message": "你確定要刪除這個權杖嗎？"
+  },
+  "settings.pats.modal.edit.title": {
+    "message": "編輯個人存取權杖"
+  },
+  "settings.pats.token.action.edit": {
+    "message": "編輯權杖"
+  },
+  "settings.pats.token.action.revoke": {
+    "message": "撤銷權杖"
+  },
+  "settings.pats.token.expired-ago": {
+    "message": "已於 {ago}到期"
+  },
+  "settings.pats.token.expires-in": {
+    "message": "將於 {inTime} 到期"
+  },
+  "settings.pats.token.last-used": {
+    "message": "上次使用時間：{ago}"
+  },
+  "settings.pats.token.never-used": {
+    "message": "從未使用"
+  },
+  "settings.profile.bio.description": {
+    "message": "簡單介紹一下你自己。"
+  },
+  "settings.profile.bio.title": {
+    "message": "關於我"
+  },
+  "settings.profile.description": {
+    "message": "你的個人檔案資訊會公開顯示在 Icarus 上，並可透過 <docs-link>Icarus API</docs-link> 查詢。"
+  },
+  "settings.profile.head-title": {
+    "message": "個人設定"
+  },
+  "settings.profile.profile-info": {
+    "message": "個人檔案資訊"
+  },
+  "settings.profile.profile-picture.title": {
+    "message": "頭貼"
+  },
+  "settings.profile.username.description": {
+    "message": "獨特且不區分大小寫的名稱，用於識別你的個人檔案。"
+  },
+  "settings.sessions.action.revoke-session": {
+    "message": "撤銷工作階段"
+  },
+  "settings.sessions.created-ago": {
+    "message": "建立時間：{ago}"
+  },
+  "settings.sessions.current-session": {
+    "message": "目前的工作階段"
+  },
+  "settings.sessions.description": {
+    "message": "你目前已在下列裝置上登入 Icarus 帳號。你可以分別登出每部裝置。\n\n如果你對某部裝置沒有印象，請立即登出該裝置，並變更你的 Icarus 帳號密碼。"
+  },
+  "settings.sessions.last-accessed-ago": {
+    "message": "上次存取時間：{ago}"
+  },
+  "settings.sessions.unknown-os": {
+    "message": "未知的作業系統"
+  },
+  "settings.sessions.unknown-platform": {
+    "message": "未知的平臺"
+  },
+  "settings.sidebar.label.account": {
+    "message": "帳號"
+  },
+  "settings.sidebar.label.developer": {
+    "message": "開發人員"
+  },
+  "settings.sidebar.label.display": {
+    "message": "顯示"
+  },
+  "ui.latest-news-row.latest-news": {
+    "message": "Icarus 的最新消息"
+  },
+  "ui.latest-news-row.view-all": {
+    "message": "查看所有新聞"
+  },
+  "ui.newsletter-button.subscribe": {
+    "message": "訂閱"
+  },
+  "ui.newsletter-button.subscribed": {
+    "message": "已訂閱！"
+  },
+  "ui.newsletter-button.tooltip": {
+    "message": "訂閱 Icarus 的最新消息"
+  },
+  "version.environment.none.description": {
+    "message": "此版本的執行環境尚未指定。"
+  },
+  "version.environment.none.title": {
+    "message": "未設定執行環境"
+  },
+  "version.environment.unknown.description": {
+    "message": "執行環境：「{environment}」無法辨識。"
+  },
+  "version.environment.unknown.title": {
+    "message": "未知的執行環境"
+  }
+}
+

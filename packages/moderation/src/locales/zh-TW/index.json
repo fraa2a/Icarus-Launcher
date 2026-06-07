@@ -1,0 +1,253 @@
+{
+  "nags.add-description.description": {
+    "defaultMessage": "必須提供一段能清楚說明專案目的與功能的描述。"
+  },
+  "nags.add-description.title": {
+    "defaultMessage": "新增描述"
+  },
+  "nags.add-icon.description": {
+    "defaultMessage": "新增一個獨特、具代表性且吸引人的圖示，能提高專案的辨識度，並讓它脫穎而出。"
+  },
+  "nags.add-icon.title": {
+    "defaultMessage": "新增圖示"
+  },
+  "nags.add-java-address.description": {
+    "defaultMessage": "新增 Java 版玩家加入你的伺服器時使用的 IP 位址與連接埠。"
+  },
+  "nags.add-java-address.title": {
+    "defaultMessage": "新增 Java 位址"
+  },
+  "nags.add-links-server.description": {
+    "defaultMessage": "新增 Icarus 以外的任何相關連結，例如網站、商店或 Discord 邀請連結。"
+  },
+  "nags.add-links-server.title": {
+    "defaultMessage": "新增外部連結"
+  },
+  "nags.add-links.description": {
+    "defaultMessage": "新增任何與專案相關且指向 Icarus 以外的連結，例如原始碼、問題追蹤器或 Discord 邀請連結。"
+  },
+  "nags.add-links.title": {
+    "defaultMessage": "新增外部連結"
+  },
+  "nags.all-tags-selected.description": {
+    "defaultMessage": "你選擇了全部 {totalAvailableTags} 個可用標籤。這違背了標籤的初衷，標籤旨在幫助使用者找到相關專案。請僅選取與你的專案相關的標籤。"
+  },
+  "nags.all-tags-selected.title": {
+    "defaultMessage": "選擇精確的標籤"
+  },
+  "nags.description-too-short.description": {
+    "defaultMessage": "您的描述目前長度為 {length, plural, one {# 個可閱讀字元} other {# 個可閱讀字元}}。建議至少輸入 {minChars, plural, one {# 個字元} other {# 個字元}}，以建立清晰且資訊完整的描述。"
+  },
+  "nags.description-too-short.title": {
+    "defaultMessage": "擴展描述"
+  },
+  "nags.edit-description.title": {
+    "defaultMessage": "編輯描述"
+  },
+  "nags.edit-license.title": {
+    "defaultMessage": "編輯授權條款"
+  },
+  "nags.edit-summary.title": {
+    "defaultMessage": "編輯摘要"
+  },
+  "nags.edit-tags.title": {
+    "defaultMessage": "編輯標籤"
+  },
+  "nags.edit-title.title": {
+    "defaultMessage": "編輯標題"
+  },
+  "nags.feature-gallery-image.description": {
+    "defaultMessage": "精選圖庫圖片通常是你的專案給人留下第一印象的關鍵。"
+  },
+  "nags.feature-gallery-image.title": {
+    "defaultMessage": "精選圖庫圖片"
+  },
+  "nags.gallery.title": {
+    "defaultMessage": "前往圖庫頁面"
+  },
+  "nags.gpl-license-source-required.description": {
+    "defaultMessage": "你的{type, select, mod {模組} plugin {插件} other {專案}}使用了要求必須公開原始碼的授權條款。請為每個額外版本提供原始碼連結或原始碼檔案，或者考慮使用不同的授權條款。"
+  },
+  "nags.gpl-license-source-required.title": {
+    "defaultMessage": "提供原始碼"
+  },
+  "nags.identical-links.description": {
+    "defaultMessage": "你輸入的部分外部連結似乎完全相同。每個連結僅應輸入一次，並選擇正確的連結類型。"
+  },
+  "nags.identical-links.title": {
+    "defaultMessage": "連結內容重複"
+  },
+  "nags.image-heavy-description.description": {
+    "defaultMessage": "請在描述中提供充足的純文字或圖片替代文字，讓螢幕閱讀器使用者與網路速度較慢的使用者也能順利閱讀。"
+  },
+  "nags.image-heavy-description.title": {
+    "defaultMessage": "確保無障礙體驗"
+  },
+  "nags.invalid-license-url.description.default": {
+    "defaultMessage": "授權條款網址無效。"
+  },
+  "nags.invalid-license-url.description.domain": {
+    "defaultMessage": "你的授權條款網址指向 {domain}，這不適合用來提供授權條款資訊。授權條款網址應直接連結到你的授權條款檔案，而非社群媒體、遊戲平臺等。"
+  },
+  "nags.invalid-license-url.description.malformed": {
+    "defaultMessage": "你的授權條款網址似乎格式不正確。請提供有效的授權條款網址。"
+  },
+  "nags.invalid-license-url.title": {
+    "defaultMessage": "新增有效授權條款連結"
+  },
+  "nags.link-shortener-usage.description": {
+    "defaultMessage": "禁止在你的外部連結或授權條款連結中使用短網址或其他方法來隱藏連結的實際指向，請只使用適當的完整連結。"
+  },
+  "nags.link-shortener-usage.title": {
+    "defaultMessage": "請勿使用短網址"
+  },
+  "nags.long-headers.description": {
+    "defaultMessage": "{count, plural, one {# 個標題} other {# 個標題}} 在您的描述中長度過長。標題應簡潔扼要，作為章節的標題即可，不應使用完整句子。"
+  },
+  "nags.long-headers.title": {
+    "defaultMessage": "標題請簡短扼要"
+  },
+  "nags.minecraft-title-clause.description": {
+    "defaultMessage": "專案名稱不得使用 Minecraft 的品牌或將「Minecraft」作為名稱的重要部分。"
+  },
+  "nags.minecraft-title-clause.title": {
+    "defaultMessage": "避免品牌侵權"
+  },
+  "nags.missing-alt-text.description": {
+    "defaultMessage": "您的部分圖片缺少替代文字，這對於無障礙存取至關重要，特別是對視障用戶而言。"
+  },
+  "nags.missing-alt-text.title": {
+    "defaultMessage": "新增圖片替代文字"
+  },
+  "nags.misused-discord-link-description": {
+    "defaultMessage": "Discord 邀請連結不可用於其他連結類型。請只將你的 Discord 連結放至 Discord 邀請連結欄位。"
+  },
+  "nags.misused-discord-link.title": {
+    "defaultMessage": "移動 Discord 邀請連結"
+  },
+  "nags.moderation.title": {
+    "defaultMessage": "前往審查討論串"
+  },
+  "nags.moderator-feedback.description": {
+    "defaultMessage": "在重新提交之前，請審閱並處理審查團隊提出的所有疑慮。"
+  },
+  "nags.moderator-feedback.title": {
+    "defaultMessage": "檢查回饋"
+  },
+  "nags.multiple-resolution-tags.description": {
+    "defaultMessage": "你選擇了 {count} 個解析度標籤 ({tags})。資源包通常應該只有一個與其主要解析度相符的解析度標籤。"
+  },
+  "nags.multiple-resolution-tags.title": {
+    "defaultMessage": "選擇正確的解析度"
+  },
+  "nags.select-compatibility.description": {
+    "defaultMessage": "選擇你的伺服器支援的版本、挑選一個模組包，或是上傳你自己的檔案。"
+  },
+  "nags.select-compatibility.title": {
+    "defaultMessage": "選擇相容性"
+  },
+  "nags.select-country.description": {
+    "defaultMessage": "讓玩家知道你的伺服器所在地。"
+  },
+  "nags.select-country.title": {
+    "defaultMessage": "選擇地區"
+  },
+  "nags.select-language.description": {
+    "defaultMessage": "列出你的伺服器支援的一種或多種語言。"
+  },
+  "nags.select-language.title": {
+    "defaultMessage": "選擇語言"
+  },
+  "nags.select-license.description": {
+    "defaultMessage": "選擇你的{type, select, mod {模組} modpack {模組包} resourcepack {資源包} shader {光影包} plugin {插件} datapack {資料包} other {專案}}所採用的授權條款。"
+  },
+  "nags.select-license.title": {
+    "defaultMessage": "選擇授權條款"
+  },
+  "nags.select-tags.description": {
+    "defaultMessage": "請選擇適用於你的專案的正確標籤，以協助目標使用者找到它。"
+  },
+  "nags.select-tags.title": {
+    "defaultMessage": "選擇標籤"
+  },
+  "nags.server.title": {
+    "defaultMessage": "前往伺服器設定"
+  },
+  "nags.settings.description.title": {
+    "defaultMessage": "前往描述設定"
+  },
+  "nags.settings.license.title": {
+    "defaultMessage": "前往授權設定"
+  },
+  "nags.settings.links.title": {
+    "defaultMessage": "前往連結設定"
+  },
+  "nags.settings.tags.title": {
+    "defaultMessage": "前往標籤設定"
+  },
+  "nags.settings.title": {
+    "defaultMessage": "前往一般設定"
+  },
+  "nags.summary-same-as-title.description": {
+    "defaultMessage": "你的摘要不能與你的專案名稱相同。撰寫一段既實用又吸引人的摘要非常重要。"
+  },
+  "nags.summary-same-as-title.title": {
+    "defaultMessage": "讓摘要與眾不同"
+  },
+  "nags.summary-special-formatting.description": {
+    "defaultMessage": "你的摘要不應包含排版、換行、特殊字元或連結，因為摘要只會顯示純文字。"
+  },
+  "nags.summary-special-formatting.title": {
+    "defaultMessage": "清理摘要"
+  },
+  "nags.summary-too-short.description": {
+    "defaultMessage": "您的摘要長度為 {length, plural, one {# 個字元} other {# 個字元}}。建議至少輸入 {minChars, plural, one {# 個字元} other {# 個字元}}，以建立資訊完整且吸引人的摘要。"
+  },
+  "nags.summary-too-short.title": {
+    "defaultMessage": "擴展摘要"
+  },
+  "nags.title-contains-technical-info.description": {
+    "defaultMessage": "保持專案名稱簡潔，能讓它更易於記憶且方便搜尋。版本與載入器資訊會自動顯示在你的專案旁。"
+  },
+  "nags.title-contains-technical-info.title": {
+    "defaultMessage": "清理名稱"
+  },
+  "nags.too-many-tags-server.description": {
+    "defaultMessage": "你選擇了 {tagCount} 個標籤。請減少到 {maxTagCount} 個或更少，以確保你的伺服器出現在相關的搜尋結果中。"
+  },
+  "nags.too-many-tags-server.title": {
+    "defaultMessage": "選擇精確的標籤"
+  },
+  "nags.too-many-tags.description": {
+    "defaultMessage": "你選擇了 {tagCount} 個標籤。請考慮減少到 {maxTagCount} 個或更少，以確保你的專案出現在相關的搜尋結果中。"
+  },
+  "nags.too-many-tags.title": {
+    "defaultMessage": "選擇精確的標籤"
+  },
+  "nags.upload-gallery-image.description": {
+    "defaultMessage": "至少需要一張圖庫圖片來展示你的{type, select, resourcepack {資源包內容（音效或在地化語言包除外）。如果你的資源包屬於此類，請選擇對應的標籤} shader {光影包內容} other {專案內容}}。"
+  },
+  "nags.upload-gallery-image.title": {
+    "defaultMessage": "上傳圖庫圖片"
+  },
+  "nags.upload-version.description": {
+    "defaultMessage": "你的專案至少需要一個版本才能提交審查。"
+  },
+  "nags.upload-version.title": {
+    "defaultMessage": "上傳版本"
+  },
+  "nags.verify-external-links.description": {
+    "defaultMessage": "你的部分外部連結可能使用了不適合該連結類型的網域。"
+  },
+  "nags.verify-external-links.title": {
+    "defaultMessage": "驗證外部連結"
+  },
+  "nags.versions.title": {
+    "defaultMessage": "前往版本頁面"
+  },
+  "nags.visit-links-settings.title": {
+    "defaultMessage": "前往連結設定"
+  }
+}
+
+

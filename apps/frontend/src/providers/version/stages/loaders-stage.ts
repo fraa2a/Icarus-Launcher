@@ -1,0 +1,63 @@
+import { LeftArrowIcon, RightArrowIcon } from '@icarus/assets'
+import type { StageConfigInput } from '@icarus/ui'
+import { markRaw } from 'vue'
+
+import LoadersStage from '~/components/ui/create-project-version/stages/LoadersStage.vue'
+
+import type { ManageVersionContextValue } from '../manage-version-modal'
+
+export const stageConfig: StageConfigInput<ManageVersionContextValue> = {
+	id: 'add-loaders',
+	stageContent: markRaw(LoadersStage),
+	title: (ctx) => (ctx.editingVersion.value ? 'Edit version' : 'Loaders'),
+	skip: (ctx) => {
+		const inferredLoadersLength = ctx.inferredVersionData.value?.loaders?.length ?? 0
+		return (
+			inferredLoadersLength > 0 ||
+			ctx.editingVersion.value ||
+			(inferredLoadersLength === 0 && ctx.projectType.value === 'modpack')
+		)
+	},
+	hideStageInBreadcrumb: (ctx) => !ctx.primaryFile.value || ctx.handlingNewFiles.value,
+	cannotNavigateForward: (ctx) => ctx.draftVersion.value.loaders.length === 0,
+	leftButtonConfig: (ctx) => ({
+		label: 'Back',
+		icon: LeftArrowIcon,
+		onClick: () => ctx.modal.value?.prevStage(),
+	}),
+	rightButtonConfig: (ctx) => ({
+		label: ctx.getNextLabel(),
+		icon: RightArrowIcon,
+		iconPosition: 'after',
+		disabled: ctx.draftVersion.value.loaders.length === 0,
+		onClick: () => ctx.modal.value?.nextStage(),
+	}),
+}
+
+export const fromDetailsStageConfig: StageConfigInput<ManageVersionContextValue> = {
+	id: 'from-details-loaders',
+	stageContent: markRaw(LoadersStage),
+	title: 'Edit loaders',
+	nonProgressStage: true,
+	leftButtonConfig: (ctx) => ({
+		label: 'Back',
+		icon: LeftArrowIcon,
+		disabled: ctx.draftVersion.value.loaders.length === 0 && ctx.projectType.value !== 'modpack',
+		onClick: () => ctx.modal.value?.setStage('metadata'),
+	}),
+	rightButtonConfig: (ctx) =>
+		ctx.editingVersion.value
+			? {
+					...ctx.saveButtonConfig(),
+					disabled:
+						ctx.draftVersion.value.loaders.length === 0 && ctx.projectType.value !== 'modpack',
+				}
+			: {
+					label: 'Add details',
+					icon: RightArrowIcon,
+					iconPosition: 'after',
+					disabled:
+						ctx.draftVersion.value.loaders.length === 0 && ctx.projectType.value !== 'modpack',
+					onClick: () => ctx.modal.value?.setStage('add-details'),
+				},
+}

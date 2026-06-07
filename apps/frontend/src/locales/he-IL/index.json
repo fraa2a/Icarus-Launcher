@@ -1,0 +1,2547 @@
+{
+  "action.cancel": {
+    "message": "ביטול"
+  },
+  "action.continue": {
+    "message": "המשך"
+  },
+  "admin.billing.error.not-found": {
+    "message": "משתמש לא קיים"
+  },
+  "app-marketing.download.description": {
+    "message": "היישום השולחני שלנו זמין לכל הפלטפורמות. אנא בחר את הגרסה הרצויה."
+  },
+  "app-marketing.download.download-appimage": {
+    "message": "הורד את קובץ ה-AppImage"
+  },
+  "app-marketing.download.download-beta": {
+    "message": "הורד את גרסת הבטא"
+  },
+  "app-marketing.download.download-deb": {
+    "message": "הורד את קובץ ה-DEB"
+  },
+  "app-marketing.download.download-rpm": {
+    "message": "הורד את קובץ ה-RPM"
+  },
+  "app-marketing.download.flathub": {
+    "message": "השג בFlathub"
+  },
+  "app-marketing.download.linux": {
+    "message": "לינוקס"
+  },
+  "app-marketing.download.linux-disclaimer": {
+    "message": "ידוע שלגרסאות לינוקס של אפליקציית מודרינת' יש <issues-link>בעיות</issues-link> במערכות ובתצורות מסוימות. אם אפליקציית מודרינת' אינה יציבה במערכת שלך, אנו ממליצים לך לנסות יישומים אחרים כמו <prism-link>Prism Launcher</prism-link> כדי להתקין בקלות תוכן ממודרינת'."
+  },
+  "app-marketing.download.mac": {
+    "message": "מאק"
+  },
+  "app-marketing.download.options-title": {
+    "message": "אפשרויות הורדה"
+  },
+  "app-marketing.download.terms": {
+    "message": "בעת הורדת אפליקציית Icarus, הינך מסכים ל<terms-link>תנאי השימוש</terms-link> ול<privacy-link>מדיניות הפרטיות</privacy-link> שלנו."
+  },
+  "app-marketing.download.title": {
+    "message": "הורד את אפליקציית מודרינת' (בטא)"
+  },
+  "app-marketing.download.windows": {
+    "message": "ווינדוס"
+  },
+  "app-marketing.features.follow.description": {
+    "message": "שמור תוכן שאתה אוהב וקבל עדכונים בלחיצה אחת."
+  },
+  "app-marketing.features.follow.title": {
+    "message": "עקוב אחר פרויקטים"
+  },
+  "app-marketing.features.importing.description": {
+    "message": "ייבא את כל הפרופילים המועדפים עליך מהמפעיל שבו השתמשת לפני כן, והתחל להשתמש באפליקציית מודרינת' תוך שניות!"
+  },
+  "app-marketing.features.importing.gdlauncher-alt": {
+    "message": "GDLauncher"
+  },
+  "app-marketing.features.importing.multimc-alt": {
+    "message": "MultiMC"
+  },
+  "app-marketing.features.importing.title": {
+    "message": "ייבוא פרופילים"
+  },
+  "app-marketing.features.mod-management.actions": {
+    "message": "פעולות"
+  },
+  "app-marketing.features.mod-management.byAuthor": {
+    "message": "מאת {author}"
+  },
+  "app-marketing.features.mod-management.description": {
+    "message": "מודרינת' הופך את ניהול כל המודים שלך לפשוט ונוח במקום אחד. באפשרותך להתקין, להסיר ולעדכן מודים בלחיצה אחת."
+  },
+  "app-marketing.features.mod-management.installed-mods": {
+    "message": "מודים מותקנים"
+  },
+  "app-marketing.features.mod-management.name": {
+    "message": "שם"
+  },
+  "app-marketing.features.mod-management.search-mods": {
+    "message": "חפש מודים"
+  },
+  "app-marketing.features.mod-management.title": {
+    "message": "ניהול מודים"
+  },
+  "app-marketing.features.mod-management.version": {
+    "message": "גרסה"
+  },
+  "app-marketing.features.offline.description": {
+    "message": "שחק עם המודים שלך, בין אם אתה מחובר לאינטרנט ובין אם לאו."
+  },
+  "app-marketing.features.offline.title": {
+    "message": "מצב לא מקוון"
+  },
+  "app-marketing.features.open-source.description": {
+    "message": "המפעיל של מודרינת' הוא קוד פתוח לחלוטין. באפשרותך לצפות בקוד המקור ב<github-link>GitHub</github-link>!"
+  },
+  "app-marketing.features.open-source.title": {
+    "message": "קוד פתוח"
+  },
+  "app-marketing.features.performance.activity-monitor": {
+    "message": "מנטר פעילות"
+  },
+  "app-marketing.features.performance.cpu-percent": {
+    "message": "% מעבד"
+  },
+  "app-marketing.features.performance.description": {
+    "message": "אפליקציית Icarus מציגה ביצועים טובים יותר מרוב מנהלי המודים המובילים, תוך שימוש ב 150 MB של RAM בלבד!"
+  },
+  "app-marketing.features.performance.discord": {
+    "message": "דיסקורד"
+  },
+  "app-marketing.features.performance.good-performance": {
+    "message": "ביצועים טובים"
+  },
+  "app-marketing.features.performance.google-chrome": {
+    "message": "גוגל כרום"
+  },
+  "app-marketing.features.performance.infinite-mb": {
+    "message": "∞ מגה-בייט"
+  },
+  "app-marketing.features.performance.infinite-times-infinite-mb": {
+    "message": "∞ * ∞ מגה-בייט"
+  },
+  "app-marketing.features.performance.less-than-150mb": {
+    "message": "פחות מ-150 מגה-בייט"
+  },
+  "app-marketing.features.performance.Icarus-app": {
+    "message": "Icarus Launcher"
+  },
+  "app-marketing.features.performance.one-billion-percent": {
+    "message": "1 מיליארד %"
+  },
+  "app-marketing.features.performance.process-name": {
+    "message": "שם תהליך"
+  },
+  "app-marketing.features.performance.ram": {
+    "message": "זיכרון RAM"
+  },
+  "app-marketing.features.performance.small": {
+    "message": "קטן"
+  },
+  "app-marketing.features.performance.title": {
+    "message": "ביצועי"
+  },
+  "app-marketing.features.play.description": {
+    "message": "השתמש ב-Icarus Launcher כדי להוריד ולשחק עם המודים וחבילות המודים המועדפים עליך."
+  },
+  "app-marketing.features.play.title": {
+    "message": "שחק עם המודים האהובים עליך"
+  },
+  "app-marketing.features.sharing.description": {
+    "message": "בנה, שתף ושחק בחבילות מודים עם כל אחד מאלפי המודים וחבילות המודים שיש כאן במודרינת'."
+  },
+  "app-marketing.features.sharing.modpack": {
+    "message": "חבילת מודים"
+  },
+  "app-marketing.features.sharing.share-button": {
+    "message": "שתף"
+  },
+  "app-marketing.features.sharing.title": {
+    "message": "שתף חבילות מודים"
+  },
+  "app-marketing.features.unlike-any-launcher": {
+    "message": "לא כמו שום מפעיל"
+  },
+  "app-marketing.features.website.description": {
+    "message": "אפליקציית מודרינת' נתמכת במלואה עם האתר, כך שניתן לגשת לכל הפרויקטים האהובים עליכם מהאפליקציה!"
+  },
+  "app-marketing.features.website.title": {
+    "message": "אינטגרציה עם האתר"
+  },
+  "app-marketing.features.youve-used-before": {
+    "message": "השתמשת בעבר"
+  },
+  "app-marketing.hero.app-screenshot-alt": {
+    "message": "תמונה של אפליקציית מודרינת' עם התקנה של Cobblemon שנפתחת בעמוד ה\"תוכן\"."
+  },
+  "app-marketing.hero.description": {
+    "message": "אפליקציית מודרינת' היא משגר (launcher) מיוחד, קוד פתוח, שמאפשר לכם לשחק עם המודים שאתם אוהבים, ושומר עליהם מעודכנים. הכל בחבילה אחת, קומפקטית ומסודרת."
+  },
+  "app-marketing.hero.download-button": {
+    "message": "הורד את Icarus Launcher"
+  },
+  "app-marketing.hero.download-Icarus-app": {
+    "message": "הורד את אפליקציית מודרינת'"
+  },
+  "app-marketing.hero.download-Icarus-app-for-os": {
+    "message": "הורד את Icarus Launcher עבור {os}"
+  },
+  "app-marketing.hero.minecraft-screenshot-alt": {
+    "message": "תמונה ראשית מהפנורמה של המודפק cobblemon."
+  },
+  "app-marketing.hero.more-download-options": {
+    "message": "אפשרויות הורדה נוספות"
+  },
+  "app-marketing.hide-other-packages": {
+    "message": "הסתר חבילות אחרות"
+  },
+  "app-marketing.not-recommended": {
+    "message": "אנחנו לא ממליצים שתשמש באלה אלא אם אתה יודע מה אתה עושה."
+  },
+  "app-marketing.show-other-packages": {
+    "message": "הצג חבילות אחרות"
+  },
+  "auth.authorize.action.authorize": {
+    "message": "אימות"
+  },
+  "auth.authorize.action.decline": {
+    "message": "דחה"
+  },
+  "auth.authorize.app-info": {
+    "message": "<strong>{appName}</strong> מ<creator-link>{creator}</creator-link> יוכל לעשות:"
+  },
+  "auth.authorize.authorize-app-name": {
+    "message": "לאשר {appName}"
+  },
+  "auth.authorize.error.no-redirect-url": {
+    "message": "לא מצוי מקום לנתב בתגובה"
+  },
+  "auth.authorize.redirect-url": {
+    "message": "אתם תנתבו ל<redirect-url>{url}</redirect-url>"
+  },
+  "auth.reset-password.method-choice.action": {
+    "message": "שלח דואר שחזור לאימייל"
+  },
+  "auth.reset-password.method-choice.description": {
+    "message": "כתבו את הדואר אלקטרוני ואנו נשלח דואר שחזור כדי שאתם תוכלו להכנס לחשבונכם."
+  },
+  "auth.reset-password.notification.email-sent.text": {
+    "message": "דואר אם הוראות היו שלחו לכם אם הדואר אלקטרוני שלכם היה שמור בחשבונכם."
+  },
+  "auth.reset-password.notification.email-sent.title": {
+    "message": "דואר שלוח"
+  },
+  "auth.reset-password.notification.password-reset.text": {
+    "message": "אתם יכולים להיכנס לחשבונכם עכשיו אם הסיסמה החדשה."
+  },
+  "auth.reset-password.notification.password-reset.title": {
+    "message": "סיסמה היתה מאופסת"
+  },
+  "auth.reset-password.post-challenge.action": {
+    "message": "הפס את הסיסמה"
+  },
+  "auth.reset-password.post-challenge.confirm-password.label": {
+    "message": "אשר סיסמה"
+  },
+  "auth.reset-password.post-challenge.description": {
+    "message": "כתבו את הסיסמתכם כלהשיג גישה לחשבונכם."
+  },
+  "auth.reset-password.title": {
+    "message": "הפס סיסמה"
+  },
+  "auth.reset-password.title.long": {
+    "message": "הפס סיסמתכם"
+  },
+  "auth.sign-in.2fa.description": {
+    "message": "כתבו את הקוד אימות דו-שלבי שלכם כדי להמשיך."
+  },
+  "auth.sign-in.2fa.label": {
+    "message": "כתבו את האימות דו-שלבי"
+  },
+  "auth.sign-in.2fa.placeholder": {
+    "message": "כתבו קוד..."
+  },
+  "auth.sign-in.additional-options": {
+    "message": "<forgot-password-link>שככו את הסיסמה?</forgot-password-link>\n<create-account-link>ליצור חשבון</create-account-link>"
+  },
+  "auth.sign-in.sign-in-with": {
+    "message": "הכנס אם"
+  },
+  "auth.sign-in.title": {
+    "message": "הכנס"
+  },
+  "auth.sign-in.use-password": {
+    "message": "או להשתמש בסיסמה"
+  },
+  "auth.sign-up.action.create-account": {
+    "message": "ליצור חשבון"
+  },
+  "auth.sign-up.legal-dislaimer": {
+    "message": "כליצור את החשבון, אתם מסכימים ל<terms-link>תנאים</terms-link> ו<privacy-policy-link>מדיניות פרטיות</privacy-policy-link> של Icarus."
+  },
+  "auth.sign-up.notification.password-mismatch.text": {
+    "message": "סיסמאות לא תואמות!"
+  },
+  "auth.sign-up.sign-in-option.title": {
+    "message": "כבר יש לכם חשבון?"
+  },
+  "auth.sign-up.subscribe.label": {
+    "message": "להרשם לעדכונים על Icarus"
+  },
+  "auth.sign-up.title": {
+    "message": "הרשם"
+  },
+  "auth.sign-up.title.create-account": {
+    "message": "או עצרו חשבון בעצמכם"
+  },
+  "auth.sign-up.title.sign-up-with": {
+    "message": "הרשם אם"
+  },
+  "auth.verify-email.action.account-settings": {
+    "message": "הגדרות חשבון"
+  },
+  "auth.verify-email.already-verified.description": {
+    "message": "דואר אלקטרוני שלכם הוא כבר מאומת!"
+  },
+  "auth.verify-email.already-verified.title": {
+    "message": "דואר אלקטרוני הוא כבר מאומת"
+  },
+  "auth.verify-email.failed-verification.action": {
+    "message": "שלח דואר שחזור עוד פעם"
+  },
+  "auth.verify-email.failed-verification.description": {
+    "message": "אנכנו לא נוכלנו לאמת דוארכם. נסו לשלוח את הדואר שחזור עוד פעם מהלוח בקרה כלכנס."
+  },
+  "auth.verify-email.failed-verification.description.logged-in": {
+    "message": "אנכנו לא נוכלנו לאמת דוארכם. נסו לשלוח את הדואר שחזור עוד פעם מהכפתור למתה."
+  },
+  "auth.verify-email.failed-verification.title": {
+    "message": "אמת של הדואר אלקטרוני נכשל"
+  },
+  "auth.verify-email.post-verification.description": {
+    "message": "דואר אלקטרוני שלכם היה מאומת בהצלחה!"
+  },
+  "auth.verify-email.post-verification.title": {
+    "message": "אימות אימייל"
+  },
+  "auth.verify-email.title": {
+    "message": "אמת אימייל"
+  },
+  "auth.welcome.checkbox.subscribe": {
+    "message": "הירשם לעדכונים על Icarus"
+  },
+  "auth.welcome.description": {
+    "message": "אתה עכשיו חלק מהקהילה המדהימה של יוצרים ומשתמשים שכבר בונים, מורידים ומתעדכנים עם מודים מגניבים."
+  },
+  "auth.welcome.label.tos": {
+    "message": "ע\"י יצירת חשבון, אתה הסכמת ל<terms-link>תנאים</terms-link> של מודרינפ ו<privacy-policy-link>מדיניות הפרטיות</privacy-policy-link>."
+  },
+  "auth.welcome.long-title": {
+    "message": "ברוכים הבאים ל-Icarus!"
+  },
+  "auth.welcome.title": {
+    "message": "ברוכים הבאים"
+  },
+  "collection.button.edit-icon": {
+    "message": "ערוך סמל"
+  },
+  "collection.button.remove-icon": {
+    "message": "מחק אייקון"
+  },
+  "collection.button.remove-project": {
+    "message": "מחק פרוייקט"
+  },
+  "collection.button.replace-icon": {
+    "message": "החלף אייקון"
+  },
+  "collection.button.select-icon": {
+    "message": "בחר אייקון"
+  },
+  "collection.button.unfollow-project": {
+    "message": "הסר מעקב מפרוייקט"
+  },
+  "collection.delete-modal.description": {
+    "message": "זה הולך למחוק את האוסף הזאת. פעולה זו אינה הפיכה."
+  },
+  "collection.delete-modal.title": {
+    "message": "אתה בטוח שאתה רוצה למחוק את הקולקציה?"
+  },
+  "collection.description": {
+    "message": "{description} צפה באוסף {name} מ{username} במודרינת'"
+  },
+  "collection.description.following": {
+    "message": "אוסף שנוצר אוטומטית של כל הפרויקטים שאתה עוקב אחריו."
+  },
+  "collection.editing": {
+    "message": "צור אוסף"
+  },
+  "collection.error.not-found": {
+    "message": "אוסף לא נמצא"
+  },
+  "collection.label.created-at": {
+    "message": "נוצר {ago}"
+  },
+  "collection.label.curated-by": {
+    "message": "נוצר על ידי"
+  },
+  "collection.label.no-projects": {
+    "message": "אין פרוייקטים באוסף עדיין"
+  },
+  "collection.label.projects-count": {
+    "message": "{count, plural, =0 {אין פרויקטים עדיין} other {<stat>{count}</stat> {type}}}"
+  },
+  "collection.label.updated-at": {
+    "message": "עודכן {ago}"
+  },
+  "collection.return-link.dashboard-collections": {
+    "message": "האוספים שלך"
+  },
+  "collection.return-link.user": {
+    "message": "פרופיל {user}"
+  },
+  "collection.title": {
+    "message": "{name} - אוסף"
+  },
+  "create-project-version.create-modal.stage.add-files.admonition": {
+    "message": "קבצים נלווים נועדו למשאבי תמיכה כמו קוד מקור, ולא עבור גרסאות חלופיות או וריאציות."
+  },
+  "create.collection.collection-info": {
+    "message": "האוסף החדש שלך יווצר עכשיו כאוסף ציבורי עם {count, plural, =0 {no projects} one {# project} other {# projects}}."
+  },
+  "create.collection.create-collection": {
+    "message": "צור אוסף"
+  },
+  "create.collection.name-label": {
+    "message": "שם"
+  },
+  "create.collection.name-placeholder": {
+    "message": "הכנס שם לאוסף..."
+  },
+  "create.collection.summary-description": {
+    "message": "משפט או שניים שמתאים בקצרה את האוסף שלך."
+  },
+  "create.collection.summary-label": {
+    "message": "תקציר"
+  },
+  "create.collection.summary-placeholder": {
+    "message": "זה האוסף של..."
+  },
+  "create.collection.title": {
+    "message": "צור אוסף"
+  },
+  "create.limit-alert.approaching-limit": {
+    "message": "מתקרב למגבלה של {type} ({current}/{max})"
+  },
+  "create.limit-alert.approaching-limit-description": {
+    "message": "הינך עומד/ת להגיע למגבלת ה{type}, אנה צרו קשר עם שירות לקוחות במידה וצריך יותר מ{max}{typePlural}."
+  },
+  "create.limit-alert.contact-support": {
+    "message": "צור קשר עם תמיכה"
+  },
+  "create.limit-alert.limit-reached": {
+    "message": "הגעת לגבול של {type}"
+  },
+  "create.limit-alert.limit-reached-description": {
+    "message": "הגעת להגבלת ה{type} מתוך {max}. אנה צרו קשר עם שרות לקוחות על מנת להעלות את ההגבלה."
+  },
+  "create.limit-alert.type-collection": {
+    "message": "אוסף"
+  },
+  "create.limit-alert.type-organization": {
+    "message": "ארגון"
+  },
+  "create.limit-alert.type-plural-collection": {
+    "message": "אוספים"
+  },
+  "create.limit-alert.type-plural-organization": {
+    "message": "ארגונים"
+  },
+  "create.limit-alert.type-plural-project": {
+    "message": "פרויקטים"
+  },
+  "create.limit-alert.type-project": {
+    "message": "פרויקט"
+  },
+  "create.organization.create-organization": {
+    "message": "צור ארגון"
+  },
+  "create.organization.name-label": {
+    "message": "שם"
+  },
+  "create.organization.name-placeholder": {
+    "message": "הכנס שם ארגון..."
+  },
+  "create.organization.ownership-info": {
+    "message": "אתה תהיה הבעלים של ארגון זה, אבל אתה יכול להזמין חברים אחרים ולהעביר את הבעלות אליהם בכל זמן."
+  },
+  "create.organization.summary-description": {
+    "message": "משפט או שניים שמפרטים על הארגון שלך."
+  },
+  "create.organization.summary-label": {
+    "message": "סיכום"
+  },
+  "create.organization.summary-placeholder": {
+    "message": "ארגון ל..."
+  },
+  "create.organization.title": {
+    "message": "יוצר ארגון"
+  },
+  "create.organization.url-label": {
+    "message": "URL"
+  },
+  "create.project.create-project": {
+    "message": "צור פרויקט"
+  },
+  "create.project.missing-fields-tooltip": {
+    "message": "שדות חסרים: {fields}"
+  },
+  "create.project.name-label": {
+    "message": "שם"
+  },
+  "create.project.name-placeholder": {
+    "message": "הכנס שם פרויקט..."
+  },
+  "create.project.owner-description": {
+    "message": "הגדר את בעלי הפרויקט כעצמך או כארגון שבו אתה חבר."
+  },
+  "create.project.owner-label": {
+    "message": "בעלים"
+  },
+  "create.project.server-project-title": {
+    "message": "יצירת פרויקט שרת"
+  },
+  "create.project.summary-description": {
+    "message": "משפט או שניים שמפרטים על הפרויקט שלך."
+  },
+  "create.project.summary-label": {
+    "message": "סיכום"
+  },
+  "create.project.summary-placeholder": {
+    "message": "הפרויקט מוסיף..."
+  },
+  "create.project.title": {
+    "message": "יוצר פרויקט"
+  },
+  "create.project.type-label": {
+    "message": "סוג"
+  },
+  "create.project.type-project": {
+    "message": "פרויקט"
+  },
+  "create.project.type-server": {
+    "message": "שרת"
+  },
+  "create.project.url-label": {
+    "message": "URL"
+  },
+  "create.project.visibility-description": {
+    "message": "מצב נראות הפרויקט שלך אחרי שאושר."
+  },
+  "create.project.visibility-private": {
+    "message": "פרויקט פרטי"
+  },
+  "create.project.visibility-public": {
+    "message": "פרויקט פומבי"
+  },
+  "create.project.visibility-unlisted": {
+    "message": "לא מוגדר"
+  },
+  "dashboard.affiliate-links.create.button": {
+    "message": "צור קישור שותפות"
+  },
+  "dashboard.affiliate-links.error.title": {
+    "message": "שגיאה בטעינת קישורי שותפים"
+  },
+  "dashboard.affiliate-links.header": {
+    "message": "קישורי השותפים שלך"
+  },
+  "dashboard.affiliate-links.revoke-confirm.body": {
+    "message": "פעולה זו תבטל לצמיתות את קוד השותף {id}, וכל הקישורים הקיימים שהופצו עם קוד זה לא יהיו תקפים יותר."
+  },
+  "dashboard.affiliate-links.revoke-confirm.button": {
+    "message": "ביטול"
+  },
+  "dashboard.affiliate-links.revoke-confirm.title": {
+    "message": "האם אתה בטוח שברצונך לבטל את קישור השותף \"{title}\"?"
+  },
+  "dashboard.affiliate-links.search": {
+    "message": "חיפוש קישורי שותפים..."
+  },
+  "dashboard.collections.button.create-new": {
+    "message": "צור חדש"
+  },
+  "dashboard.collections.empty.get-started-hint": {
+    "message": "צרו את האוסף הראשון שלכם כדי להתחיל!"
+  },
+  "dashboard.collections.empty.no-collections": {
+    "message": "אין לך שום אוסף כרגע"
+  },
+  "dashboard.collections.empty.no-match": {
+    "message": "אף אוסף אינו תואם לתוצאת החיפוש שלך"
+  },
+  "dashboard.collections.empty.no-match-hint": {
+    "message": "נסו לשנות את המסננים או את מונחי החיפוש שלך."
+  },
+  "dashboard.collections.label.projects-count": {
+    "message": "{count} {countPlural, plural, one {פרויקט} other {פרויקטים}}"
+  },
+  "dashboard.collections.label.search-input": {
+    "message": "חפש את האוספים שלך"
+  },
+  "dashboard.collections.long-title": {
+    "message": "האוספים שלך"
+  },
+  "dashboard.creator-tax-form-modal.confirmation.download-button": {
+    "message": "הורדת {formType}"
+  },
+  "dashboard.creator-tax-form-modal.confirmation.success": {
+    "message": "מס {formType} שלך נשלח בהצלחה!"
+  },
+  "dashboard.creator-tax-form-modal.confirmation.support-text": {
+    "message": "ברשותך לצאת עכשיו. אם יש שאלות או צורך לעדכן את פרטיך <support-link>צרו קשר עם שירות לקוחות</support-link>."
+  },
+  "dashboard.creator-tax-form-modal.confirmation.title": {
+    "message": "הכל מוכן!🎉"
+  },
+  "dashboard.creator-tax-form-modal.entity.description": {
+    "message": "ארגון חיצוני הוא עסק ממוסד מחוץ לארצות הברית (כמו חברה לא-ארה״בית, שותפות, או LLC)."
+  },
+  "dashboard.creator-tax-form-modal.entity.foreign-entity": {
+    "message": "ארגון חיצוני"
+  },
+  "dashboard.creator-tax-form-modal.entity.private-individual": {
+    "message": "אדם פרטי"
+  },
+  "dashboard.creator-tax-form-modal.entity.question": {
+    "message": "הינך גוף פרטי או חלק מארגון חיצוני?"
+  },
+  "dashboard.creator-tax-form-modal.header": {
+    "message": "קובץ מס"
+  },
+  "dashboard.creator-tax-form-modal.security.description": {
+    "message": "Icarus משתמשים בגוף החיצוני Track1099 על מנת לאסוף ולשמור בבטיחות את קבצי המס שלך.\n<security-link>עוד מידע כאן.</security-link>"
+  },
+  "dashboard.creator-tax-form-modal.security.header": {
+    "message": "הליכים בטחונים"
+  },
+  "dashboard.creator-tax-form-modal.us-citizen.question": {
+    "message": "הינך אזרח מארה״ב?"
+  },
+  "dashboard.creator-withdraw-modal.complete-tax-form": {
+    "message": "עליך למלא טופס מס"
+  },
+  "dashboard.creator-withdraw-modal.continue-with-limit": {
+    "message": "המשך עם הגבלה"
+  },
+  "dashboard.creator-withdraw-modal.details-label": {
+    "message": "פרטים"
+  },
+  "dashboard.creator-withdraw-modal.fee-breakdown-amount": {
+    "message": "כמות"
+  },
+  "dashboard.creator-withdraw-modal.fee-breakdown-exchange-rate": {
+    "message": "שער חליפין"
+  },
+  "dashboard.creator-withdraw-modal.fee-breakdown-fee": {
+    "message": "תשלום"
+  },
+  "dashboard.creator-withdraw-modal.fee-breakdown-gift-card-value": {
+    "message": "הערך של כרטיס המתנה"
+  },
+  "dashboard.creator-withdraw-modal.fee-breakdown-net-amount": {
+    "message": "סכום נטו"
+  },
+  "dashboard.creator-withdraw-modal.fee-breakdown-usd-equivalent": {
+    "message": "שווי בדולר"
+  },
+  "dashboard.creator-withdraw-modal.kyc.business-entity": {
+    "message": "גוף עסקי"
+  },
+  "dashboard.creator-withdraw-modal.kyc.entity-description": {
+    "message": "עסק רשום הוא ארגון מאוגד, כמו חברה, שותפות או חברה בע\"מ."
+  },
+  "dashboard.creator-withdraw-modal.kyc.entity-question": {
+    "message": "האם ברצונך למשוך כספים כאדם פרטי או כעסק?"
+  },
+  "dashboard.creator-withdraw-modal.kyc.private-individual": {
+    "message": "אדם פרטי"
+  },
+  "dashboard.creator-withdraw-modal.method-selection.country-placeholder": {
+    "message": "בחר את מדינתך"
+  },
+  "dashboard.creator-withdraw-modal.method-selection.country-search-placeholder": {
+    "message": "חפש מדינה..."
+  },
+  "dashboard.creator-withdraw-modal.method-selection.error-text": {
+    "message": "לא הצלחנו לטעון את אמצעי התשלום. כדאי לנסות שוב בעוד כמה רגעים."
+  },
+  "dashboard.creator-withdraw-modal.method-selection.error-title": {
+    "message": "חלה שגיאה בטעינת אמצעי התשלום"
+  },
+  "dashboard.creator-withdraw-modal.method-selection.region": {
+    "message": "אזור"
+  },
+  "dashboard.creator-withdraw-modal.method-selection.region-tooltip": {
+    "message": "חלק מאמצעי התשלום אינם זמינים באזורים מסוימים."
+  },
+  "dashboard.creator-withdraw-modal.method-selection.select-method": {
+    "message": "בחירת אמצעי משיכה"
+  },
+  "dashboard.creator-withdraw-modal.method-selection.tax-limit-warning": {
+    "message": "תקרת המשיכה שלך היא <b>{amount}</b>. כדי להגדיל אותה, יש למלא <tax-link>טופס הצהרת מס</tax-link>."
+  },
+  "dashboard.creator-withdraw-modal.muralpay-details.account-owner": {
+    "message": "חשבון בעלים"
+  },
+  "dashboard.creator-withdraw-modal.muralpay-details.bank-account-owner": {
+    "message": "בעל החשבון"
+  },
+  "dashboard.creator-withdraw-modal.muralpay-details.bank-account-owner-description": {
+    "message": "יש להזין את שמו של מורשה החתימה בחשבון זה מטעם העסק."
+  },
+  "dashboard.creator-withdraw-modal.muralpay-details.coin": {
+    "message": "מטבע"
+  },
+  "dashboard.creator-withdraw-modal.muralpay-details.crypto-warning-header": {
+    "message": "אשר את כתובת הארנק שלך"
+  },
+  "dashboard.creator-withdraw-modal.muralpay-details.document-number-national-id": {
+    "message": "מספר ת\"ז"
+  },
+  "dashboard.creator-withdraw-modal.muralpay-details.document-number-national-id-placeholder": {
+    "message": "יש להזין מספר זהות"
+  },
+  "dashboard.creator-withdraw-modal.muralpay-details.document-number-passport": {
+    "message": "מספר דרכון"
+  },
+  "dashboard.creator-withdraw-modal.muralpay-details.document-number-passport-placeholder": {
+    "message": "יש להזין את מספר הדרכון"
+  },
+  "dashboard.creator-withdraw-modal.muralpay-details.document-number-resident-id": {
+    "message": "מספר זהות"
+  },
+  "dashboard.creator-withdraw-modal.muralpay-details.document-number-resident-id-placeholder": {
+    "message": "יש להזין מספר זהות"
+  },
+  "dashboard.creator-withdraw-modal.muralpay-details.document-number-ruc": {
+    "message": "מספר RUC"
+  },
+  "dashboard.creator-withdraw-modal.muralpay-details.document-number-ruc-placeholder": {
+    "message": "יש להזין מספר RUC"
+  },
+  "dashboard.creator-withdraw-modal.muralpay-details.document-number-tax-id": {
+    "message": "מספר זיהוי מס"
+  },
+  "dashboard.creator-withdraw-modal.muralpay-details.document-number-tax-id-placeholder": {
+    "message": "יש להזין מספר זיהוי מס"
+  },
+  "dashboard.creator-withdraw-modal.muralpay-details.network": {
+    "message": "רשת"
+  },
+  "dashboard.creator-withdraw-modal.nearing-threshold": {
+    "message": "התקרבת לסף המשיכה. ניתן למשוך <b>{amountRemaining}</b> כעת, אך נדרש טופס מס עבור סכום גבוה יותר."
+  },
+  "dashboard.creator-withdraw-modal.paypal-details.account": {
+    "message": "חשבון"
+  },
+  "dashboard.creator-withdraw-modal.paypal-details.disconnect-account": {
+    "message": "להתנתק מהחשבון"
+  },
+  "dashboard.creator-withdraw-modal.paypal-details.payment-method": {
+    "message": "שיטת תשלום"
+  },
+  "dashboard.creator-withdraw-modal.paypal-details.paypal-account": {
+    "message": "חשבון PayPal"
+  },
+  "dashboard.creator-withdraw-modal.paypal-details.paypal-auth-description": {
+    "message": "יש לחבר את חשבון ה-PayPal שלך כדי לקבל תשלומים ישירות."
+  },
+  "dashboard.creator-withdraw-modal.paypal-details.save-success": {
+    "message": "שם המשתמש ב-Venmo נשמר בהצלחה!"
+  },
+  "dashboard.creator-withdraw-modal.paypal-details.sign-in-with-paypal": {
+    "message": "התחברות באמצעות PayPal"
+  },
+  "dashboard.creator-withdraw-modal.paypal-details.venmo-description": {
+    "message": "הזינו את ה-Venmo handle שלכם כדי לקבל תשלומים."
+  },
+  "dashboard.creator-withdraw-modal.paypal-details.venmo-handle": {
+    "message": "Venmo handle"
+  },
+  "dashboard.creator-withdraw-modal.paypal-details.venmo-handle-placeholder": {
+    "message": "@שם משתמש"
+  },
+  "dashboard.creator-withdraw-modal.stage.completion": {
+    "message": "הושלם"
+  },
+  "dashboard.creator-withdraw-modal.stage.method-selection": {
+    "message": "שיטה"
+  },
+  "dashboard.creator-withdraw-modal.stage.tax-form": {
+    "message": "קובץ מס"
+  },
+  "dashboard.creator-withdraw-modal.tax-form-required.body": {
+    "message": "כדי למשוך את מלוא היתרה הזמינה שלך בסך <b>{available}</b>, עליך למלא את הטופס להלן. הוא נדרש לצורכי דיווח מס ויש לבצע זאת פעם אחת בלבד."
+  },
+  "dashboard.creator-withdraw-modal.tax-form-required.body-with-limit": {
+    "message": "עליך למלא טופס W-9 או W-8 עבור רישומי המס של Icarus, כדי שנוכל להישאר בציות לתקנות המס."
+  },
+  "dashboard.creator-withdraw-modal.tax-form-required.header": {
+    "message": "נדרש טופס מס"
+  },
+  "dashboard.creator-withdraw-modal.tremendous-details.available-denominations-label": {
+    "message": "סכומי משיכה זמינים"
+  },
+  "dashboard.creator-withdraw-modal.tremendous-details.balance-worth-hint": {
+    "message": "היתרה שלך בסך {usdBalance} שווה כרגע {localBalance}."
+  },
+  "dashboard.creator-withdraw-modal.tremendous-details.enter-amount-hint": {
+    "message": "מצאו כרטיסי מתנה בערך דומה."
+  },
+  "dashboard.creator-withdraw-modal.tremendous-details.enter-denomination-placeholder": {
+    "message": "הכנס כמות"
+  },
+  "dashboard.creator-withdraw-modal.tremendous-details.payment-method": {
+    "message": "שיטת תשלום"
+  },
+  "dashboard.creator-withdraw-modal.tremendous-details.reward": {
+    "message": "פרס"
+  },
+  "dashboard.creator-withdraw-modal.tremendous-details.reward-placeholder": {
+    "message": "תבחר פרס"
+  },
+  "dashboard.creator-withdraw-modal.tremendous-details.reward-plural": {
+    "message": "פרסים"
+  },
+  "dashboard.creator-withdraw-modal.tremendous-details.search-amount-label": {
+    "message": "חפש סכום"
+  },
+  "dashboard.creator-withdraw-modal.tremendous-details.select-denomination-hint": {
+    "message": "בחרו ערך:"
+  },
+  "dashboard.creator-withdraw-modal.tremendous-details.select-denomination-required": {
+    "message": "יש לבחור ערך כדי להמשיך"
+  },
+  "dashboard.creator-withdraw-modal.tremendous-details.unverified-email-header": {
+    "message": "אימייל לא מאומת"
+  },
+  "dashboard.creator-withdraw-modal.tremendous-details.unverified-email-message": {
+    "message": "כתובת האימייל למשלוח שהזנת אינה מקושרת לחשבון ה-Icarus שלך. Icarus לא תוכל לשחזר פרסים שיישלחו לכתובת אימייל שגויה."
+  },
+  "dashboard.creator-withdraw-modal.tremendous-details.usd-paypal-warning-header": {
+    "message": "קיימות עמלות נמוכות יותר"
+  },
+  "dashboard.creator-withdraw-modal.tremendous-details.usd-paypal-warning-message": {
+    "message": "בחרת ב-USD עבור PayPal International. כדאי לך <direct-paypal-link>לעבור ל-PayPal ישיר</direct-paypal-link> כדי לחסוך בעמלות (כ-2%≈ במקום כ-6%≈)."
+  },
+  "dashboard.creator-withdraw-modal.withdraw-button": {
+    "message": "למשוך"
+  },
+  "dashboard.creator-withdraw-modal.withdraw-limit": {
+    "message": "מגבלת משיכה"
+  },
+  "dashboard.creator-withdraw-modal.withdraw-limit-used": {
+    "message": "ניצלת את מכסת המשיכה שלך בסך <b>{withdrawLimit}</b>. עליך למלא טופס מס כדי למשוך סכום נוסף."
+  },
+  "dashboard.revenue.available-now": {
+    "message": "זמין כעת"
+  },
+  "dashboard.revenue.balance": {
+    "message": "יתרה"
+  },
+  "dashboard.revenue.estimated-tooltip.msg1": {
+    "message": "ההכנסה המשוערת עשויה להשתנות עד שתהיה זמינה."
+  },
+  "dashboard.revenue.estimated-tooltip.msg2": {
+    "message": "לחצו כאן כדי לקרוא כיצד Icarus מנהלת את ההכנסות שלכם."
+  },
+  "dashboard.revenue.estimated-with-date": {
+    "message": "משוער ל-{date}"
+  },
+  "dashboard.revenue.processing": {
+    "message": "מעבד"
+  },
+  "dashboard.revenue.processing.tooltip": {
+    "message": "ההכנסות נשמרות בסטטוס \"בביצוע\" עד סוף החודש, ויהיו זמינות למשיכה לאחר 60 יום נוספים."
+  },
+  "dashboard.revenue.stats.received": {
+    "message": "זמן קבלה"
+  },
+  "dashboard.revenue.stats.transactions": {
+    "message": "עסקאות"
+  },
+  "dashboard.revenue.stats.withdrawn": {
+    "message": "משיכה"
+  },
+  "dashboard.revenue.tos": {
+    "message": "בהעלאת פרויקטים ל-Icarus ובמשיכת כספים מחשבונך, הנך מסכים ל<terms-link>תנאי תוכנית התגמולים</terms-link> שלנו. למידע נוסף על <info-link>תוכנית התגמולים</info-link>."
+  },
+  "dashboard.revenue.transactions.btn.download-csv": {
+    "message": "הורד כקובץ CSV"
+  },
+  "dashboard.revenue.transactions.header": {
+    "message": "עסקאות"
+  },
+  "dashboard.revenue.transactions.none": {
+    "message": "אין עסקאות"
+  },
+  "dashboard.revenue.transactions.none.desc": {
+    "message": "התשלומים והמשיכות שלך יופיעו כאן."
+  },
+  "dashboard.revenue.transactions.see-all": {
+    "message": "ראה הכל"
+  },
+  "dashboard.revenue.withdraw.blocked-tin-mismatch": {
+    "message": "אפשרות המשיכה שלך ננעלה זמנית מכיוון שמספר ה-TIN או ה-SSN לא תואם לרשומות ה-IRS. יש ליצור קשר עם התמיכה כדי לאפס ולהגיש מחדש את טופס המס."
+  },
+  "dashboard.revenue.withdraw.card.description": {
+    "message": "משכו כסף מהיתרה הזמינה שלכם לכל אמצעי תשלום שתבחרו."
+  },
+  "dashboard.revenue.withdraw.card.title": {
+    "message": "למשוך"
+  },
+  "dashboard.revenue.withdraw.header": {
+    "message": "למשוך"
+  },
+  "dashboard.withdraw.completion.account": {
+    "message": "חשבון"
+  },
+  "dashboard.withdraw.completion.amount": {
+    "message": "כמות"
+  },
+  "dashboard.withdraw.completion.date": {
+    "message": "תאריך"
+  },
+  "dashboard.withdraw.completion.email-confirmation": {
+    "message": "אימייל נשלח ל-<b>{email}</b> עם הוראות להשלמת המשיכה."
+  },
+  "dashboard.withdraw.completion.exchange-rate": {
+    "message": "שער חליפין"
+  },
+  "dashboard.withdraw.completion.fee": {
+    "message": "תשלום"
+  },
+  "dashboard.withdraw.completion.method": {
+    "message": "שיטה"
+  },
+  "dashboard.withdraw.completion.net-amount": {
+    "message": "סכום נטו"
+  },
+  "dashboard.withdraw.completion.recipient": {
+    "message": "מוטב"
+  },
+  "dashboard.withdraw.completion.title": {
+    "message": "המשיכה הושלמה"
+  },
+  "dashboard.withdraw.completion.transactions-button": {
+    "message": "עסקאות"
+  },
+  "dashboard.withdraw.completion.wallet": {
+    "message": "ארנק"
+  },
+  "dashboard.withdraw.error.account-not-linked.text": {
+    "message": "יש לקשר אמצעי תשלום לפני ביצוע משיכה."
+  },
+  "dashboard.withdraw.error.account-not-linked.title": {
+    "message": "החשבון אינו משוייך"
+  },
+  "dashboard.withdraw.error.email-verification.text": {
+    "message": "עליך לאמת את כתובת האימייל שלך לפני משיכת כספים."
+  },
+  "dashboard.withdraw.error.email-verification.title": {
+    "message": "נדרש לאמת את האימייל"
+  },
+  "dashboard.withdraw.error.generic.text": {
+    "message": "לא הצלחנו להגיש את בקשת המשיכה שלך. יש לבדוק את הפרטים או ליצור קשר עם התמיכה.\n{error}"
+  },
+  "dashboard.withdraw.error.generic.title": {
+    "message": "לא ניתן לבצע משיכה"
+  },
+  "dashboard.withdraw.error.insufficient-balance.text": {
+    "message": "אין לך מספיק יתרה בשביל לבצע את המשיכה הזאת."
+  },
+  "dashboard.withdraw.error.insufficient-balance.title": {
+    "message": "יתרה נמוכה מדי"
+  },
+  "dashboard.withdraw.error.invalid-address.text": {
+    "message": "לא ניתן היה לאמת את הכתובת שסיפקת. יש לבדוק את פרטי הכתובת."
+  },
+  "dashboard.withdraw.error.invalid-address.title": {
+    "message": "האימות של הכתובת נכשל"
+  },
+  "dashboard.withdraw.error.invalid-bank.text": {
+    "message": "פרטי חשבון הבנק שסיפקת אינם תקינים. יש לאמת את הפרטים."
+  },
+  "dashboard.withdraw.error.invalid-bank.title": {
+    "message": "פרטי בנק אינם תקינים"
+  },
+  "dashboard.withdraw.error.invalid-wallet.text": {
+    "message": "כתובת ארנק הקריפטו שסיפקת אינה תקינה. יש לבדוק שוב ולנסות שנית."
+  },
+  "dashboard.withdraw.error.invalid-wallet.title": {
+    "message": "כתובת ארנק אינה תקינה"
+  },
+  "dashboard.withdraw.error.minimum-not-met.text": {
+    "message": "סכום המשיכה (לאחר עמלות) נמוך מרף המינימום. יש להגדיל את סכום המשיכה."
+  },
+  "dashboard.withdraw.error.minimum-not-met.title": {
+    "message": "הסכום נמוך מדי"
+  },
+  "dashboard.withdraw.error.paypal-country-mismatch.text": {
+    "message": "יש לבחור באפשרות העברת ה-PayPal המתאימה לאזורך (ארה\"ב או בינלאומי)."
+  },
+  "dashboard.withdraw.error.paypal-country-mismatch.title": {
+    "message": "אזור ה-PayPal שבחרת אינו נכון"
+  },
+  "dashboard.withdraw.error.tax-form.text": {
+    "message": "אתה חייב למלא טופס מס כדי להגיש את בקשת המשיכה."
+  },
+  "dashboard.withdraw.error.tax-form.title": {
+    "message": "יש להשלים את מילוי טופס המס"
+  },
+  "error.collection.404.list_item.1": {
+    "message": "ייתכן שהקלדת כתובת URL שגויה של האוסף."
+  },
+  "error.collection.404.list_item.2": {
+    "message": "ייתכן שהאוסף פרטי."
+  },
+  "error.collection.404.list_item.3": {
+    "message": "יכול להיות שהקובץ שלך נסתר על ידי צוות Icarus משום שפגע ב<tou-link>תנאי השימוש</tou-link>."
+  },
+  "error.collection.404.list_title": {
+    "message": "למה?"
+  },
+  "error.collection.404.title": {
+    "message": "קובץ לא נמצא"
+  },
+  "error.generic.404.subtitle": {
+    "message": "העמוד שחיפשת לא קיים."
+  },
+  "error.generic.404.title": {
+    "message": "עמוד לא קיים"
+  },
+  "error.generic.451.subtitle": {
+    "message": "עמוד זה נחסם מסיבות משפטיות, כגון צנזורה ממשלתית או הליכים משפטיים מתמשכים."
+  },
+  "error.generic.451.title": {
+    "message": "תוכן לא נגיש מסיבות משפטיות"
+  },
+  "error.generic.default.list_item.1": {
+    "message": "בדוק אם Icarus אינו זמין ב<status-link>דף הסטטוס</status-link> שלנו."
+  },
+  "error.generic.default.list_item.2": {
+    "message": "אם זה ממשיך לקרות, אנא ידע/י את צוות Icarus דרך <discord-server>שרת הדיסקורד</discord-link>."
+  },
+  "error.generic.default.list_title": {
+    "message": "נסו שוב בעוד מספר דקות."
+  },
+  "error.generic.default.subtitle": {
+    "message": "משהו השתבש."
+  },
+  "error.generic.default.title": {
+    "message": "אוי ואבוי!"
+  },
+  "error.organization.404.list_item.1": {
+    "message": "ייתכן שהקלדת כתובת URL שגויה של הארגון."
+  },
+  "error.organization.404.list_item.2": {
+    "message": "ייתכן שבעל הארגון שינה את כתובת ה-URL או מחק אותה."
+  },
+  "error.organization.404.list_item.3": {
+    "message": "ייתכן שצוות הפיקוח והבקרה של Icarus הסיר את הארגון בשל הפרת <tou-link>תנאי השימוש</tou-link> שלנו."
+  },
+  "error.organization.404.list_title": {
+    "message": "מדוע?"
+  },
+  "error.organization.404.title": {
+    "message": "ארגון לא קיים"
+  },
+  "error.project.404.list_item.1": {
+    "message": "ייתכן שהקלדת כתובת URL שגויה של הפרויקט."
+  },
+  "error.project.404.list_item.2": {
+    "message": "ייתכן שבעל הפרויקט שינה את כתובת ה-URL, הפך את הפרויקט לפרטי או מחק אותו."
+  },
+  "error.project.404.list_item.3": {
+    "message": "ייתכן שצוות הפיקוח והבקרה של Icarus הסיר את הארגון בשל הפרת <tou-link>תנאי השימוש</tou-link> שלנו."
+  },
+  "error.project.404.list_title": {
+    "message": "מדוע?"
+  },
+  "error.project.404.title": {
+    "message": "פרויקט אינו מצוי"
+  },
+  "error.user.404.list_item.1": {
+    "message": "אולי הקלדת בטעות את השם משתמש של המשתמש."
+  },
+  "error.user.404.list_item.2": {
+    "message": "אולי משתמש זה שונה את השם המשתמש או מחק את החשבון."
+  },
+  "error.user.404.list_item.3": {
+    "message": "אולי חשבון של משתמש זה היה מושעה בגלל <tou-link>תנאי שימוש</tou-link> של Icarus."
+  },
+  "error.user.404.list_title": {
+    "message": "למה?"
+  },
+  "error.user.404.title": {
+    "message": "משתמש אינו מצוי"
+  },
+  "frog": {
+    "message": "הפכו אותך לצפרדע! 🐸"
+  },
+  "frog.altText": {
+    "message": "ציור פוטוריאליסטי של מבוך צפרדעים"
+  },
+  "frog.title": {
+    "message": "צפרדע"
+  },
+  "hosting-marketing.available-locations": {
+    "message": "זמין בצפון אמריקה, אירופה ודרום-מזרח אסיה לכיסוי נרחב."
+  },
+  "hosting-marketing.billing.monthly": {
+    "message": "תשלום חודשי"
+  },
+  "hosting-marketing.billing.quarterly": {
+    "message": "תשלום רבעוני"
+  },
+  "hosting-marketing.billing.save-with-quarterly": {
+    "message": "תחסוך 16% אם תשלום רבעוני!"
+  },
+  "hosting-marketing.billing.starting-at": {
+    "message": "החל מ {price} לחודש. יש להגדיל את סכום המשיכה"
+  },
+  "hosting-marketing.billing.yearly": {
+    "message": "תשלום שנתי"
+  },
+  "hosting-marketing.faq.burst-threads": {
+    "message": "איך CPU burst threads עובדים?"
+  },
+  "hosting-marketing.faq.burst-threads.answer": {
+    "message": "כאשר השרת שלך נמצא תחת עומס כבד, אנו מעניקים לו באופן זמני גישה ל-threads נוספים של המעבד כדי לסייע במתן קפיצות השהייה וחוסר יציבות. זה עוזר למנוע מה-TPS לרדת מתחת ל-20, מה שמבטיח את החוויה החלקה ביותר האפשרית. מכיוון שה-threads הנוספים של המעבד זמינים רק לזמן קצר בתקופות עומס גבוה, ייתכן שהם לא יופיעו בדוחות Spark או בכלי פרופילציה אחרים."
+  },
+  "hosting-marketing.faq.cpu-kind": {
+    "message": "על אילו מעבדים (CPUs) רצים השרתים של Icarus Hosting?"
+  },
+  "hosting-marketing.faq.cpu-kind.answer": {
+    "message": "שרתי האחסון של Icarus מבוססים על מעבדי AMD Ryzen 7900 ו-7950X3D (או שווי ערך) במהירות של 5GHz ומעלה, בשילוב עם זיכרון DDR5."
+  },
+  "hosting-marketing.faq.currency": {
+    "message": "באיזה מטבע מוצגים המחירים?"
+  },
+  "hosting-marketing.faq.currency.answer": {
+    "message": "כל המחירים נקובים בדולר אמריקאי (USD)."
+  },
+  "hosting-marketing.faq.ddos-protection": {
+    "message": "האם שרתי האחסון של Icarus כוללים הגנת DDoS?"
+  },
+  "hosting-marketing.faq.ddos-protection.answer": {
+    "message": "כן. כל שרתי האחסון של Icarus כוללים הגנת DDoS מובנית, עם קיבולת של עד 17Tbps במיקומים מסוימים."
+  },
+  "hosting-marketing.faq.heading": {
+    "message": "שאלות נפוצות"
+  },
+  "hosting-marketing.faq.how-fast": {
+    "message": "מהי המהירות של שרתי האחסון של Icarus?"
+  },
+  "hosting-marketing.faq.how-fast.answer.one": {
+    "message": "שרתי Icarus Hosting מאוחסנים על חומרה מודרנית מאוד בעלת ביצועים גבוהים, אך קשה לומר כיצד בדיוק זה יתורגם למהירות הפעלת השרת שלכם מכיוון שיש כל כך הרבה גורמים שמשפיעים על כך, כמו המודים, חבילות הנתונים או התוספים שאתם מפעילים בשרת שלכם, ואפילו התנהגות המשתמש."
+  },
+  "hosting-marketing.faq.how-fast.answer.two": {
+    "message": "רוב בעיות הביצועים שמתעוררות נובעות בדרך כלל מחבילת מוד, מוד, חבילת נתונים או תוסף לא אופטימליים שגורמים לשרת להשהות. מכיוון שהשרתים שלנו הם מתקדמים מאוד, לא אמורים להיתקל בבעיות גדולות כל עוד תבחרו תוכנית מתאימה לתוכן שאתם מפעילים בשרת."
+  },
+  "hosting-marketing.faq.increase-storage": {
+    "message": "האם ניתן להגדיל את שטח האחסון בשרת שלי?"
+  },
+  "hosting-marketing.faq.increase-storage.answer": {
+    "message": "כן, ניתן להגדיל את שטח האחסון בשרת שלך ללא עלות נוספת. אם דרוש לך שטח אחסון נוסף, פנה לתמיכה של Icarus."
+  },
+  "hosting-marketing.faq.location": {
+    "message": "היכן ממוקמים שרתי האחסון של Icarus? האם ניתן לבחור אזור?"
+  },
+  "hosting-marketing.faq.location.answer": {
+    "message": "כרגע זמינים עבורכם שרתים בצפון אמריקה, אירופה ודרום-מזרח אסיה, אותם ניתן לבחור בעמד הרכישה. אזורים נוספים יתווספו בעתיד! אם תרצו להחליף את האזור שלכם, אנא צרו קשר עם התמיכה."
+  },
+  "hosting-marketing.faq.versions-loaders": {
+    "message": "באילו גרסאות של מיינקראפט ובאילו Loaders ניתן להשתמש?"
+  },
+  "hosting-marketing.faq.versions-loaders.answer.one": {
+    "message": "שרתי האחסון של Icarus יכולים להריץ כל גרסה של Minecraft: Java Edition החל מגרסה 1.2.5 ועד היום, כולל גרסאות Snapshot."
+  },
+  "hosting-marketing.faq.versions-loaders.answer.two": {
+    "message": "אנו תומכים גם במגוון רחב של טועני מודים ותוספים, כולל Fabric, Quilt, Forge ו-NeoForge עבור מודים, כמו גם Paper ו-Purpur עבור תוספים. הזמינות תלויה בתמיכה של טוען המודים או התוספים בגרסת Minecraft שנבחרה."
+  },
+  "hosting-marketing.get-started": {
+    "message": "התחל עכשיו"
+  },
+  "hosting-marketing.hero.button.manage-your-servers": {
+    "message": "נהל את השרתים שלך"
+  },
+  "hosting-marketing.hero.button.start-a-new-server": {
+    "message": "הקמת שרת חדש"
+  },
+  "hosting-marketing.hero.button.start-your-server": {
+    "message": "הפעל את השרת שלך"
+  },
+  "hosting-marketing.hero.host-with-Icarus": {
+    "message": "אחסנו את השרת הבא שלכם ב-Icarus Hosting"
+  },
+  "hosting-marketing.hero.hosting-description": {
+    "message": "Icarus Hosting היא הדרך הקלה ביותר לאחסן שרת Minecraft: Java Edition משלכם. התקינו ושחקו במודים ובחבילות המודים האהובים עליכם בצורה חלקה, והכול מתוך הפלטפורמה של Icarus."
+  },
+  "hosting-marketing.included.advanced-networking": {
+    "message": "ניהול רשת מתקדם"
+  },
+  "hosting-marketing.included.advanced-networking.description": {
+    "message": "שריינו עד 15 יציאות עבור מודים שדורשים זאת."
+  },
+  "hosting-marketing.included.backups-included": {
+    "message": "כולל גיבויים"
+  },
+  "hosting-marketing.included.backups-included.description": {
+    "message": "כל שרת כולל 15 גיבויים המאוחסנים בבטחה באתר חיצוני."
+  },
+  "hosting-marketing.included.custom-url": {
+    "message": "כתובת URL מותאמת אישית"
+  },
+  "hosting-marketing.included.custom-url.description": {
+    "message": "שתפו את השרת שלכם באמצעות כתובת <contrast>Icarus.gg</contrast> מותאמת אישית."
+  },
+  "hosting-marketing.included.description": {
+    "message": "כל שרת מגיע עם חבילת כלים שעוצבה במיוחד כדי להעניק חוויית אחסון שרק Icarus יכולה להציע."
+  },
+  "hosting-marketing.included.file-manager": {
+    "message": "ניהול קבצים קל ונוח"
+  },
+  "hosting-marketing.included.file-manager.description": {
+    "message": "חפשו, נהלו, ערכו והעלו קבצים ישירות לשרת שלכם בקלות."
+  },
+  "hosting-marketing.included.heading": {
+    "message": "מגיע עם כל התכונות שאתם צריכים."
+  },
+  "hosting-marketing.included.help": {
+    "message": "עזרה בדיוק כשצריך"
+  },
+  "hosting-marketing.included.help.description": {
+    "message": "צרו קשר עם צוות Icarus לקבלת עזרה בשרת שלכם בכל עת."
+  },
+  "hosting-marketing.included.powerful-console": {
+    "message": "קונסול עוצמתי, ניהול הגדרות שרת ועוד"
+  },
+  "hosting-marketing.included.powerful-console.description": {
+    "message": "Icarus Hosting כוללת כלים עוצמתיים לניהול השרת שלכם."
+  },
+  "hosting-marketing.included.sftp-access": {
+    "message": "גישת SFTP"
+  },
+  "hosting-marketing.included.sftp-access.description": {
+    "message": "גשו לקבצי השרת שלכם ישירות באמצעות גישת SFTP המובנית ב-Icarus Hosting."
+  },
+  "hosting-marketing.included.with-your-server": {
+    "message": "כלול בשרת שלכם"
+  },
+  "hosting-marketing.know-what-you-need": {
+    "message": "יודעים בדיוק מה אתם צריכים?"
+  },
+  "hosting-marketing.medal.info": {
+    "message": "נסו שרת של <orange>3 GB</orange> בחינם ל5 ימים, בטכנולוגיית <orange>Medal</orange>"
+  },
+  "hosting-marketing.medal.learn-more": {
+    "message": "למידע נוסף"
+  },
+  "hosting-marketing.medal.text-secondary": {
+    "message": "מבצע לזמן מוגבל. אין צורך בכרטיס אשראי. זמין עבור שרתים בארה\"ב."
+  },
+  "hosting-marketing.pick-customized-plan": {
+    "message": "בחר תוכנית מותאמת אישית עם המפרט שאתה צריך בלבד."
+  },
+  "hosting-marketing.server-for-everyone": {
+    "message": "יש שרת לכל אחד"
+  },
+  "hosting-marketing.why.all-on-Icarus": {
+    "message": "נהלו את הכל ב-Icarus"
+  },
+  "hosting-marketing.why.all-on-Icarus.description": {
+    "message": "השרת, המודים, השחקנים ועוד. כולם נמצאים ב-Icarus. אין צורך לעבור בין פלטפורמות שונות."
+  },
+  "hosting-marketing.why.consistently-fast": {
+    "message": "מהירות עקבית ויציבה"
+  },
+  "hosting-marketing.why.consistently-fast.description": {
+    "message": "התשתיות שלנו לעולם אינן עמוסות, מה שאומר שכל שרת ב-Icarus תמיד פועל בשיא הביצועים שלו."
+  },
+  "hosting-marketing.why.description": {
+    "message": "בחרו מתוך אלפי חבילות מודים ב-Icarus או צרו אחת משלכם. כשתהיו מוכנים לשחק – הזמינו את החברים."
+  },
+  "hosting-marketing.why.heading": {
+    "message": "מוצאים מודפאק. וזהו, יש לכם שרת."
+  },
+  "hosting-marketing.why.modern-reliable-hosting": {
+    "message": "תחוו אירוח מודרני ואמין"
+  },
+  "hosting-marketing.why.modern-reliable-hosting.description": {
+    "message": "שרתי Icarus Hosting מאוחסנים על <contrast>מעבדי AMD בעלי ביצועים גבוהים עם זיכרון DDR5 RAM</contrast>, ופועלים על תוכנה שנבנתה במיוחד כדי להבטיח שהשרת שלכם ירוץ בצורה חלקה."
+  },
+  "hosting-marketing.why.where-mods-are": {
+    "message": "תשחקו איפה שהמודים שלכם נמצאים"
+  },
+  "hosting-marketing.why.where-mods-are.description": {
+    "message": "Icarus Hosting משלב בצורה חלקה את תהליך ההתקנה של מודים וחבילות מודים (modpacks) ישירות בשרת שלך."
+  },
+  "hosting-marketing.why.why-Icarus-hosting": {
+    "message": "למה כדאי לך להשתמש ב-Icarus Hosting?"
+  },
+  "hosting-marketing.why.your-favorite-mods": {
+    "message": "כל המודים האהובים עליכם"
+  },
+  "hosting-marketing.why.your-favorite-mods.description": {
+    "message": "בחרו בין Vanilla, Fabric, Forge, Quilt ו-NeoForge. אם זה נמצא ב-Icarus, זה יכול לרוץ על השרת שלכם."
+  },
+  "hosting.plan.out-of-stock": {
+    "message": "אזל מהמלאי"
+  },
+  "hosting.plan.select-plan": {
+    "message": "בחר תוכנית"
+  },
+  "landing.button.discover-mods": {
+    "message": "גלה מודים"
+  },
+  "landing.button.go-to-dashboard": {
+    "message": "עבור ללוח הבקרה"
+  },
+  "landing.creator.feature.constantly-evolving.description": {
+    "message": "קבל את חוויית המודים הכי טובה שאפשר עם עדכונים שוטפים מצוות Icarus"
+  },
+  "landing.creator.feature.constantly-evolving.title": {
+    "message": "בפיתוח מתמיד"
+  },
+  "landing.creator.feature.data-statistics.description": {
+    "message": "קבלו דוחות מפורטים על כניסות לדפים, מספר הורדות והכנסות כספיות"
+  },
+  "landing.creator.feature.data-statistics.title": {
+    "message": "נתונים וסטטיסטיקות"
+  },
+  "landing.creator.feature.discovery.description": {
+    "message": "תנו לפרויקט שלכם להתגלות על ידי אלפי משתמשים דרך החיפוש, עמוד הבית שלנו, שרת הדיסקורד, ועוד דרכים נוספות שיגיעו בעתיד!"
+  },
+  "landing.creator.feature.discovery.title": {
+    "message": "חשיפה"
+  },
+  "landing.creator.feature.diverse-ecosystem.description": {
+    "message": "שלבו את כלי הבנייה שלכם באמצעות Minotaur, ותיהנו מהעלאות אוטומטיות מיד עם שחרור גרסה חדשה"
+  },
+  "landing.creator.feature.diverse-ecosystem.title": {
+    "message": "מערכת אקולוגית מגוונת"
+  },
+  "landing.creator.feature.monetization.description": {
+    "message": "קבלו הכנסות מפרסומות בדפי הפרויקט שלכם ומשכו את הכספים בכל עת"
+  },
+  "landing.creator.feature.monetization.title": {
+    "message": "ייצור הכנסות"
+  },
+  "landing.creator.feature.team-management.description": {
+    "message": "הזמינו את חברי הצוות שלכם ונהלו תפקידים והרשאות בקלות"
+  },
+  "landing.creator.feature.team-management.title": {
+    "message": "ניהול צוות"
+  },
+  "landing.error.failedToLoadRandomProjects": {
+    "message": "נכשל בניסיון טעינת פרויקטים אקראיים :("
+  },
+  "landing.feature.follow.description": {
+    "message": "התעדכן/י כל פעם הפקרויקטים האהובים עליך מתעדכנים."
+  },
+  "landing.feature.follow.heading": {
+    "message": "עקבו אחר פרויקטים שאתם אוהבים"
+  },
+  "landing.feature.launcher.description": {
+    "message": "ה-API הפתוח של Icarus מאפשר למפעילים לשלב אינטגרציה עמוקה עם Icarus. ניתן להשתמש ב-Icarus דרך <link>האפליקציה שלנו</link>, וגם באמצעות כמה מהמפעילים הפופולריים ביותר, כמו ATLauncher, MultiMC ו-Prism Launcher."
+  },
+  "landing.feature.launcher.heading": {
+    "message": "שחק עם המפעיל האהוב עליך"
+  },
+  "landing.feature.search.description": {
+    "message": "מערכת החיפוש הזריזה והפילטרים העוצמתיים של Icarus מאפשרים למצוא את מה שמחפשים בזמן כתיבה."
+  },
+  "landing.feature.search.heading": {
+    "message": "מצא מה שתרצא, בקלות ובמהירות"
+  },
+  "landing.heading.the-place-for-minecraft": {
+    "message": "המקום ל{content} מיינקראפט"
+  },
+  "landing.heading.the-place-for-minecraft.data-packs": {
+    "message": "חבילות נתונים"
+  },
+  "landing.heading.the-place-for-minecraft.modpacks": {
+    "message": "חבילות מודים"
+  },
+  "landing.heading.the-place-for-minecraft.mods": {
+    "message": "מודים"
+  },
+  "landing.heading.the-place-for-minecraft.plugins": {
+    "message": "פלאגינים"
+  },
+  "landing.heading.the-place-for-minecraft.resource-packs": {
+    "message": "חבילות משאבים"
+  },
+  "landing.heading.the-place-for-minecraft.servers": {
+    "message": "שרתים"
+  },
+  "landing.heading.the-place-for-minecraft.shaders": {
+    "message": "שיידרים"
+  },
+  "landing.launcher.atlauncher-label": {
+    "message": "ATLauncher"
+  },
+  "landing.launcher.graphic-alt": {
+    "message": "הצגה של חלון מיינקראפט מופשט, עם לוגו Mojang בצבע ירוק Icarus."
+  },
+  "landing.launcher.Icarus-app-label": {
+    "message": "Icarus Launcher"
+  },
+  "landing.launcher.prism-launcher-label": {
+    "message": "Prism Launcher"
+  },
+  "landing.notifications.has-been-updated": {
+    "message": "{title} עודכן!"
+  },
+  "landing.notifications.heading": {
+    "message": "עדכונים"
+  },
+  "landing.notifications.received-time": {
+    "message": "זמן קבלה: {time}"
+  },
+  "landing.notifications.version-released": {
+    "message": "גרסא {version} יצאה לגרסאת המשחק {gameVersion}"
+  },
+  "landing.section.for-creators.description": {
+    "message": "תנו בית ליצירות שלכם והגיעו לקהל עצום של שחקנים מסורים."
+  },
+  "landing.section.for-creators.label": {
+    "message": "ליוצרים"
+  },
+  "landing.section.for-creators.tagline": {
+    "message": "שתפו את התוכן שלכם עם העולם"
+  },
+  "landing.section.for-players.description": {
+    "message": "מביומות קסומות למערות מקוללות, אפשר להיות בטוח שתמצא את התוכן כדי להביא את המשחק שלך לשלב הבא."
+  },
+  "landing.section.for-players.label": {
+    "message": "בשביל שחקנים"
+  },
+  "landing.section.for-players.tagline": {
+    "message": "גלו למעלה מ-{count, number} יצירות"
+  },
+  "landing.subheading": {
+    "message": "גלה, שחק, ושתף תוכן לMinecraft דרך הפלטפורמת קוד-פתוח שלנו שפותחה עבור הקהילה."
+  },
+  "layout.action.change-theme": {
+    "message": "לשנות מצב צבע"
+  },
+  "layout.action.create-new": {
+    "message": "צור חדש..."
+  },
+  "layout.action.file-lookup": {
+    "message": "חיפוש קבצים"
+  },
+  "layout.action.lookup-by-email": {
+    "message": "חיפוש על ידי אימייל"
+  },
+  "layout.action.manage-affiliates": {
+    "message": "נהל את קישורי השותפים"
+  },
+  "layout.action.manage-server-notices": {
+    "message": "ניהול הודעות השרת"
+  },
+  "layout.action.new-collection": {
+    "message": "אוסף חדש"
+  },
+  "layout.action.new-organization": {
+    "message": "ארגון חדש"
+  },
+  "layout.action.new-project": {
+    "message": "פרוייקט חדש"
+  },
+  "layout.action.new-server-project": {
+    "message": "יצירת שרת חדש"
+  },
+  "layout.action.publish": {
+    "message": "פרסם"
+  },
+  "layout.action.reports": {
+    "message": "סקירת דיווחים"
+  },
+  "layout.action.review-projects": {
+    "message": "סקירת פרויקט"
+  },
+  "layout.action.tech-review": {
+    "message": "סקירה טכנית"
+  },
+  "layout.avatar.alt": {
+    "message": "אוותר חשבון"
+  },
+  "layout.banner.account-action": {
+    "message": "נדרשת פעולה על החשבון"
+  },
+  "layout.banner.add-email.button": {
+    "message": "בקר הגדרות חשבון"
+  },
+  "layout.banner.add-email.description": {
+    "message": "מטעמי אבטחה, Icarus דורשת ממך לרשום כתובת אימייל בחשבונך."
+  },
+  "layout.banner.build-fail.description": {
+    "message": "פריסה זו של ממשק ה-Frontend של Icarus נכשלה ביצירת נתונים מהAPI. ייתכן שהדבר נובע מהשבתה או משגיאה בהגדרות. יש לבצע בנייה מחדש כאשר ה-API יהיה זמין. קודי שגיאה: {errors}; כתובת ה-API הנוכחית היא: {url}"
+  },
+  "layout.banner.build-fail.title": {
+    "message": "שגיאה ביצירת נתונים מהAPI במהלך הבנייה."
+  },
+  "layout.banner.preview.description": {
+    "message": "אם התכוונת לגשת לאתר הרשמי של Icarus, בקר בכתובת <link>https://Icarus.com</link>. פריסת תצוגה מקדימה זו משמשת את צוות Icarus למטרות בדיקה בלבד. היא נבנתה באמצעות <branch-link>{owner}/{branch}</branch-link> @ {commit}."
+  },
+  "layout.banner.preview.title": {
+    "message": "זוהי פריסת תצוגה מקדימה של אתר Icarus."
+  },
+  "layout.banner.staging.description": {
+    "message": "סביבת ההפעלה (staging) נפרדת לחלוטין ממסד הנתונים של Icarus בתקופת הייצור. מסד הנתונים משמש למטרות בדיקה וניפוי שגיאות, וייתכן שהוא מפעיל גרסאות פיתוח של קצה השרת או הקצה הקדמי של Icarus, חדשות יותר מדגם הייצור."
+  },
+  "layout.banner.staging.title": {
+    "message": "אתה צופה בסביבת הבימוי של Icarus"
+  },
+  "layout.banner.subscription-payment-failed.button": {
+    "message": "עדכן את פרטי החיוב"
+  },
+  "layout.banner.subscription-payment-failed.description": {
+    "message": "מנוי אחד או יותר לא חודש בהצלחה. נא לעדכן את אמצעי התשלום כדי למנוע אובדן גישה!"
+  },
+  "layout.banner.subscription-payment-failed.title": {
+    "message": "נדרשת פעולה בפרטי החיוב."
+  },
+  "layout.banner.tax.action": {
+    "message": "השלם את טופס המס"
+  },
+  "layout.banner.tax.description": {
+    "message": "משכת כבר מעל {threshold} מ-Icarus השנה. כדי לעמוד בתקנות המס, עליך למלא טופס מס. משיכות הכספים שלך מושהות עד להגשת הטופס."
+  },
+  "layout.banner.tax.title": {
+    "message": "נדרש טופס מס"
+  },
+  "layout.banner.tin-mismatch.action": {
+    "message": "צור קשר עם התמיכה"
+  },
+  "layout.banner.tin-mismatch.description": {
+    "message": "אפשרות המשיכה שלך ננעלה זמנית מכיוון שמספר ה-TIN או ה-SSN לא תואם לרשומות ה-IRS. יש ליצור קשר עם התמיכה כדי לאפס ולהגיש מחדש את טופס המס."
+  },
+  "layout.footer.about": {
+    "message": "אודות"
+  },
+  "layout.footer.about.careers": {
+    "message": "קריירות"
+  },
+  "layout.footer.about.changelog": {
+    "message": "יומן שינויים"
+  },
+  "layout.footer.about.news": {
+    "message": "חדשות"
+  },
+  "layout.footer.about.rewards-program": {
+    "message": "תוכנית תגמולים"
+  },
+  "layout.footer.about.status": {
+    "message": "מצב"
+  },
+  "layout.footer.legal": {
+    "message": "מידע משפטי"
+  },
+  "layout.footer.legal-disclaimer": {
+    "message": "לא שירות רשמי של Minecraft. לא אושר על ידי או משוייך עם Mojang או Minecraft."
+  },
+  "layout.footer.legal.copyright-policy": {
+    "message": "מדיניות זכויות יוצרים ו-DMCA"
+  },
+  "layout.footer.legal.privacy-policy": {
+    "message": "מדיניות הפרטיות"
+  },
+  "layout.footer.legal.rules": {
+    "message": "חוקי תוכן"
+  },
+  "layout.footer.legal.security-notice": {
+    "message": "הודעת אבטחה"
+  },
+  "layout.footer.legal.terms-of-use": {
+    "message": "תנאי שימוש"
+  },
+  "layout.footer.Icarus-information": {
+    "message": "מידע על Icarus"
+  },
+  "layout.footer.open-source": {
+    "message": "Icarus הוא <github-link>קוד פתוח</github-link>."
+  },
+  "layout.footer.products": {
+    "message": "מוצרים"
+  },
+  "layout.footer.products.app": {
+    "message": "Icarus Launcher"
+  },
+  "layout.footer.products.plus": {
+    "message": "Icarus+"
+  },
+  "layout.footer.resources": {
+    "message": "משאבים"
+  },
+  "layout.footer.resources.api-docs": {
+    "message": "מסמכי API"
+  },
+  "layout.footer.resources.help-center": {
+    "message": "מרכז תמיכה"
+  },
+  "layout.footer.resources.report-issues": {
+    "message": "דיווח בעיות"
+  },
+  "layout.footer.resources.translate": {
+    "message": "תרגם"
+  },
+  "layout.footer.social.bluesky": {
+    "message": "Bluesky"
+  },
+  "layout.footer.social.discord": {
+    "message": "דיסקורד"
+  },
+  "layout.footer.social.github": {
+    "message": "GitHub"
+  },
+  "layout.footer.social.mastodon": {
+    "message": "מסטודון"
+  },
+  "layout.footer.social.x": {
+    "message": "X"
+  },
+  "layout.nav.active-reports": {
+    "message": "דוחות פעילים"
+  },
+  "layout.nav.discover": {
+    "message": "גלה"
+  },
+  "layout.nav.discover-content": {
+    "message": "גלה תוכן"
+  },
+  "layout.nav.get-Icarus-app": {
+    "message": "להוריד אפליקציאת Icarus"
+  },
+  "layout.nav.home": {
+    "message": "דף בית"
+  },
+  "layout.nav.Icarus-app": {
+    "message": "Icarus Launcher"
+  },
+  "layout.nav.Icarus-home-page": {
+    "message": "דף הבית של Icarus"
+  },
+  "layout.nav.my-servers": {
+    "message": "השרתים שלי"
+  },
+  "layout.nav.organizations": {
+    "message": "ארגונים"
+  },
+  "layout.nav.profile": {
+    "message": "פרופיל"
+  },
+  "layout.nav.projects": {
+    "message": "פרויקטים"
+  },
+  "layout.nav.revenue": {
+    "message": "הכנסות"
+  },
+  "layout.nav.saved-projects": {
+    "message": "פרויקטים שנשמרו"
+  },
+  "layout.nav.search": {
+    "message": "חיפוש"
+  },
+  "layout.nav.upgrade-to-Icarus-plus": {
+    "message": "שדרגו ל-Icarus+"
+  },
+  "moderation.page.projects": {
+    "message": "פרויקטים"
+  },
+  "moderation.page.reports": {
+    "message": "דיווחים"
+  },
+  "muralpay.account-type.savings": {
+    "message": "שומר"
+  },
+  "muralpay.country.at": {
+    "message": "אוסטריה"
+  },
+  "muralpay.country.be": {
+    "message": "בלגיה"
+  },
+  "muralpay.country.cy": {
+    "message": "קפריסין"
+  },
+  "muralpay.country.de": {
+    "message": "גרמניה"
+  },
+  "muralpay.country.ee": {
+    "message": "אסטוניה"
+  },
+  "muralpay.country.es": {
+    "message": "ספרד"
+  },
+  "muralpay.country.fi": {
+    "message": "פינלנד"
+  },
+  "muralpay.country.fr": {
+    "message": "צרפת"
+  },
+  "muralpay.country.gr": {
+    "message": "יוון"
+  },
+  "muralpay.country.ie": {
+    "message": "אירלנד"
+  },
+  "muralpay.country.it": {
+    "message": "איטליה"
+  },
+  "muralpay.country.lt": {
+    "message": "ליטא"
+  },
+  "muralpay.country.lu": {
+    "message": "לוקסמבורג"
+  },
+  "muralpay.country.lv": {
+    "message": "לטביה"
+  },
+  "muralpay.country.mt": {
+    "message": "מלטה"
+  },
+  "muralpay.country.nl": {
+    "message": "הולנד"
+  },
+  "muralpay.country.pt": {
+    "message": "פורטוגל"
+  },
+  "muralpay.country.sk": {
+    "message": "סלובקיה"
+  },
+  "muralpay.document-type.passport": {
+    "message": "דרכון"
+  },
+  "muralpay.field.clabe": {
+    "message": "CLABE"
+  },
+  "muralpay.field.country": {
+    "message": "מדינה"
+  },
+  "muralpay.field.cpf-cnpj": {
+    "message": "CPF/CNPJ"
+  },
+  "muralpay.field.cuit-cuil": {
+    "message": "CUIT/CUIL"
+  },
+  "muralpay.field.phone-number": {
+    "message": "מספר טלפון"
+  },
+  "muralpay.pix-type.document": {
+    "message": "CPF/CNPJ"
+  },
+  "muralpay.pix-type.email": {
+    "message": "אימייל"
+  },
+  "muralpay.pix-type.phone": {
+    "message": "מספר טלפון"
+  },
+  "muralpay.placeholder.enter-random-key": {
+    "message": "הזן מפתח אקראי"
+  },
+  "muralpay.placeholder.enter-routing-number": {
+    "message": "הזן קוד ניתוב (Routing Number) בן 9 ספרות"
+  },
+  "muralpay.placeholder.enter-swift-bic": {
+    "message": "הזן קוד SWIFT/BIC"
+  },
+  "muralpay.placeholder.iban-crc": {
+    "message": "הזן IBAN קוסטה-ריקני"
+  },
+  "muralpay.placeholder.phone-cop": {
+    "message": "+57..."
+  },
+  "muralpay.placeholder.pix-phone": {
+    "message": "+55..."
+  },
+  "muralpay.placeholder.wallet-address-eth": {
+    "message": "0x..."
+  },
+  "muralpay.rail.fiat-ars.name": {
+    "message": "העברה בנקאית (ARS)"
+  },
+  "muralpay.rail.fiat-brl.name": {
+    "message": "העברת PIX ‏(BRL)"
+  },
+  "muralpay.rail.fiat-clp.name": {
+    "message": "העברה בנקאית (CLP)"
+  },
+  "muralpay.rail.fiat-cop.name": {
+    "message": "העברה בנקאית (COP)"
+  },
+  "muralpay.rail.fiat-crc.name": {
+    "message": "העברה בנקאית (CRC)"
+  },
+  "muralpay.rail.fiat-eur.name": {
+    "message": "העברה בנקאית (MXN)"
+  },
+  "muralpay.rail.fiat-mxn.name": {
+    "message": "העברה בנקאית (MXN)"
+  },
+  "muralpay.rail.fiat-pen.name": {
+    "message": "העברה בנקאית (PEN)"
+  },
+  "muralpay.rail.fiat-usd-peru.name": {
+    "message": "העברה בנקאית (USD - פרו)"
+  },
+  "muralpay.rail.fiat-usd.name": {
+    "message": "העברה בנקאית (USD)"
+  },
+  "muralpay.rail.fiat-zar.name": {
+    "message": "העברה בנקאית (ZAR)"
+  },
+  "muralpay.rail.usdc-base.name": {
+    "message": "USDC (רשת Base)"
+  },
+  "muralpay.rail.usdc-celo.name": {
+    "message": "USDC (רשת Celo)"
+  },
+  "muralpay.rail.usdc-ethereum.name": {
+    "message": "USDC (רשת Ethereum)"
+  },
+  "muralpay.rail.usdc-polygon.name": {
+    "message": "קריפטו (USDC)"
+  },
+  "muralpay.warning.wallet-address": {
+    "message": "בדוק היטב את כתובת הארנק שלך. לא ניתן לשחזר כספים שנשלחו לכתובת שגויה."
+  },
+  "profile.bio.fallback.creator": {
+    "message": "יוצר ב-Icarus."
+  },
+  "profile.bio.fallback.user": {
+    "message": "משתמש ב-Icarus."
+  },
+  "profile.button.billing": {
+    "message": "נהל את חיוב המשתמש"
+  },
+  "profile.button.edit-role": {
+    "message": "עריכת תפקיד"
+  },
+  "profile.button.info": {
+    "message": "הצג את הפרטים של המשתמש"
+  },
+  "profile.button.manage-projects": {
+    "message": "ניהול פרויקטים"
+  },
+  "profile.button.remove-affiliate": {
+    "message": "הסרה מתוכנית השותפים"
+  },
+  "profile.button.set-affiliate": {
+    "message": "הגדר כשותף"
+  },
+  "profile.details.label.auth-providers": {
+    "message": "ספקי אימות זהות"
+  },
+  "profile.details.label.email": {
+    "message": "אימייל"
+  },
+  "profile.details.label.email-verified": {
+    "message": "כתובת האימייל אומתה"
+  },
+  "profile.details.label.has-password": {
+    "message": "יש סיסמה"
+  },
+  "profile.details.label.has-totp": {
+    "message": "אימות דו-שלבי פעיל"
+  },
+  "profile.details.label.payment-methods": {
+    "message": "שיטת תשלום"
+  },
+  "profile.details.tooltip.email-not-verified": {
+    "message": "כתובת האימייל טרם אומתה"
+  },
+  "profile.details.tooltip.email-verified": {
+    "message": "כתובת האימייל אומתה"
+  },
+  "profile.error.not-found": {
+    "message": "המשתמש לא נמצא"
+  },
+  "profile.label.affiliate": {
+    "message": "שותף או משתמש שותף"
+  },
+  "profile.label.badges": {
+    "message": "תגים"
+  },
+  "profile.label.collection": {
+    "message": "אוסף"
+  },
+  "profile.label.downloads": {
+    "message": "{count} {countPlural, plural, one {download} other {downloads}}"
+  },
+  "profile.label.joined": {
+    "message": "הצטרף ב-"
+  },
+  "profile.label.no-collections": {
+    "message": "למשתמש זה אין אוספים!"
+  },
+  "profile.label.no-collections-auth": {
+    "message": "אין לך אוספים.\nהאם תרצה <create-link>ליצור אחד</create-link>?"
+  },
+  "profile.label.no-projects": {
+    "message": "למשתמש זה אין פרויקטים!"
+  },
+  "profile.label.no-projects-auth": {
+    "message": "אין לך פרויקטים.\nהאם תרצה <create-link>ליצור אחד</create-link>?"
+  },
+  "profile.label.organizations": {
+    "message": "ארגונים"
+  },
+  "profile.label.projects": {
+    "message": "{count} {countPlural, plural, one {project} other {projects}}"
+  },
+  "profile.label.saving": {
+    "message": "שומר..."
+  },
+  "profile.meta.description": {
+    "message": "הורד את הפרויקטים של {username} ב-Icarus"
+  },
+  "profile.meta.description-with-bio": {
+    "message": "{bio} - הורד את הפרויקטים של {username} ב-Icarus"
+  },
+  "profile.stats.projects-followers": {
+    "message": "{count, plural, one {<stat>{count}</stat> project follower} other {<stat>{count}</stat> project followers}}"
+  },
+  "profile.user-id": {
+    "message": "מזהה משתמש: {id}"
+  },
+  "project-member-header.error-decline": {
+    "message": "הפעולה לדחיית ההזמנה לצוות נכשלה"
+  },
+  "project-member-header.error-join": {
+    "message": "הפעולה לאישור ההזמנה לצוות נכשלה"
+  },
+  "project-member-header.invitation-no-role": {
+    "message": "הוזמנת להצטרף לפרויקט זה. נא אשר או דחה את ההזמנה."
+  },
+  "project-member-header.invitation-title": {
+    "message": "הזמנה להצטרף לפרויקט"
+  },
+  "project-member-header.invitation-with-role": {
+    "message": "הוזמנת להיות חבר בפרויקט זה עם תפקיד \"{role}\"."
+  },
+  "project-member-header.success-decline": {
+    "message": "דחית את ההזמנה לצוות"
+  },
+  "project-member-header.success-join": {
+    "message": "הצטרפת לצוות הפרויקט"
+  },
+  "project-moderation-nags.publishing-checklist": {
+    "message": "רשימת פרסום"
+  },
+  "project-moderation-nags.required": {
+    "message": "חובה"
+  },
+  "project-moderation-nags.resubmit-for-review": {
+    "message": "שלח שוב לבדיקה"
+  },
+  "project-moderation-nags.resubmit-for-review-desc": {
+    "message": "צוות Icarus {status, select, rejected {דחה} withheld {עיכב} other {{status}}} את הפרויקט שלך. ברוב המקרים, אפשר לשלוח אותו שוב לבדיקה אחרי שתטפל במה שכתבו לך."
+  },
+  "project-moderation-nags.submit-checklist-tooltip": {
+    "message": "חובה להשלים את שלבי החובה ברשימת הפרסום!"
+  },
+  "project-moderation-nags.submit-for-review": {
+    "message": "שלח לבדיקה"
+  },
+  "project-moderation-nags.submit-for-review-button": {
+    "message": "שלח לבדיקה"
+  },
+  "project-moderation-nags.submit-for-review-desc": {
+    "message": "רק חברי הפרויקט יכולים לראות אותו כרגע. כדי שהוא יפורסם, הצוות שלנו צריך לעבור עליו ולאשר אותו."
+  },
+  "project-moderation-nags.suggestion": {
+    "message": "הצעה"
+  },
+  "project-moderation-nags.visit-moderation-page": {
+    "message": "מעבר לדף הבדיקה"
+  },
+  "project-moderation-nags.warning": {
+    "message": "אזהרה"
+  },
+  "project-type.collection.plural": {
+    "message": "אוספים"
+  },
+  "project-type.collection.singular": {
+    "message": "אוסף"
+  },
+  "project-type.datapack.plural": {
+    "message": "חבילות נתונים"
+  },
+  "project-type.datapack.singular": {
+    "message": "חבילת נתונים"
+  },
+  "project-type.minecraft_java_server.plural": {
+    "message": "שרתים"
+  },
+  "project-type.minecraft_java_server.singular": {
+    "message": "שרת"
+  },
+  "project-type.mod.plural": {
+    "message": "מודים"
+  },
+  "project-type.mod.singular": {
+    "message": "מוד"
+  },
+  "project-type.modpack.plural": {
+    "message": "חבילות מודים"
+  },
+  "project-type.modpack.singular": {
+    "message": "חבילת מודים"
+  },
+  "project-type.plugin.plural": {
+    "message": "תוספים"
+  },
+  "project-type.plugin.singular": {
+    "message": "תוסף"
+  },
+  "project-type.project.plural": {
+    "message": "פרויקטים"
+  },
+  "project-type.project.singular": {
+    "message": "פרויקט"
+  },
+  "project-type.resourcepack.plural": {
+    "message": "חבילות משאבים"
+  },
+  "project-type.resourcepack.singular": {
+    "message": "חבילת משאבים"
+  },
+  "project-type.server.plural": {
+    "message": "שרתים"
+  },
+  "project-type.server.singular": {
+    "message": "שרת"
+  },
+  "project-type.shader.plural": {
+    "message": "שיידרים"
+  },
+  "project-type.shader.singular": {
+    "message": "שיידר"
+  },
+  "project.about.details.created": {
+    "message": "נוצר ב-{date}"
+  },
+  "project.about.details.licensed": {
+    "message": "ברישיון {license}"
+  },
+  "project.about.details.published": {
+    "message": "פורסם {date}"
+  },
+  "project.about.details.submitted": {
+    "message": "נשלח ב-{date}"
+  },
+  "project.about.details.title": {
+    "message": "פרטים"
+  },
+  "project.about.details.updated": {
+    "message": "עודכן ב-{date}"
+  },
+  "project.actions.create-server": {
+    "message": "צור שרת"
+  },
+  "project.actions.create-server-tooltip": {
+    "message": "צור שרת"
+  },
+  "project.actions.dont-show-again": {
+    "message": "אל תציג שוב"
+  },
+  "project.actions.review-project": {
+    "message": "סקירת פרויקט"
+  },
+  "project.actions.servers-promo.description": {
+    "message": "Icarus Hosting היא הדרך הקלה ביותר לשחק עם חברים בלי כאב ראש!"
+  },
+  "project.actions.servers-promo.pricing": {
+    "message": "החל מ-{price}<small> לחודש</small>"
+  },
+  "project.actions.servers-promo.title": {
+    "message": "צור שרת"
+  },
+  "project.collections.create-new": {
+    "message": "צור אוסף חדש"
+  },
+  "project.collections.none-found": {
+    "message": "לא נמצאו אוספים."
+  },
+  "project.description.title": {
+    "message": "תיאור"
+  },
+  "project.details.licensed": {
+    "message": "ברישיון"
+  },
+  "project.download.game-version": {
+    "message": "גרסת המשחק: {version}"
+  },
+  "project.download.game-version-error": {
+    "message": "שגיאה: לא נמצאו גרסאות משחק"
+  },
+  "project.download.game-version-tooltip": {
+    "message": "{title} זמין עבור {version} בלבד"
+  },
+  "project.download.game-version-unsupported-tooltip": {
+    "message": "{title} אינו תומך ב-{gameVersion} עבור {platform}"
+  },
+  "project.download.install-with-app": {
+    "message": "התקן באמצעות Icarus Launcher"
+  },
+  "project.download.no-app": {
+    "message": "אין לכם את אפליקציית Icarus?"
+  },
+  "project.download.no-versions-available": {
+    "message": "אין גרסאות זמינות עבור {gameVersion} ו-{platform}."
+  },
+  "project.download.platform": {
+    "message": "פלטפורמה: {platform}"
+  },
+  "project.download.platform-error": {
+    "message": "שגיאה: לא נמצאו פלטפורמות"
+  },
+  "project.download.platform-tooltip": {
+    "message": "{title} זמין עבור {platform} בלבד"
+  },
+  "project.download.platform-unsupported-tooltip": {
+    "message": "{title} אינו תומך ב-{platform} עבור {gameVersion}"
+  },
+  "project.download.search-game-versions": {
+    "message": "חיפוש גרסאות משחק..."
+  },
+  "project.download.search-game-versions-label": {
+    "message": "חיפוש גרסאות משחק..."
+  },
+  "project.download.select-game-version": {
+    "message": "בחירת גרסת משחק"
+  },
+  "project.download.select-platform": {
+    "message": "בחירת פלטפורמה"
+  },
+  "project.download.show-all-versions": {
+    "message": "הצג את כל הגרסאות"
+  },
+  "project.download.title": {
+    "message": "הורדת {title}"
+  },
+  "project.environment.migration-no-permission.message": {
+    "message": "שדרגנו את מערכת הסביבות (Environments) ב-Icarus ואפשרויות חדשות זמינות כעת. אין לך הרשאות לעדכן את ההגדרות הללו, אך נשמח אם תעדכן חבר פרויקט אחר שיש לאמת את נתוני הסביבה (Metadata)."
+  },
+  "project.environment.migration-no-permission.title": {
+    "message": "ש לבדוק את נתוני הסביבה"
+  },
+  "project.environment.migration.learn-more": {
+    "message": "למידע נוסף על השינוי"
+  },
+  "project.environment.migration.message": {
+    "message": "שדרגנו את מערכת הסביבות ב-Icarus ואפשרויות חדשות זמינות כעת. אנא ודאו שנתוני הסביבה נכונים."
+  },
+  "project.environment.migration.review-button": {
+    "message": "בדיקת הגדרות סביבה"
+  },
+  "project.environment.migration.title": {
+    "message": "נא לבדוק את נתוני הסביבה"
+  },
+  "project.error.loading": {
+    "message": "שגיאה בטעינת נתוני הפרויקט: {message}"
+  },
+  "project.error.page-not-found": {
+    "message": "הדף לא נמצא"
+  },
+  "project.error.project-not-found": {
+    "message": "פרויקט אינו מצוי"
+  },
+  "project.gallery.title": {
+    "message": "גלריה"
+  },
+  "project.license.error": {
+    "message": "לא ניתן היה לשלוף את טקסט הרישיון."
+  },
+  "project.license.loading": {
+    "message": "טוען את טקסט הרישיון..."
+  },
+  "project.license.title": {
+    "message": "רישיון"
+  },
+  "project.moderation.title": {
+    "message": "פיקוח ובקרה"
+  },
+  "project.navigation.changelog": {
+    "message": "יומן שינויים"
+  },
+  "project.notification.icon-updated.message": {
+    "message": "סמל הפרויקט שלך עודכן."
+  },
+  "project.notification.icon-updated.title": {
+    "message": "סמל הפרויקט עודכן"
+  },
+  "project.notification.updated.message": {
+    "message": "סמל הפרויקט שלך עודכן."
+  },
+  "project.settings.general.name.description": {
+    "message": "הימנע מקידומות, סיומות, סוגריים או תיאורים נוספים — רק שמו האמיתי של הפרויקט."
+  },
+  "project.settings.general.name.placeholder.1": {
+    "message": "למשל: נת'ר אוברהול 2"
+  },
+  "project.settings.general.name.placeholder.5": {
+    "message": "לדוגמה: מפלצות מסוכנות"
+  },
+  "project.settings.general.name.title": {
+    "message": "שם"
+  },
+  "project.settings.general.tagline.description": {
+    "message": "תאר את הפרויקט שלך במשפט אחד בלבד."
+  },
+  "project.settings.general.tagline.placeholder.1": {
+    "message": "לדוגמה: משנה לגמרי את התקדמות המשחק כך שתתמקד בנת'ר."
+  },
+  "project.settings.general.tagline.placeholder.2": {
+    "message": "לדוגמה: מוסיף ציוד בנייה שאפשר ללבוש."
+  },
+  "project.settings.general.tagline.placeholder.3": {
+    "message": "לדוגמה: מוסיף מכניקות ריאליסטיות לבניית מכרות."
+  },
+  "project.settings.general.tagline.placeholder.4": {
+    "message": "לדוגמה: משפר את הדרך שבה פורטלים של הנת'ר מתחברים אחד לשני."
+  },
+  "project.settings.general.tagline.placeholder.5": {
+    "message": "לדוגמה: מוסיף גרסאות \"בוס\" חזקות למפלצות הרגילות שמופיעות בלילה."
+  },
+  "project.settings.general.tagline.title": {
+    "message": "שורת מחץ"
+  },
+  "project.settings.general.url.title": {
+    "message": "URL"
+  },
+  "project.settings.title": {
+    "message": "הגדרות"
+  },
+  "project.settings.visit-dashboard": {
+    "message": "ללוח הבקרה של הפרויקטים"
+  },
+  "project.stats.downloads-label": {
+    "message": "{count, plural, one {הורדה} other {הורדות}}"
+  },
+  "project.stats.followers-label": {
+    "message": "{count, plural, one {עוקב} other {עוקבים}}"
+  },
+  "project.status.archived.message": {
+    "message": "הפרויקט {title} הועבר לארכיון. {title} לא יקבל עדכונים נוספים, אלא אם המחבר יחליט להוציא את הפרויקט מהארכיון."
+  },
+  "project.versions.title": {
+    "message": "גרסאות"
+  },
+  "report.already-reported": {
+    "message": "כבר דיווחת {title}"
+  },
+  "report.already-reported-description": {
+    "message": "כבר קיים דיווח פתוח עבור ה{item, select, project {פרויקט} version {גרסה} user {משתמש} other {תוכן}} הזה. אפשר להוסיף פרטים נוספים לדיווח אם יש לך מידע נוסף לשתף."
+  },
+  "report.back-to-item": {
+    "message": "חזרה ל{item, select, project {פרויקט} version {גרסה} user {משתמש} other {תוכן}}"
+  },
+  "report.body.description": {
+    "message": "מומלץ להוסיף קישורים ותמונות אם הם רלוונטיים. דיווחים ריקים או חסרים ייסגרו ללא טיפול."
+  },
+  "report.body.title": {
+    "message": "נשמח לקבל פרטים נוספים על הדיווח שלך"
+  },
+  "report.checking": {
+    "message": "בודק את ה{item, select, project {פרויקט} version {גרסה} user {משתמש} other {תוכן}}..."
+  },
+  "report.could-not-find": {
+    "message": "לא נמצא {item, select, project {פרויקט} version {גרסה} user {משתמש} other {תוכן}}"
+  },
+  "report.for.violation": {
+    "message": "הפרה של <rules-link>חוקי Icarus</rules-link> או <terms-link>תנאי השימוש</terms-link>"
+  },
+  "report.for.violation.description": {
+    "message": "הדוגמאות כוללות תוכן זדוני, ספאם, פוגעני, מטעה או לא חוקי."
+  },
+  "report.form-not-for": {
+    "message": "טופס זה אינו מיועד עבור:"
+  },
+  "report.go-to-report": {
+    "message": "למעבר לדיווח"
+  },
+  "report.not-for.bug-reports": {
+    "message": "דיווחי באגים"
+  },
+  "report.not-for.bug-reports.description": {
+    "message": "ניתן לדווח על באגים ב-<issues-link>מערכת ניהול התקלות</issues-link> שלהם."
+  },
+  "report.not-for.dmca": {
+    "message": "בקשות להסרת תוכן (DMCA)"
+  },
+  "report.not-for.dmca.description": {
+    "message": "לפרטים נוספים, עיינו ב<policy-link>מדיניות זכויות היוצרים</policy-link> שלנו."
+  },
+  "report.note.copyright.1": {
+    "message": "לתשומת לבך: אינך מגיש בקשה להסרת תוכן (DMCA), אלא דיווח על תוכן שהועלה מחדש."
+  },
+  "report.note.copyright.2": {
+    "message": "אם כוונתך להגיש בקשה להסרת תוכן במסגרת DMCA (המהווה הליך משפטי), עליך לעיין ב<copyright-policy-link>מדיניות זכויות היוצרים</copyright-policy-link> שלנו."
+  },
+  "report.note.malicious.1": {
+    "message": "דיווחים על תוכן זדוני או מטעה חייבים לכלול ראיות משמעותיות להתנהגות זו, כגון דגימות קוד."
+  },
+  "report.note.malicious.2": {
+    "message": "סיכומים מ-Microsoft Defender, VirusTotal או זיהוי נוזקות מבוסס בינה מלאכותית (AI) אינם מהווים ראיה מספקת ולא יתקבלו."
+  },
+  "report.please-report": {
+    "message": "נא לדווח על:"
+  },
+  "report.question.content-id": {
+    "message": "מהו ה-ID של ה{item, select, project {פרויקט} version {גרסה} user {משתמש} other {תוכן}}?"
+  },
+  "report.question.content-type": {
+    "message": "מהו סוג התוכן שברצונך לדווח עליו?"
+  },
+  "report.question.report-reason": {
+    "message": "על איזה מחוקי Icarus עובר ה{item, select, project {פרויקט} version {גרסה} user {משתמש} other {תוכן}} הזה?"
+  },
+  "report.report-content": {
+    "message": "דיווח על תוכן למנהלים"
+  },
+  "report.report-item": {
+    "message": "דיווח על {title} למנהלים"
+  },
+  "report.submit": {
+    "message": "שליחת הדיווח"
+  },
+  "scopes.analytics.description": {
+    "message": "גישה לנתוני הסטטיסטיקה שלך"
+  },
+  "scopes.analytics.label": {
+    "message": "צפייה בנתונים סטטיסטיים"
+  },
+  "scopes.category.analytics": {
+    "message": "סטטיסטיקה"
+  },
+  "scopes.category.collections": {
+    "message": "אוספים"
+  },
+  "scopes.category.notifications": {
+    "message": "התראות"
+  },
+  "scopes.category.organizations": {
+    "message": "ארגונים"
+  },
+  "scopes.category.pats": {
+    "message": "אסימוני גישה אישיים (PATs)"
+  },
+  "scopes.category.payouts": {
+    "message": "תשלומים"
+  },
+  "scopes.category.projects": {
+    "message": "פרויקטים"
+  },
+  "scopes.category.reports": {
+    "message": "דיווחים"
+  },
+  "scopes.category.sessions": {
+    "message": "חיבורים פעילים"
+  },
+  "scopes.category.versions": {
+    "message": "גרסאות"
+  },
+  "scopes.reportDelete.label": {
+    "message": "מחק דוחות"
+  },
+  "scopes.reportRead.description": {
+    "message": "קרא דוחות"
+  },
+  "scopes.reportRead.label": {
+    "message": "קרא דוחות"
+  },
+  "scopes.reportWrite.description": {
+    "message": "ערוך דוחות"
+  },
+  "scopes.reportWrite.label": {
+    "message": "כתוב דוחות"
+  },
+  "scopes.sessionAccess.description": {
+    "message": "גישה לחיבורים שהונפקו על ידי Icarus"
+  },
+  "scopes.sessionAccess.label": {
+    "message": "מפגשי גישה"
+  },
+  "scopes.sessionDelete.description": {
+    "message": "מחק מושבים"
+  },
+  "scopes.sessionDelete.label": {
+    "message": "מחק מושבים"
+  },
+  "scopes.sessionRead.description": {
+    "message": "קרא מפגשים פעילים"
+  },
+  "scopes.sessionRead.label": {
+    "message": "קרא מפגשים"
+  },
+  "scopes.threadRead.description": {
+    "message": "קריאת דיונים"
+  },
+  "scopes.threadRead.label": {
+    "message": "קריאת דיונים"
+  },
+  "scopes.threadWrite.description": {
+    "message": "כתיבה בדיונים"
+  },
+  "scopes.threadWrite.label": {
+    "message": "יצירת דיונים"
+  },
+  "scopes.userAuthWrite.description": {
+    "message": "עריכת נתוני האימות שלך"
+  },
+  "scopes.userAuthWrite.label": {
+    "message": "עדכון נתוני אימות"
+  },
+  "scopes.userDelete.description": {
+    "message": "מחק את חשבונך"
+  },
+  "scopes.userDelete.label": {
+    "message": "מחק את חשבונך"
+  },
+  "scopes.userRead.description": {
+    "message": "גש לפרטי הפרופיל הציבורי שלך"
+  },
+  "scopes.userRead.label": {
+    "message": "קרא נתוני משתמש"
+  },
+  "scopes.userReadEmail.description": {
+    "message": "קרא את הדוא\"ל שלך"
+  },
+  "scopes.userReadEmail.label": {
+    "message": "צפייה בכתובת האימייל של המשתמש"
+  },
+  "scopes.userWrite.description": {
+    "message": "כתוב לפרופיל שלך"
+  },
+  "scopes.userWrite.label": {
+    "message": "כתוב נתוני משתמש"
+  },
+  "scopes.versionCreate.description": {
+    "message": "צור גרסאות חדשות"
+  },
+  "scopes.versionCreate.label": {
+    "message": "צור גרסאות"
+  },
+  "scopes.versionDelete.description": {
+    "message": "מחק גרסה"
+  },
+  "scopes.versionDelete.label": {
+    "message": "מחק גרסאות"
+  },
+  "scopes.versionRead.description": {
+    "message": "קרא את כל הגרסאות"
+  },
+  "scopes.versionRead.label": {
+    "message": "קרא גרסאות"
+  },
+  "scopes.versionWrite.description": {
+    "message": "כתוב לנתוני גרסה"
+  },
+  "scopes.versionWrite.label": {
+    "message": "כתוב גרסאות"
+  },
+  "search.filter.game-version-shader-message": {
+    "message": "חבילות שיידרים לגרסאות ישנות לרוב עובדות גם על גרסאות חדשות, עם בעיות מינוריות בלבד."
+  },
+  "search.filter.locked.server": {
+    "message": "מסופק על ידי השרת"
+  },
+  "search.filter.locked.server-game-version.title": {
+    "message": "גרסת המשחק מסופקת על ידי השרת"
+  },
+  "search.filter.locked.server-loader.title": {
+    "message": "הטוען מסופק על ידי השרת"
+  },
+  "search.filter.locked.server.sync": {
+    "message": "סנכרון מול השרת"
+  },
+  "servers.notice.actions": {
+    "message": "פעולות"
+  },
+  "servers.notice.begins": {
+    "message": "מתחיל ב-"
+  },
+  "servers.notice.dismissable": {
+    "message": "ניתן לסגירה"
+  },
+  "servers.notice.expires": {
+    "message": "פג תוקף"
+  },
+  "servers.notice.id": {
+    "message": "ID"
+  },
+  "servers.notice.level": {
+    "message": "רמה"
+  },
+  "servers.notice.undismissable": {
+    "message": "לא ניתן לסגירה"
+  },
+  "servers.notices.create-notice": {
+    "message": "יצירת הודעה"
+  },
+  "servers.notices.no-notices": {
+    "message": "אין הודעות"
+  },
+  "servers.plan.large.description": {
+    "message": "אידיאלי עבור 15–25 שחקנים, חבילות מודים (Modpacks) או מודים כבדים."
+  },
+  "servers.plan.medium.description": {
+    "message": "נהדר עבור 6–15 שחקנים ומספר מודים."
+  },
+  "servers.plan.small.description": {
+    "message": "מושלם ל‑1–5 חברים עם מספר מועט של מודים קלים."
+  },
+  "settings.account.data-export.description": {
+    "message": "תבקש עותק של כל הדאטה האישי שהעלית ל-Icarus. זה יכול לקחת כמה דקות."
+  },
+  "settings.applications.button.edit": {
+    "message": "ערוך"
+  },
+  "settings.applications.field.name": {
+    "message": "שם"
+  },
+  "settings.applications.field.redirect-uri.placeholder": {
+    "message": "https://example.com/auth/callback"
+  },
+  "settings.applications.field.url": {
+    "message": "URL"
+  },
+  "settings.applications.field.url.placeholder": {
+    "message": "https://example.com"
+  },
+  "settings.display.banner.developer-mode.description": {
+    "message": "<strong> מצב מפתח </strong> פעיל. זה יאפשר לך להציג את המזהים הפנימיים של דברים שונים ברחבי המודרינץ 'שעשויים להועיל אם אתה מפתח המשתמש בממשק ה- API של Icarus. לחץ על הלוגו של Icarus בתחתית העמוד 5 פעמים כדי לעבור את מצב המפתח."
+  },
+  "settings.pats.modal.create.expires.label": {
+    "message": "פג תוקף"
+  },
+  "settings.pats.modal.create.name.label": {
+    "message": "שם"
+  },
+  "settings.profile.bio.title": {
+    "message": "תיאור"
+  },
+  "settings.profile.profile-picture.title": {
+    "message": "תמונת פרופיל"
+  }
+}
+

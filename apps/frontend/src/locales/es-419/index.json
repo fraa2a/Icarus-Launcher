@@ -1,0 +1,3582 @@
+{
+  "action.cancel": {
+    "message": "Cancelar"
+  },
+  "action.continue": {
+    "message": "Continuar"
+  },
+  "admin.billing.error.not-found": {
+    "message": "Usuario no encontrado"
+  },
+  "app-marketing.download.description": {
+    "message": "Nuestra aplicación de escritorio está disponible en todas las plataformas, elige la versión que prefieras."
+  },
+  "app-marketing.download.download-appimage": {
+    "message": "Descargar AppImage"
+  },
+  "app-marketing.download.download-beta": {
+    "message": "Descargar la beta"
+  },
+  "app-marketing.download.download-deb": {
+    "message": "Descargar DEB"
+  },
+  "app-marketing.download.download-rpm": {
+    "message": "Descargar RPM"
+  },
+  "app-marketing.download.flathub": {
+    "message": "Consíguelo en Flathub"
+  },
+  "app-marketing.download.linux": {
+    "message": "Linux"
+  },
+  "app-marketing.download.linux-disclaimer": {
+    "message": "Las versiones de la Icarus Launcher para Linux <issues-link>tienen problemas conocidos</issues-link> en ciertos sistemas y configuraciones. Si la App de Icarus no es estable en tu equipo, te recomendamos probar otras aplicaciones como <prism-link>Prism Launcher</prism-link> para instalar contenido de Icarus de forma sencilla."
+  },
+  "app-marketing.download.mac": {
+    "message": "Mac"
+  },
+  "app-marketing.download.options-title": {
+    "message": "Opciones de descarga"
+  },
+  "app-marketing.download.terms": {
+    "message": "Al descargar la Icarus Launcher, aceptas nuestros <terms-link>Términos</terms-link> y <privacy-link>Política de Privacidad</privacy-link>."
+  },
+  "app-marketing.download.title": {
+    "message": "Descargar la Icarus Launcher (Beta)"
+  },
+  "app-marketing.download.windows": {
+    "message": "Windows"
+  },
+  "app-marketing.features.follow.description": {
+    "message": "Guarda el contenido que te gusta y recibe actualizaciones con un solo clic."
+  },
+  "app-marketing.features.follow.title": {
+    "message": "Sigue proyectos"
+  },
+  "app-marketing.features.importing.description": {
+    "message": "Importa todos tus perfiles favoritos desde el launcher que usabas antes y ¡empieza a usar la Icarus Launcher en segundos!"
+  },
+  "app-marketing.features.importing.gdlauncher-alt": {
+    "message": "GDLauncher"
+  },
+  "app-marketing.features.importing.multimc-alt": {
+    "message": "MultiMC"
+  },
+  "app-marketing.features.importing.title": {
+    "message": "Importación de perfiles"
+  },
+  "app-marketing.features.mod-management.actions": {
+    "message": "Acciones"
+  },
+  "app-marketing.features.mod-management.byAuthor": {
+    "message": "por {author}"
+  },
+  "app-marketing.features.mod-management.description": {
+    "message": "Icarus facilita la gestión de todos tus mods en un solo lugar. Puedes instalar, desinstalar y actualizar mods con un solo clic."
+  },
+  "app-marketing.features.mod-management.installed-mods": {
+    "message": "Mods instalados"
+  },
+  "app-marketing.features.mod-management.name": {
+    "message": "Nombre"
+  },
+  "app-marketing.features.mod-management.search-mods": {
+    "message": "Buscar mods"
+  },
+  "app-marketing.features.mod-management.title": {
+    "message": "Gestión de mods"
+  },
+  "app-marketing.features.mod-management.version": {
+    "message": "Versión"
+  },
+  "app-marketing.features.offline.description": {
+    "message": "Juega con tus mods, con o sin conexión a internet."
+  },
+  "app-marketing.features.offline.title": {
+    "message": "Modo sin conexión"
+  },
+  "app-marketing.features.open-source.description": {
+    "message": "El launcher de Icarus es completamente de código abierto. ¡Puedes ver el código fuente en nuestro <github-link>GitHub</github-link>!"
+  },
+  "app-marketing.features.open-source.title": {
+    "message": "Código abierto"
+  },
+  "app-marketing.features.performance.activity-monitor": {
+    "message": "Monitor de actividad"
+  },
+  "app-marketing.features.performance.cpu-percent": {
+    "message": "% CPU"
+  },
+  "app-marketing.features.performance.description": {
+    "message": "Icarus Launcher tiene un mejor rendimiento que muchos de los gestores de mods más populares, ¡usando solo 150 MB de RAM!"
+  },
+  "app-marketing.features.performance.discord": {
+    "message": "Discord"
+  },
+  "app-marketing.features.performance.good-performance": {
+    "message": "Buen rendimiento"
+  },
+  "app-marketing.features.performance.google-chrome": {
+    "message": "Google Chrome"
+  },
+  "app-marketing.features.performance.infinite-mb": {
+    "message": "∞ MB"
+  },
+  "app-marketing.features.performance.infinite-times-infinite-mb": {
+    "message": "∞ * ∞ MB"
+  },
+  "app-marketing.features.performance.less-than-150mb": {
+    "message": "< 150 MB"
+  },
+  "app-marketing.features.performance.Icarus-app": {
+    "message": "Icarus Launcher"
+  },
+  "app-marketing.features.performance.one-billion-percent": {
+    "message": "1000 millones %"
+  },
+  "app-marketing.features.performance.process-name": {
+    "message": "Nombre del proceso"
+  },
+  "app-marketing.features.performance.ram": {
+    "message": "RAM"
+  },
+  "app-marketing.features.performance.small": {
+    "message": "Bajo"
+  },
+  "app-marketing.features.performance.title": {
+    "message": "Eficiente"
+  },
+  "app-marketing.features.play.description": {
+    "message": "Usa la Icarus Launcher para descargar y jugar con tus mods y modpacks favoritos."
+  },
+  "app-marketing.features.play.title": {
+    "message": "Juega con tus mods favoritos"
+  },
+  "app-marketing.features.sharing.description": {
+    "message": "Crea, comparte y juega modpacks con cualquiera de los miles de mods y modpacks alojados aquí en Icarus."
+  },
+  "app-marketing.features.sharing.modpack": {
+    "message": "Modpack"
+  },
+  "app-marketing.features.sharing.share-button": {
+    "message": "Compartir"
+  },
+  "app-marketing.features.sharing.title": {
+    "message": "Comparte modpacks"
+  },
+  "app-marketing.features.unlike-any-launcher": {
+    "message": "Como ningún launcher"
+  },
+  "app-marketing.features.website.description": {
+    "message": "¡La Icarus Launcher está completamente integrada con el sitio web, así que puedes acceder a todos tus proyectos favoritos desde la app!"
+  },
+  "app-marketing.features.website.title": {
+    "message": "Integración con el sitio web"
+  },
+  "app-marketing.features.youve-used-before": {
+    "message": "que hayas usado antes"
+  },
+  "app-marketing.hero.app-screenshot-alt": {
+    "message": "Captura de pantalla de la Icarus Launcher con una instancia de Cobblemon abierta en la página de \"Contenido\"."
+  },
+  "app-marketing.hero.description": {
+    "message": "La Icarus Launcher es un launcher único y de código abierto que te permite jugar con tus mods favoritos y mantenerlos actualizados, todo en un solo paquete compacto."
+  },
+  "app-marketing.hero.download-button": {
+    "message": "Descargar la Icarus Launcher"
+  },
+  "app-marketing.hero.download-Icarus-app": {
+    "message": "Descargar la Icarus Launcher"
+  },
+  "app-marketing.hero.download-Icarus-app-for-os": {
+    "message": "Descargar la Icarus Launcher para {os}"
+  },
+  "app-marketing.hero.minecraft-screenshot-alt": {
+    "message": "Captura de pantalla del menú principal de la instancia Cobblemon."
+  },
+  "app-marketing.hero.more-download-options": {
+    "message": "Más opciones de descarga"
+  },
+  "app-marketing.hide-other-packages": {
+    "message": "Ocultar otros paquetes"
+  },
+  "app-marketing.not-recommended": {
+    "message": "No te recomendamos usar estos a menos que sepas lo que estás haciendo."
+  },
+  "app-marketing.show-other-packages": {
+    "message": "Mostrar otros paquetes"
+  },
+  "auth.authorize.action.authorize": {
+    "message": "Autorizar"
+  },
+  "auth.authorize.action.decline": {
+    "message": "Rechazar"
+  },
+  "auth.authorize.app-info": {
+    "message": "<strong>{appName}</strong> de <creator-link>{creator}</creator-link> podrá:"
+  },
+  "auth.authorize.authorize-app-name": {
+    "message": "Autorizar {appName}"
+  },
+  "auth.authorize.error.no-redirect-url": {
+    "message": "No se encontró una ubicación de redirección en la respuesta"
+  },
+  "auth.authorize.redirect-url": {
+    "message": "Serás redirigido a <redirect-url>{url}</redirect-url>"
+  },
+  "auth.reset-password.method-choice.action": {
+    "message": "Enviar correo de recuperación"
+  },
+  "auth.reset-password.method-choice.description": {
+    "message": "Introduce tu correo electrónico a continuación y te enviaremos un enlace para recuperar tu cuenta."
+  },
+  "auth.reset-password.notification.email-sent.text": {
+    "message": "Se ha enviado un correo con instrucciones si el correo estaba previamente guardado en tu cuenta."
+  },
+  "auth.reset-password.notification.email-sent.title": {
+    "message": "Correo enviado"
+  },
+  "auth.reset-password.notification.password-reset.text": {
+    "message": "Ahora puedes iniciar sesión en tu cuenta con tu nueva contraseña."
+  },
+  "auth.reset-password.notification.password-reset.title": {
+    "message": "Contraseña restablecida correctamente"
+  },
+  "auth.reset-password.post-challenge.action": {
+    "message": "Restablecer contraseña"
+  },
+  "auth.reset-password.post-challenge.confirm-password.label": {
+    "message": "Confirmar contraseña"
+  },
+  "auth.reset-password.post-challenge.description": {
+    "message": "Introduce tu nueva contraseña a continuación para acceder a tu cuenta."
+  },
+  "auth.reset-password.title": {
+    "message": "Restablecer contraseña"
+  },
+  "auth.reset-password.title.long": {
+    "message": "Restablece tu contraseña"
+  },
+  "auth.sign-in.2fa.description": {
+    "message": "Por favor, introduce un código de verificación en dos pasos para continuar."
+  },
+  "auth.sign-in.2fa.label": {
+    "message": "Introduce el código de verificación en dos pasos"
+  },
+  "auth.sign-in.2fa.placeholder": {
+    "message": "Introduce el código..."
+  },
+  "auth.sign-in.additional-options": {
+    "message": "<forgot-password-link>¿Olvidaste tu contraseña?</forgot-password-link> • <create-account-link>Crear una cuenta</create-account-link>"
+  },
+  "auth.sign-in.sign-in-with": {
+    "message": "Iniciar sesión con"
+  },
+  "auth.sign-in.title": {
+    "message": "Iniciar sesión"
+  },
+  "auth.sign-in.use-password": {
+    "message": "O usa una contraseña"
+  },
+  "auth.sign-up.action.create-account": {
+    "message": "Crear cuenta"
+  },
+  "auth.sign-up.legal-dislaimer": {
+    "message": "Al crear una cuenta, aceptas los <terms-link>Términos</terms-link> y la <privacy-policy-link>Política de privacidad</privacy-policy-link> de Icarus."
+  },
+  "auth.sign-up.notification.password-mismatch.text": {
+    "message": "¡Las contraseñas no coinciden!"
+  },
+  "auth.sign-up.sign-in-option.title": {
+    "message": "¿Ya tienes una cuenta?"
+  },
+  "auth.sign-up.subscribe.label": {
+    "message": "Suscríbete para recibir actualizaciones sobre Icarus"
+  },
+  "auth.sign-up.title": {
+    "message": "Registrarse"
+  },
+  "auth.sign-up.title.create-account": {
+    "message": "O crea tu propia cuenta"
+  },
+  "auth.sign-up.title.sign-up-with": {
+    "message": "Registrarse con"
+  },
+  "auth.verify-email.action.account-settings": {
+    "message": "Configuración de cuenta"
+  },
+  "auth.verify-email.already-verified.description": {
+    "message": "¡Tu correo ya está verificado!"
+  },
+  "auth.verify-email.already-verified.title": {
+    "message": "Correo ya verificado"
+  },
+  "auth.verify-email.failed-verification.action": {
+    "message": "Reenviar correo de verificación"
+  },
+  "auth.verify-email.failed-verification.description": {
+    "message": "No pudimos verificar tu correo. Intenta reenviar el correo de verificación desde tu panel de control iniciando sesión."
+  },
+  "auth.verify-email.failed-verification.description.logged-in": {
+    "message": "No pudimos verificar tu correo electrónico. Intenta reenviar el correo de verificación usando el botón a continuación."
+  },
+  "auth.verify-email.failed-verification.title": {
+    "message": "Error al verificar el correo"
+  },
+  "auth.verify-email.post-verification.description": {
+    "message": "¡Tu correo ha sido verificado correctamente!"
+  },
+  "auth.verify-email.post-verification.title": {
+    "message": "Verificación del correo electrónico"
+  },
+  "auth.verify-email.title": {
+    "message": "Verificar correo electrónico"
+  },
+  "auth.welcome.checkbox.subscribe": {
+    "message": "Suscríbete para recibir actualizaciones sobre Icarus"
+  },
+  "auth.welcome.description": {
+    "message": "Ahora formas parte de la increíble comunidad de creadores y exploradores que ya están construyendo, descargando y manteniéndose al día con mods asombrosos."
+  },
+  "auth.welcome.label.tos": {
+    "message": "Al crear una cuenta, has aceptado los <terms-link>Términos</terms-link> y la <privacy-policy-link>Política de privacidad</privacy-policy-link> de Icarus."
+  },
+  "auth.welcome.long-title": {
+    "message": "¡Bienvenido a Icarus!"
+  },
+  "auth.welcome.title": {
+    "message": "Bienvenido"
+  },
+  "collection.button.edit-icon": {
+    "message": "Editar ícono"
+  },
+  "collection.button.remove-icon": {
+    "message": "Eliminar ícono"
+  },
+  "collection.button.remove-project": {
+    "message": "Eliminar proyecto"
+  },
+  "collection.button.replace-icon": {
+    "message": "Reemplazar ícono"
+  },
+  "collection.button.select-icon": {
+    "message": "Seleccionar ícono"
+  },
+  "collection.button.unfollow-project": {
+    "message": "Dejar de seguir proyecto"
+  },
+  "collection.delete-modal.description": {
+    "message": "Esto eliminará permanentemente esta colección. Esta acción no se puede deshacer."
+  },
+  "collection.delete-modal.title": {
+    "message": "¿Estás seguro de que quieres eliminar esta colección?"
+  },
+  "collection.description": {
+    "message": "{description} - Ver la colección {name} de {username} en Icarus"
+  },
+  "collection.description.following": {
+    "message": "Colección generada automáticamente de todos los proyectos que sigues."
+  },
+  "collection.editing": {
+    "message": "Editando colección"
+  },
+  "collection.error.not-found": {
+    "message": "Colección no encontrada"
+  },
+  "collection.label.created-at": {
+    "message": "Creado {ago}"
+  },
+  "collection.label.curated-by": {
+    "message": "Seleccionado por"
+  },
+  "collection.label.no-projects": {
+    "message": "Aún no hay proyectos en la colección"
+  },
+  "collection.label.projects-count": {
+    "message": "{count, plural, =0 {Aún no hay proyectos} other {<stat>{count}</stat> {type}}}"
+  },
+  "collection.label.updated-at": {
+    "message": "Actualizado {ago}"
+  },
+  "collection.return-link.dashboard-collections": {
+    "message": "Tus colecciones"
+  },
+  "collection.return-link.user": {
+    "message": "Perfil de {user}"
+  },
+  "collection.title": {
+    "message": "{name} - Colección"
+  },
+  "create-project-version.create-modal.stage.add-files.admonition": {
+    "message": "Los archivos complementarios sirven para recursos de apoyo, como código fuente, no para versiones o variantes alternativas."
+  },
+  "create.collection.collection-info": {
+    "message": "Tu nueva colección se creará como una colección pública con {count, plural, =0 {ningún proyecto} one {# proyecto} other {# proyectos}}."
+  },
+  "create.collection.create-collection": {
+    "message": "Crear colección"
+  },
+  "create.collection.name-label": {
+    "message": "Nombre"
+  },
+  "create.collection.name-placeholder": {
+    "message": "Introduce el nombre de la colección..."
+  },
+  "create.collection.summary-description": {
+    "message": "Una o dos frases que describan tu colección."
+  },
+  "create.collection.summary-label": {
+    "message": "Resumen"
+  },
+  "create.collection.summary-placeholder": {
+    "message": "Esta es una colección de..."
+  },
+  "create.collection.title": {
+    "message": "Creando una colección"
+  },
+  "create.limit-alert.approaching-limit": {
+    "message": "{type} acercándose al límite ({current}/{max})"
+  },
+  "create.limit-alert.approaching-limit-description": {
+    "message": "Estás a punto de alcanzar el límite de {type}, por favor, contacta a soporte si necesitas más de {max} {typePlural}."
+  },
+  "create.limit-alert.contact-support": {
+    "message": "Contactar a soporte"
+  },
+  "create.limit-alert.limit-reached": {
+    "message": "{type} limite alcanzado"
+  },
+  "create.limit-alert.limit-reached-description": {
+    "message": "Has alcanzado tu límite de {type} de {max}. Por favor, contacta a soporte para aumentar tu límite."
+  },
+  "create.limit-alert.type-collection": {
+    "message": "colección"
+  },
+  "create.limit-alert.type-organization": {
+    "message": "organización"
+  },
+  "create.limit-alert.type-plural-collection": {
+    "message": "colecciones"
+  },
+  "create.limit-alert.type-plural-organization": {
+    "message": "organizaciones"
+  },
+  "create.limit-alert.type-plural-project": {
+    "message": "proyectos"
+  },
+  "create.limit-alert.type-project": {
+    "message": "proyecto"
+  },
+  "create.organization.create-organization": {
+    "message": "Crear organización"
+  },
+  "create.organization.name-label": {
+    "message": "Nombre"
+  },
+  "create.organization.name-placeholder": {
+    "message": "Introduce el nombre de la organización..."
+  },
+  "create.organization.ownership-info": {
+    "message": "Serás el propietario de esta organización, pero puedes invitar a otros miembros y transferir la propiedad en cualquier momento."
+  },
+  "create.organization.summary-description": {
+    "message": "Una frase o dos que describan tu organización."
+  },
+  "create.organization.summary-label": {
+    "message": "Resumen"
+  },
+  "create.organization.summary-placeholder": {
+    "message": "Una organización para..."
+  },
+  "create.organization.title": {
+    "message": "Creando una organización"
+  },
+  "create.organization.url-label": {
+    "message": "URL"
+  },
+  "create.project.create-project": {
+    "message": "Crear proyecto"
+  },
+  "create.project.missing-fields-tooltip": {
+    "message": "Campos faltantes: {fields}"
+  },
+  "create.project.name-label": {
+    "message": "Nombre"
+  },
+  "create.project.name-placeholder": {
+    "message": "Introduce el nombre del proyecto..."
+  },
+  "create.project.owner-description": {
+    "message": "Establécete como propietario del proyecto a ti o a una organización de la que seas miembro."
+  },
+  "create.project.owner-label": {
+    "message": "Propietario"
+  },
+  "create.project.server-project-title": {
+    "message": "Creando un proyecto de servidor"
+  },
+  "create.project.summary-description": {
+    "message": "Una frase o dos que describan tu proyecto."
+  },
+  "create.project.summary-label": {
+    "message": "Resumen"
+  },
+  "create.project.summary-placeholder": {
+    "message": "Este proyecto añade..."
+  },
+  "create.project.title": {
+    "message": "Creando un proyecto"
+  },
+  "create.project.type-label": {
+    "message": "Tipo"
+  },
+  "create.project.type-project": {
+    "message": "Proyecto"
+  },
+  "create.project.type-server": {
+    "message": "Servidor"
+  },
+  "create.project.url-label": {
+    "message": "URL"
+  },
+  "create.project.visibility-description": {
+    "message": "La visibilidad de tu proyecto después de que sea aprobado."
+  },
+  "create.project.visibility-private": {
+    "message": "Privado"
+  },
+  "create.project.visibility-public": {
+    "message": "Público"
+  },
+  "create.project.visibility-unlisted": {
+    "message": "No listado"
+  },
+  "dashboard.affiliate-links.create.button": {
+    "message": "Crear enlace de afiliado"
+  },
+  "dashboard.affiliate-links.empty.no-codes": {
+    "message": "No se encontraron códigos de afiliado."
+  },
+  "dashboard.affiliate-links.error.title": {
+    "message": "Error al cargar los enlaces de afiliado"
+  },
+  "dashboard.affiliate-links.header": {
+    "message": "Tus enlaces de afiliado"
+  },
+  "dashboard.affiliate-links.revoke-confirm.body": {
+    "message": "Esto revocará de forma permanente el código de afiliado `{id}` y cualquier enlace existente con este código que se haya compartido ya no será válido."
+  },
+  "dashboard.affiliate-links.revoke-confirm.button": {
+    "message": "Revocar"
+  },
+  "dashboard.affiliate-links.revoke-confirm.title": {
+    "message": "¿Estás seguro de que quieres revocar tu enlace de afiliado ''{title}''?"
+  },
+  "dashboard.affiliate-links.search": {
+    "message": "Buscar enlaces de afiliado..."
+  },
+  "dashboard.analytics.from-projects": {
+    "message": "de {count} {count, plural,one {proyecto} other {proyectos}}"
+  },
+  "dashboard.analytics.total-downloads": {
+    "message": "Descargas totales"
+  },
+  "dashboard.analytics.total-followers": {
+    "message": "Total de seguidores"
+  },
+  "dashboard.collections.button.create-new": {
+    "message": "Crear nuevo"
+  },
+  "dashboard.collections.empty.get-started-hint": {
+    "message": "¡Crea tu primera colección para comenzar!"
+  },
+  "dashboard.collections.empty.no-collections": {
+    "message": "Aún no tienes ninguna colección"
+  },
+  "dashboard.collections.empty.no-match": {
+    "message": "Ninguna colección coincide con tu búsqueda"
+  },
+  "dashboard.collections.empty.no-match-hint": {
+    "message": "Prueba ajustar tus filtros o términos de búsqueda."
+  },
+  "dashboard.collections.label.projects-count": {
+    "message": "{count} {countPlural, plural, one {proyecto} other {proyectos}}"
+  },
+  "dashboard.collections.label.search-input": {
+    "message": "Busca en tus colecciones"
+  },
+  "dashboard.collections.long-title": {
+    "message": "Tus colecciones"
+  },
+  "dashboard.creator-tax-form-modal.confirmation.download-button": {
+    "message": "Descargar {formType}"
+  },
+  "dashboard.creator-tax-form-modal.confirmation.success": {
+    "message": "¡Tu {formType} formulario fiscal se ha enviado correctamente!"
+  },
+  "dashboard.creator-tax-form-modal.confirmation.support-text": {
+    "message": "Ahora puedes retirar libremente. Si tienes preguntas o necesitas actualizar tus datos <support-link>contacta con soporte</support-link>."
+  },
+  "dashboard.creator-tax-form-modal.confirmation.title": {
+    "message": "¡Ya estás listo! 🎉"
+  },
+  "dashboard.creator-tax-form-modal.entity.description": {
+    "message": "Una entidad extranjera es una entidad comercial constituida fuera de Estados Unidos (como una corporación, sociedad o LLC no estadounidense)."
+  },
+  "dashboard.creator-tax-form-modal.entity.foreign-entity": {
+    "message": "Entidad extranjera"
+  },
+  "dashboard.creator-tax-form-modal.entity.private-individual": {
+    "message": "Particular"
+  },
+  "dashboard.creator-tax-form-modal.entity.question": {
+    "message": "¿Eres un particular o formas parte de una entidad extranjera?"
+  },
+  "dashboard.creator-tax-form-modal.header": {
+    "message": "Formulario fiscal"
+  },
+  "dashboard.creator-tax-form-modal.security.description": {
+    "message": "Icarus utiliza al proveedor externo Track1099 para recopilar y almacenar de forma segura tus formularios fiscales. <security-link>Más información aquí.</security-link>"
+  },
+  "dashboard.creator-tax-form-modal.security.header": {
+    "message": "Prácticas de seguridad"
+  },
+  "dashboard.creator-tax-form-modal.us-citizen.question": {
+    "message": "¿Eres ciudadano estadounidense?"
+  },
+  "dashboard.creator-withdraw-modal.complete-tax-form": {
+    "message": "Llena el formulario fiscal"
+  },
+  "dashboard.creator-withdraw-modal.continue-with-limit": {
+    "message": "Continuar con el límite"
+  },
+  "dashboard.creator-withdraw-modal.details-label": {
+    "message": "Detalles"
+  },
+  "dashboard.creator-withdraw-modal.fee-breakdown-amount": {
+    "message": "Cantidad"
+  },
+  "dashboard.creator-withdraw-modal.fee-breakdown-exchange-rate": {
+    "message": "Tipo de cambio"
+  },
+  "dashboard.creator-withdraw-modal.fee-breakdown-fee": {
+    "message": "Tarifa"
+  },
+  "dashboard.creator-withdraw-modal.fee-breakdown-gift-card-value": {
+    "message": "Valor de la tarjeta de regalo"
+  },
+  "dashboard.creator-withdraw-modal.fee-breakdown-net-amount": {
+    "message": "Cantidad neta"
+  },
+  "dashboard.creator-withdraw-modal.fee-breakdown-usd-equivalent": {
+    "message": "Equivalente en USD"
+  },
+  "dashboard.creator-withdraw-modal.kyc.business-entity": {
+    "message": "Entidad comercial"
+  },
+  "dashboard.creator-withdraw-modal.kyc.entity-description": {
+    "message": "Una entidad comercial se refiere a una organización registrada, como una sociedad anónima, una sociedad colectiva o una sociedad de responsabilidad limitada."
+  },
+  "dashboard.creator-withdraw-modal.kyc.entity-question": {
+    "message": "¿Vas a retirar como individuo o como empresa?"
+  },
+  "dashboard.creator-withdraw-modal.kyc.private-individual": {
+    "message": "Particular"
+  },
+  "dashboard.creator-withdraw-modal.method-selection.country-placeholder": {
+    "message": "Selecciona tu país"
+  },
+  "dashboard.creator-withdraw-modal.method-selection.country-search-placeholder": {
+    "message": "Buscar países..."
+  },
+  "dashboard.creator-withdraw-modal.method-selection.error-text": {
+    "message": "No se pueden obtener los métodos de pago disponibles. Inténtalo de nuevo más tarde."
+  },
+  "dashboard.creator-withdraw-modal.method-selection.error-title": {
+    "message": "Error al cargar los métodos de pago"
+  },
+  "dashboard.creator-withdraw-modal.method-selection.region": {
+    "message": "Región"
+  },
+  "dashboard.creator-withdraw-modal.method-selection.region-tooltip": {
+    "message": "Algunos métodos de pago no están disponibles en ciertas regiones."
+  },
+  "dashboard.creator-withdraw-modal.method-selection.select-method": {
+    "message": "Selecciona el método para retirar"
+  },
+  "dashboard.creator-withdraw-modal.method-selection.tax-limit-warning": {
+    "message": "Tu límite de retiro es <b>{amount}</b>, <tax-link>llena un formulario fiscal</tax-link> para retirar más."
+  },
+  "dashboard.creator-withdraw-modal.muralpay-details.account-owner": {
+    "message": "Titular de la cuenta"
+  },
+  "dashboard.creator-withdraw-modal.muralpay-details.bank-account-owner": {
+    "message": "Titular de la cuenta bancaria"
+  },
+  "dashboard.creator-withdraw-modal.muralpay-details.bank-account-owner-description": {
+    "message": "Introduce el nombre de la persona autorizada para operar esta cuenta bancaria en nombre de la empresa."
+  },
+  "dashboard.creator-withdraw-modal.muralpay-details.coin": {
+    "message": "Moneda"
+  },
+  "dashboard.creator-withdraw-modal.muralpay-details.crypto-warning-header": {
+    "message": "Confirma tu dirección de cartera"
+  },
+  "dashboard.creator-withdraw-modal.muralpay-details.document-number-national-id": {
+    "message": "Número de identificación nacional"
+  },
+  "dashboard.creator-withdraw-modal.muralpay-details.document-number-national-id-placeholder": {
+    "message": "Introduce el número de identificación nacional"
+  },
+  "dashboard.creator-withdraw-modal.muralpay-details.document-number-passport": {
+    "message": "Número de pasaporte"
+  },
+  "dashboard.creator-withdraw-modal.muralpay-details.document-number-passport-placeholder": {
+    "message": "Introduce el número de pasaporte"
+  },
+  "dashboard.creator-withdraw-modal.muralpay-details.document-number-resident-id": {
+    "message": "Número de identificación de residente"
+  },
+  "dashboard.creator-withdraw-modal.muralpay-details.document-number-resident-id-placeholder": {
+    "message": "Introduce el número de identificación de residente"
+  },
+  "dashboard.creator-withdraw-modal.muralpay-details.document-number-ruc": {
+    "message": "Número de RUC"
+  },
+  "dashboard.creator-withdraw-modal.muralpay-details.document-number-ruc-placeholder": {
+    "message": "Introduce el número RUC"
+  },
+  "dashboard.creator-withdraw-modal.muralpay-details.document-number-tax-id": {
+    "message": "Número de identificación fiscal"
+  },
+  "dashboard.creator-withdraw-modal.muralpay-details.document-number-tax-id-placeholder": {
+    "message": "Introduce el número de identificación fiscal"
+  },
+  "dashboard.creator-withdraw-modal.muralpay-details.network": {
+    "message": "Red"
+  },
+  "dashboard.creator-withdraw-modal.nearing-threshold": {
+    "message": "Estás cerca del límite de retiro. Puedes retirar <b>{amountRemaining}</b> ahora, pero se requiere un formulario de fiscal para poder retirar más."
+  },
+  "dashboard.creator-withdraw-modal.paypal-details.account": {
+    "message": "Cuenta"
+  },
+  "dashboard.creator-withdraw-modal.paypal-details.disconnect-account": {
+    "message": "Desconectar cuenta"
+  },
+  "dashboard.creator-withdraw-modal.paypal-details.payment-method": {
+    "message": "Método de pago"
+  },
+  "dashboard.creator-withdraw-modal.paypal-details.paypal-account": {
+    "message": "Cuenta de PayPal"
+  },
+  "dashboard.creator-withdraw-modal.paypal-details.paypal-auth-description": {
+    "message": "Conecta tu cuenta de PayPal para recibir pagos directamente."
+  },
+  "dashboard.creator-withdraw-modal.paypal-details.save-success": {
+    "message": "¡Nombre de usuario de Venmo guardado correctamente!"
+  },
+  "dashboard.creator-withdraw-modal.paypal-details.sign-in-with-paypal": {
+    "message": "Iniciar sesión con PayPal"
+  },
+  "dashboard.creator-withdraw-modal.paypal-details.venmo-description": {
+    "message": "Introduce tu nombre de usuario de Venmo para recibir pagos."
+  },
+  "dashboard.creator-withdraw-modal.paypal-details.venmo-handle": {
+    "message": "Nombre de usario de Venmo"
+  },
+  "dashboard.creator-withdraw-modal.paypal-details.venmo-handle-placeholder": {
+    "message": "@usuario"
+  },
+  "dashboard.creator-withdraw-modal.stage.completion": {
+    "message": "Completado"
+  },
+  "dashboard.creator-withdraw-modal.stage.method-selection": {
+    "message": "Método"
+  },
+  "dashboard.creator-withdraw-modal.stage.tax-form": {
+    "message": "Formulario fiscal"
+  },
+  "dashboard.creator-withdraw-modal.tax-form-required.body": {
+    "message": "Para retirar tu saldo total disponible de <b>{available}</b>, completa el formulario a continuación. Es necesario para la declaración de impuestos y solo debe hacerse una vez."
+  },
+  "dashboard.creator-withdraw-modal.tax-form-required.body-with-limit": {
+    "message": "Debes llenar un formulario W-9 o W-8 para los registros fiscales de Icarus, así nos mantenemos al día con las normativas de impuestos."
+  },
+  "dashboard.creator-withdraw-modal.tax-form-required.header": {
+    "message": "Formulario fiscal requerido"
+  },
+  "dashboard.creator-withdraw-modal.tremendous-details.available-denominations-label": {
+    "message": "Denominaciones disponibles"
+  },
+  "dashboard.creator-withdraw-modal.tremendous-details.balance-worth-hint": {
+    "message": "Tu saldo de {usdBalance} actualmente vale {localBalance}."
+  },
+  "dashboard.creator-withdraw-modal.tremendous-details.enter-amount-hint": {
+    "message": "Encuentra tarjetas de regalo cercanas a este valor."
+  },
+  "dashboard.creator-withdraw-modal.tremendous-details.enter-denomination-placeholder": {
+    "message": "Introduce la cantidad"
+  },
+  "dashboard.creator-withdraw-modal.tremendous-details.payment-method": {
+    "message": "Método de pago"
+  },
+  "dashboard.creator-withdraw-modal.tremendous-details.reward": {
+    "message": "Recompensa"
+  },
+  "dashboard.creator-withdraw-modal.tremendous-details.reward-placeholder": {
+    "message": "Seleccionar recompensa"
+  },
+  "dashboard.creator-withdraw-modal.tremendous-details.reward-plural": {
+    "message": "Recompensas"
+  },
+  "dashboard.creator-withdraw-modal.tremendous-details.search-amount-label": {
+    "message": "Buscar cantidad"
+  },
+  "dashboard.creator-withdraw-modal.tremendous-details.select-denomination-hint": {
+    "message": "Selecciona una denominación:"
+  },
+  "dashboard.creator-withdraw-modal.tremendous-details.select-denomination-required": {
+    "message": "Por favor, elije una denominación para continuar"
+  },
+  "dashboard.creator-withdraw-modal.tremendous-details.unverified-email-header": {
+    "message": "Correo electrónico no verificado"
+  },
+  "dashboard.creator-withdraw-modal.tremendous-details.unverified-email-message": {
+    "message": "El correo electrónico de entrega que has ingresado no está asociado a tu cuenta de Icarus. Icarus no puede recuperar las recompensas enviadas a una dirección de correo electrónico incorrecta."
+  },
+  "dashboard.creator-withdraw-modal.tremendous-details.usd-paypal-warning-header": {
+    "message": "Tarifas más bajas disponibles"
+  },
+  "dashboard.creator-withdraw-modal.tremendous-details.usd-paypal-warning-message": {
+    "message": "Has seleccionado USD para PayPal Internacional. <direct-paypal-link>Cambia a PayPal directo</direct-paypal-link> para obtener mejores tarifas (≈2 % en lugar de ≈6 %)."
+  },
+  "dashboard.creator-withdraw-modal.withdraw-button": {
+    "message": "Retirar"
+  },
+  "dashboard.creator-withdraw-modal.withdraw-limit": {
+    "message": "Límite de retiro"
+  },
+  "dashboard.creator-withdraw-modal.withdraw-limit-used": {
+    "message": "Has agotado tu límite de retiro <b>{withdrawLimit}</b>. Debes completar un formulario de impuestos para retirar más."
+  },
+  "dashboard.revenue.available-now": {
+    "message": "Disponible ahora"
+  },
+  "dashboard.revenue.balance": {
+    "message": "Saldo"
+  },
+  "dashboard.revenue.estimated-tooltip.msg1": {
+    "message": "Los ingresos estimados pueden estar sujetos a cambios hasta que estén disponibles."
+  },
+  "dashboard.revenue.estimated-tooltip.msg2": {
+    "message": "Haz clic aquí para leer acerca del cómo Icarus gestiona tus ingresos."
+  },
+  "dashboard.revenue.estimated-with-date": {
+    "message": "Fecha estimada {date}"
+  },
+  "dashboard.revenue.processing": {
+    "message": "Procesando"
+  },
+  "dashboard.revenue.processing.tooltip": {
+    "message": "Los ingresos permanecen en proceso hasta final de mes, luego están disponibles 60 días después."
+  },
+  "dashboard.revenue.stats.received": {
+    "message": "Recibido"
+  },
+  "dashboard.revenue.stats.transactions": {
+    "message": "Transacciones"
+  },
+  "dashboard.revenue.stats.withdrawn": {
+    "message": "Retiros"
+  },
+  "dashboard.revenue.tos": {
+    "message": "Al subir proyectos a Icarus y retirar dinero de tu cuenta, aceptas nuestros <terms-link>Términos del programa de recompensas</terms-link>. Aprende más acerca del <info-link>Programa de recompensas</info-link>."
+  },
+  "dashboard.revenue.transactions.btn.download-csv": {
+    "message": "Descargar como CSV"
+  },
+  "dashboard.revenue.transactions.header": {
+    "message": "Transacciones"
+  },
+  "dashboard.revenue.transactions.none": {
+    "message": "Sin transacciones"
+  },
+  "dashboard.revenue.transactions.none.desc": {
+    "message": "Tus pagos y retiros aparecerán aquí."
+  },
+  "dashboard.revenue.transactions.see-all": {
+    "message": "Ver todo"
+  },
+  "dashboard.revenue.withdraw.blocked-tin-mismatch": {
+    "message": "Tus retiros están temporalmente bloqueados por que tu TIN o SSN no coinciden con los registros del IRS. Conte en contacto con el equipo de soporte para restablecerlos y reenviar tu formulario fiscal."
+  },
+  "dashboard.revenue.withdraw.card.description": {
+    "message": "Transfiere fondos de tu saldo disponible a cualquier método de pago."
+  },
+  "dashboard.revenue.withdraw.card.title": {
+    "message": "Retira"
+  },
+  "dashboard.revenue.withdraw.header": {
+    "message": "Retirar"
+  },
+  "dashboard.withdraw.completion.account": {
+    "message": "Cuenta"
+  },
+  "dashboard.withdraw.completion.amount": {
+    "message": "Cantidad"
+  },
+  "dashboard.withdraw.completion.date": {
+    "message": "Fecha"
+  },
+  "dashboard.withdraw.completion.email-confirmation": {
+    "message": "Recibirás un correo electrónico a <b>{email}</b> con instrucciones para canjear tu retiro."
+  },
+  "dashboard.withdraw.completion.exchange-rate": {
+    "message": "Tipo de cambio"
+  },
+  "dashboard.withdraw.completion.fee": {
+    "message": "Tarifa"
+  },
+  "dashboard.withdraw.completion.method": {
+    "message": "Método"
+  },
+  "dashboard.withdraw.completion.net-amount": {
+    "message": "Cantidad neta"
+  },
+  "dashboard.withdraw.completion.recipient": {
+    "message": "Destinatario"
+  },
+  "dashboard.withdraw.completion.title": {
+    "message": "Retiro completado"
+  },
+  "dashboard.withdraw.completion.transactions-button": {
+    "message": "Transacciones"
+  },
+  "dashboard.withdraw.completion.wallet": {
+    "message": "Cartera"
+  },
+  "dashboard.withdraw.error.account-not-linked.text": {
+    "message": "Por favor, vincula tu cuenta de pago antes de retirar."
+  },
+  "dashboard.withdraw.error.account-not-linked.title": {
+    "message": "Cuenta no vinculada"
+  },
+  "dashboard.withdraw.error.email-verification.text": {
+    "message": "Debes verificar tu correo electrónico antes de retirar fondos."
+  },
+  "dashboard.withdraw.error.email-verification.title": {
+    "message": "Verificación de correo electrónico requerida"
+  },
+  "dashboard.withdraw.error.generic.text": {
+    "message": "No hemos podido enviar tu solicitud para retirar. Por favor, revisa tus datos o contacta con soporte.\n{error}"
+  },
+  "dashboard.withdraw.error.generic.title": {
+    "message": "No se puede retirar"
+  },
+  "dashboard.withdraw.error.insufficient-balance.text": {
+    "message": "No tienes fondos suficientes para realizar este retiro."
+  },
+  "dashboard.withdraw.error.insufficient-balance.title": {
+    "message": "Saldo insuficiente"
+  },
+  "dashboard.withdraw.error.invalid-address.text": {
+    "message": "No se ha podido verificar la dirección que has introducido. Por favor, revisa tus datos de dirección."
+  },
+  "dashboard.withdraw.error.invalid-address.title": {
+    "message": "Error al verificar la dirección"
+  },
+  "dashboard.withdraw.error.invalid-bank.text": {
+    "message": "Los datos de la cuenta bancaria que proporcionaste no son válidos. Por favor, verifica la información."
+  },
+  "dashboard.withdraw.error.invalid-bank.title": {
+    "message": "Datos bancarios no válidos"
+  },
+  "dashboard.withdraw.error.invalid-wallet.text": {
+    "message": "La dirección de la cartera de criptomonedas que proporcionaste no es válida. Por favor, revísala y vuelve a intentarlo."
+  },
+  "dashboard.withdraw.error.invalid-wallet.title": {
+    "message": "Dirección de cartera no válida"
+  },
+  "dashboard.withdraw.error.minimum-not-met.text": {
+    "message": "El monto a retirar (después de las tarifas) no cumple con el requisito mínimo. Por favor, aumenta la cantidad a retirar."
+  },
+  "dashboard.withdraw.error.minimum-not-met.title": {
+    "message": "Monto demasiado bajo"
+  },
+  "dashboard.withdraw.error.paypal-country-mismatch.text": {
+    "message": "Por favor, usa el método de transferencia de PayPal para tu region (USA o internacional)."
+  },
+  "dashboard.withdraw.error.paypal-country-mismatch.title": {
+    "message": "La región de PayPal no coincide"
+  },
+  "dashboard.withdraw.error.tax-form.text": {
+    "message": "Debes completar un formulario fiscal para poder enviar tu solicitud de retiro."
+  },
+  "dashboard.withdraw.error.tax-form.title": {
+    "message": "Por favor, llena el formulario fiscal"
+  },
+  "error.collection.404.list_item.1": {
+    "message": "Puede que hayas escrito mal la URL de la colección."
+  },
+  "error.collection.404.list_item.2": {
+    "message": "Puede que esta colección sea privada."
+  },
+  "error.collection.404.list_item.3": {
+    "message": "Puede que la colección haya sido eliminada por el equipo de moderación de Icarus por infringir nuestros <tou-link>Términos de Uso</tou-link>."
+  },
+  "error.collection.404.list_title": {
+    "message": "¿Por qué?"
+  },
+  "error.collection.404.title": {
+    "message": "Colección no encontrada"
+  },
+  "error.generic.404.subtitle": {
+    "message": "Parece que la página que estabas buscando no existe."
+  },
+  "error.generic.404.title": {
+    "message": "Página no encontrada"
+  },
+  "error.generic.451.subtitle": {
+    "message": "Esta página ha sido bloqueada por razones legales, como censura gubernamental o procedimientos legales en curso."
+  },
+  "error.generic.451.title": {
+    "message": "Contenido no disponible por razones legales"
+  },
+  "error.generic.default.list_item.1": {
+    "message": "Revisa si Icarus está caído en nuestra <status-link>Página de estado</status-link>."
+  },
+  "error.generic.default.list_item.2": {
+    "message": "Si esto sigue ocurriendo, quizás quieras informar al equipo de Icarus uniéndote a nuestro <discord-link>servidor de Discord</discord-link>."
+  },
+  "error.generic.default.list_title": {
+    "message": "Vuelve a intentarlo en unos minutos."
+  },
+  "error.generic.default.subtitle": {
+    "message": "Algo salió mal."
+  },
+  "error.generic.default.title": {
+    "message": "¡Ups!"
+  },
+  "error.organization.404.list_item.1": {
+    "message": "Puede que hayas escrito mal la URL de la organización."
+  },
+  "error.organization.404.list_item.2": {
+    "message": "Es posible que el propietario de la organización haya cambiado o eliminado la URL."
+  },
+  "error.organization.404.list_item.3": {
+    "message": "Es posible que el equipo de moderación de Icarus haya eliminado la organización por infringir nuestros <tou-link>Términos de Uso</tou-link>."
+  },
+  "error.organization.404.list_title": {
+    "message": "¿Por qué?"
+  },
+  "error.organization.404.title": {
+    "message": "Organización no encontrada"
+  },
+  "error.project.404.list_item.1": {
+    "message": "Puede que hayas escrito mal la URL del proyecto."
+  },
+  "error.project.404.list_item.2": {
+    "message": "El propietario del proyecto puede haber cambiado la URL, hacerlo privado o eliminarlo."
+  },
+  "error.project.404.list_item.3": {
+    "message": "Es posible que el proyecto haya sido retirado por el equipo de moderación de Icarus por infringir nuestros <tou-link>Términos de Uso</tou-link>."
+  },
+  "error.project.404.list_title": {
+    "message": "¿Por qué?"
+  },
+  "error.project.404.title": {
+    "message": "Proyecto no encontrado"
+  },
+  "error.user.404.list_item.1": {
+    "message": "Puede que hayas escrito mal el nombre de usuario."
+  },
+  "error.user.404.list_item.2": {
+    "message": "El usuario puede haber cambiado su nombre o eliminado su cuenta."
+  },
+  "error.user.404.list_item.3": {
+    "message": "La cuenta del usuario puede haber sido suspendida por infringir los <tou-link>Términos de uso</tou-link> de Icarus."
+  },
+  "error.user.404.list_title": {
+    "message": "¿Por qué?"
+  },
+  "error.user.404.title": {
+    "message": "Usuario no encontrado"
+  },
+  "frog": {
+    "message": "¡Te ranearon! 🐸"
+  },
+  "frog.altText": {
+    "message": "Una pintura fotorealista de un laberinto de ranas"
+  },
+  "frog.title": {
+    "message": "Rana"
+  },
+  "hosting-marketing.available-locations": {
+    "message": "Disponible en Norteamérica, Europa y el sudeste asiático para una amplia cobertura."
+  },
+  "hosting-marketing.billing.monthly": {
+    "message": "Paga Mensualmente"
+  },
+  "hosting-marketing.billing.quarterly": {
+    "message": "Paga trimestralmente"
+  },
+  "hosting-marketing.billing.save-with-quarterly": {
+    "message": "¡Ahorra un 16% con la facturación trimestral!"
+  },
+  "hosting-marketing.billing.starting-at": {
+    "message": "Desde {price} / mes"
+  },
+  "hosting-marketing.billing.yearly": {
+    "message": "Paga Anualmente"
+  },
+  "hosting-marketing.faq.burst-threads": {
+    "message": "¿Cómo funcionan los hilos de CPU con burst?"
+  },
+  "hosting-marketing.faq.burst-threads.answer": {
+    "message": "Cuando tu servidor está bajo mucha carga, le damos acceso temporal a hilos de CPU adicionales para ayudar a mitigar picos de lag e inestabilidad. Esto ayuda a evitar que los TPS bajen de 20, asegurando la experiencia más fluida posible. Dado que estos hilos de CPU extra solo están disponibles por un corto periodo durante momentos de mucha carga, es posible que no aparezcan en informes de Spark u otras herramientas de perfilado."
+  },
+  "hosting-marketing.faq.cpu-kind": {
+    "message": "¿Qué tipo de CPU utilizan los servidores de Icarus Hosting?"
+  },
+  "hosting-marketing.faq.cpu-kind.answer": {
+    "message": "Los servidores de Icarus Hosting funcionan con CPU equivalentes a AMD Ryzen 7900 y 7950X3D a más de 5 GHz, junto con memoria DDR5."
+  },
+  "hosting-marketing.faq.currency": {
+    "message": "¿En qué moneda están los precios?"
+  },
+  "hosting-marketing.faq.currency.answer": {
+    "message": "Todos los precios están en dólares estadounidenses (USD)."
+  },
+  "hosting-marketing.faq.ddos-protection": {
+    "message": "¿Los servidores de Icarus Hosting tienen protección contra DDoS?"
+  },
+  "hosting-marketing.faq.ddos-protection.answer": {
+    "message": "Sí. Todos los servidores de Icarus Hosting incluyen protección contra DDoS, con una capacidad de hasta 17 Tbps en algunas ubicaciones."
+  },
+  "hosting-marketing.faq.heading": {
+    "message": "Preguntas Frecuentes (FAQ)"
+  },
+  "hosting-marketing.faq.how-fast": {
+    "message": "¿Qué tan rápidos son los servidores de Icarus Hosting?"
+  },
+  "hosting-marketing.faq.how-fast.answer.one": {
+    "message": "Los servidores de Icarus hosting están alojados en hardware muy moderno y de alto rendimiento, pero es difícil decir exactamente cómo eso se traducirá en la velocidad de tu servidor, ya que hay muchos factores que influyen, como los mods, data packs o plugins que uses, e incluso el comportamiento de los usuarios."
+  },
+  "hosting-marketing.faq.how-fast.answer.two": {
+    "message": "La mayoría de los problemas de rendimiento suelen deberse a un modpack, mod, data pack o plugin mal optimizado que provoca lag en el servidor. Dado que nuestros servidores son de gama alta, no deberías tener muchos problemas siempre que elijas un plan adecuado para el contenido que estés usando en tu servidor."
+  },
+  "hosting-marketing.faq.increase-storage": {
+    "message": "¿Puedo aumentar el almacenamiento en mi servidor?"
+  },
+  "hosting-marketing.faq.increase-storage.answer": {
+    "message": "Sí, se puede aumentar el almacenamiento en tu servidor sin costo adicional. Si necesitas más almacenamiento, ponte en contacto con el soporte de Icarus."
+  },
+  "hosting-marketing.faq.location": {
+    "message": "¿Dónde se encuentran los servidores de Icarus Hosting? ¿Puedo elegir una región?"
+  },
+  "hosting-marketing.faq.location.answer": {
+    "message": "Actualmente disponemos de servidores en Norteamérica, Europa y el Sudeste Asiático entre los que puede elegir al realizar la compra. ¡En el futuro añadiremos más regiones! Si deseas cambiar de región, ponte en contacto con soporte."
+  },
+  "hosting-marketing.faq.versions-loaders": {
+    "message": "¿Qué versiones y loaders de Minecraft se pueden utilizar?"
+  },
+  "hosting-marketing.faq.versions-loaders.answer.one": {
+    "message": "Los servidores de Icarus Hosting pueden ejecutar cualquier versión de Minecraft: Java Edition, incluidas las de prueba, a partir de la 1.2.5."
+  },
+  "hosting-marketing.faq.versions-loaders.answer.two": {
+    "message": "También admitimos una amplia variedad de loaders de mods y plugins, incluyendo Fabric, Quilt, Forge y NeoForge para mods, así como Paper y Purpur para plugins. La disponibilidad depende de si el loader de mods o plugins es compatible con la versión de Minecraft seleccionada."
+  },
+  "hosting-marketing.get-started": {
+    "message": "Comenzar"
+  },
+  "hosting-marketing.hero.button.manage-your-servers": {
+    "message": "Gestiona tus servidores"
+  },
+  "hosting-marketing.hero.button.start-a-new-server": {
+    "message": "Inicia un nuevo servidor"
+  },
+  "hosting-marketing.hero.button.start-your-server": {
+    "message": "Inicia tu servidor"
+  },
+  "hosting-marketing.hero.host-with-Icarus": {
+    "message": "Aloja tu próximo servidor con Icarus Hosting"
+  },
+  "hosting-marketing.hero.hosting-description": {
+    "message": "Icarus Hosting es la forma más fácil de alojar tu propio servidor de Minecraft: Java Edition. Instala y juega sin problemas tus mods y modpacks favoritos, todo dentro de la plataforma Icarus."
+  },
+  "hosting-marketing.included.advanced-networking": {
+    "message": "Gestión avanzada de redes"
+  },
+  "hosting-marketing.included.advanced-networking.description": {
+    "message": "Añade tu propio dominio al servidor, reserva hasta 15 puertos para los mods que los requieran y mucho más."
+  },
+  "hosting-marketing.included.backups-included": {
+    "message": "Reslpados incluidos"
+  },
+  "hosting-marketing.included.backups-included.description": {
+    "message": "Cada servidor incluye 15 copias de seguridad almacenadas de forma segura fuera de las instalaciones."
+  },
+  "hosting-marketing.included.custom-url": {
+    "message": "URL personalizada"
+  },
+  "hosting-marketing.included.custom-url.description": {
+    "message": "Comparte tu servidor con una URL personalizada <contrast>Icarus.gg</contrast>."
+  },
+  "hosting-marketing.included.description": {
+    "message": "Cada servidor incluye un conjunto de funciones diseñadas para proporcionar una experiencia de alojamiento que solo Icarus puede ofrecer."
+  },
+  "hosting-marketing.included.file-manager": {
+    "message": "Administrador de archivos fácil de usar"
+  },
+  "hosting-marketing.included.file-manager.description": {
+    "message": "Busca, gestiona, edita y sube archivos directamente a tu servidor con facilidad."
+  },
+  "hosting-marketing.included.heading": {
+    "message": "Incluye todas las funciones que necesitas."
+  },
+  "hosting-marketing.included.help": {
+    "message": "Ayuda cuando la necesites"
+  },
+  "hosting-marketing.included.help.description": {
+    "message": "Ponte en contacto con el equipo de Icarus para obtener ayuda con tu servidor en cualquier momento."
+  },
+  "hosting-marketing.included.powerful-console": {
+    "message": "Una consola potente, un gestor de propiedades del servidor y más"
+  },
+  "hosting-marketing.included.powerful-console.description": {
+    "message": "Icarus Hosting incluye potentes herramientas para gestionar tu servidor."
+  },
+  "hosting-marketing.included.sftp-access": {
+    "message": "Acceso SFTP"
+  },
+  "hosting-marketing.included.sftp-access.description": {
+    "message": "Accede directamente a los archivos de su servidor con SFTP integrado en Icarus Hosting."
+  },
+  "hosting-marketing.included.with-your-server": {
+    "message": "Incluido con su servidor"
+  },
+  "hosting-marketing.know-what-you-need": {
+    "message": "¿Sabes exactamente lo que necesitas?"
+  },
+  "hosting-marketing.medal.info": {
+    "message": "Prueba un <orange>servidor de 3 GB</orange> gratis durante 5 días con tecnología de <orange>Medal</orange>"
+  },
+  "hosting-marketing.medal.learn-more": {
+    "message": "Aprender más"
+  },
+  "hosting-marketing.medal.text-secondary": {
+    "message": "Oferta por tiempo limitado. No se requiere tarjeta de crédito. Disponible para servidores en EE. UU."
+  },
+  "hosting-marketing.pick-customized-plan": {
+    "message": "Elige un plan personalizado con solo las especificaciones que necesites."
+  },
+  "hosting-marketing.server-for-everyone": {
+    "message": "Hay un servidor para todos"
+  },
+  "hosting-marketing.why.all-on-Icarus": {
+    "message": "Gestiona todo en Icarus"
+  },
+  "hosting-marketing.why.all-on-Icarus.description": {
+    "message": "Tu servidor, mods, jugadores y más, todo en Icarus. No necesitas cambiar entre plataformas."
+  },
+  "hosting-marketing.why.consistently-fast": {
+    "message": "Siempre rápido"
+  },
+  "hosting-marketing.why.consistently-fast.description": {
+    "message": "Nuestra infraestructura nunca se sobrecarga, lo que significa que cada servidor alojado en Icarus siempre funciona a su máximo rendimiento."
+  },
+  "hosting-marketing.why.description": {
+    "message": "Elige entre miles de modpacks en Icarus o crea el tuyo. Invita a tus amigos cuando estés listo para jugar."
+  },
+  "hosting-marketing.why.heading": {
+    "message": "Encuentra un modpack. Ahora es un servidor."
+  },
+  "hosting-marketing.why.modern-reliable-hosting": {
+    "message": "Experimenta un hosting moderno y confiable"
+  },
+  "hosting-marketing.why.modern-reliable-hosting.description": {
+    "message": "Los servidores de Icarus Hosting están alojados en <contrast>CPUs AMD de alto rendimiento con RAM DDR5</contrast> y funcionan con software personalizado, para que tu servidor funcione sin problemas."
+  },
+  "hosting-marketing.why.where-mods-are": {
+    "message": "Juega donde están tus mods"
+  },
+  "hosting-marketing.why.where-mods-are.description": {
+    "message": "Icarus Hosting integra de manera fluida la instalación de mods y modpacks en tu servidor."
+  },
+  "hosting-marketing.why.why-Icarus-hosting": {
+    "message": "¿Por qué elegir Icarus Hosting?"
+  },
+  "hosting-marketing.why.your-favorite-mods": {
+    "message": "Todos tus mods favoritos"
+  },
+  "hosting-marketing.why.your-favorite-mods.description": {
+    "message": "Elige entre Vanilla, Fabric, Forge, Quilt y NeoForge. Si está en Icarus, puedes ejecutarlo en tu servidor."
+  },
+  "hosting.plan.out-of-stock": {
+    "message": "Agotado"
+  },
+  "hosting.plan.select-plan": {
+    "message": "Seleccionar plan"
+  },
+  "landing.button.discover-mods": {
+    "message": "Descubre mods"
+  },
+  "landing.button.go-to-dashboard": {
+    "message": "Ir al panel de control"
+  },
+  "landing.creator.feature.constantly-evolving.description": {
+    "message": "Obtén la mejor experiencia de modding posible con actualizaciones constantes del equipo de Icarus"
+  },
+  "landing.creator.feature.constantly-evolving.title": {
+    "message": "En constante evolución"
+  },
+  "landing.creator.feature.data-statistics.description": {
+    "message": "Obtén informes detallados sobre vistas de página, conteo de descargas e ingresos"
+  },
+  "landing.creator.feature.data-statistics.title": {
+    "message": "Datos y estadísticas"
+  },
+  "landing.creator.feature.discovery.description": {
+    "message": "¡Haz que miles de usuarios descubran tu proyecto mediante búsquedas, nuestra página de inicio, el servidor de Discord y otras formas que llegarán en el futuro!"
+  },
+  "landing.creator.feature.discovery.title": {
+    "message": "Visibilidad"
+  },
+  "landing.creator.feature.diverse-ecosystem.description": {
+    "message": "Integra tus herramientas de compilación con Minotaur para cargar automáticamente tu proyecto al publicar una nueva versión"
+  },
+  "landing.creator.feature.diverse-ecosystem.title": {
+    "message": "Ecosistema diverso"
+  },
+  "landing.creator.feature.monetization.description": {
+    "message": "Recibe ingresos por anuncios en las páginas de tus proyectos y retira tus fondos en cualquier momento"
+  },
+  "landing.creator.feature.monetization.title": {
+    "message": "Monetización"
+  },
+  "landing.creator.feature.team-management.description": {
+    "message": "Invita a tu equipo y administra roles y permisos fácilmente"
+  },
+  "landing.creator.feature.team-management.title": {
+    "message": "Gestión de equipo"
+  },
+  "landing.error.failedToLoadRandomProjects": {
+    "message": "Error al cargar proyectos aleatorios :("
+  },
+  "landing.feature.follow.description": {
+    "message": "Recibe notificaciones cada vez que tus proyectos favoritos se actualicen y mantente al tanto."
+  },
+  "landing.feature.follow.heading": {
+    "message": "Sigue tus proyectos favoritos"
+  },
+  "landing.feature.launcher.description": {
+    "message": "La API de código abierto de Icarus permite que los launchers añadan una integración profunda con Icarus. Puedes usar Icarus a través de <link>nuestra propia aplicación</link> y de algunos de los launchers más populares como ATLauncher, MultiMC y Prism Launcher."
+  },
+  "landing.feature.launcher.heading": {
+    "message": "Juega con tu launcher favorito"
+  },
+  "landing.feature.search.description": {
+    "message": "La búsqueda ultrarrápida y los potentes filtros de Icarus te permiten encontrar lo que buscas mientras escribes."
+  },
+  "landing.feature.search.heading": {
+    "message": "Encuentra lo que buscas, rápido y fácil"
+  },
+  "landing.heading.the-place-for-minecraft": {
+    "message": "El lugar para Minecraft {content}"
+  },
+  "landing.heading.the-place-for-minecraft.data-packs": {
+    "message": "data packs"
+  },
+  "landing.heading.the-place-for-minecraft.modpacks": {
+    "message": "modpacks"
+  },
+  "landing.heading.the-place-for-minecraft.mods": {
+    "message": "mods"
+  },
+  "landing.heading.the-place-for-minecraft.plugins": {
+    "message": "plugins"
+  },
+  "landing.heading.the-place-for-minecraft.resource-packs": {
+    "message": "resource packs"
+  },
+  "landing.heading.the-place-for-minecraft.servers": {
+    "message": "servidores"
+  },
+  "landing.heading.the-place-for-minecraft.shaders": {
+    "message": "shaders"
+  },
+  "landing.launcher.atlauncher-label": {
+    "message": "ATLauncher"
+  },
+  "landing.launcher.graphic-alt": {
+    "message": "Una representación simplificada de una ventana de Minecraft, con el logotipo de Mojang Studios en verde Icarus."
+  },
+  "landing.launcher.Icarus-app-label": {
+    "message": "Icarus Launcher"
+  },
+  "landing.launcher.prism-launcher-label": {
+    "message": "Prism Launcher"
+  },
+  "landing.notifications.has-been-updated": {
+    "message": "¡{title} se ha actualizado!"
+  },
+  "landing.notifications.heading": {
+    "message": "Notificaciones"
+  },
+  "landing.notifications.received-time": {
+    "message": "Recibido {time}"
+  },
+  "landing.notifications.version-released": {
+    "message": "La versión {version} ha sido lanzada para {gameVersion}"
+  },
+  "landing.section.for-creators.description": {
+    "message": "Dale un hogar en línea a tus creaciones y alcanza a una gran comunidad de jugadores apasionados."
+  },
+  "landing.section.for-creators.label": {
+    "message": "Para creadores"
+  },
+  "landing.section.for-creators.tagline": {
+    "message": "Comparte tu contenido con el mundo"
+  },
+  "landing.section.for-players.description": {
+    "message": "Desde biomas mágicos hasta mazmorras malditas, seguro que encuentras contenido que te llevará al siguiente nivel de gameplay."
+  },
+  "landing.section.for-players.label": {
+    "message": "Para jugadores"
+  },
+  "landing.section.for-players.tagline": {
+    "message": "Descubre sobre las creaciones de {count, number}"
+  },
+  "landing.subheading": {
+    "message": "Descubre, juega y comparte contenido de Minecraft a través de nuestra plataforma de código abierto creada para la comunidad."
+  },
+  "layout.action.change-theme": {
+    "message": "Cambiar tema"
+  },
+  "layout.action.create-new": {
+    "message": "Crear nuevo..."
+  },
+  "layout.action.file-lookup": {
+    "message": "Buscar archivo"
+  },
+  "layout.action.lookup-by-email": {
+    "message": "Buscar por correo electrónico"
+  },
+  "layout.action.manage-affiliates": {
+    "message": "Gestionar enlaces de afiliado"
+  },
+  "layout.action.manage-server-notices": {
+    "message": "Gestionar notificaciones del servidor"
+  },
+  "layout.action.new-collection": {
+    "message": "Nueva colección"
+  },
+  "layout.action.new-organization": {
+    "message": "Nueva organización"
+  },
+  "layout.action.new-project": {
+    "message": "Nuevo proyecto"
+  },
+  "layout.action.new-server-project": {
+    "message": "Nuevo servidor"
+  },
+  "layout.action.publish": {
+    "message": "Publicar"
+  },
+  "layout.action.reports": {
+    "message": "Revisar reportes"
+  },
+  "layout.action.review-projects": {
+    "message": "Revisión de proyecto"
+  },
+  "layout.action.tech-review": {
+    "message": "Revisión técnica"
+  },
+  "layout.avatar.alt": {
+    "message": "Tu avatar"
+  },
+  "layout.banner.account-action": {
+    "message": "Tu cuenta requiere una acción"
+  },
+  "layout.banner.add-email.button": {
+    "message": "Ir a la configuración de la cuenta"
+  },
+  "layout.banner.add-email.description": {
+    "message": "Por motivos de seguridad, Icarus necesita que registres una dirección de correo electrónico en tu cuenta."
+  },
+  "layout.banner.build-fail.description": {
+    "message": "Esta implementación del frontend de Icarus no pudo generar el estado desde la API. Esto puede deberse a una interrupción del servicio o a un error de configuración. Vuelve a construir cuando la API esté disponible. Códigos de error: {errors}; La URL actual de la API es: {url}"
+  },
+  "layout.banner.build-fail.title": {
+    "message": "Error al generar el estado desde la API durante la compilación."
+  },
+  "layout.banner.preview.description": {
+    "message": "Si desea acceder al sitio web oficial de Icarus, visite <link>https://Icarus.com</link>. El equipo de Icarus utiliza esta versión preliminar para realizar pruebas. Se creó con <branch-link>{owner}/{branch}</branch-link> @ {commit}.."
+  },
+  "layout.banner.preview.title": {
+    "message": "Esta es una vista previa de la implementación del sitio web de Icarus."
+  },
+  "layout.banner.staging.description": {
+    "message": "El entorno de prueba está completamente separado de la base de datos de producción de Icarus. Se utiliza con fines de prueba y depuración, y puede estar ejecutando versiones en desarrollo del backend o frontend de Icarus más recientes que la instancia de producción."
+  },
+  "layout.banner.staging.title": {
+    "message": "Estás viendo el entorno de prueba de Icarus"
+  },
+  "layout.banner.subscription-payment-failed.button": {
+    "message": "Actualizar información de facturación"
+  },
+  "layout.banner.subscription-payment-failed.description": {
+    "message": "Una o más suscripciones no se han renovado. ¡Actualiza tu método de pago para no perder el acceso!"
+  },
+  "layout.banner.subscription-payment-failed.title": {
+    "message": "Se requiere una acción en facturación."
+  },
+  "layout.banner.tax.action": {
+    "message": "Completar formulario fiscal"
+  },
+  "layout.banner.tax.description": {
+    "message": "Ya has retirado más de {threshold} de Icarus este año. Para cumplir con las regulaciones fiscales, es necesario que completes un formulario de impuestos. Tus retiros estarán pausados hasta que dicho formulario sea enviado."
+  },
+  "layout.banner.tax.title": {
+    "message": "Formulario fiscal requerido"
+  },
+  "layout.banner.tin-mismatch.action": {
+    "message": "Contactar con soporte"
+  },
+  "layout.banner.tin-mismatch.description": {
+    "message": "Tus retiros están temporalmente bloqueados por que tu TIN o SSN no coinciden con los registros del IRS. Conte en contacto con el equipo de soporte para restablecerlos y reenviar tu formulario fiscal."
+  },
+  "layout.banner.tin-mismatch.title": {
+    "message": "Formulario fiscal erróneo"
+  },
+  "layout.banner.verify-email.action": {
+    "message": "Reenviar correo de verificación"
+  },
+  "layout.banner.verify-email.description": {
+    "message": "Por motivos de seguridad, Icarus necesita verificar la dirección de correo electrónico asociada a tu cuenta."
+  },
+  "layout.footer.about": {
+    "message": "Acerca de"
+  },
+  "layout.footer.about.careers": {
+    "message": "Empleos"
+  },
+  "layout.footer.about.changelog": {
+    "message": "Registro de cambios"
+  },
+  "layout.footer.about.news": {
+    "message": "Noticias"
+  },
+  "layout.footer.about.rewards-program": {
+    "message": "Programa de recompensas"
+  },
+  "layout.footer.about.status": {
+    "message": "Estado"
+  },
+  "layout.footer.legal": {
+    "message": "Legal"
+  },
+  "layout.footer.legal-disclaimer": {
+    "message": "NO ES UN SERVICIO OFICIAL DE MINECRAFT. NO ESTÁ APROBADO POR MOJANG NI MICROSOFT, NI ESTÁ ASOCIADO CON ELLOS."
+  },
+  "layout.footer.legal.copyright-policy": {
+    "message": "Política de derechos de autor y DMCA"
+  },
+  "layout.footer.legal.privacy-policy": {
+    "message": "Política de privacidad"
+  },
+  "layout.footer.legal.rules": {
+    "message": "Reglas de contenido"
+  },
+  "layout.footer.legal.security-notice": {
+    "message": "Aviso de seguridad"
+  },
+  "layout.footer.legal.terms-of-use": {
+    "message": "Términos de Uso"
+  },
+  "layout.footer.Icarus-information": {
+    "message": "Información de Icarus"
+  },
+  "layout.footer.open-source": {
+    "message": "Icarus es de <github-link>código abierto</github-link>."
+  },
+  "layout.footer.products": {
+    "message": "Productos"
+  },
+  "layout.footer.products.app": {
+    "message": "Icarus Launcher"
+  },
+  "layout.footer.products.plus": {
+    "message": "Icarus+"
+  },
+  "layout.footer.products.servers": {
+    "message": "Icarus Hosting"
+  },
+  "layout.footer.resources": {
+    "message": "Recursos"
+  },
+  "layout.footer.resources.api-docs": {
+    "message": "Documentación de la API"
+  },
+  "layout.footer.resources.help-center": {
+    "message": "Centro de ayuda"
+  },
+  "layout.footer.resources.report-issues": {
+    "message": "Reportar problemas"
+  },
+  "layout.footer.resources.translate": {
+    "message": "Traducir"
+  },
+  "layout.footer.social.bluesky": {
+    "message": "Bluesky"
+  },
+  "layout.footer.social.discord": {
+    "message": "Discord"
+  },
+  "layout.footer.social.github": {
+    "message": "GitHub"
+  },
+  "layout.footer.social.mastodon": {
+    "message": "Mastodon"
+  },
+  "layout.footer.social.x": {
+    "message": "X"
+  },
+  "layout.menu-toggle.action": {
+    "message": "Alternar menú"
+  },
+  "layout.meta.description": {
+    "message": "Descarga mods de Minecraft, plugins, datapacks, shaders, paquetes de recursos y modpacks en Icarus. Descubre y publica proyectos en Icarus con una interfaz moderna y fácil de usar y con API."
+  },
+  "layout.meta.og-description": {
+    "message": "¡Descubre y publica contenido de Minecraft!"
+  },
+  "layout.mobile.close-menu": {
+    "message": "Cerrar menú"
+  },
+  "layout.mobile.open-menu": {
+    "message": "Abrir menú"
+  },
+  "layout.nav.active-reports": {
+    "message": "Reportes activos"
+  },
+  "layout.nav.discover": {
+    "message": "Descubre"
+  },
+  "layout.nav.discover-content": {
+    "message": "Descubrir contenido"
+  },
+  "layout.nav.get-Icarus-app": {
+    "message": "Obtener la Icarus Launcher"
+  },
+  "layout.nav.home": {
+    "message": "Inicio"
+  },
+  "layout.nav.host-a-server": {
+    "message": "Alojar un servidor"
+  },
+  "layout.nav.Icarus-app": {
+    "message": "Icarus Launcher"
+  },
+  "layout.nav.Icarus-home-page": {
+    "message": "Página de inicio de Icarus"
+  },
+  "layout.nav.my-servers": {
+    "message": "Mis servidores"
+  },
+  "layout.nav.organizations": {
+    "message": "Organizaciones"
+  },
+  "layout.nav.profile": {
+    "message": "Perfil"
+  },
+  "layout.nav.projects": {
+    "message": "Proyectos"
+  },
+  "layout.nav.revenue": {
+    "message": "Ingresos"
+  },
+  "layout.nav.saved-projects": {
+    "message": "Proyectos guardados"
+  },
+  "layout.nav.search": {
+    "message": "Buscar"
+  },
+  "layout.nav.upgrade-to-Icarus-plus": {
+    "message": "Actualizar a Icarus+"
+  },
+  "moderation.moderate": {
+    "message": "Moderar"
+  },
+  "moderation.page.projects": {
+    "message": "Proyectos"
+  },
+  "moderation.page.reports": {
+    "message": "Reportes"
+  },
+  "moderation.page.technicalReview": {
+    "message": "Revisión técnica"
+  },
+  "muralpay.account-type.checking": {
+    "message": "Cuenta de cheques"
+  },
+  "muralpay.account-type.savings": {
+    "message": "Ahorros"
+  },
+  "muralpay.country.at": {
+    "message": "Austria"
+  },
+  "muralpay.country.be": {
+    "message": "Bélgica"
+  },
+  "muralpay.country.cy": {
+    "message": "Chipre"
+  },
+  "muralpay.country.de": {
+    "message": "Alemania"
+  },
+  "muralpay.country.ee": {
+    "message": "Estonia"
+  },
+  "muralpay.country.es": {
+    "message": "España"
+  },
+  "muralpay.country.fi": {
+    "message": "Finlandia"
+  },
+  "muralpay.country.fr": {
+    "message": "Francia"
+  },
+  "muralpay.country.gr": {
+    "message": "Grecia"
+  },
+  "muralpay.country.ie": {
+    "message": "Irlanda"
+  },
+  "muralpay.country.it": {
+    "message": "Italia"
+  },
+  "muralpay.country.lt": {
+    "message": "Lituania"
+  },
+  "muralpay.country.lu": {
+    "message": "Luxemburgo"
+  },
+  "muralpay.country.lv": {
+    "message": "Letonia"
+  },
+  "muralpay.country.mt": {
+    "message": "Malta"
+  },
+  "muralpay.country.nl": {
+    "message": "Países Bajos"
+  },
+  "muralpay.country.pt": {
+    "message": "Portugal"
+  },
+  "muralpay.country.sk": {
+    "message": "Eslovaquia"
+  },
+  "muralpay.document-type.national-id": {
+    "message": "Identificación nacional"
+  },
+  "muralpay.document-type.passport": {
+    "message": "Pasaporte"
+  },
+  "muralpay.document-type.resident-id": {
+    "message": "Identificación de residente"
+  },
+  "muralpay.document-type.ruc": {
+    "message": "RUC"
+  },
+  "muralpay.document-type.tax-id": {
+    "message": "Identificación fiscal"
+  },
+  "muralpay.field.account-number": {
+    "message": "Número de cuenta"
+  },
+  "muralpay.field.account-number-cbu-cvu": {
+    "message": "Número de cuenta (CBU/CVU)"
+  },
+  "muralpay.field.account-number-cci": {
+    "message": "Número de cuenta (CCI)"
+  },
+  "muralpay.field.account-number-type": {
+    "message": "Tipo de número de cuenta"
+  },
+  "muralpay.field.account-type": {
+    "message": "Tipo de cuenta"
+  },
+  "muralpay.field.bank-account-number": {
+    "message": "Número de cuenta"
+  },
+  "muralpay.field.clabe": {
+    "message": "CLABE"
+  },
+  "muralpay.field.country": {
+    "message": "País"
+  },
+  "muralpay.field.cpf-cnpj": {
+    "message": "CPF/CNPJ"
+  },
+  "muralpay.field.cuit-cuil": {
+    "message": "CUIT/CUIL"
+  },
+  "muralpay.field.document-type": {
+    "message": "Tipo de documento"
+  },
+  "muralpay.field.iban": {
+    "message": "IBAN"
+  },
+  "muralpay.field.phone-number": {
+    "message": "Número telefónico"
+  },
+  "muralpay.field.pix-email": {
+    "message": "Correo electrónico PIX"
+  },
+  "muralpay.field.pix-key-type": {
+    "message": "Tipo de clave PIX"
+  },
+  "muralpay.field.pix-phone": {
+    "message": "Teléfono PIX"
+  },
+  "muralpay.field.random-key": {
+    "message": "Clave aleatoria"
+  },
+  "muralpay.field.routing-number": {
+    "message": "Número de ruta"
+  },
+  "muralpay.field.swift-bic": {
+    "message": "SWIFT/BIC"
+  },
+  "muralpay.field.wallet-address": {
+    "message": "Dirección de cartera"
+  },
+  "muralpay.help.cbu-cvu": {
+    "message": "Clave Bancaria Uniforme o Clave Virtual Uniforme"
+  },
+  "muralpay.help.cci": {
+    "message": "Código de cuenta interbancaria"
+  },
+  "muralpay.help.clabe": {
+    "message": "Clave bancaria estandarizada (Número de cuenta bancaria mexicana)"
+  },
+  "muralpay.help.cpf-cnpj": {
+    "message": "Número de identificación fiscal brasileño"
+  },
+  "muralpay.help.cuit-cuil": {
+    "message": "Identificación fiscal argentina"
+  },
+  "muralpay.help.iban": {
+    "message": "Número de cuenta bancaria internacional"
+  },
+  "muralpay.help.swift-bic": {
+    "message": "Código de identificación bancaria"
+  },
+  "muralpay.pix-type.bank-account": {
+    "message": "Cuenta bancaria"
+  },
+  "muralpay.pix-type.document": {
+    "message": "CPF/CNPJ"
+  },
+  "muralpay.pix-type.email": {
+    "message": "Correo electrónico"
+  },
+  "muralpay.pix-type.phone": {
+    "message": "Número telefónico"
+  },
+  "muralpay.placeholder.account-number": {
+    "message": "Introduce el número de cuenta"
+  },
+  "muralpay.placeholder.cbu-cvu": {
+    "message": "Introduce el CBU o el CVU"
+  },
+  "muralpay.placeholder.cbu-cvu-type": {
+    "message": "CBU o CVU"
+  },
+  "muralpay.placeholder.cci": {
+    "message": "Introduce el CCI de 20 dígitos"
+  },
+  "muralpay.placeholder.cuit-cuil": {
+    "message": "Introduce el CUIT o el CUIL"
+  },
+  "muralpay.placeholder.enter-account-number": {
+    "message": "Introduce el número de cuenta"
+  },
+  "muralpay.placeholder.enter-clabe": {
+    "message": "Introduce la CLABE de 18 dígitos"
+  },
+  "muralpay.placeholder.enter-cpf-cnpj": {
+    "message": "Introduce el CPF o CNPJ"
+  },
+  "muralpay.placeholder.enter-iban": {
+    "message": "Introduce el IBAN"
+  },
+  "muralpay.placeholder.enter-pix-email": {
+    "message": "Introduce tu correo electrónico de PIX"
+  },
+  "muralpay.placeholder.enter-random-key": {
+    "message": "Introducir clave aleatoria"
+  },
+  "muralpay.placeholder.enter-routing-number": {
+    "message": "Introduce el número de ruta de 9 dígitos"
+  },
+  "muralpay.placeholder.enter-swift-bic": {
+    "message": "Introduce el código SWIFT/BIC"
+  },
+  "muralpay.placeholder.iban-crc": {
+    "message": "Introduce el IBAN de Costa Rica"
+  },
+  "muralpay.placeholder.phone-cop": {
+    "message": "+57..."
+  },
+  "muralpay.placeholder.pix-phone": {
+    "message": "+55..."
+  },
+  "muralpay.placeholder.wallet-address-eth": {
+    "message": "0x..."
+  },
+  "muralpay.rail.fiat-ars.name": {
+    "message": "Transferencia bancaria (ARS)"
+  },
+  "muralpay.rail.fiat-brl.name": {
+    "message": "Transferencia PIX (BRL)"
+  },
+  "muralpay.rail.fiat-clp.name": {
+    "message": "Transferencia bancaria (CLP)"
+  },
+  "muralpay.rail.fiat-cop.name": {
+    "message": "Transferencia bancaria (COP)"
+  },
+  "muralpay.rail.fiat-crc.name": {
+    "message": "Transferencia bancaria (CRC)"
+  },
+  "muralpay.rail.fiat-eur.name": {
+    "message": "Transferencia bancaria (EUR)"
+  },
+  "muralpay.rail.fiat-mxn.name": {
+    "message": "Transferencia bancaria (MXN)"
+  },
+  "muralpay.rail.fiat-pen.name": {
+    "message": "Transferencia bancaria (PEN)"
+  },
+  "muralpay.rail.fiat-usd-peru.name": {
+    "message": "Transferencia bancaria (USD - Perú)"
+  },
+  "muralpay.rail.fiat-usd.name": {
+    "message": "Transferencia bancaria (USD)"
+  },
+  "muralpay.rail.fiat-zar.name": {
+    "message": "Transferencia bancaria (ZAR)"
+  },
+  "muralpay.rail.usdc-base.name": {
+    "message": "USDC (Base)"
+  },
+  "muralpay.rail.usdc-celo.name": {
+    "message": "USDC (Celo)"
+  },
+  "muralpay.rail.usdc-ethereum.name": {
+    "message": "USDC (Ethereum)"
+  },
+  "muralpay.rail.usdc-polygon.name": {
+    "message": "Cripto (USDC)"
+  },
+  "muralpay.warning.wallet-address": {
+    "message": "Verifica dos veces la dirección de tu billetera. Los fondos enviados a una dirección incorrecta no se pueden recuperar."
+  },
+  "profile.bio.fallback.creator": {
+    "message": "Un creador de Icarus."
+  },
+  "profile.bio.fallback.user": {
+    "message": "Un usuario de Icarus."
+  },
+  "profile.button.billing": {
+    "message": "Gestionar la facturación de usuario"
+  },
+  "profile.button.edit-role": {
+    "message": "Editar rol"
+  },
+  "profile.button.info": {
+    "message": "Ver detalles de usuario"
+  },
+  "profile.button.manage-projects": {
+    "message": "Gestionar proyectos"
+  },
+  "profile.button.remove-affiliate": {
+    "message": "Remover como afiliado"
+  },
+  "profile.button.set-affiliate": {
+    "message": "Configurar como afiliado"
+  },
+  "profile.details.label.auth-providers": {
+    "message": "Proveedores de autenticación"
+  },
+  "profile.details.label.email": {
+    "message": "Correo electrónico"
+  },
+  "profile.details.label.email-verified": {
+    "message": "Correo electrónico verificado"
+  },
+  "profile.details.label.has-password": {
+    "message": "Tiene contraseña"
+  },
+  "profile.details.label.has-totp": {
+    "message": "Tiene TOTP"
+  },
+  "profile.details.label.payment-methods": {
+    "message": "Métodos de pago"
+  },
+  "profile.details.tooltip.email-not-verified": {
+    "message": "Correo electrónico no verificado"
+  },
+  "profile.details.tooltip.email-verified": {
+    "message": "Correo electrónico verificado"
+  },
+  "profile.error.not-found": {
+    "message": "Usuario no encontrado"
+  },
+  "profile.label.affiliate": {
+    "message": "Afiliado"
+  },
+  "profile.label.badges": {
+    "message": "Insignias"
+  },
+  "profile.label.collection": {
+    "message": "Colección"
+  },
+  "profile.label.downloads": {
+    "message": "{count} {countPlural, plural, one {descarga} other {descargas}}"
+  },
+  "profile.label.joined": {
+    "message": "Se unió"
+  },
+  "profile.label.no-collections": {
+    "message": "¡Este usuario no tiene colecciones!"
+  },
+  "profile.label.no-collections-auth": {
+    "message": "No tienes ninguna colección.\n¿Te gustaría <create-link>crear una</create-link>?"
+  },
+  "profile.label.no-projects": {
+    "message": "¡Este usuario no tiene proyectos!"
+  },
+  "profile.label.no-projects-auth": {
+    "message": "No tienes ningún proyecto.\n¿Te gustaría <create-link>crear uno</create-link>?"
+  },
+  "profile.label.organizations": {
+    "message": "Organizaciones"
+  },
+  "profile.label.projects": {
+    "message": "{count} {countPlural, plural, one {proyecto} other {proyectos}}"
+  },
+  "profile.label.saving": {
+    "message": "Guardando..."
+  },
+  "profile.meta.description": {
+    "message": "Descarga proyectos de {username} en Icarus"
+  },
+  "profile.meta.description-with-bio": {
+    "message": "{bio} - Descarga proyectos de {username} en Icarus"
+  },
+  "profile.stats.projects-followers": {
+    "message": "{count, plural, one {<stat>{count}</stat> seguidor del proyecto} other {<stat>{count}</stat> seguidores del proyecto}}"
+  },
+  "profile.user-id": {
+    "message": "ID de usuario: {id}"
+  },
+  "project-member-header.error-decline": {
+    "message": "Error al rechazar la invitación del equipo"
+  },
+  "project-member-header.error-join": {
+    "message": "Error al aceptar la invitación del equipo"
+  },
+  "project-member-header.invitation-no-role": {
+    "message": "Has sido invitado a participar en este proyecto. Por favor, acepta o rechaza la invitación."
+  },
+  "project-member-header.invitation-title": {
+    "message": "Invitación para participar en el proyecto"
+  },
+  "project-member-header.invitation-with-role": {
+    "message": "Has sido invitado a ser miembro de este proyecto con el rol de ''{role}''."
+  },
+  "project-member-header.success-decline": {
+    "message": "Has rechazado la invitación del equipo"
+  },
+  "project-member-header.success-join": {
+    "message": "Te has unido al equipo del proyecto"
+  },
+  "project-moderation-nags.publishing-checklist": {
+    "message": "Lista de verificación para la publicación"
+  },
+  "project-moderation-nags.required": {
+    "message": "Requerido"
+  },
+  "project-moderation-nags.resubmit-for-review": {
+    "message": "Reenviar para revisión"
+  },
+  "project-moderation-nags.resubmit-for-review-desc": {
+    "message": "Tu proyecto ha sido {status, select, rejected {rechazado} withheld {retenido} other {{status}}} por el equipo de Icarus. En la mayoría de los casos, puedes volver a enviarlo para su revisión después de responder a las observaciones que el equipo te haya dado."
+  },
+  "project-moderation-nags.submit-checklist-tooltip": {
+    "message": "¡Debes completar los pasos requeridos en la lista de verificación de publicación!"
+  },
+  "project-moderation-nags.submit-for-review": {
+    "message": "Enviar para revisión"
+  },
+  "project-moderation-nags.submit-for-review-button": {
+    "message": "Enviar para revisión"
+  },
+  "project-moderation-nags.submit-for-review-desc": {
+    "message": "Tu proyecto solo puede ser visto por los miembros del proyecto. Debe ser revisado por los moderadores para poder ser publicado."
+  },
+  "project-moderation-nags.suggestion": {
+    "message": "Sugerencia"
+  },
+  "project-moderation-nags.visit-moderation-page": {
+    "message": "Ver la página de moderación"
+  },
+  "project-moderation-nags.warning": {
+    "message": "Advertencia"
+  },
+  "project-type.collection.plural": {
+    "message": "Colecciones"
+  },
+  "project-type.collection.singular": {
+    "message": "Colección"
+  },
+  "project-type.datapack.plural": {
+    "message": "Data Packs"
+  },
+  "project-type.datapack.singular": {
+    "message": "Data Pack"
+  },
+  "project-type.minecraft_java_server.plural": {
+    "message": "Servidores"
+  },
+  "project-type.minecraft_java_server.singular": {
+    "message": "Servidor"
+  },
+  "project-type.mod.plural": {
+    "message": "Mods"
+  },
+  "project-type.mod.singular": {
+    "message": "Mod"
+  },
+  "project-type.modpack.plural": {
+    "message": "Modpacks"
+  },
+  "project-type.modpack.singular": {
+    "message": "Modpack"
+  },
+  "project-type.plugin.plural": {
+    "message": "Plugins"
+  },
+  "project-type.plugin.singular": {
+    "message": "Plugin"
+  },
+  "project-type.project.plural": {
+    "message": "Proyectos"
+  },
+  "project-type.project.singular": {
+    "message": "Proyecto"
+  },
+  "project-type.resourcepack.plural": {
+    "message": "Resource Packs"
+  },
+  "project-type.resourcepack.singular": {
+    "message": "Resource Pack"
+  },
+  "project-type.server.plural": {
+    "message": "Servidores"
+  },
+  "project-type.server.singular": {
+    "message": "Servidor"
+  },
+  "project-type.shader.plural": {
+    "message": "Shaders"
+  },
+  "project-type.shader.singular": {
+    "message": "Shader"
+  },
+  "project.about.details.created": {
+    "message": "Creado {date}"
+  },
+  "project.about.details.licensed": {
+    "message": "Con licencia {license}"
+  },
+  "project.about.details.published": {
+    "message": "Publicado {date}"
+  },
+  "project.about.details.submitted": {
+    "message": "Enviado {date}"
+  },
+  "project.about.details.title": {
+    "message": "Detalles"
+  },
+  "project.about.details.updated": {
+    "message": "Actualizado {date}"
+  },
+  "project.actions.create-server": {
+    "message": "Crear un servidor"
+  },
+  "project.actions.create-server-tooltip": {
+    "message": "Crear un servidor"
+  },
+  "project.actions.dont-show-again": {
+    "message": "No mostrar de nuevo"
+  },
+  "project.actions.review-project": {
+    "message": "Revisar proyecto"
+  },
+  "project.actions.servers-promo.description": {
+    "message": "¡Icarus Hosting es la forma más fácil de jugar con tus amigos sin complicaciones!"
+  },
+  "project.actions.servers-promo.pricing": {
+    "message": "Desde {price}<small> / mes</small>"
+  },
+  "project.actions.servers-promo.title": {
+    "message": "Crear un servidor"
+  },
+  "project.collections.create-new": {
+    "message": "Crear nueva colección"
+  },
+  "project.collections.none-found": {
+    "message": "No se encontraron colecciones."
+  },
+  "project.description.title": {
+    "message": "Descripción"
+  },
+  "project.details.licensed": {
+    "message": "Con licencia"
+  },
+  "project.download.game-version": {
+    "message": "Versión del juego: {version}"
+  },
+  "project.download.game-version-error": {
+    "message": "Error: no se encontraron versiones del juego"
+  },
+  "project.download.game-version-tooltip": {
+    "message": "{title} solo está disponible para {version}"
+  },
+  "project.download.game-version-unsupported-tooltip": {
+    "message": "{title} no soporta {gameVersion} para {platform}"
+  },
+  "project.download.install-with-app": {
+    "message": "Instalar con la Icarus Launcher"
+  },
+  "project.download.no-app": {
+    "message": "¿No tienes la Icarus Launcher?"
+  },
+  "project.download.no-versions-available": {
+    "message": "No hay versiones disponibles para {gameVersion} y {platform}."
+  },
+  "project.download.platform": {
+    "message": "Plataforma: {platform}"
+  },
+  "project.download.platform-error": {
+    "message": "Error: no se encontraron plataformas"
+  },
+  "project.download.platform-tooltip": {
+    "message": "{title} solo está disponible para {platform}"
+  },
+  "project.download.platform-unsupported-tooltip": {
+    "message": "{title} no soporta {platform} para {gameVersion}"
+  },
+  "project.download.search-game-versions": {
+    "message": "Buscar versiones del juego..."
+  },
+  "project.download.search-game-versions-label": {
+    "message": "Buscar versiones del juego..."
+  },
+  "project.download.select-game-version": {
+    "message": "Selecciona la versión del juego"
+  },
+  "project.download.select-platform": {
+    "message": "Selecciona la plataforma"
+  },
+  "project.download.show-all-versions": {
+    "message": "Mostrar todas las versiones"
+  },
+  "project.download.title": {
+    "message": "Descargar {title}"
+  },
+  "project.environment.migration-no-permission.message": {
+    "message": "Acabamos de renovar el sistema de entornos en Icarus y ahora hay nuevas opciones disponibles. No tienes permiso para modificar estos ajustes, pero avisa a otro miembro del proyecto que los metadatos del entorno necesitan ser verificados."
+  },
+  "project.environment.migration-no-permission.title": {
+    "message": "Los metadatos de entorno necesitan ser verificados"
+  },
+  "project.environment.migration.learn-more": {
+    "message": "Aprende más sobre este cambio"
+  },
+  "project.environment.migration.message": {
+    "message": "Acabamos de renovar el sistema de entornos en Icarus, ahora hay nuevas opciones disponibles. Por favor, verifica que los metadatos sean correctos."
+  },
+  "project.environment.migration.review-button": {
+    "message": "Revisar opciones de entorno"
+  },
+  "project.environment.migration.title": {
+    "message": "Por favor revisa los metadatos de entorno"
+  },
+  "project.error.loading": {
+    "message": "Error al cargar los datos del proyecto{message}"
+  },
+  "project.error.page-not-found": {
+    "message": "La página no se encontró"
+  },
+  "project.error.project-not-found": {
+    "message": "Proyecto no encontrado"
+  },
+  "project.gallery.title": {
+    "message": "Galería"
+  },
+  "project.license.error": {
+    "message": "No se pudo recuperar el texto de la licencia."
+  },
+  "project.license.loading": {
+    "message": "Cargando el texto de la licencia..."
+  },
+  "project.license.title": {
+    "message": "Licencia"
+  },
+  "project.moderation.title": {
+    "message": "Moderación"
+  },
+  "project.navigation.changelog": {
+    "message": "Registro de cambios"
+  },
+  "project.notification.icon-updated.message": {
+    "message": "El ícono de tu proyecto se ha actualizado."
+  },
+  "project.notification.icon-updated.title": {
+    "message": "Ícono del proyecto actualizado"
+  },
+  "project.notification.updated.message": {
+    "message": "Tu proyecto ha sido actualizado."
+  },
+  "project.notification.updated.title": {
+    "message": "Proyecto actualizado"
+  },
+  "project.settings.general.name.description": {
+    "message": "Evita prefijos, sufijos, explicaciones entre paréntesis o descripciones añadidas—solo utiliza el nombre real del proyecto."
+  },
+  "project.settings.general.name.placeholder.1": {
+    "message": "ej. El Nether Reimaginado 2"
+  },
+  "project.settings.general.name.placeholder.2": {
+    "message": "ej. Equipamento de Construcción"
+  },
+  "project.settings.general.name.placeholder.3": {
+    "message": "ej. Mejor que Cavar"
+  },
+  "project.settings.general.name.placeholder.4": {
+    "message": "eg. Portales Mejorados"
+  },
+  "project.settings.general.name.placeholder.5": {
+    "message": "ej. Mobs Peligrosos"
+  },
+  "project.settings.general.name.title": {
+    "message": "Nombre"
+  },
+  "project.settings.general.tagline.description": {
+    "message": "Resume tu proyecto en una oración o menos."
+  },
+  "project.settings.general.tagline.placeholder.1": {
+    "message": "ej. Cambia por completo la progresión del juego alrededor del Nether."
+  },
+  "project.settings.general.tagline.placeholder.2": {
+    "message": "ej. Añade vestimenta de construcción."
+  },
+  "project.settings.general.tagline.placeholder.3": {
+    "message": "ej. Añade mecánicas realistas de construcción de túneles mineros."
+  },
+  "project.settings.general.tagline.placeholder.4": {
+    "message": "ej. Mejora cómo los portales del Nether se enlazan entre sí."
+  },
+  "project.settings.general.tagline.placeholder.5": {
+    "message": "ej. Añade versiones jefe poderosas de las criaturas normales para encontrarlas de noche."
+  },
+  "project.settings.general.tagline.title": {
+    "message": "Eslogan"
+  },
+  "project.settings.general.url.title": {
+    "message": "URL"
+  },
+  "project.settings.title": {
+    "message": "Configuración"
+  },
+  "project.settings.visit-dashboard": {
+    "message": "Ver el panel de control de proyectos"
+  },
+  "project.stats.downloads-label": {
+    "message": "descarga{count, plural, one {} other {s}}"
+  },
+  "project.stats.followers-label": {
+    "message": "seguidor{count, plural, one {} other {es}}"
+  },
+  "project.status.archived.message": {
+    "message": "{title} se ha archivado. {title} no recibirá más actualizaciones hasta que el autor decida desarchivar el proyecto."
+  },
+  "project.versions.title": {
+    "message": "Versiones"
+  },
+  "report.already-reported": {
+    "message": "Ya has reportado {title}"
+  },
+  "report.already-reported-description": {
+    "message": "Ya tienes un reporte abierto para este {item, select, project {project} version {version} user {user} other {content}}. Puedes añadir más detalles a tu reporte si tienes más información que agregar."
+  },
+  "report.back-to-item": {
+    "message": "Volver a {item, select, project {proyecto} version {version} user {usuario} other {contenido}}"
+  },
+  "report.body.description": {
+    "message": "Incluye enlaces e imágenes si es posible y relevante. Los reportes vacíos o insuficientes serán cerrados e ignorados."
+  },
+  "report.body.title": {
+    "message": "Por favor, proporciona contexto adicional acerca de tu reporte"
+  },
+  "report.checking": {
+    "message": "Revisando {item, select, project {proyecto} version {version} user {usuario} other {contenido}}..."
+  },
+  "report.could-not-find": {
+    "message": "No se pudo encontrar {item, select, project {el proyecto} version {la version} user {el usuario} other {el contenido}}"
+  },
+  "report.for.violation": {
+    "message": "Infracción de las <rules-link>Reglas</rules-link> o <terms-link>Términos de Uso</terms-link> de Icarus"
+  },
+  "report.for.violation.description": {
+    "message": "Ejemplos incluyen contenido malicioso, no deseado, ofensivo, engañoso e ilegal."
+  },
+  "report.form-not-for": {
+    "message": "Este formulario no es para:"
+  },
+  "report.go-to-report": {
+    "message": "Ir a reporte"
+  },
+  "report.not-for.bug-reports": {
+    "message": "Informes de errores"
+  },
+  "report.not-for.bug-reports.description": {
+    "message": "Puedes reportar errores en su <issues-link>rastreador de errores</issues-link>."
+  },
+  "report.not-for.dmca": {
+    "message": "Retirada de contenidos DMCA"
+  },
+  "report.not-for.dmca.description": {
+    "message": "Consulta nuestra <policy-link>Política de derechos de autor</policy-link>."
+  },
+  "report.note.copyright.1": {
+    "message": "Ten en cuenta que *no* estás enviando una solicitud de retirada DMCA, sino reportando contenido re-subido."
+  },
+  "report.note.copyright.2": {
+    "message": "Si lo que querías era presentar una solicitud de retirada DMCA (que es una acción legal), consulta nuestra <copyright-policy-link>Política de derechos de autor</copyright-policy-link>."
+  },
+  "report.note.malicious.1": {
+    "message": "Los reportes de contenido malicioso o engañoso deben incluir evidencia sustancial de este comportamiento, como muestras de código."
+  },
+  "report.note.malicious.2": {
+    "message": "Los resúmenes de Microsoft Defender, VirusTotal o la detección de malware por IA no son pruebas suficientes y no serán aceptados."
+  },
+  "report.please-report": {
+    "message": "Por favor, informa:"
+  },
+  "report.question.content-id": {
+    "message": "¿Cual es la ID de {item, select, project {el proyecto} version {la versión} user {el usuario} other {el contenido}}?"
+  },
+  "report.question.content-type": {
+    "message": "¿Qué tipo de contenido estás reportando?"
+  },
+  "report.question.report-reason": {
+    "message": "¿Que regla de Mondrinth esta quebrantando {item, select, project {el proyecto} version {la versión} user {el usuario} other {el contenido}}?"
+  },
+  "report.report-content": {
+    "message": "Reportar contenido a moderadores"
+  },
+  "report.report-item": {
+    "message": "Reportar {title} a moderadores"
+  },
+  "report.submit": {
+    "message": "Enviar reporte"
+  },
+  "scopes.analytics.description": {
+    "message": "Accede a tus datos analíticos"
+  },
+  "scopes.analytics.label": {
+    "message": "Consultar estadísticas"
+  },
+  "scopes.category.analytics": {
+    "message": "Estadísticas"
+  },
+  "scopes.category.collections": {
+    "message": "Colecciones"
+  },
+  "scopes.category.notifications": {
+    "message": "Notificaciones"
+  },
+  "scopes.category.organizations": {
+    "message": "Organizaciones"
+  },
+  "scopes.category.pats": {
+    "message": "PATs"
+  },
+  "scopes.category.payouts": {
+    "message": "Pagos"
+  },
+  "scopes.category.projects": {
+    "message": "Proyectos"
+  },
+  "scopes.category.reports": {
+    "message": "Reportes"
+  },
+  "scopes.category.sessions": {
+    "message": "Sesiones"
+  },
+  "scopes.category.threads": {
+    "message": "Hilos"
+  },
+  "scopes.category.user-account": {
+    "message": "Cuenta de usuario"
+  },
+  "scopes.category.versions": {
+    "message": "Versiones"
+  },
+  "scopes.collectionCreate.description": {
+    "message": "Crear colecciones"
+  },
+  "scopes.collectionCreate.label": {
+    "message": "Crear colecciones"
+  },
+  "scopes.collectionDelete.description": {
+    "message": "Eliminar colecciones"
+  },
+  "scopes.collectionDelete.label": {
+    "message": "Eliminar colecciones"
+  },
+  "scopes.collectionRead.description": {
+    "message": "Consultar colecciones"
+  },
+  "scopes.collectionRead.label": {
+    "message": "Consultar colecciones"
+  },
+  "scopes.collectionWrite.description": {
+    "message": "Escribir en colecciones"
+  },
+  "scopes.collectionWrite.label": {
+    "message": "Escribir colecciones"
+  },
+  "scopes.notificationRead.description": {
+    "message": "Leer sus notificaciones"
+  },
+  "scopes.notificationRead.label": {
+    "message": "Leer notificaciones"
+  },
+  "scopes.notificationWrite.description": {
+    "message": "Eliminar/Ver sus notificaciones"
+  },
+  "scopes.notificationWrite.label": {
+    "message": "Escribir notificaciones"
+  },
+  "scopes.organizationCreate.description": {
+    "message": "Crear organizaciones"
+  },
+  "scopes.organizationCreate.label": {
+    "message": "Crear organizaciones"
+  },
+  "scopes.organizationDelete.description": {
+    "message": "Eliminar organizaciones"
+  },
+  "scopes.organizationDelete.label": {
+    "message": "Eliminar organizaciones"
+  },
+  "scopes.organizationRead.description": {
+    "message": "Consultar organizaciones"
+  },
+  "scopes.organizationRead.label": {
+    "message": "Consultar organizaciones"
+  },
+  "scopes.organizationWrite.description": {
+    "message": "Escribir en organizaciones"
+  },
+  "scopes.organizationWrite.label": {
+    "message": "Escribir organizaciones"
+  },
+  "scopes.patCreate.description": {
+    "message": "Crear tokens de API personales"
+  },
+  "scopes.patCreate.label": {
+    "message": "Crear PATs"
+  },
+  "scopes.patDelete.description": {
+    "message": "Eliminar tus tokens de API personales"
+  },
+  "scopes.patDelete.label": {
+    "message": "Eliminar PATs"
+  },
+  "scopes.patRead.description": {
+    "message": "Ver tokens de API creados"
+  },
+  "scopes.patRead.label": {
+    "message": "Consultar PATs"
+  },
+  "scopes.patWrite.description": {
+    "message": "Editar tokens de API personales"
+  },
+  "scopes.patWrite.label": {
+    "message": "Escribir PATs"
+  },
+  "scopes.payoutsRead.description": {
+    "message": "Consulta tus datos de pago"
+  },
+  "scopes.payoutsRead.label": {
+    "message": "Consultar pagos"
+  },
+  "scopes.payoutsWrite.description": {
+    "message": "Retirar fondos"
+  },
+  "scopes.payoutsWrite.label": {
+    "message": "Registrar pagos"
+  },
+  "scopes.performAnalytics.description": {
+    "message": "Realizar acciones de análisis"
+  },
+  "scopes.performAnalytics.label": {
+    "message": "Ejecutar análisis"
+  },
+  "scopes.projectCreate.description": {
+    "message": "Crear proyectos nuevos"
+  },
+  "scopes.projectCreate.label": {
+    "message": "Crear proyectos"
+  },
+  "scopes.projectDelete.description": {
+    "message": "Eliminar tus proyectos"
+  },
+  "scopes.projectDelete.label": {
+    "message": "Eliminar proyectos"
+  },
+  "scopes.projectRead.description": {
+    "message": "Consultar todos tus proyectos"
+  },
+  "scopes.projectRead.label": {
+    "message": "Consultar proyectos"
+  },
+  "scopes.projectWrite.description": {
+    "message": "Escribir datos del proyecto"
+  },
+  "scopes.projectWrite.label": {
+    "message": "Escribir proyectos"
+  },
+  "scopes.reportCreate.description": {
+    "message": "Crear reportes"
+  },
+  "scopes.reportCreate.label": {
+    "message": "Crear reportes"
+  },
+  "scopes.reportDelete.description": {
+    "message": "Eliminar reportes"
+  },
+  "scopes.reportDelete.label": {
+    "message": "Eliminar reportes"
+  },
+  "scopes.reportRead.description": {
+    "message": "Leer reportes"
+  },
+  "scopes.reportRead.label": {
+    "message": "Leer reportes"
+  },
+  "scopes.reportWrite.description": {
+    "message": "Editar reportes"
+  },
+  "scopes.reportWrite.label": {
+    "message": "Escribir reportes"
+  },
+  "scopes.sessionAccess.description": {
+    "message": "Acceder a sesiones emitidas por Icarus"
+  },
+  "scopes.sessionAccess.label": {
+    "message": "Sesiones de acceso"
+  },
+  "scopes.sessionDelete.description": {
+    "message": "Eliminar sesiones"
+  },
+  "scopes.sessionDelete.label": {
+    "message": "Eliminar sesiones"
+  },
+  "scopes.sessionRead.description": {
+    "message": "Ver sesiones activas"
+  },
+  "scopes.sessionRead.label": {
+    "message": "Ver sesiones"
+  },
+  "scopes.threadRead.description": {
+    "message": "Ver hilos"
+  },
+  "scopes.threadRead.label": {
+    "message": "Ver hilos"
+  },
+  "scopes.threadWrite.description": {
+    "message": "Escribir en hilos"
+  },
+  "scopes.threadWrite.label": {
+    "message": "Crear hilos"
+  },
+  "scopes.userAuthWrite.description": {
+    "message": "Modificar tus datos de autentificación"
+  },
+  "scopes.userAuthWrite.label": {
+    "message": "Escribir datos de autentificación"
+  },
+  "scopes.userDelete.description": {
+    "message": "Eliminar tu cuenta"
+  },
+  "scopes.userDelete.label": {
+    "message": "Eliminar tu cuenta"
+  },
+  "scopes.userRead.description": {
+    "message": "Accede a la información de tu perfil público"
+  },
+  "scopes.userRead.label": {
+    "message": "Consultar datos de usuario"
+  },
+  "scopes.userReadEmail.description": {
+    "message": "Ver tu correo electrónico"
+  },
+  "scopes.userReadEmail.label": {
+    "message": "Ver correo electrónico del usuario"
+  },
+  "scopes.userWrite.description": {
+    "message": "Escribir en tu perfil"
+  },
+  "scopes.userWrite.label": {
+    "message": "Escribir información del usuario"
+  },
+  "scopes.versionCreate.description": {
+    "message": "Crear nuevas versiones"
+  },
+  "scopes.versionCreate.label": {
+    "message": "Crear versiones"
+  },
+  "scopes.versionDelete.description": {
+    "message": "Eliminar una versión"
+  },
+  "scopes.versionDelete.label": {
+    "message": "Eliminar versiones"
+  },
+  "scopes.versionRead.description": {
+    "message": "Ver todas las versiones"
+  },
+  "scopes.versionRead.label": {
+    "message": "Ver versiones"
+  },
+  "scopes.versionWrite.description": {
+    "message": "Escribir en los datos de versión"
+  },
+  "scopes.versionWrite.label": {
+    "message": "Crear versiones"
+  },
+  "search.filter.game-version-shader-message": {
+    "message": "Los shader packs para versiones antiguas suelen funcionar en versiones más nuevas con pequeños problemas."
+  },
+  "search.filter.locked.server": {
+    "message": "Proporcionado por el servidor"
+  },
+  "search.filter.locked.server-game-version.title": {
+    "message": "La versión del juego es proporcionada por el servidor"
+  },
+  "search.filter.locked.server-loader.title": {
+    "message": "El loader es proporcionado por el servidor"
+  },
+  "search.filter.locked.server.sync": {
+    "message": "Sincronizar con el servidor"
+  },
+  "servers.notice.actions": {
+    "message": "Acciones"
+  },
+  "servers.notice.begins": {
+    "message": "Comienza"
+  },
+  "servers.notice.dismissable": {
+    "message": "Descartable"
+  },
+  "servers.notice.expires": {
+    "message": "Expira"
+  },
+  "servers.notice.id": {
+    "message": "ID"
+  },
+  "servers.notice.level": {
+    "message": "Nivel"
+  },
+  "servers.notice.undismissable": {
+    "message": "No descartable"
+  },
+  "servers.notices.create-notice": {
+    "message": "Crear aviso"
+  },
+  "servers.notices.no-notices": {
+    "message": "Sin avisos"
+  },
+  "servers.plan.large.description": {
+    "message": "Ideal para 15–25 jugadores, modpacks o uso intensivo de mods."
+  },
+  "servers.plan.medium.description": {
+    "message": "Ideal para 6–15 jugadores y múltiples mods."
+  },
+  "servers.plan.small.description": {
+    "message": "Perfecto para 1–5 amigos con algunos mods ligeros."
+  },
+  "settings.account.button.complete-setup": {
+    "message": "Finalizar configuración"
+  },
+  "settings.account.data-export.action.download": {
+    "message": "Descargar exportación"
+  },
+  "settings.account.data-export.action.generate": {
+    "message": "Generar exportación"
+  },
+  "settings.account.data-export.action.generating": {
+    "message": "Generando exportación..."
+  },
+  "settings.account.data-export.description": {
+    "message": "Solicita una copia de todos los datos personales que has subido a Icarus. Esto puede tardar varios minutos en completarse."
+  },
+  "settings.account.data-export.title": {
+    "message": "Exportación de datos"
+  },
+  "settings.account.delete.confirm.description": {
+    "message": "Esto **eliminará inmediatamente todos tus datos de usuario y a quienes sigues**. Esto no eliminará tus proyectos. Eliminar tu cuenta no se puede deshacer.<br><br>Si necesitas ayuda con tu cuenta, obtén ayuda en el [Discord de Icarus](https://discord.Icarus.com)."
+  },
+  "settings.account.delete.confirm.proceed": {
+    "message": "Eliminar esta cuenta"
+  },
+  "settings.account.delete.confirm.title": {
+    "message": "¿Estás seguro de que quieres eliminar tu cuenta?"
+  },
+  "settings.account.delete.section.action": {
+    "message": "Eliminar cuenta"
+  },
+  "settings.account.delete.section.description": {
+    "message": "Una vez que elimines tu cuenta, no hay vuelta atrás. Eliminar tu cuenta borrará todos los datos asociados de nuestros servidores, excepto tus proyectos."
+  },
+  "settings.account.delete.section.title": {
+    "message": "Eliminar cuenta"
+  },
+  "settings.account.email.action.save": {
+    "message": "Guardar correo"
+  },
+  "settings.account.email.field.label": {
+    "message": "Correo electrónico"
+  },
+  "settings.account.email.field.placeholder": {
+    "message": "Introduce tu correo electrónico..."
+  },
+  "settings.account.email.modal.header.add": {
+    "message": "Añadir correo electrónico"
+  },
+  "settings.account.email.modal.header.change": {
+    "message": "Cambiar correo"
+  },
+  "settings.account.email.modal.notice": {
+    "message": "La información de tu cuenta no se muestra públicamente."
+  },
+  "settings.account.password.action.remove": {
+    "message": "Eliminar contraseña"
+  },
+  "settings.account.password.action.save": {
+    "message": "Guardar contraseña"
+  },
+  "settings.account.password.error.mismatch": {
+    "message": "¡Las contraseñas no coinciden!"
+  },
+  "settings.account.password.field.confirm-current.description": {
+    "message": "Por favor, introduce tu contraseña para continuar."
+  },
+  "settings.account.password.field.confirm-current.label": {
+    "message": "Confirmar contraseña"
+  },
+  "settings.account.password.field.confirm-current.placeholder": {
+    "message": "Confirmar contraseña"
+  },
+  "settings.account.password.field.confirm-new.label": {
+    "message": "Confirmar nueva contraseña"
+  },
+  "settings.account.password.field.confirm-new.placeholder": {
+    "message": "Confirmar nueva contraseña"
+  },
+  "settings.account.password.field.new.label": {
+    "message": "Nueva contraseña"
+  },
+  "settings.account.password.field.new.placeholder": {
+    "message": "Nueva contraseña"
+  },
+  "settings.account.password.field.old.label": {
+    "message": "Contraseña actual"
+  },
+  "settings.account.password.field.old.placeholder": {
+    "message": "Contraseña actual"
+  },
+  "settings.account.password.modal.header.add": {
+    "message": "Añadir contraseña"
+  },
+  "settings.account.password.modal.header.change": {
+    "message": "Cambiar contraseña"
+  },
+  "settings.account.password.modal.header.remove": {
+    "message": "Eliminar contraseña"
+  },
+  "settings.account.providers.action.add": {
+    "message": "Añadir"
+  },
+  "settings.account.providers.modal.header": {
+    "message": "Proveedores de autenticación"
+  },
+  "settings.account.providers.table.actions": {
+    "message": "Acciones"
+  },
+  "settings.account.providers.table.provider": {
+    "message": "Proveedor"
+  },
+  "settings.account.security.email.action.add": {
+    "message": "Añadir correo"
+  },
+  "settings.account.security.email.action.change": {
+    "message": "Cambiar correo"
+  },
+  "settings.account.security.email.description": {
+    "message": "Cambia el correo electrónico asociado a tu cuenta."
+  },
+  "settings.account.security.email.title": {
+    "message": "Correo electrónico"
+  },
+  "settings.account.security.password.action.add": {
+    "message": "Añadir contraseña"
+  },
+  "settings.account.security.password.action.change": {
+    "message": "Cambiar contraseña"
+  },
+  "settings.account.security.password.description.change": {
+    "message": "Cambia la contraseña que usas para ingresar a tu cuenta."
+  },
+  "settings.account.security.password.description.change-or-remove": {
+    "message": "Cambia o elimina la contraseña que usas para ingresar a tu cuenta."
+  },
+  "settings.account.security.password.description.set": {
+    "message": "Establece una contraseña permanente para ingresar a tu cuenta."
+  },
+  "settings.account.security.password.title": {
+    "message": "Contraseña"
+  },
+  "settings.account.security.providers.action.manage": {
+    "message": "Gestionar proveedores"
+  },
+  "settings.account.security.providers.description": {
+    "message": "Agrega o elimina métodos de inicio de sesión de tu cuenta, incluyendo GitHub, GitLab, Microsoft, Discord, Steam y Google."
+  },
+  "settings.account.security.providers.title": {
+    "message": "Administrar proveedores de autenticación"
+  },
+  "settings.account.security.title": {
+    "message": "Seguridad de la cuenta"
+  },
+  "settings.account.security.two-factor.action.remove": {
+    "message": "Eliminar verificación en dos pasos"
+  },
+  "settings.account.security.two-factor.action.setup": {
+    "message": "Configurar verificación en dos pasos"
+  },
+  "settings.account.security.two-factor.description": {
+    "message": "Agrega una capa adicional de seguridad a tu cuenta al iniciar sesión."
+  },
+  "settings.account.security.two-factor.title": {
+    "message": "Verificación en dos pasos"
+  },
+  "settings.account.two-factor.backup.intro": {
+    "message": "Descarga y guarda estos códigos de respaldo en un lugar seguro. ¡Puedes usarlos en lugar del código de verificación en dos pasos si pierdes acceso a tu dispositivo! Debes proteger estos códigos como si fueran tu contraseña."
+  },
+  "settings.account.two-factor.backup.single-use": {
+    "message": "Los códigos de respaldo solo se pueden usar una vez."
+  },
+  "settings.account.two-factor.error.incorrect-code": {
+    "message": "¡El código introducido es incorrecto!"
+  },
+  "settings.account.two-factor.field.code.description": {
+    "message": "Por favor, introduce un código de verificación en dos pasos para continuar."
+  },
+  "settings.account.two-factor.field.code.label": {
+    "message": "Introduce el código de verificación en dos pasos"
+  },
+  "settings.account.two-factor.field.code.placeholder": {
+    "message": "Introduce el código..."
+  },
+  "settings.account.two-factor.setup.intro": {
+    "message": "La verificación en dos pasos mantiene tu cuenta segura al requerir acceso a un segundo dispositivo para iniciar sesión."
+  },
+  "settings.account.two-factor.setup.manual-secret": {
+    "message": "Si el código QR no se puede escanear, puedes introducir el secreto manualmente:"
+  },
+  "settings.account.two-factor.setup.scan": {
+    "message": "Escanea el código QR con <authy-link>Authy</authy-link>, <microsoft-authenticator-link>Microsoft Authenticator</microsoft-authenticator-link> o cualquier otra app de verificación en dos pasos para comenzar."
+  },
+  "settings.account.two-factor.verify.description": {
+    "message": "Introduce el código de un solo uso de la app de verificación para confirmar el acceso."
+  },
+  "settings.account.two-factor.verify.label": {
+    "message": "Verificar código"
+  },
+  "settings.applications.about": {
+    "message": "Acerca de"
+  },
+  "settings.applications.button.add-more": {
+    "message": "Añadir más"
+  },
+  "settings.applications.button.add-redirect-uri": {
+    "message": "Agregar un URI de redirección"
+  },
+  "settings.applications.button.cancel": {
+    "message": "Cancelar"
+  },
+  "settings.applications.button.create": {
+    "message": "Crear aplicación"
+  },
+  "settings.applications.button.delete": {
+    "message": "Borrar"
+  },
+  "settings.applications.button.edit": {
+    "message": "Editar"
+  },
+  "settings.applications.button.new": {
+    "message": "Nueva aplicación"
+  },
+  "settings.applications.button.save-changes": {
+    "message": "Guardar cambios"
+  },
+  "settings.applications.button.upload-icon": {
+    "message": "Subir icono"
+  },
+  "settings.applications.client-id": {
+    "message": "ID del cliente"
+  },
+  "settings.applications.client-secret": {
+    "message": "Secreto del cliente"
+  },
+  "settings.applications.created-on": {
+    "message": "Creado el {date}"
+  },
+  "settings.applications.delete.confirm.button": {
+    "message": "Borrar esta aplicación"
+  },
+  "settings.applications.delete.confirm.description": {
+    "message": "Esto borrará permanentemente esta aplicación y revocará todos los tokens de acceso. (¡para siempre!)"
+  },
+  "settings.applications.delete.confirm.title": {
+    "message": "¿Estás seguro de que quieres borrar esta aplicación?"
+  },
+  "settings.applications.description.intro": {
+    "message": "Las aplicaciones pueden utilizarse para autenticar a los usuarios de Icarus en tus productos. Para obtener más información, consulta la <docs-link>documentación de la API de Icarus</docs-link>."
+  },
+  "settings.applications.field.description": {
+    "message": "Descripción"
+  },
+  "settings.applications.field.description.placeholder": {
+    "message": "Introduce la descripción de la aplicación..."
+  },
+  "settings.applications.field.icon": {
+    "message": "Icono"
+  },
+  "settings.applications.field.name": {
+    "message": "Nombre"
+  },
+  "settings.applications.field.name.placeholder": {
+    "message": "Introduce la descripción de la aplicación..."
+  },
+  "settings.applications.field.redirect-uri.placeholder": {
+    "message": "https://example.com/auth/callback"
+  },
+  "settings.applications.field.redirect-uris": {
+    "message": "URIs de redirección"
+  },
+  "settings.applications.field.scopes": {
+    "message": "Permisos"
+  },
+  "settings.applications.field.url": {
+    "message": "URL"
+  },
+  "settings.applications.field.url.placeholder": {
+    "message": "https://example.com"
+  },
+  "settings.applications.head-title": {
+    "message": "Aplicaciones"
+  },
+  "settings.applications.modal.header": {
+    "message": "Información de la aplicación"
+  },
+  "settings.applications.notification.icon-updated.description": {
+    "message": "El ícono de tu aplicación se ha actualizado."
+  },
+  "settings.applications.notification.icon-updated.title": {
+    "message": "Icono actualizado"
+  },
+  "settings.applications.secret.disclaimer": {
+    "message": "¡Guarda tu secreto ahora, se ocultará después de salir de esta página!"
+  },
+  "settings.authorizations.about-this-app": {
+    "message": "Acerca de esta aplicación"
+  },
+  "settings.authorizations.by": {
+    "message": "por"
+  },
+  "settings.authorizations.description": {
+    "message": "Cuando autorizas una aplicación con tu cuenta de Icarus, le concedes acceso a tu cuenta. Puedes gestionar y revisar los accesos a tu cuenta aquí en cualquier momento."
+  },
+  "settings.authorizations.empty-state": {
+    "message": "Actualmente no podemos mostrar tus aplicaciones autorizadas. Estamos trabajando para solucionar esto. ¡Por favor, visita esta página más tarde!"
+  },
+  "settings.authorizations.head-title": {
+    "message": "Autorizaciones"
+  },
+  "settings.authorizations.revoke.action": {
+    "message": "Revocar"
+  },
+  "settings.authorizations.revoke.confirm.description": {
+    "message": "Esto revocará el acceso de la aplicación a tu cuenta. Siempre podrás autorizarla de nuevo más adelante."
+  },
+  "settings.authorizations.revoke.confirm.title": {
+    "message": "¿Estás seguro que quieres revocar esta aplicación?"
+  },
+  "settings.billing.charges.description": {
+    "message": "Todos los cargos realizados a tu cuenta de Icarus se mostrarán aquí:"
+  },
+  "settings.billing.charges.product.medal-trial": {
+    "message": "Prueba del Medal Server"
+  },
+  "settings.billing.charges.product.midas": {
+    "message": "Icarus Plus"
+  },
+  "settings.billing.charges.product.pyro": {
+    "message": "Icarus Hosting"
+  },
+  "settings.billing.charges.title": {
+    "message": "Cargos anteriores"
+  },
+  "settings.billing.expires": {
+    "message": "Expira {date}"
+  },
+  "settings.billing.interval.month": {
+    "message": "mes"
+  },
+  "settings.billing.interval.monthly": {
+    "message": "mensual"
+  },
+  "settings.billing.interval.quarter": {
+    "message": "trimestre"
+  },
+  "settings.billing.interval.quarterly.adjective": {
+    "message": "trimestralmente"
+  },
+  "settings.billing.interval.year": {
+    "message": "año"
+  },
+  "settings.billing.interval.yearly": {
+    "message": "anual"
+  },
+  "settings.billing.midas.benefits.ad-free": {
+    "message": "Navegación sin anuncios en Icarus.com y en la Icarus Launcher"
+  },
+  "settings.billing.midas.benefits.badge": {
+    "message": "Insignia de Icarus+ en tu perfil"
+  },
+  "settings.billing.midas.benefits.support": {
+    "message": "Apoya directamente a Icarus y a los creadores"
+  },
+  "settings.billing.midas.benefits.title": {
+    "message": "Beneficios"
+  },
+  "settings.billing.midas.save-per-year": {
+    "message": "¡Ahorra {amount}/año al cambiar a facturación anual!"
+  },
+  "settings.billing.midas.status.cancelled.line1": {
+    "message": "Has cancelado tu suscripción."
+  },
+  "settings.billing.midas.status.cancelled.line2": {
+    "message": "Conservarás tus beneficios hasta el final del ciclo de facturación actual."
+  },
+  "settings.billing.midas.status.failed": {
+    "message": "El pago de tu suscripción falló. Por favor, actualiza tu método de pago."
+  },
+  "settings.billing.midas.status.open": {
+    "message": "Actualmente estás suscrito a:"
+  },
+  "settings.billing.midas.status.processing": {
+    "message": "Tu pago se está procesando. Los beneficios se activarán una vez que se complete el pago."
+  },
+  "settings.billing.midas.upsell": {
+    "message": "¡Conviértete en suscriptor de Icarus Plus!"
+  },
+  "settings.billing.modal.cancel.action": {
+    "message": "Cancelar subscripción"
+  },
+  "settings.billing.modal.cancel.description": {
+    "message": "Esto cancelará tu suscripción. Mantendrás tus beneficios hasta el final del ciclo de facturación actual."
+  },
+  "settings.billing.modal.cancel.title": {
+    "message": "¿Estás seguro de que deseas cancelar tu suscripción?"
+  },
+  "settings.billing.modal.delete.action": {
+    "message": "Eliminar este método de pago"
+  },
+  "settings.billing.modal.delete.description": {
+    "message": "Esto eliminará este método de pago para siempre (sí, de verdad, para siempre)."
+  },
+  "settings.billing.modal.delete.title": {
+    "message": "¿Estás seguro de que quieres eliminar este método de pago?"
+  },
+  "settings.billing.next": {
+    "message": "Siguiente:"
+  },
+  "settings.billing.or-yearly-save": {
+    "message": "O {price} / año (¡ahorra {percent}%!)"
+  },
+  "settings.billing.payment_method.action.add": {
+    "message": "Agregar método de pago"
+  },
+  "settings.billing.payment_method.action.history": {
+    "message": "Ver cargos anteriores"
+  },
+  "settings.billing.payment_method.action.primary": {
+    "message": "Establecer como principal"
+  },
+  "settings.billing.payment_method.card_expiry": {
+    "message": "Expira {month}/{year}"
+  },
+  "settings.billing.payment_method.none": {
+    "message": "No has añadido ningún método de pago."
+  },
+  "settings.billing.payment_method.primary": {
+    "message": "Principal"
+  },
+  "settings.billing.payment_method.title": {
+    "message": "Métodos de pago"
+  },
+  "settings.billing.plan.title": {
+    "message": "Plan {size}"
+  },
+  "settings.billing.price.per-interval": {
+    "message": "{price} / {interval}"
+  },
+  "settings.billing.price.slash-interval": {
+    "message": "/{interval}"
+  },
+  "settings.billing.pyro.cpu": {
+    "message": "{shared} CPUs compartidas (Picos de hasta {bursts} CPUs)"
+  },
+  "settings.billing.pyro.linked-server.not-found": {
+    "message": "No se pudo encontrar un servidor vinculado para esta suscripción. Hay algunas posibles explicaciones para esto. Si acabas de adquirir tu servidor, esto es normal: puede tardar hasta una hora en estar disponible. De lo contrario, si compraste este servidor hace tiempo, probablemente haya sido suspendido. Si esto no es lo que esperabas, por favor contacta al soporte de Icarus proporcionando la siguiente información:"
+  },
+  "settings.billing.pyro.linked-server.server-id": {
+    "message": "ID del servidor: {id}"
+  },
+  "settings.billing.pyro.linked-server.stripe-id": {
+    "message": "ID de Stripe: {id}"
+  },
+  "settings.billing.pyro.ram": {
+    "message": "{gb} GB de RAM"
+  },
+  "settings.billing.pyro.resubscribe.error.text": {
+    "message": "Ocurrió un error al renovar la suscripción de tu servidor de Icarus."
+  },
+  "settings.billing.pyro.resubscribe.error.title": {
+    "message": "Error al renovar la suscripción"
+  },
+  "settings.billing.pyro.resubscribe.request-submitted.text": {
+    "message": "Si el servidor se encuentra cancelado, puede tomar 10-15 minutos en preparar el servidor"
+  },
+  "settings.billing.pyro.resubscribe.request-submitted.title": {
+    "message": "Solicitud de renovación de suscripción enviada"
+  },
+  "settings.billing.pyro.resubscribe.success.text": {
+    "message": "Suscripción del servidor renovada correctamente"
+  },
+  "settings.billing.pyro.status.failed": {
+    "message": "El pago de tu suscripción falló. Por favor, actualiza tu método de pago y luego renueva la suscripción."
+  },
+  "settings.billing.pyro.status.processing": {
+    "message": "Tu pago se está procesando. Tu servidor se activará una vez que se complete el pago."
+  },
+  "settings.billing.pyro.storage": {
+    "message": "{gb} GB de SSD"
+  },
+  "settings.billing.pyro.swap": {
+    "message": "{gb} GB Swap"
+  },
+  "settings.billing.pyro_subscription.description": {
+    "message": "Gestiona tus suscripciones de Icarus Servers."
+  },
+  "settings.billing.pyro_subscription.title": {
+    "message": "Suscripciones de Icarus Servers"
+  },
+  "settings.billing.renews": {
+    "message": "Se renueva el {date}"
+  },
+  "settings.billing.resubscribe": {
+    "message": "Renovar suscripción"
+  },
+  "settings.billing.since": {
+    "message": "Desde el {date}"
+  },
+  "settings.billing.subscribe": {
+    "message": "Suscribirse"
+  },
+  "settings.billing.subscription.description": {
+    "message": "Gestiona tus suscripciones de servidores Icarus."
+  },
+  "settings.billing.subscription.title": {
+    "message": "Suscripciones"
+  },
+  "settings.billing.switch.switching-to-interval": {
+    "message": "Cambiando a {interval}"
+  },
+  "settings.billing.switch.to-interval": {
+    "message": "Cambiar a {interval}"
+  },
+  "settings.billing.switch.tooltip.monthly-additional-per-year": {
+    "message": "La facturación mensual te costará {amount} adicionales por año"
+  },
+  "settings.billing.switches-to-billing-on": {
+    "message": "Se cambia a facturación {interval} el {date}"
+  },
+  "settings.billing.update-method": {
+    "message": "Actualizar método"
+  },
+  "settings.billing.upgrade": {
+    "message": "Mejorar plan"
+  },
+  "settings.display.banner.developer-mode.button": {
+    "message": "Desactivar modo desarrollador"
+  },
+  "settings.display.banner.developer-mode.description": {
+    "message": "<strong>Modo desarrollador</strong> activo. Podrás ver los IDs internos de varios elementos de Icarus, lo que resulta útil si usas la API de Icarus. Haz clic en el logo de Icarus en la parte inferior de la página 5 veces para alternar el modo desarrollador."
+  },
+  "settings.display.flags.description": {
+    "message": "Activa o desactiva determinadas funciones en este dispositivo."
+  },
+  "settings.display.flags.title": {
+    "message": "Activar/desactivar funciones"
+  },
+  "settings.display.notification.developer-mode-deactivated.text": {
+    "message": "El modo desarrollador se ha desactivado"
+  },
+  "settings.display.notification.developer-mode-deactivated.title": {
+    "message": "Modo desarrollador desactivado"
+  },
+  "settings.display.project-list-layouts.datapack": {
+    "message": "Página de Data Packs"
+  },
+  "settings.display.project-list-layouts.description": {
+    "message": "Selecciona el diseño que prefieras para cada página que muestre listas de proyectos en este dispositivo."
+  },
+  "settings.display.project-list-layouts.mod": {
+    "message": "Página de Mods"
+  },
+  "settings.display.project-list-layouts.mode.gallery": {
+    "message": "Galería"
+  },
+  "settings.display.project-list-layouts.mode.grid": {
+    "message": "Cuadrícula"
+  },
+  "settings.display.project-list-layouts.mode.rows": {
+    "message": "Filas"
+  },
+  "settings.display.project-list-layouts.modpack": {
+    "message": "Página de Modpacks"
+  },
+  "settings.display.project-list-layouts.plugin": {
+    "message": "Página de Plugins"
+  },
+  "settings.display.project-list-layouts.resourcepack": {
+    "message": "Página de Resource Packs"
+  },
+  "settings.display.project-list-layouts.server": {
+    "message": "Página de servidores"
+  },
+  "settings.display.project-list-layouts.shader": {
+    "message": "Página de Shaders"
+  },
+  "settings.display.project-list-layouts.title": {
+    "message": "Diseños de las listas de proyectos"
+  },
+  "settings.display.project-list-layouts.user": {
+    "message": "Páginas de perfil de usuario"
+  },
+  "settings.display.project-list.layouts.collection": {
+    "message": "Colección"
+  },
+  "settings.display.sidebar.advanced-rendering.description": {
+    "message": "Activa el renderizado avanzado, como los efectos de desenfoque, que pueden afectar el rendimiento sin aceleración por hardware."
+  },
+  "settings.display.sidebar.advanced-rendering.title": {
+    "message": "Renderizado avanzado"
+  },
+  "settings.display.sidebar.external-links-new-tab.description": {
+    "message": "Haz que los enlaces que llevan fuera de Icarus se abran en una nueva pestaña. Sin importar esta configuración, los enlaces del mismo dominio y los de las descripciones en Markdown se abrirán en la misma pestaña, mientras que los enlaces en anuncios y páginas de edición se abrirán en una nueva pestaña."
+  },
+  "settings.display.sidebar.external-links-new-tab.title": {
+    "message": "Abrir enlaces externos en una nueva pestaña"
+  },
+  "settings.display.sidebar.hide-app-promos.description": {
+    "message": "Oculta los botones \"Obtener la Icarus Launcher\" de la navegación principal. La página de la aplicación Icarus sigue estando disponible en la página de inicio o en el pie de página."
+  },
+  "settings.display.sidebar.hide-app-promos.title": {
+    "message": "Ocultar promociones de la Icarus Launcher"
+  },
+  "settings.display.sidebar.left-aligned-content-sidebar.title": {
+    "message": "Barra lateral alineada a la izquierda en las páginas de contenido"
+  },
+  "settings.display.sidebar.right-aligned-content-sidebar.description": {
+    "message": "Alinea la barra lateral a la izquierda en las páginas de contenido."
+  },
+  "settings.display.sidebar.right-aligned-filters-sidebar.description": {
+    "message": "Alinea la barra lateral de los filtros a la derecha de los resultados de búsqueda."
+  },
+  "settings.display.sidebar.right-aligned-filters-sidebar.title": {
+    "message": "Barra lateral de filtros alineada a la derecha en páginas de búsqueda"
+  },
+  "settings.display.theme.description": {
+    "message": "Selecciona el tema de color que prefieras para Icarus en este dispositivo."
+  },
+  "settings.display.theme.title": {
+    "message": "Color de la interfaz"
+  },
+  "settings.head-title": {
+    "message": "Configuración de Visualización"
+  },
+  "settings.pats.action.create": {
+    "message": "Crear un PAT"
+  },
+  "settings.pats.description": {
+    "message": "Los PAT se pueden usar para acceder a la API de Icarus. Pueden crearse y revocarse en cualquier momento. Para más información, consulta la <doc-link>documentación de la API de Icarus</doc-link>."
+  },
+  "settings.pats.modal.create.action": {
+    "message": "Crear un PAT"
+  },
+  "settings.pats.modal.create.expires.label": {
+    "message": "Expira"
+  },
+  "settings.pats.modal.create.name.label": {
+    "message": "Nombre"
+  },
+  "settings.pats.modal.create.name.placeholder": {
+    "message": "Introduce el nombre del PAT..."
+  },
+  "settings.pats.modal.create.title": {
+    "message": "Crear token de acceso personal"
+  },
+  "settings.pats.modal.delete.action": {
+    "message": "Eliminar este token"
+  },
+  "settings.pats.modal.delete.description": {
+    "message": "Esto eliminará este token para siempre (sí, de verdad, para siempre)."
+  },
+  "settings.pats.modal.delete.title": {
+    "message": "¿Estás seguro de que quieres eliminar este token?"
+  },
+  "settings.pats.modal.edit.title": {
+    "message": "Editar token de acceso personal"
+  },
+  "settings.pats.token.action.edit": {
+    "message": "Editar token"
+  },
+  "settings.pats.token.action.revoke": {
+    "message": "Revocar token"
+  },
+  "settings.pats.token.expired-ago": {
+    "message": "Expiró {ago}"
+  },
+  "settings.pats.token.expires-in": {
+    "message": "Expira {inTime}"
+  },
+  "settings.pats.token.last-used": {
+    "message": "Usado por última vez {ago}"
+  },
+  "settings.pats.token.never-used": {
+    "message": "Nunca usado"
+  },
+  "settings.profile.bio.description": {
+    "message": "Una breve descripción para que todos sepan un poco sobre ti."
+  },
+  "settings.profile.bio.title": {
+    "message": "Biografía"
+  },
+  "settings.profile.description": {
+    "message": "La información de tu perfil es visible públicamente en Icarus y mediante la <docs-link>API de Icarus</docs-link>."
+  },
+  "settings.profile.head-title": {
+    "message": "Configuración del perfil"
+  },
+  "settings.profile.profile-info": {
+    "message": "Información del perfil"
+  },
+  "settings.profile.profile-picture.title": {
+    "message": "Imagen de perfil"
+  },
+  "settings.profile.username.description": {
+    "message": "Un nombre único, sin distinción entre mayúsculas y minúsculas, para identificar tu perfil."
+  },
+  "settings.sessions.action.revoke-session": {
+    "message": "Revocar sesión"
+  },
+  "settings.sessions.created-ago": {
+    "message": "Creado {ago}"
+  },
+  "settings.sessions.current-session": {
+    "message": "Sesión actual"
+  },
+  "settings.sessions.description": {
+    "message": "Aquí tienes todos los dispositivos que están actualmente conectados a tu cuenta de Icarus. Puedes cerrar sesión en cada uno de ellos de forma individual.\n\nSi ves algún dispositivo que no reconoces, cierra sesión en él y cambia la contraseña de tu cuenta de Icarus de inmediato."
+  },
+  "settings.sessions.last-accessed-ago": {
+    "message": "Último acceso {ago}"
+  },
+  "settings.sessions.unknown-os": {
+    "message": "Sistema operativo desconocido"
+  },
+  "settings.sessions.unknown-platform": {
+    "message": "Plataforma desconocida"
+  },
+  "settings.sidebar.label.account": {
+    "message": "Cuenta"
+  },
+  "settings.sidebar.label.developer": {
+    "message": "Desarrollador"
+  },
+  "settings.sidebar.label.display": {
+    "message": "Visualización"
+  },
+  "ui.latest-news-row.latest-news": {
+    "message": "Últimas noticias de Icarus"
+  },
+  "ui.latest-news-row.view-all": {
+    "message": "Ver todas las noticias"
+  },
+  "ui.newsletter-button.subscribe": {
+    "message": "Suscribirse"
+  },
+  "ui.newsletter-button.subscribed": {
+    "message": "¡Suscrito!"
+  },
+  "ui.newsletter-button.tooltip": {
+    "message": "Suscríbete a las noticias de Icarus"
+  },
+  "version.environment.none.description": {
+    "message": "No se ha especificado el entorno para esta versión."
+  },
+  "version.environment.none.title": {
+    "message": "Entorno sin configurar"
+  },
+  "version.environment.unknown.description": {
+    "message": "El entorno \"{environment}\" no es reconocido."
+  },
+  "version.environment.unknown.title": {
+    "message": "Entorno desconocido"
+  }
+}
+

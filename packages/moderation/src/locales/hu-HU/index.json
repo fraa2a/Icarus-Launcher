@@ -1,0 +1,253 @@
+{
+  "nags.add-description.description": {
+    "defaultMessage": "Egy leírás ami leírja a projekt célját és funkcióját szükséges."
+  },
+  "nags.add-description.title": {
+    "defaultMessage": "Adj hozzá egy leírást"
+  },
+  "nags.add-icon.description": {
+    "defaultMessage": "Egy egyedi, releváns, és vonzó ikon segít jobban azonosíthatóvá tenni a projekted és segít kitűnni."
+  },
+  "nags.add-icon.title": {
+    "defaultMessage": "Adj hozzá egy ikont"
+  },
+  "nags.add-java-address.description": {
+    "defaultMessage": "Add hozzá az IP címet és portot, amit a Java Edition játékosok használhatnak, hogy fellépjenek a szerveredre."
+  },
+  "nags.add-java-address.title": {
+    "defaultMessage": "Adj hozzá egy Java Címet"
+  },
+  "nags.add-links-server.description": {
+    "defaultMessage": "Adj meg minden releváns, a Icaruson kívüli linket, például egy weboldalt, boltot vagy Discord-meghívót."
+  },
+  "nags.add-links-server.title": {
+    "defaultMessage": "Adj hozzá külső linkeket"
+  },
+  "nags.add-links.description": {
+    "defaultMessage": "Adj hozzá bármilyen releváns linket, amely a Icaruson kívülre visz, mint például a forráskód, hibajelentő oldal vagy Discord meghívó."
+  },
+  "nags.add-links.title": {
+    "defaultMessage": "Adj hozzá külső linkeket"
+  },
+  "nags.all-tags-selected.description": {
+    "defaultMessage": "Mind a {totalAvailableTags} elérhető címkét kiválasztottad. A címkék célja az, hogy segítsék a felhasználókat a megfelelő projektek megtalálásában. Kérjük, csak a projekthez releváns címkéket válaszd ki."
+  },
+  "nags.all-tags-selected.title": {
+    "defaultMessage": "Válaszd ki a pontos címkéket"
+  },
+  "nags.description-too-short.description": {
+    "defaultMessage": "A jelenlegi leírás {length} olvasható karakter hosszú. Egy világos és informatív leíráshoz legalább {minChars} karakter ajánlott."
+  },
+  "nags.description-too-short.title": {
+    "defaultMessage": "Fejtsd ki a leírást"
+  },
+  "nags.edit-description.title": {
+    "defaultMessage": "Leírás szerkesztése"
+  },
+  "nags.edit-license.title": {
+    "defaultMessage": "Licensz szerkesztése"
+  },
+  "nags.edit-summary.title": {
+    "defaultMessage": "Összegzés szerkesztése"
+  },
+  "nags.edit-tags.title": {
+    "defaultMessage": "Címkék szerkesztése"
+  },
+  "nags.edit-title.title": {
+    "defaultMessage": "Cím szerkesztése"
+  },
+  "nags.feature-gallery-image.description": {
+    "defaultMessage": "A kiemelt kép gyakran az első benyomást kelti a projektről."
+  },
+  "nags.feature-gallery-image.title": {
+    "defaultMessage": "Emelj ki egy képet"
+  },
+  "nags.gallery.title": {
+    "defaultMessage": "Látogasd meg a Képek fület"
+  },
+  "nags.gpl-license-source-required.description": {
+    "defaultMessage": "A {type, select, mod {mod} plugin {bővítmény} other {projekt}} licensze megköveteli, hogy a forráskód elérhető legyen. Kérünk, minden további verzióhoz adj meg forráskód linket vagy forrásfájlt, vagy fontold meg egy másik licensz használatát."
+  },
+  "nags.gpl-license-source-required.title": {
+    "defaultMessage": "Adj meg egy forráskódot"
+  },
+  "nags.identical-links.description": {
+    "defaultMessage": "Úgy tűnik, hogy néhány külső hivatkozásod megegyezik. Minden hivatkozást csak egyszer szabad megadni, és a megfelelő hivatkozástípussal kell ellátni."
+  },
+  "nags.identical-links.title": {
+    "defaultMessage": "Azonos hivatkozások"
+  },
+  "nags.image-heavy-description.description": {
+    "defaultMessage": "A leírásnak elegendő mennyiségű egyszerű szöveget vagy képhelyettesítő szöveget kell tartalmaznia, hogy a képernyőolvasókat használók vagy lassú internetkapcsolattal rendelkezők számára is hozzáférhető legyen."
+  },
+  "nags.image-heavy-description.title": {
+    "defaultMessage": "Biztosítsa az akadálymentességet"
+  },
+  "nags.invalid-license-url.description.default": {
+    "defaultMessage": "A licensz linkje érvénytelen."
+  },
+  "nags.invalid-license-url.description.domain": {
+    "defaultMessage": "A licensz linkje a {domain} domainre mutat, ami nem megfelelő a licenszinformációkhoz. A licenszlinkeknek közvetlenül a licenszfájlra kell mutatniuk, nem pedig közösségi médiára, játékplatformokra stb."
+  },
+  "nags.invalid-license-url.description.malformed": {
+    "defaultMessage": "Úgy tűnik, hogy a licensz linkje hibás. Adj meg egy érvényes linket a licensz szövegéhez."
+  },
+  "nags.invalid-license-url.title": {
+    "defaultMessage": "Adj meg egy érvényes licenszlinket"
+  },
+  "nags.link-shortener-usage.description": {
+    "defaultMessage": "Tilos linkrövidítők vagy más módszerek használata a külső linkek vagy licenszkapcsolatok céljának elrejtésére. Kérünk, csak megfelelő, teljes hosszúságú linkeket használj."
+  },
+  "nags.link-shortener-usage.title": {
+    "defaultMessage": "Ne használj linkrövidítőket"
+  },
+  "nags.long-headers.description": {
+    "defaultMessage": "A leírásodban {count} fejléc túl hosszú. A fejlécek legyenek tömörek, és csak szakaszcímként szolgáljanak, ne teljes mondatként."
+  },
+  "nags.long-headers.title": {
+    "defaultMessage": "Rövidebb fejlécek"
+  },
+  "nags.minecraft-title-clause.description": {
+    "defaultMessage": "A projektek nem használhatják a Minecraft márkanevet, és nem tartalmazhatják a „Minecraft” szót a nevük jelentős részeként."
+  },
+  "nags.minecraft-title-clause.title": {
+    "defaultMessage": "Ne sérts márka védjegyet"
+  },
+  "nags.missing-alt-text.description": {
+    "defaultMessage": "Néhány kép nem tartalmaz helyettesítő szöveget, ami fontos az akadálymentesség szempontjából, különösen a látássérült felhasználók számára."
+  },
+  "nags.missing-alt-text.title": {
+    "defaultMessage": "Adj hozzá helyettesítő szöveget"
+  },
+  "nags.misused-discord-link-description": {
+    "defaultMessage": "A Discord meghívók más típusú linkekhez nem használhatók. Kérünk, a Discord linkedet csak a Discord meghívó link mezőbe írd be."
+  },
+  "nags.misused-discord-link.title": {
+    "defaultMessage": "Discord meghívó áthelyezése"
+  },
+  "nags.moderation.title": {
+    "defaultMessage": "Látogasd meg a Moderáció fület"
+  },
+  "nags.moderator-feedback.description": {
+    "defaultMessage": "Vizsgáld meg és old meg a moderátorcsapat által jelzett összes problémát mielőtt benyújtanád."
+  },
+  "nags.moderator-feedback.title": {
+    "defaultMessage": "Visszajelzések áttekintése"
+  },
+  "nags.multiple-resolution-tags.description": {
+    "defaultMessage": "{count} felbontáscímkét választottál ki ({tags}). A forráscsomagokhoz általában csak egy felbontáscímke szükséges, amely a fő felbontásukkal egyezik."
+  },
+  "nags.multiple-resolution-tags.title": {
+    "defaultMessage": "Válaszd ki a megfelelő felbontást"
+  },
+  "nags.select-compatibility.description": {
+    "defaultMessage": "Válaszd ki, hogy a szervered mely verziókat támogatja, válassz egy modcsomagot, vagy tölts fel sajátot."
+  },
+  "nags.select-compatibility.title": {
+    "defaultMessage": "Kompatibilitás kiválasztása"
+  },
+  "nags.select-country.description": {
+    "defaultMessage": "Tudasd a játékosokkal, hogy melyik régióban található a szervered."
+  },
+  "nags.select-country.title": {
+    "defaultMessage": "Régió választása"
+  },
+  "nags.select-language.description": {
+    "defaultMessage": "Add meg hogy milyen nyelvet vagy nyelveket támogat a szervered."
+  },
+  "nags.select-language.title": {
+    "defaultMessage": "Nyelv kiválasztása"
+  },
+  "nags.select-license.description": {
+    "defaultMessage": "Válaszd ki, milyen licensz alatt terjeszted {type, select, mod {a mododat} modpack {a modcsomagodat} resourcepack {a forráscsomagodat} shader {a shaderedet} plugin {a bővítményedet} datapack {az adatcsomagodat} other {a projektedet}}."
+  },
+  "nags.select-license.title": {
+    "defaultMessage": "Válassz egy licenszet"
+  },
+  "nags.select-tags.description": {
+    "defaultMessage": "Válaszd ki azokat a címkéket, amelyek helyesen vonatkoznak a projektedre, hogy a megfelelő felhasználók megtalálhassák azt."
+  },
+  "nags.select-tags.title": {
+    "defaultMessage": "Válassz ki címkéket"
+  },
+  "nags.server.title": {
+    "defaultMessage": "Szerver beállítások megtekintése"
+  },
+  "nags.settings.description.title": {
+    "defaultMessage": "Látogasd meg a leírás beállításait"
+  },
+  "nags.settings.license.title": {
+    "defaultMessage": "Látogasd meg a licenszbeállításokat"
+  },
+  "nags.settings.links.title": {
+    "defaultMessage": "Látogasd meg a linkbeállításokat"
+  },
+  "nags.settings.tags.title": {
+    "defaultMessage": "Látogasd meg a címke beállításokat"
+  },
+  "nags.settings.title": {
+    "defaultMessage": "Látogasd meg az általános beállításokat"
+  },
+  "nags.summary-same-as-title.description": {
+    "defaultMessage": "Az összegzés nem lehet azonos a projekt nevével. Fontos, hogy informatív és figyelemfelkeltő összegzést készíts."
+  },
+  "nags.summary-same-as-title.title": {
+    "defaultMessage": "Tedd az összegzést egyedivé"
+  },
+  "nags.summary-special-formatting.description": {
+    "defaultMessage": "Az összegzés nem tartalmazhat formázást, sortöréseket, speciális karaktereket vagy linkeket, mivel az összefoglalás csak sima szöveget jelenít meg."
+  },
+  "nags.summary-special-formatting.title": {
+    "defaultMessage": "Tisztítsd meg az összegzést"
+  },
+  "nags.summary-too-short.description": {
+    "defaultMessage": "A jelenlegi összegzés {length} karakter hosszú. Egy informatív és figyelemfelkeltő összegzéshez legalább {minChars} karakter ajánlott."
+  },
+  "nags.summary-too-short.title": {
+    "defaultMessage": "Fejtsd ki az összegzést"
+  },
+  "nags.title-contains-technical-info.description": {
+    "defaultMessage": "Ha a projekt neve egyszerű, az könnyebben megjegyezhető és könnyebben megtalálható lesz. A verzió- és a betöltőinformációk automatikusan megjelennek a projekt mellett."
+  },
+  "nags.title-contains-technical-info.title": {
+    "defaultMessage": "Tisztítsd meg a nevet"
+  },
+  "nags.too-many-tags-server.description": {
+    "defaultMessage": "{tagCount, plural,one {# tag} other {# tags}} címkét választottál ki. Fontold meg {maxTagCount} vagy annál kevesebb címke kiválasztását, hogy szervered biztosan megjelenjen a releváns keresési eredmények között."
+  },
+  "nags.too-many-tags-server.title": {
+    "defaultMessage": "Válaszd ki a pontos címkéket"
+  },
+  "nags.too-many-tags.description": {
+    "defaultMessage": "{tagCount} címkét választottál ki. Fontold meg {maxTagCount} vagy annál kevesebb címke kiválasztását, hogy projekted biztosan megjelenjen a releváns keresési eredmények között."
+  },
+  "nags.too-many-tags.title": {
+    "defaultMessage": "Válaszd ki a pontos címkéket"
+  },
+  "nags.upload-gallery-image.description": {
+    "defaultMessage": "Legalább egy kép szükséges a {type, select, resourcepack {forráscsomagod tartalmának bemutatásához, kivéve a hang- és helyi csomagokat. Ha ez jellemzi a csomagodat, kérünk válaszd ki a megfelelő címkét} shader {shadered tartalmának bemutatásához.} other {projekted tartalmának bemutatásához}}."
+  },
+  "nags.upload-gallery-image.title": {
+    "defaultMessage": "Tölts fel egy képet"
+  },
+  "nags.upload-version.description": {
+    "defaultMessage": "Legalább egy verzió szükséges a projekt felülvizsgálatra történő benyújtásához."
+  },
+  "nags.upload-version.title": {
+    "defaultMessage": "Tölts fel egy verziót"
+  },
+  "nags.verify-external-links.description": {
+    "defaultMessage": "Néhány külső hivatkozásod olyan domainnevet használhat, amely nem megfelelő az adott típusú hivatkozáshoz."
+  },
+  "nags.verify-external-links.title": {
+    "defaultMessage": "Ellenőrizd a külső linkeket"
+  },
+  "nags.versions.title": {
+    "defaultMessage": "Látogasd meg a Verziók fület"
+  },
+  "nags.visit-links-settings.title": {
+    "defaultMessage": "Látogasd meg a linkbeállításokat"
+  }
+}
+
+

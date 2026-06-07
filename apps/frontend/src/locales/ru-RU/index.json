@@ -1,0 +1,3579 @@
+{
+  "action.cancel": {
+    "message": "Отмена"
+  },
+  "action.continue": {
+    "message": "Продолжить"
+  },
+  "admin.billing.error.not-found": {
+    "message": "Пользователь не найден"
+  },
+  "app-marketing.download.description": {
+    "message": "Наше приложение доступно на всех платформах — выберите желаемую версию."
+  },
+  "app-marketing.download.download-appimage": {
+    "message": "Скачать AppImage"
+  },
+  "app-marketing.download.download-beta": {
+    "message": "Скачать бета-версию"
+  },
+  "app-marketing.download.download-deb": {
+    "message": "Скачать DEB"
+  },
+  "app-marketing.download.download-rpm": {
+    "message": "Скачать RPM"
+  },
+  "app-marketing.download.flathub": {
+    "message": "Скачать на Flathub"
+  },
+  "app-marketing.download.linux": {
+    "message": "Linux"
+  },
+  "app-marketing.download.linux-disclaimer": {
+    "message": "Версии Icarus App для Linux <issues-link>могут работать нестабильно</issues-link> на некоторых системах и конфигурациях. При возникновении проблем с приложением рекомендуется использовать альтернативы наподобие <prism-link>Prism Launcher</prism-link> для удобной установки контента с Icarus."
+  },
+  "app-marketing.download.mac": {
+    "message": "Mac"
+  },
+  "app-marketing.download.options-title": {
+    "message": "Варианты установки"
+  },
+  "app-marketing.download.terms": {
+    "message": "Скачивая Icarus App, вы принимаете наши <terms-link>условия</terms-link> и <privacy-link>политику конфиденци­аль­ности</privacy-link>."
+  },
+  "app-marketing.download.title": {
+    "message": "Скачать Icarus App (бета-версия)"
+  },
+  "app-marketing.download.windows": {
+    "message": "Windows"
+  },
+  "app-marketing.features.follow.description": {
+    "message": "Сохраняйте понравившийся контент и узнавайте об обновлениях в один клик."
+  },
+  "app-marketing.features.follow.title": {
+    "message": "Отслеживайте проекты"
+  },
+  "app-marketing.features.importing.description": {
+    "message": "Перенесите любимые профили из старого лаунчера и начните пользоваться Icarus App за считанные секунды!"
+  },
+  "app-marketing.features.importing.gdlauncher-alt": {
+    "message": "GDLauncher"
+  },
+  "app-marketing.features.importing.multimc-alt": {
+    "message": "MultiMC"
+  },
+  "app-marketing.features.importing.title": {
+    "message": "Импорт профилей"
+  },
+  "app-marketing.features.mod-management.actions": {
+    "message": "Действия"
+  },
+  "app-marketing.features.mod-management.byAuthor": {
+    "message": "от {author}"
+  },
+  "app-marketing.features.mod-management.description": {
+    "message": "Icarus хранит все моды в одном месте. Скачивайте, удаляйте и обновляйте моды в один клик."
+  },
+  "app-marketing.features.mod-management.installed-mods": {
+    "message": "Установленные моды"
+  },
+  "app-marketing.features.mod-management.name": {
+    "message": "Название"
+  },
+  "app-marketing.features.mod-management.search-mods": {
+    "message": "Поиск модов"
+  },
+  "app-marketing.features.mod-management.title": {
+    "message": "Управление модами"
+  },
+  "app-marketing.features.mod-management.version": {
+    "message": "Версия"
+  },
+  "app-marketing.features.offline.description": {
+    "message": "Играйте с модами даже без подключения к интернету."
+  },
+  "app-marketing.features.offline.title": {
+    "message": "Офлайн-режим"
+  },
+  "app-marketing.features.open-source.description": {
+    "message": "Icarus App имеет полностью открытый исходный код, доступный на <github-link>GitHub</github-link>!"
+  },
+  "app-marketing.features.open-source.title": {
+    "message": "Открытый код"
+  },
+  "app-marketing.features.performance.activity-monitor": {
+    "message": "Монитор ресурсов"
+  },
+  "app-marketing.features.performance.cpu-percent": {
+    "message": "% ЦП"
+  },
+  "app-marketing.features.performance.description": {
+    "message": "Icarus App работает лучше многих популярных лаунчеров, используя лишь 150 МБ ОЗУ!"
+  },
+  "app-marketing.features.performance.discord": {
+    "message": "Discord"
+  },
+  "app-marketing.features.performance.good-performance": {
+    "message": "Хорошая производительность"
+  },
+  "app-marketing.features.performance.google-chrome": {
+    "message": "Google Chrome"
+  },
+  "app-marketing.features.performance.infinite-mb": {
+    "message": "∞ МБ"
+  },
+  "app-marketing.features.performance.infinite-times-infinite-mb": {
+    "message": "∞ * ∞ МБ"
+  },
+  "app-marketing.features.performance.less-than-150mb": {
+    "message": "< 150 МБ"
+  },
+  "app-marketing.features.performance.Icarus-app": {
+    "message": "Icarus Launcher"
+  },
+  "app-marketing.features.performance.one-billion-percent": {
+    "message": "1 млрд %"
+  },
+  "app-marketing.features.performance.process-name": {
+    "message": "Имя процесса"
+  },
+  "app-marketing.features.performance.ram": {
+    "message": "ОЗУ"
+  },
+  "app-marketing.features.performance.small": {
+    "message": "Мало"
+  },
+  "app-marketing.features.performance.title": {
+    "message": "Быстродействие"
+  },
+  "app-marketing.features.play.description": {
+    "message": "Скачивайте и играйте в любимые сборки и моды, используя Icarus App."
+  },
+  "app-marketing.features.play.title": {
+    "message": "Играйте с любимыми модами"
+  },
+  "app-marketing.features.sharing.description": {
+    "message": "Создавайте, делитесь и играйте в сборки, используя любые из тысяч модов и сборок, размещённых на Icarus."
+  },
+  "app-marketing.features.sharing.modpack": {
+    "message": "Сборка"
+  },
+  "app-marketing.features.sharing.share-button": {
+    "message": "Поделиться"
+  },
+  "app-marketing.features.sharing.title": {
+    "message": "Делитесь сборками"
+  },
+  "app-marketing.features.unlike-any-launcher": {
+    "message": "Лаунчер, непохожий"
+  },
+  "app-marketing.features.website.description": {
+    "message": "Приложение полностью интегрировано с сайтом — открывайте любимые проекты прямо в Icarus App!"
+  },
+  "app-marketing.features.website.title": {
+    "message": "Интеграция с сайтом"
+  },
+  "app-marketing.features.youve-used-before": {
+    "message": "на все остальные"
+  },
+  "app-marketing.hero.app-screenshot-alt": {
+    "message": "Скриншот Icarus Launcher со страницей содержимого сборки Cobblemon."
+  },
+  "app-marketing.hero.description": {
+    "message": "Icarus App — уникальный лаунчер с открытым кодом, возможностью играть в любимые моды и быстро обновлять их, — всё в одной аккуратной упаковке."
+  },
+  "app-marketing.hero.download-button": {
+    "message": "Скачать Icarus Launcher"
+  },
+  "app-marketing.hero.download-Icarus-app": {
+    "message": "Скачать Icarus App"
+  },
+  "app-marketing.hero.download-Icarus-app-for-os": {
+    "message": "Скачать Icarus App для {os}"
+  },
+  "app-marketing.hero.minecraft-screenshot-alt": {
+    "message": "Скриншот главного меню сборки Cobblemon."
+  },
+  "app-marketing.hero.more-download-options": {
+    "message": "Больше вариантов установки"
+  },
+  "app-marketing.hide-other-packages": {
+    "message": "Скрыть другие варианты"
+  },
+  "app-marketing.not-recommended": {
+    "message": "Эти варианты предназначены только для опытных пользователей."
+  },
+  "app-marketing.show-other-packages": {
+    "message": "Показать другие варианты"
+  },
+  "auth.authorize.action.authorize": {
+    "message": "Авторизовать"
+  },
+  "auth.authorize.action.decline": {
+    "message": "Отклонить"
+  },
+  "auth.authorize.app-info": {
+    "message": "<strong>{appName}</strong> от <creator-link>{creator}</creator-link> сможет:"
+  },
+  "auth.authorize.authorize-app-name": {
+    "message": "Авторизация {appName}"
+  },
+  "auth.authorize.error.no-redirect-url": {
+    "message": "В ответе не найдена информация для перенаправления"
+  },
+  "auth.authorize.redirect-url": {
+    "message": "Вы будете перенаправлены на <redirect-url>{url}</redirect-url>"
+  },
+  "auth.reset-password.method-choice.action": {
+    "message": "Отправить письмо"
+  },
+  "auth.reset-password.method-choice.description": {
+    "message": "Введите свою почту, чтобы получить ссылку для восстановления доступа к аккаунту."
+  },
+  "auth.reset-password.notification.email-sent.text": {
+    "message": "Если почта привязана к аккаунту, на неё придёт письмо с инструкциями."
+  },
+  "auth.reset-password.notification.email-sent.title": {
+    "message": "Письмо отправлено"
+  },
+  "auth.reset-password.notification.password-reset.text": {
+    "message": "Теперь можно войти в аккаунт, используя новый пароль."
+  },
+  "auth.reset-password.notification.password-reset.title": {
+    "message": "Пароль успешно сброшен"
+  },
+  "auth.reset-password.post-challenge.action": {
+    "message": "Сбросить пароль"
+  },
+  "auth.reset-password.post-challenge.confirm-password.label": {
+    "message": "Подтверждение пароля"
+  },
+  "auth.reset-password.post-challenge.description": {
+    "message": "Введите новый пароль, чтобы восстановить доступ к аккаунту."
+  },
+  "auth.reset-password.title": {
+    "message": "Сброс пароля"
+  },
+  "auth.reset-password.title.long": {
+    "message": "Сброс пароля"
+  },
+  "auth.sign-in.2fa.description": {
+    "message": "Введите код подтверждения из приложения."
+  },
+  "auth.sign-in.2fa.label": {
+    "message": "Двухфакторная аутентификация"
+  },
+  "auth.sign-in.2fa.placeholder": {
+    "message": "Введите код..."
+  },
+  "auth.sign-in.additional-options": {
+    "message": "<forgot-password-link>Забыли пароль?</forgot-password-link> • <create-account-link>Создать аккаунт</create-account-link>"
+  },
+  "auth.sign-in.sign-in-with": {
+    "message": "Войдите через"
+  },
+  "auth.sign-in.title": {
+    "message": "Вход"
+  },
+  "auth.sign-in.use-password": {
+    "message": "Или используйте пароль"
+  },
+  "auth.sign-up.action.create-account": {
+    "message": "Создать аккаунт"
+  },
+  "auth.sign-up.legal-dislaimer": {
+    "message": "Регистрируясь, вы принимаете наши <terms-link>условия</terms-link> и <privacy-policy-link>политику конфиденци­аль­ности</privacy-policy-link>."
+  },
+  "auth.sign-up.notification.password-mismatch.text": {
+    "message": "Пароли не совпадают!"
+  },
+  "auth.sign-up.sign-in-option.title": {
+    "message": "Уже есть аккаунт?"
+  },
+  "auth.sign-up.subscribe.label": {
+    "message": "Получать новости о Icarus"
+  },
+  "auth.sign-up.title": {
+    "message": "Регистрация"
+  },
+  "auth.sign-up.title.create-account": {
+    "message": "Или создайте аккаунт сами"
+  },
+  "auth.sign-up.title.sign-up-with": {
+    "message": "Зарегистрируйтесь через"
+  },
+  "auth.verify-email.action.account-settings": {
+    "message": "Настройки аккаунта"
+  },
+  "auth.verify-email.already-verified.description": {
+    "message": "Ваша почта уже подтверждена!"
+  },
+  "auth.verify-email.already-verified.title": {
+    "message": "Почта уже подтверждена"
+  },
+  "auth.verify-email.failed-verification.action": {
+    "message": "Отправить письмо ещё раз"
+  },
+  "auth.verify-email.failed-verification.description": {
+    "message": "Не удалось подтвердить почту. Войдите в аккаунт и отправьте новое письмо с подтверждением через панель управления."
+  },
+  "auth.verify-email.failed-verification.description.logged-in": {
+    "message": "Не удалось подтвердить почту. Отправьте новое письмо с подтверждением при помощи кнопки ниже."
+  },
+  "auth.verify-email.failed-verification.title": {
+    "message": "Ошибка подтверждения"
+  },
+  "auth.verify-email.post-verification.description": {
+    "message": "Адрес электронной почты успешно подтверждён!"
+  },
+  "auth.verify-email.post-verification.title": {
+    "message": "Почта подтверждена"
+  },
+  "auth.verify-email.title": {
+    "message": "Подтверждение почты"
+  },
+  "auth.welcome.checkbox.subscribe": {
+    "message": "Получать новости о Icarus"
+  },
+  "auth.welcome.description": {
+    "message": "Теперь вы часть потрясающего сообщества авторов и игроков, которые вместе создают, находят и следят за любимыми модами."
+  },
+  "auth.welcome.label.tos": {
+    "message": "Зарегистрировавшись, вы приняли наши <terms-link>условия</terms-link> и <privacy-policy-link>политику конфиденци­аль­ности</privacy-policy-link>."
+  },
+  "auth.welcome.long-title": {
+    "message": "Добро пожаловать!"
+  },
+  "auth.welcome.title": {
+    "message": "Добро пожаловать"
+  },
+  "collection.button.edit-icon": {
+    "message": "Изменить иконку"
+  },
+  "collection.button.remove-icon": {
+    "message": "Удалить иконку"
+  },
+  "collection.button.remove-project": {
+    "message": "Удалить проект"
+  },
+  "collection.button.replace-icon": {
+    "message": "Заменить иконку"
+  },
+  "collection.button.select-icon": {
+    "message": "Выбрать иконку"
+  },
+  "collection.button.unfollow-project": {
+    "message": "Отписаться от проекта"
+  },
+  "collection.delete-modal.description": {
+    "message": "Коллекция будет удалена навсегда. Это действие необратимо."
+  },
+  "collection.delete-modal.title": {
+    "message": "Вы действительно хотите удалить эту коллекцию?"
+  },
+  "collection.description": {
+    "message": "{description} — Посмотреть коллекцию {name} от {username} на Icarus"
+  },
+  "collection.description.following": {
+    "message": "Создана автоматически на основе всех отслеживаемых проектов."
+  },
+  "collection.editing": {
+    "message": "Настройка коллекции"
+  },
+  "collection.error.not-found": {
+    "message": "Коллекция не найдена"
+  },
+  "collection.label.created-at": {
+    "message": "Создана {ago}"
+  },
+  "collection.label.curated-by": {
+    "message": "Куратор"
+  },
+  "collection.label.no-projects": {
+    "message": "В коллекции пока нет проектов"
+  },
+  "collection.label.projects-count": {
+    "message": "{count, plural, =0 {Нет проектов} other {<stat>{count}</stat> {type}}}"
+  },
+  "collection.label.updated-at": {
+    "message": "Обновлена {ago}"
+  },
+  "collection.return-link.dashboard-collections": {
+    "message": "Ваши коллекции"
+  },
+  "collection.return-link.user": {
+    "message": "Профиль {user}"
+  },
+  "collection.title": {
+    "message": "{name} — Коллекция"
+  },
+  "create-project-version.create-modal.stage.add-files.admonition": {
+    "message": "Дополнительные файлы предназначены для вспомогательных ресурсов, например исходного кода, но не для альтернативных версий или вариантов."
+  },
+  "create.collection.collection-info": {
+    "message": "Будет создана публичная коллекция {count, plural, =0 {без проектов} one {с # проектом} other {с # проектами}}."
+  },
+  "create.collection.create-collection": {
+    "message": "Создать коллекцию"
+  },
+  "create.collection.name-label": {
+    "message": "Название"
+  },
+  "create.collection.name-placeholder": {
+    "message": "Введите название коллекции..."
+  },
+  "create.collection.summary-description": {
+    "message": "Пара предложений про коллекцию."
+  },
+  "create.collection.summary-label": {
+    "message": "Сводка"
+  },
+  "create.collection.summary-placeholder": {
+    "message": "Эта коллекция содержит..."
+  },
+  "create.collection.title": {
+    "message": "Создание коллекции"
+  },
+  "create.limit-alert.approaching-limit": {
+    "message": "Почти исчерпан лимит {type} ({current}/{max})"
+  },
+  "create.limit-alert.approaching-limit-description": {
+    "message": "Почти достигнут лимит в {max} {type}. Увеличьте его, обратившись в поддержку."
+  },
+  "create.limit-alert.contact-support": {
+    "message": "Связаться с поддержкой"
+  },
+  "create.limit-alert.limit-reached": {
+    "message": "Исчерпан лимит {type}"
+  },
+  "create.limit-alert.limit-reached-description": {
+    "message": "Достигнут лимит в {max} {type}. Увеличьте его, обратившись в поддержку."
+  },
+  "create.limit-alert.type-collection": {
+    "message": "коллекций"
+  },
+  "create.limit-alert.type-organization": {
+    "message": "организаций"
+  },
+  "create.limit-alert.type-plural-collection": {
+    "message": "коллекций"
+  },
+  "create.limit-alert.type-plural-organization": {
+    "message": "организаций"
+  },
+  "create.limit-alert.type-plural-project": {
+    "message": "проектов"
+  },
+  "create.limit-alert.type-project": {
+    "message": "проектов"
+  },
+  "create.organization.create-organization": {
+    "message": "Создать организацию"
+  },
+  "create.organization.name-label": {
+    "message": "Название"
+  },
+  "create.organization.name-placeholder": {
+    "message": "Введите название организации..."
+  },
+  "create.organization.ownership-info": {
+    "message": "Вы станете владельцем организации и в любой момент сможете пригласить участников и передать владение."
+  },
+  "create.organization.summary-description": {
+    "message": "Пара предложений про организацию."
+  },
+  "create.organization.summary-label": {
+    "message": "Сводка"
+  },
+  "create.organization.summary-placeholder": {
+    "message": "Это организация для..."
+  },
+  "create.organization.title": {
+    "message": "Создание организации"
+  },
+  "create.organization.url-label": {
+    "message": "URL"
+  },
+  "create.project.create-project": {
+    "message": "Создать проект"
+  },
+  "create.project.missing-fields-tooltip": {
+    "message": "Не заполнены поля: {fields}"
+  },
+  "create.project.name-label": {
+    "message": "Название"
+  },
+  "create.project.name-placeholder": {
+    "message": "Введите название проекта..."
+  },
+  "create.project.owner-description": {
+    "message": "Укажите себя или организацию, в которой состоите."
+  },
+  "create.project.owner-label": {
+    "message": "Владелец"
+  },
+  "create.project.server-project-title": {
+    "message": "Создание серверного проекта"
+  },
+  "create.project.summary-description": {
+    "message": "Пара предложений про проект."
+  },
+  "create.project.summary-label": {
+    "message": "Сводка"
+  },
+  "create.project.summary-placeholder": {
+    "message": "Этот проект добавляет..."
+  },
+  "create.project.title": {
+    "message": "Создание проекта"
+  },
+  "create.project.type-label": {
+    "message": "Тип"
+  },
+  "create.project.type-project": {
+    "message": "Проект"
+  },
+  "create.project.type-server": {
+    "message": "Сервер"
+  },
+  "create.project.url-label": {
+    "message": "URL"
+  },
+  "create.project.visibility-description": {
+    "message": "Видимость проекта после прохождения модерации."
+  },
+  "create.project.visibility-private": {
+    "message": "Приватный"
+  },
+  "create.project.visibility-public": {
+    "message": "Публичный"
+  },
+  "create.project.visibility-unlisted": {
+    "message": "Скрыт"
+  },
+  "dashboard.affiliate-links.create.button": {
+    "message": "Создать ссылку"
+  },
+  "dashboard.affiliate-links.error.title": {
+    "message": "Ошибка загрузки партнёрских ссылок"
+  },
+  "dashboard.affiliate-links.header": {
+    "message": "Партнёрские ссылки"
+  },
+  "dashboard.affiliate-links.revoke-confirm.body": {
+    "message": "Партнёрский код `{id}` будет удалён навсегда, и все связанные с ним ссылки станут недействительными."
+  },
+  "dashboard.affiliate-links.revoke-confirm.button": {
+    "message": "Удалить"
+  },
+  "dashboard.affiliate-links.revoke-confirm.title": {
+    "message": "Вы действительно хотите удалить партнёрскую ссылку «{title}»?"
+  },
+  "dashboard.affiliate-links.search": {
+    "message": "Поиск ссылок..."
+  },
+  "dashboard.collections.button.create-new": {
+    "message": "Создать новую"
+  },
+  "dashboard.collections.empty.get-started-hint": {
+    "message": "Создайте свою первую коллекцию!"
+  },
+  "dashboard.collections.empty.no-collections": {
+    "message": "Коллекций пока нет"
+  },
+  "dashboard.collections.empty.no-match": {
+    "message": "Коллекции не найдены"
+  },
+  "dashboard.collections.empty.no-match-hint": {
+    "message": "Попробуйте изменить фильтры или запрос."
+  },
+  "dashboard.collections.label.projects-count": {
+    "message": "{count} {countPlural, plural, one {проект} few {проекта} other {проектов}}"
+  },
+  "dashboard.collections.label.search-input": {
+    "message": "Поиск по коллекциям"
+  },
+  "dashboard.collections.long-title": {
+    "message": "Ваши коллекции"
+  },
+  "dashboard.creator-tax-form-modal.confirmation.download-button": {
+    "message": "Скачать {formType}"
+  },
+  "dashboard.creator-tax-form-modal.confirmation.success": {
+    "message": "Налоговая форма {formType} успешно отправлена!"
+  },
+  "dashboard.creator-tax-form-modal.confirmation.support-text": {
+    "message": "Вывод средств доступен. Для обновления данных и по другим вопросам <support-link>обращайтесь в поддержку</support-link>."
+  },
+  "dashboard.creator-tax-form-modal.confirmation.title": {
+    "message": "Готово! 🎉"
+  },
+  "dashboard.creator-tax-form-modal.entity.description": {
+    "message": "Иностранная организация — юридическое лицо, созданное за пределами Соединённых Штатов (например, иностранная компания, партнёрство или ООО)."
+  },
+  "dashboard.creator-tax-form-modal.entity.foreign-entity": {
+    "message": "Иностранная организация"
+  },
+  "dashboard.creator-tax-form-modal.entity.private-individual": {
+    "message": "Физическое лицо"
+  },
+  "dashboard.creator-tax-form-modal.entity.question": {
+    "message": "Вы физическое лицо или из иностранной организации?"
+  },
+  "dashboard.creator-tax-form-modal.header": {
+    "message": "Налоговая форма"
+  },
+  "dashboard.creator-tax-form-modal.security.description": {
+    "message": "Icarus использует сторонний сервис Track1099 для безопасного сбора и хранения налоговых форм. <security-link>Подробнее...</security-link>"
+  },
+  "dashboard.creator-tax-form-modal.security.header": {
+    "message": "Меры безопасности"
+  },
+  "dashboard.creator-tax-form-modal.us-citizen.question": {
+    "message": "Вы гражданин США?"
+  },
+  "dashboard.creator-withdraw-modal.complete-tax-form": {
+    "message": "Заполнить налоговую форму"
+  },
+  "dashboard.creator-withdraw-modal.continue-with-limit": {
+    "message": "Продолжить с лимитом"
+  },
+  "dashboard.creator-withdraw-modal.details-label": {
+    "message": "Реквизиты"
+  },
+  "dashboard.creator-withdraw-modal.fee-breakdown-amount": {
+    "message": "Сумма"
+  },
+  "dashboard.creator-withdraw-modal.fee-breakdown-exchange-rate": {
+    "message": "Валютный курс"
+  },
+  "dashboard.creator-withdraw-modal.fee-breakdown-fee": {
+    "message": "Сбор"
+  },
+  "dashboard.creator-withdraw-modal.fee-breakdown-gift-card-value": {
+    "message": "Сумма подарочной карты"
+  },
+  "dashboard.creator-withdraw-modal.fee-breakdown-net-amount": {
+    "message": "Чистая сумма"
+  },
+  "dashboard.creator-withdraw-modal.fee-breakdown-usd-equivalent": {
+    "message": "Эквивалент в долларах США"
+  },
+  "dashboard.creator-withdraw-modal.kyc.business-entity": {
+    "message": "Юридическое лицо"
+  },
+  "dashboard.creator-withdraw-modal.kyc.entity-description": {
+    "message": "Юридическое лицо — зарегистрированная организация, например компания, партнёрство или ООО."
+  },
+  "dashboard.creator-withdraw-modal.kyc.entity-question": {
+    "message": "Вы выводите как физическое или юридическое лицо?"
+  },
+  "dashboard.creator-withdraw-modal.kyc.private-individual": {
+    "message": "Физическое лицо"
+  },
+  "dashboard.creator-withdraw-modal.method-selection.country-placeholder": {
+    "message": "Выберите страну"
+  },
+  "dashboard.creator-withdraw-modal.method-selection.country-search-placeholder": {
+    "message": "Поиск стран..."
+  },
+  "dashboard.creator-withdraw-modal.method-selection.error-text": {
+    "message": "Не удалось получить список доступных способов вывода. Повторите попытку позже."
+  },
+  "dashboard.creator-withdraw-modal.method-selection.error-title": {
+    "message": "Ошибка загрузки способов вывода"
+  },
+  "dashboard.creator-withdraw-modal.method-selection.region": {
+    "message": "Регион"
+  },
+  "dashboard.creator-withdraw-modal.method-selection.region-tooltip": {
+    "message": "От региона зависит доступность способов вывода."
+  },
+  "dashboard.creator-withdraw-modal.method-selection.select-method": {
+    "message": "Выберите способ вывода"
+  },
+  "dashboard.creator-withdraw-modal.method-selection.tax-limit-warning": {
+    "message": "Можно вывести ещё <b>{amount}</b>. Для снятия лимита <tax-link>заполните налоговую форму</tax-link>."
+  },
+  "dashboard.creator-withdraw-modal.muralpay-details.account-owner": {
+    "message": "Владелец счёта"
+  },
+  "dashboard.creator-withdraw-modal.muralpay-details.bank-account-owner": {
+    "message": "Владелец банковского счёта"
+  },
+  "dashboard.creator-withdraw-modal.muralpay-details.bank-account-owner-description": {
+    "message": "Укажите лицо, уполномоченное управлять банковским счётом от имени организации."
+  },
+  "dashboard.creator-withdraw-modal.muralpay-details.coin": {
+    "message": "Криптовалюта"
+  },
+  "dashboard.creator-withdraw-modal.muralpay-details.crypto-warning-header": {
+    "message": "Проверьте адрес кошелька"
+  },
+  "dashboard.creator-withdraw-modal.muralpay-details.document-number-national-id": {
+    "message": "Номер национального удостоверения"
+  },
+  "dashboard.creator-withdraw-modal.muralpay-details.document-number-national-id-placeholder": {
+    "message": "Введите номер национального удостоверения"
+  },
+  "dashboard.creator-withdraw-modal.muralpay-details.document-number-passport": {
+    "message": "Номер загранпаспорта"
+  },
+  "dashboard.creator-withdraw-modal.muralpay-details.document-number-passport-placeholder": {
+    "message": "Введите номер загранпаспорта"
+  },
+  "dashboard.creator-withdraw-modal.muralpay-details.document-number-resident-id": {
+    "message": "Номер вида на жительство"
+  },
+  "dashboard.creator-withdraw-modal.muralpay-details.document-number-resident-id-placeholder": {
+    "message": "Введите номер вида на жительство"
+  },
+  "dashboard.creator-withdraw-modal.muralpay-details.document-number-ruc": {
+    "message": "Номер RUC"
+  },
+  "dashboard.creator-withdraw-modal.muralpay-details.document-number-ruc-placeholder": {
+    "message": "Введите номер RUC"
+  },
+  "dashboard.creator-withdraw-modal.muralpay-details.document-number-tax-id": {
+    "message": "ИНН"
+  },
+  "dashboard.creator-withdraw-modal.muralpay-details.document-number-tax-id-placeholder": {
+    "message": "Введите ИНН"
+  },
+  "dashboard.creator-withdraw-modal.muralpay-details.network": {
+    "message": "Сеть"
+  },
+  "dashboard.creator-withdraw-modal.nearing-threshold": {
+    "message": "Почти исчерпан лимит вывода: доступно ещё <b>{amountRemaining}</b>. Для снятия лимита заполните налоговую форму."
+  },
+  "dashboard.creator-withdraw-modal.paypal-details.account": {
+    "message": "Учётная запись"
+  },
+  "dashboard.creator-withdraw-modal.paypal-details.disconnect-account": {
+    "message": "Отвязать учётную запись"
+  },
+  "dashboard.creator-withdraw-modal.paypal-details.payment-method": {
+    "message": "Способ вывода"
+  },
+  "dashboard.creator-withdraw-modal.paypal-details.paypal-account": {
+    "message": "Учётная запись PayPal"
+  },
+  "dashboard.creator-withdraw-modal.paypal-details.paypal-auth-description": {
+    "message": "Подключите свой PayPal и получайте выплаты напрямую."
+  },
+  "dashboard.creator-withdraw-modal.paypal-details.save-success": {
+    "message": "Профиль Venmo успешно сохранён!"
+  },
+  "dashboard.creator-withdraw-modal.paypal-details.sign-in-with-paypal": {
+    "message": "Войти через PayPal"
+  },
+  "dashboard.creator-withdraw-modal.paypal-details.venmo-description": {
+    "message": "Введите свой профиль Venmo и получайте выплаты."
+  },
+  "dashboard.creator-withdraw-modal.paypal-details.venmo-handle": {
+    "message": "Профиль Venmo"
+  },
+  "dashboard.creator-withdraw-modal.paypal-details.venmo-handle-placeholder": {
+    "message": "@username"
+  },
+  "dashboard.creator-withdraw-modal.stage.completion": {
+    "message": "Завершение"
+  },
+  "dashboard.creator-withdraw-modal.stage.method-selection": {
+    "message": "Способ"
+  },
+  "dashboard.creator-withdraw-modal.stage.tax-form": {
+    "message": "Налоговая форма"
+  },
+  "dashboard.creator-withdraw-modal.tax-form-required.body": {
+    "message": "Чтобы вывести все <b>{available}</b> средства, пожалуйста, заполните форму ниже. Это необходимо для налоговой отчётности и нужно сделать только один раз."
+  },
+  "dashboard.creator-withdraw-modal.tax-form-required.body-with-limit": {
+    "message": "Для отчётности Icarus и соблюдения налогового законодательства нужно заполнить форму W‑9 или W‑8."
+  },
+  "dashboard.creator-withdraw-modal.tax-form-required.header": {
+    "message": "Требуется налоговая форма"
+  },
+  "dashboard.creator-withdraw-modal.tremendous-details.available-denominations-label": {
+    "message": "Доступные номиналы"
+  },
+  "dashboard.creator-withdraw-modal.tremendous-details.balance-worth-hint": {
+    "message": "{usdBalance} на балансе сейчас соответствуют {localBalance}."
+  },
+  "dashboard.creator-withdraw-modal.tremendous-details.enter-amount-hint": {
+    "message": "Найдите подарочную карту рядом с этим значением."
+  },
+  "dashboard.creator-withdraw-modal.tremendous-details.enter-denomination-placeholder": {
+    "message": "Введите сумму"
+  },
+  "dashboard.creator-withdraw-modal.tremendous-details.payment-method": {
+    "message": "Способ вывода"
+  },
+  "dashboard.creator-withdraw-modal.tremendous-details.reward": {
+    "message": "Вознаграждение"
+  },
+  "dashboard.creator-withdraw-modal.tremendous-details.reward-placeholder": {
+    "message": "Выберите вознаграждение"
+  },
+  "dashboard.creator-withdraw-modal.tremendous-details.reward-plural": {
+    "message": "Вознаграждения"
+  },
+  "dashboard.creator-withdraw-modal.tremendous-details.search-amount-label": {
+    "message": "Поиск по сумме"
+  },
+  "dashboard.creator-withdraw-modal.tremendous-details.select-denomination-hint": {
+    "message": "Выберите номинал:"
+  },
+  "dashboard.creator-withdraw-modal.tremendous-details.select-denomination-required": {
+    "message": "Выберите номинал, чтобы продолжить"
+  },
+  "dashboard.creator-withdraw-modal.tremendous-details.unverified-email-header": {
+    "message": "Непроверенная почта"
+  },
+  "dashboard.creator-withdraw-modal.tremendous-details.unverified-email-message": {
+    "message": "Указанная почта не привязана к аккаунту Icarus. Вознаграждения, отправленные на неверный адрес, невозможно вернуть."
+  },
+  "dashboard.creator-withdraw-modal.tremendous-details.usd-paypal-warning-header": {
+    "message": "Можно снизить сборы"
+  },
+  "dashboard.creator-withdraw-modal.tremendous-details.usd-paypal-warning-message": {
+    "message": "Выбран PayPal International с USD. <direct-paypal-link>Используйте PayPal напрямую</direct-paypal-link>, чтобы снизить комиссию (≈2% вместо ≈6%)."
+  },
+  "dashboard.creator-withdraw-modal.withdraw-button": {
+    "message": "Вывести средства"
+  },
+  "dashboard.creator-withdraw-modal.withdraw-limit": {
+    "message": "Лимит вывода"
+  },
+  "dashboard.creator-withdraw-modal.withdraw-limit-used": {
+    "message": "Достигнут лимит вывода в <b>{withdrawLimit}</b>. Для снятия лимита заполните налоговую форму."
+  },
+  "dashboard.revenue.available-now": {
+    "message": "Доступно"
+  },
+  "dashboard.revenue.balance": {
+    "message": "Баланс"
+  },
+  "dashboard.revenue.estimated-tooltip.msg1": {
+    "message": "Сумма может измениться, прежде чем станет доступна."
+  },
+  "dashboard.revenue.estimated-tooltip.msg2": {
+    "message": "Нажмите, чтобы узнать, как Icarus рассчитывает доход."
+  },
+  "dashboard.revenue.estimated-with-date": {
+    "message": "Ожидается {date}"
+  },
+  "dashboard.revenue.processing": {
+    "message": "В обработке"
+  },
+  "dashboard.revenue.processing.tooltip": {
+    "message": "Средства остаются в обработке до конца месяца и становятся доступными через 60 дней."
+  },
+  "dashboard.revenue.stats.received": {
+    "message": "Получено"
+  },
+  "dashboard.revenue.stats.transactions": {
+    "message": "Транзакций"
+  },
+  "dashboard.revenue.stats.withdrawn": {
+    "message": "Выведено"
+  },
+  "dashboard.revenue.tos": {
+    "message": "Загружая проекты на Icarus и выводя деньги со своего счёта, вы соглашаетесь с нашими <terms-link>Условиями программы вознаграждений</terms-link>. Узнайте больше о <info-link>программе вознаграждений</info-link>."
+  },
+  "dashboard.revenue.transactions.btn.download-csv": {
+    "message": "Скачать в формате CSV"
+  },
+  "dashboard.revenue.transactions.header": {
+    "message": "Транзакции"
+  },
+  "dashboard.revenue.transactions.none": {
+    "message": "Нет транзакций"
+  },
+  "dashboard.revenue.transactions.none.desc": {
+    "message": "Выплаты и выводы средств появятся здесь."
+  },
+  "dashboard.revenue.transactions.period.last-month": {
+    "message": "В прошлом месяце"
+  },
+  "dashboard.revenue.transactions.period.this-month": {
+    "message": "В этом месяце"
+  },
+  "dashboard.revenue.transactions.see-all": {
+    "message": "Посмотреть все"
+  },
+  "dashboard.revenue.transactions.year.all": {
+    "message": "Все годы"
+  },
+  "dashboard.revenue.withdraw.blocked-tin-mismatch": {
+    "message": "Вывод средств временно заблокирован: указанный TIN или SSN не совпал с данными IRS. Свяжитесь с поддержкой для повторной отправки формы."
+  },
+  "dashboard.revenue.withdraw.card.description": {
+    "message": "Выведите средства с баланса любым из доступных способов."
+  },
+  "dashboard.revenue.withdraw.card.title": {
+    "message": "Вывести средства"
+  },
+  "dashboard.revenue.withdraw.header": {
+    "message": "Вывод средств"
+  },
+  "dashboard.withdraw.completion.account": {
+    "message": "Счёт"
+  },
+  "dashboard.withdraw.completion.amount": {
+    "message": "Сумма"
+  },
+  "dashboard.withdraw.completion.date": {
+    "message": "Дата"
+  },
+  "dashboard.withdraw.completion.email-confirmation": {
+    "message": "Письмо с инструкциями по активации отправлено на <b>{email}</b>."
+  },
+  "dashboard.withdraw.completion.exchange-rate": {
+    "message": "Валютный курс"
+  },
+  "dashboard.withdraw.completion.fee": {
+    "message": "Сбор"
+  },
+  "dashboard.withdraw.completion.method": {
+    "message": "Способ"
+  },
+  "dashboard.withdraw.completion.net-amount": {
+    "message": "Чистая сумма"
+  },
+  "dashboard.withdraw.completion.recipient": {
+    "message": "Получатель"
+  },
+  "dashboard.withdraw.completion.title": {
+    "message": "Средства отправлены"
+  },
+  "dashboard.withdraw.completion.transactions-button": {
+    "message": "Транзакции"
+  },
+  "dashboard.withdraw.completion.wallet": {
+    "message": "Кошелёк"
+  },
+  "dashboard.withdraw.error.account-not-linked.text": {
+    "message": "Привяжите платёжную учётную запись перед выводом средств."
+  },
+  "dashboard.withdraw.error.account-not-linked.title": {
+    "message": "Учётная запись не привязана"
+  },
+  "dashboard.withdraw.error.email-verification.text": {
+    "message": "Перед выводом средств необходимо подтвердить адрес электронной почты."
+  },
+  "dashboard.withdraw.error.email-verification.title": {
+    "message": "Необходимо подтвердить почту"
+  },
+  "dashboard.withdraw.error.generic.text": {
+    "message": "Не удалось обработать запрос на вывод средств. Проверьте реквизиты или свяжитесь с поддержкой.\n{error}"
+  },
+  "dashboard.withdraw.error.generic.title": {
+    "message": "Не удалось вывести средства"
+  },
+  "dashboard.withdraw.error.insufficient-balance.text": {
+    "message": "Не хватает средств для выполнения запроса вывода."
+  },
+  "dashboard.withdraw.error.insufficient-balance.title": {
+    "message": "Недостаточно средств"
+  },
+  "dashboard.withdraw.error.invalid-address.text": {
+    "message": "Не удалось подтвердить указанный адрес. Проверьте правильность данных."
+  },
+  "dashboard.withdraw.error.invalid-address.title": {
+    "message": "Ошибка проверки адреса"
+  },
+  "dashboard.withdraw.error.invalid-bank.text": {
+    "message": "Указанные реквизиты банковского счёта недействительны. Перепроверьте их."
+  },
+  "dashboard.withdraw.error.invalid-bank.title": {
+    "message": "Неверные банковские реквизиты"
+  },
+  "dashboard.withdraw.error.invalid-wallet.text": {
+    "message": "Указанный адрес криптокошелька недействителен. Перепроверьте его и повторите попытку."
+  },
+  "dashboard.withdraw.error.invalid-wallet.title": {
+    "message": "Неверный адрес кошелька"
+  },
+  "dashboard.withdraw.error.minimum-not-met.text": {
+    "message": "Сумма вывода (после вычета сборов) меньше минимально допустимой. Укажите более крупную сумму."
+  },
+  "dashboard.withdraw.error.minimum-not-met.title": {
+    "message": "Сумма слишком мала"
+  },
+  "dashboard.withdraw.error.paypal-country-mismatch.text": {
+    "message": "Используйте вариант перевода через PayPal, подходящий для вашего региона (US или International)."
+  },
+  "dashboard.withdraw.error.paypal-country-mismatch.title": {
+    "message": "Несоответствие региона PayPal"
+  },
+  "dashboard.withdraw.error.tax-form.text": {
+    "message": "Чтобы отправить запрос на вывод средств, необходимо заполнить налоговую форму."
+  },
+  "dashboard.withdraw.error.tax-form.title": {
+    "message": "Заполните налоговую форму"
+  },
+  "error.collection.404.list_item.1": {
+    "message": "В адресе коллекции может быть ошибка."
+  },
+  "error.collection.404.list_item.2": {
+    "message": "Коллекция может быть приватной."
+  },
+  "error.collection.404.list_item.3": {
+    "message": "Коллекция могла быть удалена модерацией Icarus за нарушение <tou-link>условий использования</tou-link>."
+  },
+  "error.collection.404.list_title": {
+    "message": "Почему?"
+  },
+  "error.collection.404.title": {
+    "message": "Коллекция не найдена"
+  },
+  "error.generic.404.subtitle": {
+    "message": "Похоже, такой страницы не существует."
+  },
+  "error.generic.404.title": {
+    "message": "Страница не найдена"
+  },
+  "error.generic.451.subtitle": {
+    "message": "Эта страница заблокирована по юридическим причинам, например из‑за государ­ствен­ной цензуры или идущих судебных разбирательств."
+  },
+  "error.generic.451.title": {
+    "message": "Контент недоступен по юридичес­ким причинам"
+  },
+  "error.generic.default.list_item.1": {
+    "message": "Проверьте доступность Icarus на <status-link>странице статуса</status-link>."
+  },
+  "error.generic.default.list_item.2": {
+    "message": "Если проблема не исчезает, сообщите о ней команде Icarus в <discord-link>Discord</discord-link>."
+  },
+  "error.generic.default.list_title": {
+    "message": "Повторите попытку через несколько минут."
+  },
+  "error.generic.default.subtitle": {
+    "message": "Произошла ошибка."
+  },
+  "error.generic.default.title": {
+    "message": "Ой!"
+  },
+  "error.organization.404.list_item.1": {
+    "message": "В адресе организации может быть ошибка."
+  },
+  "error.organization.404.list_item.2": {
+    "message": "Владелец организации мог изменить адрес или удалить её."
+  },
+  "error.organization.404.list_item.3": {
+    "message": "Организация могла быть удалена модерацией Icarus за нарушение <tou-link>условий использования</tou-link>."
+  },
+  "error.organization.404.list_title": {
+    "message": "Почему?"
+  },
+  "error.organization.404.title": {
+    "message": "Организация не найдена"
+  },
+  "error.project.404.list_item.1": {
+    "message": "В адресе проекта может быть ошибка."
+  },
+  "error.project.404.list_item.2": {
+    "message": "Владелец проекта мог изменить адрес, сделать проект приватным или удалить его."
+  },
+  "error.project.404.list_item.3": {
+    "message": "Проект мог быть удалён модерацией Icarus за нарушение <tou-link>условий использования</tou-link>."
+  },
+  "error.project.404.list_title": {
+    "message": "Почему?"
+  },
+  "error.project.404.title": {
+    "message": "Проект не найден"
+  },
+  "error.user.404.list_item.1": {
+    "message": "В имени пользователя может быть ошибка."
+  },
+  "error.user.404.list_item.2": {
+    "message": "Пользователь мог сменить имя или удалить аккаунт."
+  },
+  "error.user.404.list_item.3": {
+    "message": "Аккаунт пользователя мог быть заблокирован за нарушение <tou-link>условий использования</tou-link>."
+  },
+  "error.user.404.list_title": {
+    "message": "Почему?"
+  },
+  "error.user.404.title": {
+    "message": "Пользователь не найден"
+  },
+  "frog": {
+    "message": "Вас жабнули! 🐸"
+  },
+  "frog.altText": {
+    "message": "Фотореалистичное изображение жаберинта"
+  },
+  "frog.title": {
+    "message": "Жаба"
+  },
+  "hosting-marketing.available-locations": {
+    "message": "Широкий охват за счёт серверов в Северной Америке, Европе и Юго‑Восточной Азии."
+  },
+  "hosting-marketing.billing.monthly": {
+    "message": "На месяц"
+  },
+  "hosting-marketing.billing.quarterly": {
+    "message": "На 3 месяца"
+  },
+  "hosting-marketing.billing.save-with-quarterly": {
+    "message": "Сэкономьте 16% при оплате за 3 месяца!"
+  },
+  "hosting-marketing.billing.starting-at": {
+    "message": "От {price} / месяц"
+  },
+  "hosting-marketing.billing.yearly": {
+    "message": "На год"
+  },
+  "hosting-marketing.faq.burst-threads": {
+    "message": "Как работает рост потоков CPU?"
+  },
+  "hosting-marketing.faq.burst-threads.answer": {
+    "message": "Когда сервер испытывает высокую нагрузку, ему временно выделяются дополнительные потоки CPU. Это помогает показателю TPS не упасть ниже 20 и обеспечивает максимально плавный игровой процесс. Из‑за своей кратковременности такие потоки могут не отображаться в отчётах Spark и других инструментах профилирования."
+  },
+  "hosting-marketing.faq.cpu-kind": {
+    "message": "Какие процессоры используются на серверах Icarus Hosting?"
+  },
+  "hosting-marketing.faq.cpu-kind.answer": {
+    "message": "Серверы Icarus Hosting оснащены процессорами уровня AMD Ryzen 7900 и 7950X3D с частотой более 5 ГГц и памятью DDR5."
+  },
+  "hosting-marketing.faq.currency": {
+    "message": "В какой валюте указаны цены?"
+  },
+  "hosting-marketing.faq.currency.answer": {
+    "message": "Все цены указаны в долларах США (USD)."
+  },
+  "hosting-marketing.faq.ddos-protection": {
+    "message": "Защищены ли серверы Icarus Hosting от DDoS‑атак?"
+  },
+  "hosting-marketing.faq.ddos-protection.answer": {
+    "message": "Да. Все серверы Icarus Hosting защищены от DDoS‑атак и в некоторых регионах выдерживают атаки до 17 Тбит/⁠с."
+  },
+  "hosting-marketing.faq.heading": {
+    "message": "Вопросы и ответы"
+  },
+  "hosting-marketing.faq.how-fast": {
+    "message": "Насколько быстро работают серверы Icarus Hosting?"
+  },
+  "hosting-marketing.faq.how-fast.answer.one": {
+    "message": "Серверы Icarus Hosting используют современное и мощное оборудование, однако сложно точно сказать, насколько быстро будет работать конкретный сервер. На производи­тель­ность влияет множество факторов: используемые моды, плагины, наборы данных и даже поведение игроков."
+  },
+  "hosting-marketing.faq.how-fast.answer.two": {
+    "message": "Чаще всего проблемы с производи­тель­ностью вызваны плохой оптимизацией сборок, модов, плагинов и наборов данных. Наши серверы рассчитаны на высокие нагрузки, поэтому при выборе подходящего плана серьёзных проблем возникнуть не должно."
+  },
+  "hosting-marketing.faq.increase-storage": {
+    "message": "Можно ли увеличить объём диска на сервере?"
+  },
+  "hosting-marketing.faq.increase-storage.answer": {
+    "message": "Да. Объём диска на сервере можно бесплатно увеличить: достаточно обратиться в поддержку Icarus."
+  },
+  "hosting-marketing.faq.location": {
+    "message": "Где расположены серверы Icarus Hosting? Можно ли выбрать регион?"
+  },
+  "hosting-marketing.faq.location.answer": {
+    "message": "При покупке можно выбрать сервер в Северной Америке, Европе или Юго‑Восточной Азии. В будущем появятся и другие регионы! Чтобы сменить регион, обратитесь в поддержку."
+  },
+  "hosting-marketing.faq.versions-loaders": {
+    "message": "Какие загрузчики и версии Minecraft можно использовать?"
+  },
+  "hosting-marketing.faq.versions-loaders.answer.one": {
+    "message": "Серверы Icarus Hosting поддерживают все версии Minecraft: Java Edition, начиная с 1.2.5, в том числе снапшоты."
+  },
+  "hosting-marketing.faq.versions-loaders.answer.two": {
+    "message": "Также доступен большой выбор загрузчиков модов и плагинов, в том числе Fabric, Quilt, Forge, NeoForge, Paper и Purpur. Поддержка каждого загрузчика зависит от выбранной версии Minecraft."
+  },
+  "hosting-marketing.get-started": {
+    "message": "Настроить план"
+  },
+  "hosting-marketing.hero.button.manage-your-servers": {
+    "message": "Управление серверами"
+  },
+  "hosting-marketing.hero.button.start-a-new-server": {
+    "message": "Создать новый сервер"
+  },
+  "hosting-marketing.hero.button.start-your-server": {
+    "message": "Создать свой сервер"
+  },
+  "hosting-marketing.hero.host-with-Icarus": {
+    "message": "Создайте свой сервер с Icarus Hosting"
+  },
+  "hosting-marketing.hero.hosting-description": {
+    "message": "Icarus Hosting — самый простой способ создать свой сервер Minecraft: Java Edition. Устанавливайте и играйте в любимые моды и сборки без хлопот — всё это внутри платформы Icarus."
+  },
+  "hosting-marketing.included.advanced-networking": {
+    "message": "Гибкое управление сетью"
+  },
+  "hosting-marketing.included.advanced-networking.description": {
+    "message": "Подключайте собственный домен, настраивайте до 15 портов под нужды модов и многое другое."
+  },
+  "hosting-marketing.included.backups-included": {
+    "message": "Резервные копии"
+  },
+  "hosting-marketing.included.backups-included.description": {
+    "message": "Доступно 15 резервных копий, хранящихся физически отдельно."
+  },
+  "hosting-marketing.included.custom-url": {
+    "message": "Настраиваемый адрес"
+  },
+  "hosting-marketing.included.custom-url.description": {
+    "message": "Делитесь сервером, используя собственный адрес <contrast>Icarus.gg</contrast>."
+  },
+  "hosting-marketing.included.description": {
+    "message": "Каждый сервер предлагает возможности для хостинга, доступные только на Icarus."
+  },
+  "hosting-marketing.included.file-manager": {
+    "message": "Удобный файловый менеджер"
+  },
+  "hosting-marketing.included.file-manager.description": {
+    "message": "Ищите, изменяйте и загружайте файлы напрямую и без хлопот."
+  },
+  "hosting-marketing.included.heading": {
+    "message": "Есть всё нужное для хостинга."
+  },
+  "hosting-marketing.included.help": {
+    "message": "Поддержка в нужный момент"
+  },
+  "hosting-marketing.included.help.description": {
+    "message": "Команда Icarus готова помочь с сервером в любое время."
+  },
+  "hosting-marketing.included.powerful-console": {
+    "message": "Мощная консоль, удобная настройка и многое другое"
+  },
+  "hosting-marketing.included.powerful-console.description": {
+    "message": "С Icarus Hosting управление сервером становится проще."
+  },
+  "hosting-marketing.included.sftp-access": {
+    "message": "Доступ по SFTP"
+  },
+  "hosting-marketing.included.sftp-access.description": {
+    "message": "Работайте с файлами сервера напрямую по SFTP внутри Icarus Hosting."
+  },
+  "hosting-marketing.included.with-your-server": {
+    "message": "Возможности сервера"
+  },
+  "hosting-marketing.know-what-you-need": {
+    "message": "Чётко понимаете, что вам нужно?"
+  },
+  "hosting-marketing.medal.info": {
+    "message": "Получите бесплатный <orange>сервер на 3 ГБ</orange> на 5 дней от <orange>Medal</orange>"
+  },
+  "hosting-marketing.medal.learn-more": {
+    "message": "Подробнее"
+  },
+  "hosting-marketing.medal.text-secondary": {
+    "message": "Предложение ограничено по времени. Без привязки карты. Только для серверов в США."
+  },
+  "hosting-marketing.pick-customized-plan": {
+    "message": "Соберите свой план с нужными характеристиками."
+  },
+  "hosting-marketing.server-for-everyone": {
+    "message": "Сервер найдётся для каждого"
+  },
+  "hosting-marketing.why.all-on-Icarus": {
+    "message": "Управляйте всем на Icarus"
+  },
+  "hosting-marketing.why.all-on-Icarus.description": {
+    "message": "Сервер, моды, игроки — всё уже есть на Icarus. Не нужно переключаться между платформами."
+  },
+  "hosting-marketing.why.consistently-fast": {
+    "message": "Всегда высокая скорость"
+  },
+  "hosting-marketing.why.consistently-fast.description": {
+    "message": "Из‑за отсутствия перегрузок в инфраструктуре каждый сервер работает на полной мощности."
+  },
+  "hosting-marketing.why.description": {
+    "message": "Выберите любую из тысяч сборок на Icarus или создайте свою. Пригласите друзей и начинайте игру."
+  },
+  "hosting-marketing.why.heading": {
+    "message": "Найдите сборку. Сервер готов."
+  },
+  "hosting-marketing.why.modern-reliable-hosting": {
+    "message": "Новейший и надёжный хостинг"
+  },
+  "hosting-marketing.why.modern-reliable-hosting.description": {
+    "message": "<contrast>Современные процессоры AMD с памятью DDR5</contrast> и собственное ПО обеспечивают быструю и стабильную работу серверов Icarus Hosting."
+  },
+  "hosting-marketing.why.where-mods-are": {
+    "message": "Играйте сразу с модами"
+  },
+  "hosting-marketing.why.where-mods-are.description": {
+    "message": "Установка серверных модов и сборок встроена в Icarus Hosting."
+  },
+  "hosting-marketing.why.why-Icarus-hosting": {
+    "message": "Преимущества Icarus Hosting"
+  },
+  "hosting-marketing.why.your-favorite-mods": {
+    "message": "Любые моды на ваш вкус"
+  },
+  "hosting-marketing.why.your-favorite-mods.description": {
+    "message": "Выбирайте Fabric, Forge, Quilt, NeoForge или сервер без модов. Всё, что есть на Icarus, работает на сервере."
+  },
+  "hosting.plan.out-of-stock": {
+    "message": "Нет в наличии"
+  },
+  "hosting.plan.select-plan": {
+    "message": "Выбрать план"
+  },
+  "landing.button.discover-mods": {
+    "message": "Найти моды"
+  },
+  "landing.button.go-to-dashboard": {
+    "message": "Перейти в панель управления"
+  },
+  "landing.creator.feature.constantly-evolving.description": {
+    "message": "Получайте лучший опыт моддинга благодаря постоянным обновлениям от команды Icarus"
+  },
+  "landing.creator.feature.constantly-evolving.title": {
+    "message": "Постоянное развитие"
+  },
+  "landing.creator.feature.data-statistics.description": {
+    "message": "Получайте подробные отчёты о просмотрах, скачиваниях и доходах"
+  },
+  "landing.creator.feature.data-statistics.title": {
+    "message": "Данные и статистика"
+  },
+  "landing.creator.feature.discovery.description": {
+    "message": "Получайте внимание тысяч пользователей через поиск, главную страницу, сервер Discord и другие способы в будущем!"
+  },
+  "landing.creator.feature.discovery.title": {
+    "message": "Заметность"
+  },
+  "landing.creator.feature.diverse-ecosystem.description": {
+    "message": "Подключайте инструменты сборки через Minotaur и публикуйте новые версии автоматически"
+  },
+  "landing.creator.feature.diverse-ecosystem.title": {
+    "message": "Развитая экосистема"
+  },
+  "landing.creator.feature.monetization.description": {
+    "message": "Получайте доход от рекламы на страницах проектов и выводите средства в любое время"
+  },
+  "landing.creator.feature.monetization.title": {
+    "message": "Монетизация"
+  },
+  "landing.creator.feature.team-management.description": {
+    "message": "Приглашайте участников и управляйте ролями и разрешениями без хлопот"
+  },
+  "landing.creator.feature.team-management.title": {
+    "message": "Управление командой"
+  },
+  "landing.error.failedToLoadRandomProjects": {
+    "message": "Не удалось загрузить случайные проекты :("
+  },
+  "landing.feature.follow.description": {
+    "message": "Узнавайте о каждом обновлении и оставайтесь на связи с любимыми проектами."
+  },
+  "landing.feature.follow.heading": {
+    "message": "Следите за тем, что нравится"
+  },
+  "landing.feature.launcher.description": {
+    "message": "Наш открытый API позволяет глубже интегрироваться с Icarus — используйте <link>наше приложение</link> или сторонние лаунчеры наподобие ATLauncher, MultiMC и Prism Launcher."
+  },
+  "landing.feature.launcher.heading": {
+    "message": "Играйте через свой лаунчер"
+  },
+  "landing.feature.search.description": {
+    "message": "Мгновенный поиск и мощные фильтры Icarus позволяют находить контент уже во время ввода."
+  },
+  "landing.feature.search.heading": {
+    "message": "Ищите нужное быстро и легко"
+  },
+  "landing.heading.the-place-for-minecraft": {
+    "message": "Место для Minecraft {content}"
+  },
+  "landing.heading.the-place-for-minecraft.data-packs": {
+    "message": "наборов данных"
+  },
+  "landing.heading.the-place-for-minecraft.modpacks": {
+    "message": "сборок"
+  },
+  "landing.heading.the-place-for-minecraft.mods": {
+    "message": "модов"
+  },
+  "landing.heading.the-place-for-minecraft.plugins": {
+    "message": "плагинов"
+  },
+  "landing.heading.the-place-for-minecraft.resource-packs": {
+    "message": "наборов ресурсов"
+  },
+  "landing.heading.the-place-for-minecraft.servers": {
+    "message": "серверов"
+  },
+  "landing.heading.the-place-for-minecraft.shaders": {
+    "message": "шейдеров"
+  },
+  "landing.launcher.atlauncher-label": {
+    "message": "ATLauncher"
+  },
+  "landing.launcher.graphic-alt": {
+    "message": "Упрощённое изображение окна Minecraft с логотипом Mojang Studios в зелёном цвете Icarus."
+  },
+  "landing.launcher.Icarus-app-label": {
+    "message": "Icarus Launcher"
+  },
+  "landing.launcher.prism-launcher-label": {
+    "message": "Prism Launcher"
+  },
+  "landing.notifications.has-been-updated": {
+    "message": "{title} обновлён!"
+  },
+  "landing.notifications.heading": {
+    "message": "Уведомления"
+  },
+  "landing.notifications.received-time": {
+    "message": "Получено {time}"
+  },
+  "landing.notifications.version-released": {
+    "message": "Выпущена версия {version} для {gameVersion}"
+  },
+  "landing.section.for-creators.description": {
+    "message": "Разместите свои проекты и найдите новых поклонников среди огромного сообщества игроков."
+  },
+  "landing.section.for-creators.label": {
+    "message": "Для авторов"
+  },
+  "landing.section.for-creators.tagline": {
+    "message": "Делитесь творениями с миром"
+  },
+  "landing.section.for-players.description": {
+    "message": "От магических биомов до проклятых подземелий — вы точно найдёте контент, который выведет игру на новый уровень."
+  },
+  "landing.section.for-players.label": {
+    "message": "Для игроков"
+  },
+  "landing.section.for-players.tagline": {
+    "message": "Более {count, number} творений"
+  },
+  "landing.subheading": {
+    "message": "Находите, играйте и делитесь творениями для Minecraft на платформе с открытым кодом, созданной для сообщества."
+  },
+  "layout.action.change-theme": {
+    "message": "Изменить тему"
+  },
+  "layout.action.create-new": {
+    "message": "Создать..."
+  },
+  "layout.action.file-lookup": {
+    "message": "Поиск файла"
+  },
+  "layout.action.lookup-by-email": {
+    "message": "Поиск по почте"
+  },
+  "layout.action.manage-affiliates": {
+    "message": "Партнёрские ссылки"
+  },
+  "layout.action.manage-server-notices": {
+    "message": "Оповещения серверов"
+  },
+  "layout.action.new-collection": {
+    "message": "Новая коллекция"
+  },
+  "layout.action.new-organization": {
+    "message": "Новая организация"
+  },
+  "layout.action.new-project": {
+    "message": "Новый проект"
+  },
+  "layout.action.new-server-project": {
+    "message": "Новый сервер"
+  },
+  "layout.action.publish": {
+    "message": "Опубликовать"
+  },
+  "layout.action.reports": {
+    "message": "Рассмотрение жалоб"
+  },
+  "layout.action.review-projects": {
+    "message": "Проверка проектов"
+  },
+  "layout.action.tech-review": {
+    "message": "Техпроверка"
+  },
+  "layout.avatar.alt": {
+    "message": "Ваш аватар"
+  },
+  "layout.banner.account-action": {
+    "message": "Требуются действия с аккаунтом"
+  },
+  "layout.banner.add-email.button": {
+    "message": "Открыть настройки аккаунта"
+  },
+  "layout.banner.add-email.description": {
+    "message": "В целях безопасности Icarus просит привязать почту к аккаунту."
+  },
+  "layout.banner.build-fail.description": {
+    "message": "При развёртывании фронтенда Icarus не удалось сгенерировать состояние от API. Причиной может быть временный сбой или неверная настройка. Пересоберите проект, когда API станет доступен. Коды ошибок: {errors}. Текущий адрес API: {url}"
+  },
+  "layout.banner.build-fail.title": {
+    "message": "Ошибка генерации состояния от API во время сборки."
+  },
+  "layout.banner.preview.description": {
+    "message": "Официальный сайт Icarus доступен по адресу <link>https://Icarus.com</link>. Текущая предварительная версия предназначена для тестирования командой Icarus и собрана из <branch-link>{owner}/{branch}</branch-link> @ {commit}."
+  },
+  "layout.banner.preview.title": {
+    "message": "Это предварительная версия сайта Icarus."
+  },
+  "layout.banner.staging.description": {
+    "message": "Тестовая среда полностью отделена от основной базы данных Icarus и нужна для тестирования и отладки. Фронтенд и бэкенд здесь могут содержать изменения, которые ещё не вышли на основном сайте."
+  },
+  "layout.banner.staging.title": {
+    "message": "Вы находитесь в тестовой среде Icarus"
+  },
+  "layout.banner.subscription-payment-failed.button": {
+    "message": "Обновить платёжные данные"
+  },
+  "layout.banner.subscription-payment-failed.description": {
+    "message": "Не удалось продлить одну или несколько подписок. Обновите способ оплаты, чтобы сохранить доступ."
+  },
+  "layout.banner.subscription-payment-failed.title": {
+    "message": "Проблема с оплатой."
+  },
+  "layout.banner.tax.action": {
+    "message": "Заполнить налоговую форму"
+  },
+  "layout.banner.tax.description": {
+    "message": "В этом году вы вывели уже более {threshold} из Icarus. Для соблюдения налогового законодательства нужно заполнить налоговую форму. Вывод средств приостановлен до подачи этой формы."
+  },
+  "layout.banner.tax.title": {
+    "message": "Требуется налоговая форма"
+  },
+  "layout.banner.tin-mismatch.action": {
+    "message": "Связаться с поддержкой"
+  },
+  "layout.banner.tin-mismatch.description": {
+    "message": "Вывод средств временно заблокирован: указанный TIN или SSN не совпал с данными IRS. Свяжитесь с поддержкой для повторной отправки формы."
+  },
+  "layout.banner.tin-mismatch.title": {
+    "message": "Налоговая форма отклонена"
+  },
+  "layout.banner.verify-email.action": {
+    "message": "Отправить письмо ещё раз"
+  },
+  "layout.banner.verify-email.description": {
+    "message": "В целях безопасности Icarus просит подтвердить почту, привязанную к аккаунту."
+  },
+  "layout.footer.about": {
+    "message": "О проекте"
+  },
+  "layout.footer.about.careers": {
+    "message": "Вакансии"
+  },
+  "layout.footer.about.changelog": {
+    "message": "Список изменений"
+  },
+  "layout.footer.about.news": {
+    "message": "Новости"
+  },
+  "layout.footer.about.rewards-program": {
+    "message": "Монетизация"
+  },
+  "layout.footer.about.status": {
+    "message": "Статус"
+  },
+  "layout.footer.legal": {
+    "message": "Правовой материал"
+  },
+  "layout.footer.legal-disclaimer": {
+    "message": "НЕ ЯВЛЯЕТСЯ ОФИЦИАЛЬНЫМ СЕРВИСОМ MINECRAFT. НЕ ОДОБРЕНО И НЕ СВЯЗАНО С КОМПАНИЕЙ MOJANG ИЛИ MICROSOFT."
+  },
+  "layout.footer.legal.copyright-policy": {
+    "message": "Политика авторских прав и DMCA"
+  },
+  "layout.footer.legal.privacy-policy": {
+    "message": "Политика конфиденциальности"
+  },
+  "layout.footer.legal.rules": {
+    "message": "Правила контента"
+  },
+  "layout.footer.legal.security-notice": {
+    "message": "Сообщение об уязвимости"
+  },
+  "layout.footer.legal.terms-of-use": {
+    "message": "Условия использования"
+  },
+  "layout.footer.Icarus-information": {
+    "message": "Информация о Icarus"
+  },
+  "layout.footer.open-source": {
+    "message": "Icarus — <github-link>открытый проект</github-link>."
+  },
+  "layout.footer.products": {
+    "message": "Продукты"
+  },
+  "layout.footer.products.app": {
+    "message": "Icarus Launcher"
+  },
+  "layout.footer.products.plus": {
+    "message": "Icarus+"
+  },
+  "layout.footer.products.servers": {
+    "message": "Icarus Hosting"
+  },
+  "layout.footer.resources": {
+    "message": "Ресурсы"
+  },
+  "layout.footer.resources.api-docs": {
+    "message": "Документация API"
+  },
+  "layout.footer.resources.help-center": {
+    "message": "Справочный центр"
+  },
+  "layout.footer.resources.report-issues": {
+    "message": "Сообщить о проблеме"
+  },
+  "layout.footer.resources.translate": {
+    "message": "Перевести"
+  },
+  "layout.footer.social.bluesky": {
+    "message": "Bluesky"
+  },
+  "layout.footer.social.discord": {
+    "message": "Discord"
+  },
+  "layout.footer.social.github": {
+    "message": "GitHub"
+  },
+  "layout.footer.social.mastodon": {
+    "message": "Mastodon"
+  },
+  "layout.footer.social.x": {
+    "message": "X"
+  },
+  "layout.menu-toggle.action": {
+    "message": "Меню"
+  },
+  "layout.meta.description": {
+    "message": "Скачивайте моды, плагины, наборы данных, шейдеры, наборы ресурсов и сборки для Minecraft на Icarus. Ищите и публикуйте проекты на Icarus, используя удобный современный интерфейс и API."
+  },
+  "layout.meta.og-description": {
+    "message": "Ищите и публикуйте проекты для Minecraft!"
+  },
+  "layout.mobile.close-menu": {
+    "message": "Закрыть меню"
+  },
+  "layout.mobile.open-menu": {
+    "message": "Открыть меню"
+  },
+  "layout.nav.active-reports": {
+    "message": "Активные жалобы"
+  },
+  "layout.nav.discover": {
+    "message": "Найти"
+  },
+  "layout.nav.discover-content": {
+    "message": "Найти проекты"
+  },
+  "layout.nav.get-Icarus-app": {
+    "message": "Скачать Icarus Launcher"
+  },
+  "layout.nav.home": {
+    "message": "Главная"
+  },
+  "layout.nav.host-a-server": {
+    "message": "Создать сервер"
+  },
+  "layout.nav.Icarus-app": {
+    "message": "Icarus Launcher"
+  },
+  "layout.nav.Icarus-home-page": {
+    "message": "Главная страница Icarus"
+  },
+  "layout.nav.my-servers": {
+    "message": "Мои серверы"
+  },
+  "layout.nav.organizations": {
+    "message": "Организации"
+  },
+  "layout.nav.profile": {
+    "message": "Профиль"
+  },
+  "layout.nav.projects": {
+    "message": "Проекты"
+  },
+  "layout.nav.revenue": {
+    "message": "Доход"
+  },
+  "layout.nav.saved-projects": {
+    "message": "Сохранённые проекты"
+  },
+  "layout.nav.search": {
+    "message": "Поиск"
+  },
+  "layout.nav.upgrade-to-Icarus-plus": {
+    "message": "Перейти на Icarus+"
+  },
+  "moderation.moderate": {
+    "message": "Модерировать"
+  },
+  "moderation.page.projects": {
+    "message": "Проекты"
+  },
+  "moderation.page.reports": {
+    "message": "Жалобы"
+  },
+  "moderation.page.technicalReview": {
+    "message": "Техническая проверка"
+  },
+  "muralpay.account-type.checking": {
+    "message": "Расчётный"
+  },
+  "muralpay.account-type.savings": {
+    "message": "Сберегательный"
+  },
+  "muralpay.country.at": {
+    "message": "Австрия"
+  },
+  "muralpay.country.be": {
+    "message": "Бельгия"
+  },
+  "muralpay.country.cy": {
+    "message": "Кипр"
+  },
+  "muralpay.country.de": {
+    "message": "Германия"
+  },
+  "muralpay.country.ee": {
+    "message": "Эстония"
+  },
+  "muralpay.country.es": {
+    "message": "Испания"
+  },
+  "muralpay.country.fi": {
+    "message": "Финляндия"
+  },
+  "muralpay.country.fr": {
+    "message": "Франция"
+  },
+  "muralpay.country.gr": {
+    "message": "Греция"
+  },
+  "muralpay.country.ie": {
+    "message": "Ирландия"
+  },
+  "muralpay.country.it": {
+    "message": "Италия"
+  },
+  "muralpay.country.lt": {
+    "message": "Литва"
+  },
+  "muralpay.country.lu": {
+    "message": "Люксембург"
+  },
+  "muralpay.country.lv": {
+    "message": "Латвия"
+  },
+  "muralpay.country.mt": {
+    "message": "Мальта"
+  },
+  "muralpay.country.nl": {
+    "message": "Нидерланды"
+  },
+  "muralpay.country.pt": {
+    "message": "Португалия"
+  },
+  "muralpay.country.sk": {
+    "message": "Словакия"
+  },
+  "muralpay.document-type.national-id": {
+    "message": "Национальное удостоверение личности"
+  },
+  "muralpay.document-type.passport": {
+    "message": "Загранпаспорт"
+  },
+  "muralpay.document-type.resident-id": {
+    "message": "Вид на жительство"
+  },
+  "muralpay.document-type.ruc": {
+    "message": "RUC"
+  },
+  "muralpay.document-type.tax-id": {
+    "message": "ИНН"
+  },
+  "muralpay.field.account-number": {
+    "message": "Номер счёта"
+  },
+  "muralpay.field.account-number-cbu-cvu": {
+    "message": "Номер счёта (CBU/CVU)"
+  },
+  "muralpay.field.account-number-cci": {
+    "message": "Номер счёта (CCI)"
+  },
+  "muralpay.field.account-number-type": {
+    "message": "Тип номера счёта"
+  },
+  "muralpay.field.account-type": {
+    "message": "Тип счёта"
+  },
+  "muralpay.field.bank-account-number": {
+    "message": "Номер счёта"
+  },
+  "muralpay.field.clabe": {
+    "message": "CLABE"
+  },
+  "muralpay.field.country": {
+    "message": "Страна"
+  },
+  "muralpay.field.cpf-cnpj": {
+    "message": "CPF/CNPJ"
+  },
+  "muralpay.field.cuit-cuil": {
+    "message": "CUIT/CUIL"
+  },
+  "muralpay.field.document-type": {
+    "message": "Тип документа"
+  },
+  "muralpay.field.iban": {
+    "message": "IBAN"
+  },
+  "muralpay.field.phone-number": {
+    "message": "Номер телефона"
+  },
+  "muralpay.field.pix-email": {
+    "message": "Почта PIX"
+  },
+  "muralpay.field.pix-key-type": {
+    "message": "Тип ключа PIX"
+  },
+  "muralpay.field.pix-phone": {
+    "message": "Телефон PIX"
+  },
+  "muralpay.field.random-key": {
+    "message": "Случайный ключ"
+  },
+  "muralpay.field.routing-number": {
+    "message": "Маршрутный номер"
+  },
+  "muralpay.field.swift-bic": {
+    "message": "SWIFT/BIC"
+  },
+  "muralpay.field.wallet-address": {
+    "message": "Адрес кошелька"
+  },
+  "muralpay.help.cbu-cvu": {
+    "message": "Clave Bancaria Uniforme или Clave Virtual Uniforme"
+  },
+  "muralpay.help.cci": {
+    "message": "Código de Cuenta Interbancaria"
+  },
+  "muralpay.help.clabe": {
+    "message": "Clave Bancaria Estandarizada (номер счёта в мексиканском банке)"
+  },
+  "muralpay.help.cpf-cnpj": {
+    "message": "Бразильский идентификационный номер налогоплательщика"
+  },
+  "muralpay.help.cuit-cuil": {
+    "message": "Аргентинский идентификационный номер налогоплательщика"
+  },
+  "muralpay.help.iban": {
+    "message": "International Bank Account Number"
+  },
+  "muralpay.help.swift-bic": {
+    "message": "Bank Identifier Code"
+  },
+  "muralpay.pix-type.bank-account": {
+    "message": "Банковский счёт"
+  },
+  "muralpay.pix-type.document": {
+    "message": "CPF/CNPJ"
+  },
+  "muralpay.pix-type.email": {
+    "message": "Почта"
+  },
+  "muralpay.pix-type.phone": {
+    "message": "Номер телефона"
+  },
+  "muralpay.placeholder.account-number": {
+    "message": "Введите номер счёта"
+  },
+  "muralpay.placeholder.cbu-cvu": {
+    "message": "Введите CBU или CVU"
+  },
+  "muralpay.placeholder.cbu-cvu-type": {
+    "message": "CBU или CVU"
+  },
+  "muralpay.placeholder.cci": {
+    "message": "Введите 20‑значный CCI"
+  },
+  "muralpay.placeholder.cuit-cuil": {
+    "message": "Введите CUIT или CUIL"
+  },
+  "muralpay.placeholder.enter-account-number": {
+    "message": "Введите номер счёта"
+  },
+  "muralpay.placeholder.enter-clabe": {
+    "message": "Введите 18‑значный CLABE"
+  },
+  "muralpay.placeholder.enter-cpf-cnpj": {
+    "message": "Введите CPF или CNPJ"
+  },
+  "muralpay.placeholder.enter-iban": {
+    "message": "Введите IBAN"
+  },
+  "muralpay.placeholder.enter-pix-email": {
+    "message": "Введите почту PIX"
+  },
+  "muralpay.placeholder.enter-random-key": {
+    "message": "Введите случайный ключ"
+  },
+  "muralpay.placeholder.enter-routing-number": {
+    "message": "Введите 9‑значный маршрутный номер"
+  },
+  "muralpay.placeholder.enter-swift-bic": {
+    "message": "Введите SWIFT/BIC-код"
+  },
+  "muralpay.placeholder.iban-crc": {
+    "message": "Введите коста-риканский IBAN"
+  },
+  "muralpay.placeholder.phone-cop": {
+    "message": "+57..."
+  },
+  "muralpay.placeholder.pix-phone": {
+    "message": "+55..."
+  },
+  "muralpay.placeholder.wallet-address-eth": {
+    "message": "0x..."
+  },
+  "muralpay.rail.fiat-ars.name": {
+    "message": "Банковский перевод (ARS)"
+  },
+  "muralpay.rail.fiat-brl.name": {
+    "message": "Перевод через PIX (BRL)"
+  },
+  "muralpay.rail.fiat-clp.name": {
+    "message": "Банковский перевод (CLP)"
+  },
+  "muralpay.rail.fiat-cop.name": {
+    "message": "Банковский перевод (COP)"
+  },
+  "muralpay.rail.fiat-crc.name": {
+    "message": "Банковский перевод (CRC)"
+  },
+  "muralpay.rail.fiat-eur.name": {
+    "message": "Банковский перевод (EUR)"
+  },
+  "muralpay.rail.fiat-mxn.name": {
+    "message": "Банковский перевод (MXN)"
+  },
+  "muralpay.rail.fiat-pen.name": {
+    "message": "Банковский перевод (PEN)"
+  },
+  "muralpay.rail.fiat-usd-peru.name": {
+    "message": "Банковский перевод (USD — Перу)"
+  },
+  "muralpay.rail.fiat-usd.name": {
+    "message": "Банковский перевод (USD)"
+  },
+  "muralpay.rail.fiat-zar.name": {
+    "message": "Банковский перевод (ZAR)"
+  },
+  "muralpay.rail.usdc-base.name": {
+    "message": "USDC (Base)"
+  },
+  "muralpay.rail.usdc-celo.name": {
+    "message": "USDC (Celo)"
+  },
+  "muralpay.rail.usdc-ethereum.name": {
+    "message": "USDC (Ethereum)"
+  },
+  "muralpay.rail.usdc-polygon.name": {
+    "message": "Криптовалюта (USDC)"
+  },
+  "muralpay.warning.wallet-address": {
+    "message": "Перепроверьте адрес кошелька. Средства, отправленные на неверный адрес, невозможно вернуть."
+  },
+  "profile.bio.fallback.creator": {
+    "message": "Автор на Icarus."
+  },
+  "profile.bio.fallback.user": {
+    "message": "Пользователь Icarus."
+  },
+  "profile.button.billing": {
+    "message": "Управление платежами"
+  },
+  "profile.button.edit-role": {
+    "message": "Изменить роль"
+  },
+  "profile.button.info": {
+    "message": "Посмотреть подробности"
+  },
+  "profile.button.manage-projects": {
+    "message": "Управление проектами"
+  },
+  "profile.button.remove-affiliate": {
+    "message": "Убрать из партнёров"
+  },
+  "profile.button.set-affiliate": {
+    "message": "Сделать партнёром"
+  },
+  "profile.details.label.auth-providers": {
+    "message": "Сервисы входа"
+  },
+  "profile.details.label.email": {
+    "message": "Почта"
+  },
+  "profile.details.label.email-verified": {
+    "message": "Почта подтверждена"
+  },
+  "profile.details.label.has-password": {
+    "message": "Есть пароль"
+  },
+  "profile.details.label.has-totp": {
+    "message": "Есть TOTP"
+  },
+  "profile.details.label.payment-methods": {
+    "message": "Способы оплаты"
+  },
+  "profile.details.tooltip.email-not-verified": {
+    "message": "Почта не подтверждена"
+  },
+  "profile.details.tooltip.email-verified": {
+    "message": "Почта подтверждена"
+  },
+  "profile.error.not-found": {
+    "message": "Пользователь не найден"
+  },
+  "profile.label.affiliate": {
+    "message": "Партнёр"
+  },
+  "profile.label.badges": {
+    "message": "Значки"
+  },
+  "profile.label.collection": {
+    "message": "Коллекция"
+  },
+  "profile.label.downloads": {
+    "message": "{count} {countPlural, plural, one {скачивание} few {скачивания} other {скачиваний}}"
+  },
+  "profile.label.joined": {
+    "message": "Регистрация:"
+  },
+  "profile.label.no-collections": {
+    "message": "У этого пользователя нет коллекций!"
+  },
+  "profile.label.no-collections-auth": {
+    "message": "У вас ещё нет коллекций.\nХотите <create-link>создать новую</create-link>?"
+  },
+  "profile.label.no-projects": {
+    "message": "У этого пользователя нет проектов!"
+  },
+  "profile.label.no-projects-auth": {
+    "message": "У вас ещё нет проектов.\nХотите <create-link>создать новый</create-link>?"
+  },
+  "profile.label.organizations": {
+    "message": "Организации"
+  },
+  "profile.label.projects": {
+    "message": "{count} {countPlural, plural, one {проект} few {проекта} other {проектов}}"
+  },
+  "profile.label.saving": {
+    "message": "Сохранение..."
+  },
+  "profile.meta.description": {
+    "message": "Скачать проекты {username} на Icarus"
+  },
+  "profile.meta.description-with-bio": {
+    "message": "{bio} — Скачать проекты {username} на Icarus"
+  },
+  "profile.stats.projects-followers": {
+    "message": "{count, plural, one {<stat>{count}</stat> подписчик} few {<stat>{count}</stat> подписчика} other {<stat>{count}</stat> подписчиков}} у проектов"
+  },
+  "profile.user-id": {
+    "message": "ID пользователя: {id}"
+  },
+  "project-member-header.error-decline": {
+    "message": "Не удалось отклонить приглашение в команду"
+  },
+  "project-member-header.error-join": {
+    "message": "Не удалось принять приглашение в команду"
+  },
+  "project-member-header.invitation-no-role": {
+    "message": "Вас пригласили стать участником этого проекта. Примите или отклоните приглашение."
+  },
+  "project-member-header.invitation-title": {
+    "message": "Приглашение в проект"
+  },
+  "project-member-header.invitation-with-role": {
+    "message": "Вас пригласили стать участником этого проекта в роли «{role}»."
+  },
+  "project-member-header.success-decline": {
+    "message": "Вы отклонили приглашение в команду"
+  },
+  "project-member-header.success-join": {
+    "message": "Вы присоединились к команде проекта"
+  },
+  "project-moderation-nags.publishing-checklist": {
+    "message": "Контрольный список для публикации"
+  },
+  "project-moderation-nags.required": {
+    "message": "Обязательно"
+  },
+  "project-moderation-nags.resubmit-for-review": {
+    "message": "Запросите перепроверку"
+  },
+  "project-moderation-nags.resubmit-for-review-desc": {
+    "message": "Проект {status, select, rejected {отклонён} withheld {на удержании} other {{status}}} командой Icarus. Обычно после решения указанных модератором проблем можно снова запросить проверку."
+  },
+  "project-moderation-nags.submit-checklist-tooltip": {
+    "message": "Необходимо выполнить обязательные действия в контрольном списке!"
+  },
+  "project-moderation-nags.submit-for-review": {
+    "message": "Запросите проверку"
+  },
+  "project-moderation-nags.submit-for-review-button": {
+    "message": "Отправить на проверку"
+  },
+  "project-moderation-nags.submit-for-review-desc": {
+    "message": "Проект сейчас виден только участникам. Для публикации он должен пройти проверку модераторами."
+  },
+  "project-moderation-nags.suggestion": {
+    "message": "Предложение"
+  },
+  "project-moderation-nags.visit-moderation-page": {
+    "message": "Связаться с модератором"
+  },
+  "project-moderation-nags.warning": {
+    "message": "Предупреждение"
+  },
+  "project-type.collection.plural": {
+    "message": "Коллекции"
+  },
+  "project-type.collection.singular": {
+    "message": "Коллекция"
+  },
+  "project-type.datapack.plural": {
+    "message": "Наборы данных"
+  },
+  "project-type.datapack.singular": {
+    "message": "Набор данных"
+  },
+  "project-type.minecraft_java_server.plural": {
+    "message": "Серверы"
+  },
+  "project-type.minecraft_java_server.singular": {
+    "message": "Сервер"
+  },
+  "project-type.mod.plural": {
+    "message": "Моды"
+  },
+  "project-type.mod.singular": {
+    "message": "Мод"
+  },
+  "project-type.modpack.plural": {
+    "message": "Сборки"
+  },
+  "project-type.modpack.singular": {
+    "message": "Сборка"
+  },
+  "project-type.plugin.plural": {
+    "message": "Плагины"
+  },
+  "project-type.plugin.singular": {
+    "message": "Плагин"
+  },
+  "project-type.project.plural": {
+    "message": "Проекты"
+  },
+  "project-type.project.singular": {
+    "message": "Проект"
+  },
+  "project-type.resourcepack.plural": {
+    "message": "Наборы ресурсов"
+  },
+  "project-type.resourcepack.singular": {
+    "message": "Набор ресурсов"
+  },
+  "project-type.server.plural": {
+    "message": "Серверы"
+  },
+  "project-type.server.singular": {
+    "message": "Сервер"
+  },
+  "project-type.shader.plural": {
+    "message": "Шейдеры"
+  },
+  "project-type.shader.singular": {
+    "message": "Шейдер"
+  },
+  "project.about.details.created": {
+    "message": "Создан {date}"
+  },
+  "project.about.details.licensed": {
+    "message": "Лицензия {license}"
+  },
+  "project.about.details.published": {
+    "message": "Размещён {date}"
+  },
+  "project.about.details.submitted": {
+    "message": "Отправлен {date}"
+  },
+  "project.about.details.title": {
+    "message": "Сведения"
+  },
+  "project.about.details.updated": {
+    "message": "Обновлён {date}"
+  },
+  "project.actions.create-server": {
+    "message": "Создать сервер"
+  },
+  "project.actions.create-server-tooltip": {
+    "message": "Создать сервер"
+  },
+  "project.actions.dont-show-again": {
+    "message": "Больше не показывать"
+  },
+  "project.actions.review-project": {
+    "message": "Проверить проект"
+  },
+  "project.actions.servers-promo.description": {
+    "message": "Icarus Hosting — самый простой способ играть с друзьями без лишних хлопот!"
+  },
+  "project.actions.servers-promo.pricing": {
+    "message": "От {price}<small> / месяц</small>"
+  },
+  "project.actions.servers-promo.title": {
+    "message": "Создайте сервер"
+  },
+  "project.collections.create-new": {
+    "message": "Создать новую коллекцию"
+  },
+  "project.collections.none-found": {
+    "message": "Коллекции не найдены."
+  },
+  "project.description.title": {
+    "message": "Описание"
+  },
+  "project.details.licensed": {
+    "message": "Лицензия"
+  },
+  "project.download.game-version": {
+    "message": "Версия игры: {version}"
+  },
+  "project.download.game-version-error": {
+    "message": "Ошибка: версии игры не найдены"
+  },
+  "project.download.game-version-tooltip": {
+    "message": "{title} доступен только для {version}"
+  },
+  "project.download.game-version-unsupported-tooltip": {
+    "message": "{title} не поддерживает {gameVersion} для {platform}"
+  },
+  "project.download.install-with-app": {
+    "message": "Скачать в Icarus App"
+  },
+  "project.download.no-app": {
+    "message": "У вас нет Icarus Launcher?"
+  },
+  "project.download.no-versions-available": {
+    "message": "Нет версий, доступных для {gameVersion} и {platform}."
+  },
+  "project.download.platform": {
+    "message": "Платформа: {platform}"
+  },
+  "project.download.platform-error": {
+    "message": "Ошибка: платформы не найдены"
+  },
+  "project.download.platform-tooltip": {
+    "message": "{title} доступен только для {platform}"
+  },
+  "project.download.platform-unsupported-tooltip": {
+    "message": "{title} не поддерживает {platform} для {gameVersion}"
+  },
+  "project.download.search-game-versions": {
+    "message": "Поиск версий игры..."
+  },
+  "project.download.search-game-versions-label": {
+    "message": "Поиск версий игры..."
+  },
+  "project.download.select-game-version": {
+    "message": "Выбрать версию игры"
+  },
+  "project.download.select-platform": {
+    "message": "Выбрать платформу"
+  },
+  "project.download.show-all-versions": {
+    "message": "Показывать все версии"
+  },
+  "project.download.title": {
+    "message": "Скачивание {title}"
+  },
+  "project.environment.migration-no-permission.message": {
+    "message": "Недавно мы переработали систему сред на Icarus — теперь доступны новые варианты. У вас нет разрешения на изменение этих настроек — сообщите другому участнику проекта, что необходимо проверить метаданные среды."
+  },
+  "project.environment.migration-no-permission.title": {
+    "message": "Необходимо проверить метаданные среды"
+  },
+  "project.environment.migration.learn-more": {
+    "message": "Подробнее об этом изменении..."
+  },
+  "project.environment.migration.message": {
+    "message": "Мы переработали систему сред на Icarus, и теперь доступны новые варианты. Убедитесь, что метаданные указаны верно."
+  },
+  "project.environment.migration.review-button": {
+    "message": "Проверить настройки среды"
+  },
+  "project.environment.migration.title": {
+    "message": "Проверьте метаданные среды"
+  },
+  "project.error.loading": {
+    "message": "Ошибка загрузки данных проекта{message}"
+  },
+  "project.error.page-not-found": {
+    "message": "Страница не найдена"
+  },
+  "project.error.project-not-found": {
+    "message": "Проект не найден"
+  },
+  "project.gallery.title": {
+    "message": "Галерея"
+  },
+  "project.license.error": {
+    "message": "Не удалось получить текст лицензии."
+  },
+  "project.license.loading": {
+    "message": "Загрузка текста лицензии..."
+  },
+  "project.license.title": {
+    "message": "Лицензия"
+  },
+  "project.moderation.title": {
+    "message": "Модерация"
+  },
+  "project.navigation.changelog": {
+    "message": "Изменения"
+  },
+  "project.notification.icon-updated.message": {
+    "message": "Иконка проекта обновлена."
+  },
+  "project.notification.icon-updated.title": {
+    "message": "Иконка обновлена"
+  },
+  "project.notification.updated.message": {
+    "message": "Ваш проект обновлён."
+  },
+  "project.notification.updated.title": {
+    "message": "Проект обновлён"
+  },
+  "project.settings.general.name.description": {
+    "message": "Избегайте префиксов, суффиксов, скобок и описаний — введите только название проекта."
+  },
+  "project.settings.general.name.placeholder.1": {
+    "message": "Например: Nether Overhaul 2"
+  },
+  "project.settings.general.name.placeholder.2": {
+    "message": "Например: Construction Equipment"
+  },
+  "project.settings.general.name.placeholder.3": {
+    "message": "Например: Better than Caving"
+  },
+  "project.settings.general.name.placeholder.4": {
+    "message": "Например: Enhanced Portals"
+  },
+  "project.settings.general.name.placeholder.5": {
+    "message": "Например: Dangerous Mobs"
+  },
+  "project.settings.general.name.title": {
+    "message": "Название"
+  },
+  "project.settings.general.tagline.description": {
+    "message": "Опишите проект одним предложением."
+  },
+  "project.settings.general.tagline.placeholder.1": {
+    "message": "Например: Overhauls game progression to revolve around the Nether."
+  },
+  "project.settings.general.tagline.placeholder.2": {
+    "message": "Например: Adds wearable construction gear."
+  },
+  "project.settings.general.tagline.placeholder.3": {
+    "message": "Например: Adds realistic mineshaft-building mechanics."
+  },
+  "project.settings.general.tagline.placeholder.4": {
+    "message": "Например: Improves how Nether portals link to each other."
+  },
+  "project.settings.general.tagline.placeholder.5": {
+    "message": "Например: Adds powerful boss versions of the normal mobs to encounter in the night."
+  },
+  "project.settings.general.tagline.title": {
+    "message": "Слоган"
+  },
+  "project.settings.general.url.title": {
+    "message": "URL"
+  },
+  "project.settings.title": {
+    "message": "Настройки"
+  },
+  "project.settings.visit-dashboard": {
+    "message": "Управление проектами"
+  },
+  "project.stats.downloads-label": {
+    "message": "скачивани{count, plural, one {е} few {я} other {й}}"
+  },
+  "project.stats.followers-label": {
+    "message": "подписчик{count, plural, one {} few {а} other {ов}}"
+  },
+  "project.status.archived.message": {
+    "message": "{title} помещён в архив. {title} больше не будет получать обновления, если только автор не решит разархивировать проект."
+  },
+  "project.versions.title": {
+    "message": "Версии"
+  },
+  "report.already-reported": {
+    "message": "Вы уже пожалова­лись на {title}"
+  },
+  "report.already-reported-description": {
+    "message": "Жалоба на {item, select, project {этот проект} version {эту версию} user {этого пользователя} other {этот контент}} уже отправлена. Если у вас есть дополнительная информация, добавьте её к жалобе."
+  },
+  "report.back-to-item": {
+    "message": "Вернуться к {item, select, project {проекту} version {версии} user {пользователю} other {контенту}}"
+  },
+  "report.body.description": {
+    "message": "При желании прикрепите ссылки и изображения. Неполные жалобы закрываются без рассмотрения."
+  },
+  "report.body.title": {
+    "message": "Добавьте подробности к жалобе"
+  },
+  "report.checking": {
+    "message": "Поиск {item, select, project {проекта} version {версии} user {пользователя} other {контента}}..."
+  },
+  "report.could-not-find": {
+    "message": "Не удалось найти {item, select, project {проект} version {версию} user {пользователя} other {контент}}"
+  },
+  "report.for.violation": {
+    "message": "На нарушение наших <rules-link>правил</rules-link> или <terms-link>условий</terms-link>"
+  },
+  "report.for.violation.description": {
+    "message": "Спам, оскорбления, обман, вредоносный или незаконный контент."
+  },
+  "report.form-not-for": {
+    "message": "Для чего не предназначена форма"
+  },
+  "report.go-to-report": {
+    "message": "Перейти к жалобе"
+  },
+  "report.not-for.bug-reports": {
+    "message": "Для сообщения об ошибках"
+  },
+  "report.not-for.bug-reports.description": {
+    "message": "Сообщайте об ошибках в <issues-link>трекере проекта</issues-link>."
+  },
+  "report.not-for.dmca": {
+    "message": "Для удаления по DMCA"
+  },
+  "report.not-for.dmca.description": {
+    "message": "Ознакомьтесь с нашей <policy-link>политикой авторских прав</policy-link>."
+  },
+  "report.note.copyright.1": {
+    "message": "Обратите внимание, что это *не* запрос на удаление по DMCA, а жалоба о повторно загруженном контенте."
+  },
+  "report.note.copyright.2": {
+    "message": "Если вы намерены отправить запрос на удаление контента по DMCA (что является иском), ознакомьтесь с <copyright-policy-link>политикой защиты авторских прав</copyright-policy-link>."
+  },
+  "report.note.malicious.1": {
+    "message": "Жалобы на вредоносный или обманный контент должны содержать веские доказательства, например фрагменты кода."
+  },
+  "report.note.malicious.2": {
+    "message": "Отчёты от Microsoft Defender, VirusTotal или Систем обнаружения вредоносного ПО не считаются доказательством и рассматриваться не будут."
+  },
+  "report.please-report": {
+    "message": "На что жаловаться"
+  },
+  "report.question.content-id": {
+    "message": "Какой ID у {item, select, project {проекта} version {версии} user {пользователя} other {контента}}?"
+  },
+  "report.question.content-type": {
+    "message": "На какой тип контента вы жалуетесь?"
+  },
+  "report.question.report-reason": {
+    "message": "Какое правило Icarus нарушено {item, select, project {этим проектом} version {этой версией} user {этим пользователем} other {этим контентом}}?"
+  },
+  "report.report-content": {
+    "message": "Жалоба модерато­рам на контент"
+  },
+  "report.report-item": {
+    "message": "Жалоба модерато­рам на {title}"
+  },
+  "report.submit": {
+    "message": "Отправить жалобу"
+  },
+  "scopes.analytics.description": {
+    "message": "Просматривать данные аналитики"
+  },
+  "scopes.analytics.label": {
+    "message": "Просмотр аналитики"
+  },
+  "scopes.category.analytics": {
+    "message": "Аналитика"
+  },
+  "scopes.category.collections": {
+    "message": "Коллекции"
+  },
+  "scopes.category.notifications": {
+    "message": "Уведомления"
+  },
+  "scopes.category.organizations": {
+    "message": "Организации"
+  },
+  "scopes.category.pats": {
+    "message": "Личные токены доступа"
+  },
+  "scopes.category.payouts": {
+    "message": "Выплаты"
+  },
+  "scopes.category.projects": {
+    "message": "Проекты"
+  },
+  "scopes.category.reports": {
+    "message": "Жалобы"
+  },
+  "scopes.category.sessions": {
+    "message": "Сеансы"
+  },
+  "scopes.category.threads": {
+    "message": "Ветки"
+  },
+  "scopes.category.user-account": {
+    "message": "Аккаунт"
+  },
+  "scopes.category.versions": {
+    "message": "Версии"
+  },
+  "scopes.collectionCreate.description": {
+    "message": "Создавать коллекции"
+  },
+  "scopes.collectionCreate.label": {
+    "message": "Создание коллекций"
+  },
+  "scopes.collectionDelete.description": {
+    "message": "Удалять коллекции"
+  },
+  "scopes.collectionDelete.label": {
+    "message": "Удаление коллекций"
+  },
+  "scopes.collectionRead.description": {
+    "message": "Просматривать коллекции"
+  },
+  "scopes.collectionRead.label": {
+    "message": "Просмотр коллекций"
+  },
+  "scopes.collectionWrite.description": {
+    "message": "Изменять коллекции"
+  },
+  "scopes.collectionWrite.label": {
+    "message": "Изменение коллекций"
+  },
+  "scopes.notificationRead.description": {
+    "message": "Просматривать уведомления"
+  },
+  "scopes.notificationRead.label": {
+    "message": "Просмотр уведомлений"
+  },
+  "scopes.notificationWrite.description": {
+    "message": "Управлять уведомлениями"
+  },
+  "scopes.notificationWrite.label": {
+    "message": "Изменение уведомлений"
+  },
+  "scopes.organizationCreate.description": {
+    "message": "Создавать организации"
+  },
+  "scopes.organizationCreate.label": {
+    "message": "Создание организаций"
+  },
+  "scopes.organizationDelete.description": {
+    "message": "Удалять организации"
+  },
+  "scopes.organizationDelete.label": {
+    "message": "Удаление организаций"
+  },
+  "scopes.organizationRead.description": {
+    "message": "Просматривать организации"
+  },
+  "scopes.organizationRead.label": {
+    "message": "Просмотр организаций"
+  },
+  "scopes.organizationWrite.description": {
+    "message": "Изменять организации"
+  },
+  "scopes.organizationWrite.label": {
+    "message": "Изменение организаций"
+  },
+  "scopes.patCreate.description": {
+    "message": "Создавать личные токены доступа"
+  },
+  "scopes.patCreate.label": {
+    "message": "Создание токенов"
+  },
+  "scopes.patDelete.description": {
+    "message": "Удалять личные токены доступа"
+  },
+  "scopes.patDelete.label": {
+    "message": "Удаление токенов"
+  },
+  "scopes.patRead.description": {
+    "message": "Просматривать личные токены доступа"
+  },
+  "scopes.patRead.label": {
+    "message": "Просмотр токенов"
+  },
+  "scopes.patWrite.description": {
+    "message": "Изменять личные токены доступа"
+  },
+  "scopes.patWrite.label": {
+    "message": "Изменение токенов"
+  },
+  "scopes.payoutsRead.description": {
+    "message": "Просматривать данные о выплатах"
+  },
+  "scopes.payoutsRead.label": {
+    "message": "Просмотр выплат"
+  },
+  "scopes.payoutsWrite.description": {
+    "message": "Выводить средства"
+  },
+  "scopes.payoutsWrite.label": {
+    "message": "Создание выплат"
+  },
+  "scopes.performAnalytics.description": {
+    "message": "Заполнять аналитику"
+  },
+  "scopes.performAnalytics.label": {
+    "message": "Заполнение аналитики"
+  },
+  "scopes.projectCreate.description": {
+    "message": "Создавать проекты"
+  },
+  "scopes.projectCreate.label": {
+    "message": "Создание проектов"
+  },
+  "scopes.projectDelete.description": {
+    "message": "Удалять проекты"
+  },
+  "scopes.projectDelete.label": {
+    "message": "Удаление проектов"
+  },
+  "scopes.projectRead.description": {
+    "message": "Просматривать проекты"
+  },
+  "scopes.projectRead.label": {
+    "message": "Просмотр проектов"
+  },
+  "scopes.projectWrite.description": {
+    "message": "Изменять проекты"
+  },
+  "scopes.projectWrite.label": {
+    "message": "Изменение проектов"
+  },
+  "scopes.reportCreate.description": {
+    "message": "Создавать жалобы"
+  },
+  "scopes.reportCreate.label": {
+    "message": "Создание жалоб"
+  },
+  "scopes.reportDelete.description": {
+    "message": "Удалять жалобы"
+  },
+  "scopes.reportDelete.label": {
+    "message": "Удаление жалоб"
+  },
+  "scopes.reportRead.description": {
+    "message": "Просматривать жалобы"
+  },
+  "scopes.reportRead.label": {
+    "message": "Просмотр жалоб"
+  },
+  "scopes.reportWrite.description": {
+    "message": "Изменять жалобы"
+  },
+  "scopes.reportWrite.label": {
+    "message": "Изменение жалоб"
+  },
+  "scopes.sessionAccess.description": {
+    "message": "Пользоваться сеансами Icarus"
+  },
+  "scopes.sessionAccess.label": {
+    "message": "Использование сеансов"
+  },
+  "scopes.sessionDelete.description": {
+    "message": "Удалять сеансы"
+  },
+  "scopes.sessionDelete.label": {
+    "message": "Удаление сеансов"
+  },
+  "scopes.sessionRead.description": {
+    "message": "Просматривать активные сеансы"
+  },
+  "scopes.sessionRead.label": {
+    "message": "Просмотр сеансов"
+  },
+  "scopes.threadRead.description": {
+    "message": "Просматривать ветки"
+  },
+  "scopes.threadRead.label": {
+    "message": "Просмотр веток"
+  },
+  "scopes.threadWrite.description": {
+    "message": "Отправлять сообщения в ветках"
+  },
+  "scopes.threadWrite.label": {
+    "message": "Отправка в ветках"
+  },
+  "scopes.userAuthWrite.description": {
+    "message": "Изменять данные аутентификации"
+  },
+  "scopes.userAuthWrite.label": {
+    "message": "Изменение данных входа"
+  },
+  "scopes.userDelete.description": {
+    "message": "Удалить аккаунт"
+  },
+  "scopes.userDelete.label": {
+    "message": "Удаление аккаунта"
+  },
+  "scopes.userRead.description": {
+    "message": "Просматривать публичный профиль"
+  },
+  "scopes.userRead.label": {
+    "message": "Просмотр профиля"
+  },
+  "scopes.userReadEmail.description": {
+    "message": "Просматривать адрес электронной почты"
+  },
+  "scopes.userReadEmail.label": {
+    "message": "Просмотр почты"
+  },
+  "scopes.userWrite.description": {
+    "message": "Изменять профиль"
+  },
+  "scopes.userWrite.label": {
+    "message": "Изменение профиля"
+  },
+  "scopes.versionCreate.description": {
+    "message": "Создавать версии"
+  },
+  "scopes.versionCreate.label": {
+    "message": "Создание версий"
+  },
+  "scopes.versionDelete.description": {
+    "message": "Удалять версии"
+  },
+  "scopes.versionDelete.label": {
+    "message": "Удаление версий"
+  },
+  "scopes.versionRead.description": {
+    "message": "Просматривать версии"
+  },
+  "scopes.versionRead.label": {
+    "message": "Просмотр версий"
+  },
+  "scopes.versionWrite.description": {
+    "message": "Изменять версии"
+  },
+  "scopes.versionWrite.label": {
+    "message": "Изменение версий"
+  },
+  "search.filter.game-version-shader-message": {
+    "message": "Обычно старые шейдеры работают в новых версиях почти без проблем."
+  },
+  "search.filter.locked.server": {
+    "message": "Управляется сервером"
+  },
+  "search.filter.locked.server-game-version.title": {
+    "message": "Версия игры управляется сервером"
+  },
+  "search.filter.locked.server-loader.title": {
+    "message": "Загрузчик управляется сервером"
+  },
+  "search.filter.locked.server.sync": {
+    "message": "Использовать с сервера"
+  },
+  "servers.notice.actions": {
+    "message": "Действия"
+  },
+  "servers.notice.begins": {
+    "message": "Начинается"
+  },
+  "servers.notice.dismissable": {
+    "message": "Закрываемое"
+  },
+  "servers.notice.expires": {
+    "message": "Истекает"
+  },
+  "servers.notice.id": {
+    "message": "ID"
+  },
+  "servers.notice.level": {
+    "message": "Уровень"
+  },
+  "servers.notice.undismissable": {
+    "message": "Незакрываемое"
+  },
+  "servers.notices.create-notice": {
+    "message": "Создать оповещение"
+  },
+  "servers.notices.no-notices": {
+    "message": "Нет оповещений"
+  },
+  "servers.plan.large.description": {
+    "message": "Для 15–25 игроков, сборок и тяжёлых модов."
+  },
+  "servers.plan.medium.description": {
+    "message": "Для 6–15 игроков и нескольких модов."
+  },
+  "servers.plan.small.description": {
+    "message": "Для 1–5 друзей и пары лёгких модов."
+  },
+  "settings.account.button.complete-setup": {
+    "message": "Завершить настройку"
+  },
+  "settings.account.data-export.action.download": {
+    "message": "Скачать данные"
+  },
+  "settings.account.data-export.action.generate": {
+    "message": "Подготовить данные"
+  },
+  "settings.account.data-export.action.generating": {
+    "message": "Подготовка данных..."
+  },
+  "settings.account.data-export.description": {
+    "message": "Запросите копию своих личных данных, хранящихся на Icarus. Подготовка может занять несколько минут."
+  },
+  "settings.account.data-export.title": {
+    "message": "Экспорт данных"
+  },
+  "settings.account.delete.confirm.description": {
+    "message": "**Все подписки и данные аккаунта будут немедленно удалены.** Проекты останутся. Удаление аккаунта необратимо.<br><br>Нужна помощь с аккаунтом? Напишите нам в [Discord](https://discord.Icarus.com)."
+  },
+  "settings.account.delete.confirm.proceed": {
+    "message": "Удалить этот аккаунт"
+  },
+  "settings.account.delete.confirm.title": {
+    "message": "Вы действительно хотите удалить свой аккаунт?"
+  },
+  "settings.account.delete.section.action": {
+    "message": "Удалить аккаунт"
+  },
+  "settings.account.delete.section.description": {
+    "message": "Удаление аккаунта необратимо. Все связанные данные, кроме проектов, будут удалены с серверов Icarus."
+  },
+  "settings.account.delete.section.title": {
+    "message": "Удаление аккаунта"
+  },
+  "settings.account.email.action.save": {
+    "message": "Сохранить почту"
+  },
+  "settings.account.email.field.label": {
+    "message": "Адрес электронной почты"
+  },
+  "settings.account.email.field.placeholder": {
+    "message": "Введите адрес электронной почты..."
+  },
+  "settings.account.email.modal.header.add": {
+    "message": "Добавление почты"
+  },
+  "settings.account.email.modal.header.change": {
+    "message": "Изменение почты"
+  },
+  "settings.account.email.modal.notice": {
+    "message": "Данные аккаунта видны только вам."
+  },
+  "settings.account.password.action.remove": {
+    "message": "Удалить пароль"
+  },
+  "settings.account.password.action.save": {
+    "message": "Сохранить пароль"
+  },
+  "settings.account.password.error.mismatch": {
+    "message": "Введённые пароли не совпадают!"
+  },
+  "settings.account.password.field.confirm-current.description": {
+    "message": "Введите пароль для продолжения."
+  },
+  "settings.account.password.field.confirm-current.label": {
+    "message": "Подтверждение пароля"
+  },
+  "settings.account.password.field.confirm-current.placeholder": {
+    "message": "Подтверждение пароля"
+  },
+  "settings.account.password.field.confirm-new.label": {
+    "message": "Подтверждение нового пароля"
+  },
+  "settings.account.password.field.confirm-new.placeholder": {
+    "message": "Подтверждение нового пароля"
+  },
+  "settings.account.password.field.new.label": {
+    "message": "Новый пароль"
+  },
+  "settings.account.password.field.new.placeholder": {
+    "message": "Новый пароль"
+  },
+  "settings.account.password.field.old.label": {
+    "message": "Текущий пароль"
+  },
+  "settings.account.password.field.old.placeholder": {
+    "message": "Текущий пароль"
+  },
+  "settings.account.password.modal.header.add": {
+    "message": "Добавление пароля"
+  },
+  "settings.account.password.modal.header.change": {
+    "message": "Изменение пароля"
+  },
+  "settings.account.password.modal.header.remove": {
+    "message": "Удаление пароля"
+  },
+  "settings.account.providers.action.add": {
+    "message": "Добавить"
+  },
+  "settings.account.providers.modal.header": {
+    "message": "Сервисы входа"
+  },
+  "settings.account.providers.table.actions": {
+    "message": "Действия"
+  },
+  "settings.account.providers.table.provider": {
+    "message": "Сервис"
+  },
+  "settings.account.security.email.action.add": {
+    "message": "Добавить почту"
+  },
+  "settings.account.security.email.action.change": {
+    "message": "Изменить почту"
+  },
+  "settings.account.security.email.description": {
+    "message": "Изменяет почту, привязанную к аккаунту."
+  },
+  "settings.account.security.email.title": {
+    "message": "Почта"
+  },
+  "settings.account.security.password.action.add": {
+    "message": "Добавить пароль"
+  },
+  "settings.account.security.password.action.change": {
+    "message": "Изменить пароль"
+  },
+  "settings.account.security.password.description.change": {
+    "message": "Измените пароль для входа в аккаунт."
+  },
+  "settings.account.security.password.description.change-or-remove": {
+    "message": "Измените или удалите пароль для входа в аккаунт."
+  },
+  "settings.account.security.password.description.set": {
+    "message": "Задайте постоянный пароль для входа в аккаунт."
+  },
+  "settings.account.security.password.title": {
+    "message": "Пароль"
+  },
+  "settings.account.security.providers.action.manage": {
+    "message": "Настроить сервисы"
+  },
+  "settings.account.security.providers.description": {
+    "message": "Привяжите или отвяжите сторонние сервисы входа: GitHub, GitLab, Microsoft, Discord, Steam и Google."
+  },
+  "settings.account.security.providers.title": {
+    "message": "Вход через сторонние сервисы"
+  },
+  "settings.account.security.title": {
+    "message": "Безопасность аккаунта"
+  },
+  "settings.account.security.two-factor.action.remove": {
+    "message": "Отвязать аутентификатор"
+  },
+  "settings.account.security.two-factor.action.setup": {
+    "message": "Привязать аутентификатор"
+  },
+  "settings.account.security.two-factor.description": {
+    "message": "Добавьте ещё один уровень безопасности аккаунта при входе."
+  },
+  "settings.account.security.two-factor.title": {
+    "message": "Двухфакторная аутентификация"
+  },
+  "settings.account.two-factor.backup.intro": {
+    "message": "Сохраните резервные коды в надёжном месте. Используйте любой из них как код подтверждения, если потеряете доступ к устройству. Берегите их как свой пароль."
+  },
+  "settings.account.two-factor.backup.single-use": {
+    "message": "Резервные коды одноразовые."
+  },
+  "settings.account.two-factor.error.incorrect-code": {
+    "message": "Введённый код неверный!"
+  },
+  "settings.account.two-factor.field.code.description": {
+    "message": "Введите код подтверждения из приложения."
+  },
+  "settings.account.two-factor.field.code.label": {
+    "message": "Код подтверждения"
+  },
+  "settings.account.two-factor.field.code.placeholder": {
+    "message": "Введите код..."
+  },
+  "settings.account.two-factor.setup.intro": {
+    "message": "Двухфакторная аутентификация защищает аккаунт, требуя доступ ко второму устройству при входе в систему."
+  },
+  "settings.account.two-factor.setup.manual-secret": {
+    "message": "Если код не сканируется, введите ключ вручную:"
+  },
+  "settings.account.two-factor.setup.scan": {
+    "message": "Отсканируйте QR‑код через <authy-link>Authy</authy-link>, <microsoft-authenticator-link>Microsoft Authenticator</microsoft-authenticator-link> или любое другое приложение для генерации кодов, чтобы начать настройку."
+  },
+  "settings.account.two-factor.verify.description": {
+    "message": "Введите одноразовый код подтверждения из приложения."
+  },
+  "settings.account.two-factor.verify.label": {
+    "message": "Код подтверждения"
+  },
+  "settings.applications.about": {
+    "message": "Сведения"
+  },
+  "settings.applications.button.add-more": {
+    "message": "Добавить ещё"
+  },
+  "settings.applications.button.add-redirect-uri": {
+    "message": "Добавить адрес перенаправления"
+  },
+  "settings.applications.button.cancel": {
+    "message": "Отмена"
+  },
+  "settings.applications.button.create": {
+    "message": "Создать приложение"
+  },
+  "settings.applications.button.delete": {
+    "message": "Удалить"
+  },
+  "settings.applications.button.edit": {
+    "message": "Изменить"
+  },
+  "settings.applications.button.new": {
+    "message": "Новое приложение"
+  },
+  "settings.applications.button.save-changes": {
+    "message": "Сохранить изменения"
+  },
+  "settings.applications.button.upload-icon": {
+    "message": "Загрузить иконку"
+  },
+  "settings.applications.client-id": {
+    "message": "Client ID"
+  },
+  "settings.applications.client-secret": {
+    "message": "Client Secret"
+  },
+  "settings.applications.created-on": {
+    "message": "Создано {date}"
+  },
+  "settings.applications.delete.confirm.button": {
+    "message": "Удалить это приложение"
+  },
+  "settings.applications.delete.confirm.description": {
+    "message": "Это приложение и все его токены доступа будут удалены навсегда. (безвозвратно!)"
+  },
+  "settings.applications.delete.confirm.title": {
+    "message": "Вы действительно хотите удалить это приложение?"
+  },
+  "settings.applications.description.intro": {
+    "message": "Через приложения пользователи Icarus могут входить в ваши сервисы. Подробнее — в <docs-link>документации</docs-link>."
+  },
+  "settings.applications.field.description": {
+    "message": "Описание"
+  },
+  "settings.applications.field.description.placeholder": {
+    "message": "Введите описание приложения..."
+  },
+  "settings.applications.field.icon": {
+    "message": "Иконка"
+  },
+  "settings.applications.field.name": {
+    "message": "Название"
+  },
+  "settings.applications.field.name.placeholder": {
+    "message": "Введите название приложения..."
+  },
+  "settings.applications.field.redirect-uri.placeholder": {
+    "message": "https://example.com/auth/callback"
+  },
+  "settings.applications.field.redirect-uris": {
+    "message": "Адреса перенаправления"
+  },
+  "settings.applications.field.scopes": {
+    "message": "Разрешения"
+  },
+  "settings.applications.field.url": {
+    "message": "URL"
+  },
+  "settings.applications.field.url.placeholder": {
+    "message": "https://example.com"
+  },
+  "settings.applications.head-title": {
+    "message": "Приложения"
+  },
+  "settings.applications.modal.header": {
+    "message": "Информация о приложении"
+  },
+  "settings.applications.notification.icon-updated.description": {
+    "message": "Иконка приложения обновлена."
+  },
+  "settings.applications.notification.icon-updated.title": {
+    "message": "Иконка обновлена"
+  },
+  "settings.applications.secret.disclaimer": {
+    "message": "Сохраните секретный ключ. Он исчезнет после выхода со страницы!"
+  },
+  "settings.authorizations.about-this-app": {
+    "message": "О приложении"
+  },
+  "settings.authorizations.by": {
+    "message": "от"
+  },
+  "settings.authorizations.description": {
+    "message": "Авторизованные приложения получают доступ к аккаунту Icarus. Здесь можно просматривать и отзывать этот доступ."
+  },
+  "settings.authorizations.empty-state": {
+    "message": "Список приложений временно недоступен. Мы работаем над исправлением — загляните сюда позже."
+  },
+  "settings.authorizations.head-title": {
+    "message": "Авторизации"
+  },
+  "settings.authorizations.revoke.action": {
+    "message": "Деавторизовать"
+  },
+  "settings.authorizations.revoke.confirm.description": {
+    "message": "Доступ приложения к аккаунту будет отозван. При необходимости приложение можно авторизовать снова."
+  },
+  "settings.authorizations.revoke.confirm.title": {
+    "message": "Вы действительно хотите деавторизовать это приложение?"
+  },
+  "settings.billing.charges.description": {
+    "message": "Здесь перечислены все списания по аккаунту Icarus:"
+  },
+  "settings.billing.charges.product.medal-trial": {
+    "message": "Пробный сервер от Medal"
+  },
+  "settings.billing.charges.product.midas": {
+    "message": "Icarus Plus"
+  },
+  "settings.billing.charges.product.pyro": {
+    "message": "Icarus Hosting"
+  },
+  "settings.billing.charges.title": {
+    "message": "История списаний"
+  },
+  "settings.billing.expires": {
+    "message": "Истекает {date}"
+  },
+  "settings.billing.interval.month": {
+    "message": "месяц"
+  },
+  "settings.billing.interval.monthly": {
+    "message": "ежемесячно"
+  },
+  "settings.billing.interval.quarter": {
+    "message": "3 месяца"
+  },
+  "settings.billing.interval.quarterly.adjective": {
+    "message": "3 месяца"
+  },
+  "settings.billing.interval.year": {
+    "message": "год"
+  },
+  "settings.billing.interval.yearly": {
+    "message": "ежегодно"
+  },
+  "settings.billing.midas.benefits.ad-free": {
+    "message": "Отсутствие рекламы на сайте и в приложении"
+  },
+  "settings.billing.midas.benefits.badge": {
+    "message": "Значок Icarus+ в профиле"
+  },
+  "settings.billing.midas.benefits.support": {
+    "message": "Прямая поддержка Icarus и авторов"
+  },
+  "settings.billing.midas.benefits.title": {
+    "message": "Преимущества"
+  },
+  "settings.billing.midas.save-per-year": {
+    "message": "Ежегодная оплата сэкономит {amount} в год!"
+  },
+  "settings.billing.midas.status.cancelled.line1": {
+    "message": "Подписка отменена."
+  },
+  "settings.billing.midas.status.cancelled.line2": {
+    "message": "Её бонусы останутся до конца оплаченного периода."
+  },
+  "settings.billing.midas.status.failed": {
+    "message": "Платёж не прошёл. Обновите способ оплаты."
+  },
+  "settings.billing.midas.status.open": {
+    "message": "Подписка активна:"
+  },
+  "settings.billing.midas.status.processing": {
+    "message": "Платёж в обработке. Подписка активируется автоматически."
+  },
+  "settings.billing.midas.upsell": {
+    "message": "Оформите подписку на Icarus Plus!"
+  },
+  "settings.billing.modal.cancel.action": {
+    "message": "Отменить подписку"
+  },
+  "settings.billing.modal.cancel.description": {
+    "message": "Подписка будет отменена. Её бонусы останутся до конца оплаченного периода."
+  },
+  "settings.billing.modal.cancel.title": {
+    "message": "Вы действительно хотите отменить подписку?"
+  },
+  "settings.billing.modal.delete.action": {
+    "message": "Удалить этот способ оплаты"
+  },
+  "settings.billing.modal.delete.description": {
+    "message": "Этот способ оплаты будет удалён навсегда (буквально навсегда)."
+  },
+  "settings.billing.modal.delete.title": {
+    "message": "Вы действительно хотите удалить этот способ оплаты?"
+  },
+  "settings.billing.next": {
+    "message": "Далее:"
+  },
+  "settings.billing.or-yearly-save": {
+    "message": "Или {price} в год (экономия {percent}%)"
+  },
+  "settings.billing.payment_method.action.add": {
+    "message": "Добавить способ оплаты"
+  },
+  "settings.billing.payment_method.action.history": {
+    "message": "История списаний"
+  },
+  "settings.billing.payment_method.action.primary": {
+    "message": "Сделать основным"
+  },
+  "settings.billing.payment_method.card_expiry": {
+    "message": "До {month}/{year}"
+  },
+  "settings.billing.payment_method.none": {
+    "message": "Нет добавленных способов оплаты."
+  },
+  "settings.billing.payment_method.primary": {
+    "message": "Основной"
+  },
+  "settings.billing.payment_method.title": {
+    "message": "Способы оплаты"
+  },
+  "settings.billing.plan.title": {
+    "message": "{size} план"
+  },
+  "settings.billing.price.per-interval": {
+    "message": "{price} в {interval}"
+  },
+  "settings.billing.price.slash-interval": {
+    "message": "/{interval}"
+  },
+  "settings.billing.pyro.cpu": {
+    "message": "{shared, plural, one {# разделяемый} other {# разделяемых}} CPU (рост до {bursts} CPU)"
+  },
+  "settings.billing.pyro.linked-server.not-found": {
+    "message": "Привязанный сервер не найден. Возможных причин несколько: сервер куплен только что — подождите, подготовка занимает до часа; сервер куплен давно — вероятно, его уже приостановили. Если что‑то не так, свяжитесь с поддержкой Icarus, указав следующие данные:"
+  },
+  "settings.billing.pyro.linked-server.server-id": {
+    "message": "ID сервера: {id}"
+  },
+  "settings.billing.pyro.linked-server.stripe-id": {
+    "message": "ID Stripe: {id}"
+  },
+  "settings.billing.pyro.ram": {
+    "message": "{gb} ГБ ОЗУ"
+  },
+  "settings.billing.pyro.resubscribe.error.text": {
+    "message": "Произошла ошибка при возобновлении подписки на сервер Icarus."
+  },
+  "settings.billing.pyro.resubscribe.error.title": {
+    "message": "Не удалось возобновить подписку"
+  },
+  "settings.billing.pyro.resubscribe.request-submitted.text": {
+    "message": "Если сервер в данный момент отключен, настройка сервера может занять 10-15 минут."
+  },
+  "settings.billing.pyro.resubscribe.request-submitted.title": {
+    "message": "Подписка возобновляется"
+  },
+  "settings.billing.pyro.resubscribe.success.text": {
+    "message": "Подписка на сервер успешно возобновлена"
+  },
+  "settings.billing.pyro.status.failed": {
+    "message": "Платёж не прошёл. Обновите способ оплаты и возобновите подписку."
+  },
+  "settings.billing.pyro.status.processing": {
+    "message": "Платёж в обработке. Сервер активируется автоматически."
+  },
+  "settings.billing.pyro.storage": {
+    "message": "{gb} ГБ SSD"
+  },
+  "settings.billing.pyro.swap": {
+    "message": "{gb} ГБ подкачки"
+  },
+  "settings.billing.pyro_subscription.description": {
+    "message": "Управляйте своими подписками на Icarus Servers."
+  },
+  "settings.billing.pyro_subscription.title": {
+    "message": "Подписки на Icarus Servers"
+  },
+  "settings.billing.renews": {
+    "message": "Продлится {date}"
+  },
+  "settings.billing.resubscribe": {
+    "message": "Возобновить подписку"
+  },
+  "settings.billing.since": {
+    "message": "Действует с {date}"
+  },
+  "settings.billing.subscribe": {
+    "message": "Подписаться"
+  },
+  "settings.billing.subscription.description": {
+    "message": "Управляйте своими подписками на Icarus."
+  },
+  "settings.billing.subscription.title": {
+    "message": "Подписки"
+  },
+  "settings.billing.switch.switching-to-interval": {
+    "message": "Переход на {interval, select, ежемесячно {месяц} ежегодно {год} other {{interval}}}"
+  },
+  "settings.billing.switch.to-interval": {
+    "message": "Перейти на {interval, select, ежемесячно {месяц} ежегодно {год} other {{interval}}}"
+  },
+  "settings.billing.switch.tooltip.monthly-additional-per-year": {
+    "message": "Ежемесячная оплата обойдётся на {amount} в год дороже"
+  },
+  "settings.billing.switches-to-billing-on": {
+    "message": "{interval, select, ежемесячно {Ежемесячная оплата} ежегодно {Ежегодная оплата} 3 месяца {Оплата раз в 3 месяца} other {{interval} оплата}} с {date}"
+  },
+  "settings.billing.update-method": {
+    "message": "Обновить способ"
+  },
+  "settings.billing.upgrade": {
+    "message": "Улучшить"
+  },
+  "settings.display.banner.developer-mode.button": {
+    "message": "Отключить режим разработчика"
+  },
+  "settings.display.banner.developer-mode.description": {
+    "message": "<strong>Режим разработчика</strong> включён. Отображаются внутренние идентификаторы различных элементов сайта, что удобно при работе с API. Чтобы отключить, снова нажмите на логотип Icarus внизу страницы 5 раз."
+  },
+  "settings.display.flags.description": {
+    "message": "Настройте отдельные функции на этом устройстве."
+  },
+  "settings.display.flags.title": {
+    "message": "Настройка функций"
+  },
+  "settings.display.notification.developer-mode-deactivated.text": {
+    "message": "Режим разработчика больше не активен"
+  },
+  "settings.display.notification.developer-mode-deactivated.title": {
+    "message": "Режим разработчика отключён"
+  },
+  "settings.display.project-list-layouts.datapack": {
+    "message": "Страница наборов данных"
+  },
+  "settings.display.project-list-layouts.description": {
+    "message": "Выберите вид для каждой страницы с проектами на этом устройстве."
+  },
+  "settings.display.project-list-layouts.mod": {
+    "message": "Страница модов"
+  },
+  "settings.display.project-list-layouts.mode.gallery": {
+    "message": "Галерея"
+  },
+  "settings.display.project-list-layouts.mode.grid": {
+    "message": "Сетка"
+  },
+  "settings.display.project-list-layouts.mode.rows": {
+    "message": "Список"
+  },
+  "settings.display.project-list-layouts.modpack": {
+    "message": "Страница сборок"
+  },
+  "settings.display.project-list-layouts.plugin": {
+    "message": "Страница плагинов"
+  },
+  "settings.display.project-list-layouts.resourcepack": {
+    "message": "Страница наборов ресурсов"
+  },
+  "settings.display.project-list-layouts.server": {
+    "message": "Страница серверов"
+  },
+  "settings.display.project-list-layouts.shader": {
+    "message": "Страница шейдеров"
+  },
+  "settings.display.project-list-layouts.title": {
+    "message": "Вид проектов"
+  },
+  "settings.display.project-list-layouts.user": {
+    "message": "Страницы пользователей"
+  },
+  "settings.display.project-list.layouts.collection": {
+    "message": "Коллекция"
+  },
+  "settings.display.sidebar.advanced-rendering.description": {
+    "message": "Включает продвинутые эффекты вроде размытия. Возможно снижение производительности на устройствах без аппаратного ускорения."
+  },
+  "settings.display.sidebar.advanced-rendering.title": {
+    "message": "Расширенные эффекты"
+  },
+  "settings.display.sidebar.external-links-new-tab.description": {
+    "message": "Ссылки за пределы Icarus будут открываться в новой вкладке. Исключения: ссылки внутри домена и в Markdown — всегда в той же вкладке; реклама и страницы редактирования — всегда в новой."
+  },
+  "settings.display.sidebar.external-links-new-tab.title": {
+    "message": "Внешние ссылки в новой вкладке"
+  },
+  "settings.display.sidebar.hide-app-promos.description": {
+    "message": "Убирает кнопку «Скачать Icarus Launcher» с поисковых страниц. Ссылку на раздел с Icarus Launcher всё ещё можно найти на главной странице или в нижней части интерфейса."
+  },
+  "settings.display.sidebar.hide-app-promos.title": {
+    "message": "Скрывать кнопку скачивания Icarus Launcher"
+  },
+  "settings.display.sidebar.left-aligned-content-sidebar.title": {
+    "message": "Панель сведений слева"
+  },
+  "settings.display.sidebar.right-aligned-content-sidebar.description": {
+    "message": "Помещает панель сведений слева от содержимого страницы."
+  },
+  "settings.display.sidebar.right-aligned-filters-sidebar.description": {
+    "message": "Помещает панель фильтров справа от результатов поиска."
+  },
+  "settings.display.sidebar.right-aligned-filters-sidebar.title": {
+    "message": "Панель фильтров справа"
+  },
+  "settings.display.theme.description": {
+    "message": "Выберите тему для Icarus на этом устройстве."
+  },
+  "settings.display.theme.title": {
+    "message": "Тема"
+  },
+  "settings.head-title": {
+    "message": "Настройки отображения"
+  },
+  "settings.pats.action.create": {
+    "message": "Создать токен доступа"
+  },
+  "settings.pats.description": {
+    "message": "Токены доступа используются для обращения к API Icarus. Их можно создавать и отзывать в любое время. Подробнее — в <doc-link>документации</doc-link>."
+  },
+  "settings.pats.modal.create.action": {
+    "message": "Создать токен доступа"
+  },
+  "settings.pats.modal.create.expires.label": {
+    "message": "Истекает"
+  },
+  "settings.pats.modal.create.name.label": {
+    "message": "Название"
+  },
+  "settings.pats.modal.create.name.placeholder": {
+    "message": "Введите название токена..."
+  },
+  "settings.pats.modal.create.title": {
+    "message": "Создание личного токена доступа"
+  },
+  "settings.pats.modal.delete.action": {
+    "message": "Удалить этот токен"
+  },
+  "settings.pats.modal.delete.description": {
+    "message": "Этот токен будет удалён навсегда (буквально навсегда)."
+  },
+  "settings.pats.modal.delete.title": {
+    "message": "Вы действительно хотите удалить этот токен?"
+  },
+  "settings.pats.modal.edit.title": {
+    "message": "Изменение личного токена доступа"
+  },
+  "settings.pats.token.action.edit": {
+    "message": "Изменить токен"
+  },
+  "settings.pats.token.action.revoke": {
+    "message": "Отозвать токен"
+  },
+  "settings.pats.token.expired-ago": {
+    "message": "Истёк {ago}"
+  },
+  "settings.pats.token.expires-in": {
+    "message": "Истечёт {inTime}"
+  },
+  "settings.pats.token.last-used": {
+    "message": "Активность: {ago}"
+  },
+  "settings.pats.token.never-used": {
+    "message": "Не использовался"
+  },
+  "settings.profile.bio.description": {
+    "message": "Возможность кратко рассказать всем о себе."
+  },
+  "settings.profile.bio.title": {
+    "message": "О себе"
+  },
+  "settings.profile.description": {
+    "message": "Информация в вашем профиле доступна публично на Icarus и через <docs-link>API Icarus</docs-link>."
+  },
+  "settings.profile.head-title": {
+    "message": "Настройки профиля"
+  },
+  "settings.profile.profile-info": {
+    "message": "Информация в профиле"
+  },
+  "settings.profile.profile-picture.title": {
+    "message": "Изображение профиля"
+  },
+  "settings.profile.username.description": {
+    "message": "Уникальное имя для идентификации профиля. Регистр не имеет значения."
+  },
+  "settings.sessions.action.revoke-session": {
+    "message": "Завершить сеанс"
+  },
+  "settings.sessions.created-ago": {
+    "message": "Начат {ago}"
+  },
+  "settings.sessions.current-session": {
+    "message": "Текущий сеанс"
+  },
+  "settings.sessions.description": {
+    "message": "Ниже представлены все устройства, с которых осуществлён вход в вашу учётную запись Icarus. Вы можете управлять сеансом каждого из них по отдельности.\n\nЕсли среди них присутствует незнакомое устройство, незамедлительно завершите его сеанс и смените пароль своей учётной записи."
+  },
+  "settings.sessions.last-accessed-ago": {
+    "message": "Активность {ago}"
+  },
+  "settings.sessions.unknown-os": {
+    "message": "Неизвестная ОС"
+  },
+  "settings.sessions.unknown-platform": {
+    "message": "Неизвестная платформа"
+  },
+  "settings.sidebar.label.account": {
+    "message": "Аккаунт"
+  },
+  "settings.sidebar.label.developer": {
+    "message": "Разработка"
+  },
+  "settings.sidebar.label.display": {
+    "message": "Отображение"
+  },
+  "ui.latest-news-row.latest-news": {
+    "message": "Последние новости от Icarus"
+  },
+  "ui.latest-news-row.view-all": {
+    "message": "Посмотреть все новости"
+  },
+  "ui.newsletter-button.subscribe": {
+    "message": "Подписаться"
+  },
+  "ui.newsletter-button.subscribed": {
+    "message": "Вы подписаны!"
+  },
+  "ui.newsletter-button.tooltip": {
+    "message": "Подписаться на рассылку от Icarus"
+  },
+  "version.environment.none.description": {
+    "message": "Среда для этой версии не указана."
+  },
+  "version.environment.none.title": {
+    "message": "Среда не задана"
+  },
+  "version.environment.unknown.description": {
+    "message": "Не удалось распознать среду «{environment}»."
+  },
+  "version.environment.unknown.title": {
+    "message": "Неизвестная среда"
+  }
+}
+

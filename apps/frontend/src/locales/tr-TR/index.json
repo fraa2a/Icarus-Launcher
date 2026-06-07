@@ -1,0 +1,3447 @@
+{
+  "action.cancel": {
+    "message": "İptal"
+  },
+  "action.continue": {
+    "message": "Devam"
+  },
+  "admin.billing.error.not-found": {
+    "message": "Kullanıcı bulunamadı"
+  },
+  "app-marketing.download.description": {
+    "message": "Masaüstü uygulamamız tüm platformlarda kullanılabilir, istediğiniz sürümü seçin."
+  },
+  "app-marketing.download.download-appimage": {
+    "message": "AppImage'i indir"
+  },
+  "app-marketing.download.download-beta": {
+    "message": "Betayı indir"
+  },
+  "app-marketing.download.download-deb": {
+    "message": "DEB'i indir"
+  },
+  "app-marketing.download.download-rpm": {
+    "message": "RPM'i indir"
+  },
+  "app-marketing.download.flathub": {
+    "message": "Flathub'dan alın"
+  },
+  "app-marketing.download.linux": {
+    "message": "Linux"
+  },
+  "app-marketing.download.linux-disclaimer": {
+    "message": "Icarus Launcher'in Linux sürümleri bazı sistemlerde <issues-link>sorunlu olabilir</issues-link>. Icarus Launcher sisteminizde stabil değilse, <prism-link>Prism Launcher</prism-link> gibi başka uygulamalarla Icarus içeriklerini indirmenizi tavsiye ediyoruz."
+  },
+  "app-marketing.download.mac": {
+    "message": "Mac"
+  },
+  "app-marketing.download.options-title": {
+    "message": "İndirme seçenekleri"
+  },
+  "app-marketing.download.terms": {
+    "message": "Icarus Uygulamasını indirerek <terms-link>Kullanım Şartları</terms-link> ve <privacy-link>Gizlilik Politikamızı</privacy-link> kabul etmiş olursunuz"
+  },
+  "app-marketing.download.title": {
+    "message": "Icarus Launcher'i İndir (Beta)"
+  },
+  "app-marketing.download.windows": {
+    "message": "Windows"
+  },
+  "app-marketing.features.follow.description": {
+    "message": "Sevdiğiniz içerikleri kaydedin ve tek tuşla ilgili haberleri alın."
+  },
+  "app-marketing.features.follow.title": {
+    "message": "Proje takibi"
+  },
+  "app-marketing.features.importing.description": {
+    "message": "Sevdiğin profilleri önceden kullandığın başlatıcıdan buraya aktar, saniyeler içinde Icarus Launcher'i kullanmaya başla!"
+  },
+  "app-marketing.features.importing.gdlauncher-alt": {
+    "message": "GDLauncher"
+  },
+  "app-marketing.features.importing.multimc-alt": {
+    "message": "MultiMC"
+  },
+  "app-marketing.features.importing.title": {
+    "message": "Profil aktarma"
+  },
+  "app-marketing.features.mod-management.actions": {
+    "message": "Eylemler"
+  },
+  "app-marketing.features.mod-management.byAuthor": {
+    "message": "{author} tarafından"
+  },
+  "app-marketing.features.mod-management.description": {
+    "message": "Icarus tüm modlarınızı bir yerde toplayıp yönetmenizi kolaylaştırır. Tek tuşla mod kurabilir, silebilir ve güncelleyebilirsiniz."
+  },
+  "app-marketing.features.mod-management.installed-mods": {
+    "message": "Yüklü modlar"
+  },
+  "app-marketing.features.mod-management.name": {
+    "message": "Ad"
+  },
+  "app-marketing.features.mod-management.search-mods": {
+    "message": "Mod ara"
+  },
+  "app-marketing.features.mod-management.title": {
+    "message": "Mod yönetimi"
+  },
+  "app-marketing.features.mod-management.version": {
+    "message": "Sürüm"
+  },
+  "app-marketing.features.offline.description": {
+    "message": "İnternete bağlı kalmadan modlarınızla oynayın."
+  },
+  "app-marketing.features.offline.title": {
+    "message": "Çevrim dışı mod"
+  },
+  "app-marketing.features.open-source.description": {
+    "message": "Icarus'in başlatıcısı tamamen açık kaynak kodludur. <github-link>GitHub</github-link> sayfamızda kaynak kodunu inceleyebilirsin!"
+  },
+  "app-marketing.features.open-source.title": {
+    "message": "Açık kaynak"
+  },
+  "app-marketing.features.performance.activity-monitor": {
+    "message": "Aktivite monitörü"
+  },
+  "app-marketing.features.performance.cpu-percent": {
+    "message": "% CPU"
+  },
+  "app-marketing.features.performance.description": {
+    "message": "Icarus Uygulaması, yalnızca 150 MB RAM kullanarak birçok önde gelen mod yöneticisinden daha iyi performans gösterir!"
+  },
+  "app-marketing.features.performance.discord": {
+    "message": "Discord"
+  },
+  "app-marketing.features.performance.good-performance": {
+    "message": "Good performance"
+  },
+  "app-marketing.features.performance.google-chrome": {
+    "message": "Google Chrome"
+  },
+  "app-marketing.features.performance.infinite-mb": {
+    "message": "∞ MB"
+  },
+  "app-marketing.features.performance.infinite-times-infinite-mb": {
+    "message": "∞ * ∞ MB"
+  },
+  "app-marketing.features.performance.less-than-150mb": {
+    "message": "< 150 MB"
+  },
+  "app-marketing.features.performance.Icarus-app": {
+    "message": "Icarus Launcher"
+  },
+  "app-marketing.features.performance.one-billion-percent": {
+    "message": "% 1 milyar"
+  },
+  "app-marketing.features.performance.process-name": {
+    "message": "İşlem adı"
+  },
+  "app-marketing.features.performance.ram": {
+    "message": "RAM"
+  },
+  "app-marketing.features.performance.small": {
+    "message": "Küçük"
+  },
+  "app-marketing.features.performance.title": {
+    "message": "Verimli"
+  },
+  "app-marketing.features.play.description": {
+    "message": "Icarus Launcher ile favori mod ve mod paketlerinizi indirin ve oynayın."
+  },
+  "app-marketing.features.play.title": {
+    "message": "Favori modlarınız ile oynayın"
+  },
+  "app-marketing.features.sharing.description": {
+    "message": "Icarus'teki herhangi binlerce mod ile mod paketi oluşturun, paylaşın ve oynayın."
+  },
+  "app-marketing.features.sharing.modpack": {
+    "message": "Mod Paketi"
+  },
+  "app-marketing.features.sharing.share-button": {
+    "message": "Paylaş"
+  },
+  "app-marketing.features.sharing.title": {
+    "message": "Mod paketi paylaş"
+  },
+  "app-marketing.features.unlike-any-launcher": {
+    "message": "Daha önce kullandığınız"
+  },
+  "app-marketing.features.website.description": {
+    "message": "Icarus Launcher, web sitesi ile tamamem bağlantılı, yani uygulamadan favori projelerinizin tamamına erişebilirsiniz!"
+  },
+  "app-marketing.features.website.title": {
+    "message": "Website entegrasyonu"
+  },
+  "app-marketing.features.youve-used-before": {
+    "message": "hiç bir başlatıcıya benzemez"
+  },
+  "app-marketing.hero.app-screenshot-alt": {
+    "message": "Cobblemon kurulumunun ‘İçerik’ sayfasında olduğu Icarus Launcher ekran görüntüsü."
+  },
+  "app-marketing.hero.description": {
+    "message": "Icarus Launcher, favori modlarınızı güncel şekilde oynayabileceğiniz özgün ve açık kaynaklı bir başlatıcıdır."
+  },
+  "app-marketing.hero.download-button": {
+    "message": "Icarus Launcher İndir"
+  },
+  "app-marketing.hero.download-Icarus-app": {
+    "message": "Icarus Launcher İndir"
+  },
+  "app-marketing.hero.download-Icarus-app-for-os": {
+    "message": "{os} için Icarus Launcher İndir"
+  },
+  "app-marketing.hero.minecraft-screenshot-alt": {
+    "message": "Cobblemon kurulumunun ana menü ekranının ekran görüntüsü."
+  },
+  "app-marketing.hero.more-download-options": {
+    "message": "Diğer İndirme Seçenekleri"
+  },
+  "app-marketing.hide-other-packages": {
+    "message": "Diğer paketleri gizle"
+  },
+  "app-marketing.not-recommended": {
+    "message": "Bunu ne yaptığını bilmeden kullanmanı önermiyoruz."
+  },
+  "app-marketing.show-other-packages": {
+    "message": "Başka paketleri göster"
+  },
+  "auth.authorize.action.authorize": {
+    "message": "Yetkilendir"
+  },
+  "auth.authorize.action.decline": {
+    "message": "Reddet"
+  },
+  "auth.authorize.app-info": {
+    "message": "<strong>{appName}</strong> (<creator-link>{creator}</creator-link>) şunu yapabilecek:"
+  },
+  "auth.authorize.authorize-app-name": {
+    "message": "{appName} uygulamasını yetkilendir"
+  },
+  "auth.authorize.error.no-redirect-url": {
+    "message": "Yanıtta yönlendirme konumu bulunamadı"
+  },
+  "auth.authorize.redirect-url": {
+    "message": "<redirect-url>{url}</redirect-url> adresine yönlendirileceksiniz"
+  },
+  "auth.reset-password.method-choice.action": {
+    "message": "Kurtarma e-postası gönder"
+  },
+  "auth.reset-password.method-choice.description": {
+    "message": "E-postanızı aşağıya girin, hesabınızı kurtarmanıza izin verecek bir kurtarma bağlantısı göndereceğiz."
+  },
+  "auth.reset-password.notification.email-sent.text": {
+    "message": "Girilen e-posta adresi geçerli bir hesaba kayıtlıysa parola sıfırlama talimatların bulunduğu bir e-posta gönderilecektir."
+  },
+  "auth.reset-password.notification.email-sent.title": {
+    "message": "E-posta gönderildi"
+  },
+  "auth.reset-password.notification.password-reset.text": {
+    "message": "Yeni parolanızla artık hesabınıza giriş yapabilirsiniz."
+  },
+  "auth.reset-password.notification.password-reset.title": {
+    "message": "Parola başarıyla sıfırlandı"
+  },
+  "auth.reset-password.post-challenge.action": {
+    "message": "Parolayı sıfırla"
+  },
+  "auth.reset-password.post-challenge.confirm-password.label": {
+    "message": "Parolayı onayla"
+  },
+  "auth.reset-password.post-challenge.description": {
+    "message": "Hesabınıza tekrar erişebilmek için aşağıya yeni parolanızı girin."
+  },
+  "auth.reset-password.title": {
+    "message": "Parolayı Sıfırla"
+  },
+  "auth.reset-password.title.long": {
+    "message": "Parolanızı sıfırlayın"
+  },
+  "auth.sign-in.2fa.description": {
+    "message": "Lütfen devam etmek için bir çift aşamalı kod girin."
+  },
+  "auth.sign-in.2fa.label": {
+    "message": "Çift aşamalı kodu girin"
+  },
+  "auth.sign-in.2fa.placeholder": {
+    "message": "Kodu girin..."
+  },
+  "auth.sign-in.additional-options": {
+    "message": "<forgot-password-link>Parolanızı mı unuttunuz?</forgot-password-link> • <create-account-link>Yeni hesap oluştur</create-account-link>"
+  },
+  "auth.sign-in.sign-in-with": {
+    "message": "Şununla giriş yap"
+  },
+  "auth.sign-in.title": {
+    "message": "Giriş Yap"
+  },
+  "auth.sign-in.use-password": {
+    "message": "Veya parola kullanın"
+  },
+  "auth.sign-up.action.create-account": {
+    "message": "Hesap oluştur"
+  },
+  "auth.sign-up.legal-dislaimer": {
+    "message": "Bir hesap oluşturarak, Icarus'in <terms-link>Kurallar</terms-link> ve <privacy-policy-link>Gizlilik İlkeleri </privacy-policy-link>'ni kabul etmiş bulunursunuz."
+  },
+  "auth.sign-up.notification.password-mismatch.text": {
+    "message": "Parolalar uyuşmuyor!"
+  },
+  "auth.sign-up.sign-in-option.title": {
+    "message": "Zaten bir hesabınız var mı?"
+  },
+  "auth.sign-up.subscribe.label": {
+    "message": "Icarus hakkında güncellemelere abone ol"
+  },
+  "auth.sign-up.title": {
+    "message": "Kaydol"
+  },
+  "auth.sign-up.title.create-account": {
+    "message": "Veya kendiniz hesap oluşturun"
+  },
+  "auth.sign-up.title.sign-up-with": {
+    "message": "Şunlarla giriş yapın"
+  },
+  "auth.verify-email.action.account-settings": {
+    "message": "Hesap ayarları"
+  },
+  "auth.verify-email.already-verified.description": {
+    "message": "E-postan zaten doğrulanmış!"
+  },
+  "auth.verify-email.already-verified.title": {
+    "message": "E-posta zaten doğrulanmış"
+  },
+  "auth.verify-email.failed-verification.action": {
+    "message": "Doğrulama e-postasını yeniden gönder"
+  },
+  "auth.verify-email.failed-verification.description": {
+    "message": "E-postanızı doğrulayamadık. Doğrulama e-postasını panelinizin üzerinden giriş yaparak yeniden yollamayı deneyin."
+  },
+  "auth.verify-email.failed-verification.description.logged-in": {
+    "message": "E-postanızı doğrulayamadık. Doğrulama e-postasını aşağıdaki tuşla yeniden göndermeyi deneyin."
+  },
+  "auth.verify-email.failed-verification.title": {
+    "message": "E-posta doğrulaması başarısız"
+  },
+  "auth.verify-email.post-verification.description": {
+    "message": "E-posta adresiniz başarıyla doğrulandı!"
+  },
+  "auth.verify-email.post-verification.title": {
+    "message": "E-posta doğrulaması"
+  },
+  "auth.verify-email.title": {
+    "message": "E-postayı Doğrula"
+  },
+  "auth.welcome.checkbox.subscribe": {
+    "message": "Icarus'le ilgili güncellemelere abone ol"
+  },
+  "auth.welcome.description": {
+    "message": "Artık inanılmaz modlar yapan, indiren ve geride kalmayan yaratıcıların ve kaşiflerin havalı topluluğunun bir parçasısın."
+  },
+  "auth.welcome.label.tos": {
+    "message": "Bir hesap oluşturarak, Icarus'in <terms-link>Şartlar</terms-link>'ını ve <privacy-policy-link>Gizlilik İlkeleri</privacy-policy-link>'ni kabul etmiş sayılırsınız."
+  },
+  "auth.welcome.long-title": {
+    "message": "Icarus'e hoş geldiniz!"
+  },
+  "auth.welcome.title": {
+    "message": "Hoş geldiniz"
+  },
+  "collection.button.edit-icon": {
+    "message": "Simgeyi düzenle"
+  },
+  "collection.button.remove-icon": {
+    "message": "Simgeyi kaldır"
+  },
+  "collection.button.remove-project": {
+    "message": "Projeyi kaldır"
+  },
+  "collection.button.replace-icon": {
+    "message": "Simgeyi değiştir"
+  },
+  "collection.button.select-icon": {
+    "message": "Simge seç"
+  },
+  "collection.button.unfollow-project": {
+    "message": "Projeyi takip etmeyi bırak"
+  },
+  "collection.delete-modal.description": {
+    "message": "Bu, bu koleksiyonu kalıcı olarak silecektir. Bu işlem geri alınamaz."
+  },
+  "collection.delete-modal.title": {
+    "message": "Bu koleksiyonu silmek istediğinizden emin misiniz?"
+  },
+  "collection.description": {
+    "message": "{description} - Icarus'te {username} tarafından oluşturulan {name} koleksiyonunu göster"
+  },
+  "collection.description.following": {
+    "message": "Takip ettiğin projelerden oluşturulmuş otomatik koleksiyon."
+  },
+  "collection.editing": {
+    "message": "Koleksiyon düzenleniyor"
+  },
+  "collection.error.not-found": {
+    "message": "Koleksiyon bulunamadı"
+  },
+  "collection.label.created-at": {
+    "message": "{ago} tarihinde yaratıldı"
+  },
+  "collection.label.curated-by": {
+    "message": "Hazırlayan"
+  },
+  "collection.label.no-projects": {
+    "message": "Koleksiyonda henüz proje yok"
+  },
+  "collection.label.projects-count": {
+    "message": "{count, plural, =0 {Henüz proje yok} other {<stat>{count}</stat> {type}}}"
+  },
+  "collection.label.updated-at": {
+    "message": "{ago} güncellendi"
+  },
+  "collection.return-link.dashboard-collections": {
+    "message": "Koleksiyonların"
+  },
+  "collection.return-link.user": {
+    "message": "{user} kullanıcı profili"
+  },
+  "collection.title": {
+    "message": "{name} - Koleksiyon"
+  },
+  "create-project-version.create-modal.stage.add-files.admonition": {
+    "message": "Ek dosyalar, alternatif sürümler veya varyantlar için değil, kaynak kodu gibi destekleyici kaynaklar içindir."
+  },
+  "create.collection.collection-info": {
+    "message": "Yeni koleksiyonunuz herkese açık olarak {count, plural, =0 {projesiz hâlde} other {# proje ile}} oluşturulacaktır."
+  },
+  "create.collection.create-collection": {
+    "message": "Koleksiyon oluştur"
+  },
+  "create.collection.name-label": {
+    "message": "İsim"
+  },
+  "create.collection.name-placeholder": {
+    "message": "Koleksiyonun adını girin..."
+  },
+  "create.collection.summary-description": {
+    "message": "Koleksiyonunuzu anlatan bir iki cümle."
+  },
+  "create.collection.summary-label": {
+    "message": "Özet"
+  },
+  "create.collection.summary-placeholder": {
+    "message": "Bu koleksiyonun içeriği..."
+  },
+  "create.collection.title": {
+    "message": "Koleksiyon oluştur"
+  },
+  "create.limit-alert.approaching-limit": {
+    "message": "{type} limitine yaklaşılıyor ({current}/{max})"
+  },
+  "create.limit-alert.approaching-limit-description": {
+    "message": "{type} limitine ulaşmak üzeresiniz, {max}'den fazla {typePlural} ihtiyacınız varsa lütfen destekle iletişime geçin."
+  },
+  "create.limit-alert.contact-support": {
+    "message": "Destekle iletişime geçin"
+  },
+  "create.limit-alert.limit-reached": {
+    "message": "{type} limitine ulaşıldı"
+  },
+  "create.limit-alert.limit-reached-description": {
+    "message": "Maksimum {max} olan {type} limitini aşdınız. Limitinizi arttırmak için lütfen destekle iletişime geçin."
+  },
+  "create.limit-alert.type-collection": {
+    "message": "koleksiyon"
+  },
+  "create.limit-alert.type-organization": {
+    "message": "organizasyon"
+  },
+  "create.limit-alert.type-plural-collection": {
+    "message": "koleksiyonlar"
+  },
+  "create.limit-alert.type-plural-organization": {
+    "message": "organizasyonlar"
+  },
+  "create.limit-alert.type-plural-project": {
+    "message": "projeler"
+  },
+  "create.limit-alert.type-project": {
+    "message": "proje"
+  },
+  "create.organization.create-organization": {
+    "message": "Organizasyon oluştur"
+  },
+  "create.organization.name-label": {
+    "message": "İsim"
+  },
+  "create.organization.name-placeholder": {
+    "message": "Organizasyonun ismini girin..."
+  },
+  "create.organization.ownership-info": {
+    "message": "Siz bu organizasyonun sahibi olacaksınız fakat dilediğiniz zaman diğer üyeleri davet edebilir ve sahibliğinizi devredebilirsiniz."
+  },
+  "create.organization.summary-description": {
+    "message": "Organizasyonunuzu anlatan bir iki cümle."
+  },
+  "create.organization.summary-label": {
+    "message": "Özet"
+  },
+  "create.organization.summary-placeholder": {
+    "message": "Organizasyonun amacı..."
+  },
+  "create.organization.title": {
+    "message": "Bir organizasyon oluştur"
+  },
+  "create.organization.url-label": {
+    "message": "URL"
+  },
+  "create.project.create-project": {
+    "message": "Proje oluştur"
+  },
+  "create.project.missing-fields-tooltip": {
+    "message": "Eksik alanlar:{fields}"
+  },
+  "create.project.name-label": {
+    "message": "İsim"
+  },
+  "create.project.name-placeholder": {
+    "message": "Projenin ismini girin..."
+  },
+  "create.project.owner-description": {
+    "message": "Proje sahibini kendin ya da üyesi olduğun bir organizasyon olarak ayarla."
+  },
+  "create.project.owner-label": {
+    "message": "Sahip"
+  },
+  "create.project.server-project-title": {
+    "message": "Sunucu Projesi oluştur"
+  },
+  "create.project.summary-description": {
+    "message": "Projenizi anlatan bir iki cümle."
+  },
+  "create.project.summary-label": {
+    "message": "Özet"
+  },
+  "create.project.summary-placeholder": {
+    "message": "Bu projenin ekledikleri..."
+  },
+  "create.project.title": {
+    "message": "Proje oluştur"
+  },
+  "create.project.type-label": {
+    "message": "Tür"
+  },
+  "create.project.type-project": {
+    "message": "Proje"
+  },
+  "create.project.type-server": {
+    "message": "Sunucu"
+  },
+  "create.project.url-label": {
+    "message": "URL"
+  },
+  "create.project.visibility-description": {
+    "message": "Projenizin onaylandıktan sonraki görünürlük ayarı."
+  },
+  "create.project.visibility-private": {
+    "message": "Gizli"
+  },
+  "create.project.visibility-public": {
+    "message": "Herkese Açık"
+  },
+  "create.project.visibility-unlisted": {
+    "message": "Liste dışı"
+  },
+  "dashboard.affiliate-links.create.button": {
+    "message": "Ortaklık bağlantısı oluştur"
+  },
+  "dashboard.affiliate-links.error.title": {
+    "message": "Ortaklık bağlantıları yüklenemedi"
+  },
+  "dashboard.affiliate-links.header": {
+    "message": "Ortaklık bağlantıların"
+  },
+  "dashboard.affiliate-links.revoke-confirm.body": {
+    "message": "Bu işlem `{id}` ortaklık kodunu kalıcı olarak iptal edecek ve bu kodla paylaşılmış mevcut bağlantıların hiçbiri artık geçerli olmayacaktır."
+  },
+  "dashboard.affiliate-links.revoke-confirm.button": {
+    "message": "İptal et"
+  },
+  "dashboard.affiliate-links.revoke-confirm.title": {
+    "message": "''{title}'' ortaklık bağlantınızı iptal etmek istediğinizden emin misiniz?"
+  },
+  "dashboard.affiliate-links.search": {
+    "message": "Ortaklık bağlantılarını ara..."
+  },
+  "dashboard.collections.button.create-new": {
+    "message": "Yeni oluştur"
+  },
+  "dashboard.collections.empty.get-started-hint": {
+    "message": "Başlamak için ilk koleksiyonunu oluştur!"
+  },
+  "dashboard.collections.empty.no-collections": {
+    "message": "Henüz koleksiyonun yok"
+  },
+  "dashboard.collections.empty.no-match": {
+    "message": "Aramanızla eşleşen koleksiyon yok"
+  },
+  "dashboard.collections.empty.no-match-hint": {
+    "message": "Filtrelerinizi veya arama terimlerinizi değiştirmeyi deneyin."
+  },
+  "dashboard.collections.label.projects-count": {
+    "message": "{count} {countPlural, plural, one {proje} other {projeler}}"
+  },
+  "dashboard.collections.label.search-input": {
+    "message": "Koleksiyonlarında ara"
+  },
+  "dashboard.collections.long-title": {
+    "message": "Koleksiyonların"
+  },
+  "dashboard.creator-tax-form-modal.confirmation.download-button": {
+    "message": "{formType} İndirin"
+  },
+  "dashboard.creator-tax-form-modal.confirmation.success": {
+    "message": "{formType} vergi formunuz başarıyla gönderildi!"
+  },
+  "dashboard.creator-tax-form-modal.confirmation.support-text": {
+    "message": "Artık özgürce çekim yapabilirsiniz. Sorunuz varsa veya bilgilerinizi güncellemeniz gerekiyorsa <support-link>desteğe başvurun</support-link>."
+  },
+  "dashboard.creator-tax-form-modal.confirmation.title": {
+    "message": "Hazırsınız! 🎉"
+  },
+  "dashboard.creator-tax-form-modal.entity.description": {
+    "message": "Yabancı kuruluş, Amerika Birleşik Devletleri dışında kurulmuş bir ticari kuruluş (örneğin, ABD dışı şirket, ortaklık veya LLC) anlamına gelir."
+  },
+  "dashboard.creator-tax-form-modal.entity.foreign-entity": {
+    "message": "Yabancı kuruluş"
+  },
+  "dashboard.creator-tax-form-modal.entity.private-individual": {
+    "message": "Özel şahıs"
+  },
+  "dashboard.creator-tax-form-modal.entity.question": {
+    "message": "Özel şahıs mısınız yoksa yabancı bir kuruluşun parçası mısınız?"
+  },
+  "dashboard.creator-tax-form-modal.header": {
+    "message": "Vergi formu"
+  },
+  "dashboard.creator-tax-form-modal.security.description": {
+    "message": "Icarus, vergi formlarınızı güvenli bir şekilde toplamak ve saklamak için üçüncü taraf sağlayıcı Track1099'u kullanır. <security-link>Buradan daha fazla bilgi edinebilirsiniz.</security-link>"
+  },
+  "dashboard.creator-tax-form-modal.security.header": {
+    "message": "Güvenlik uygulamaları"
+  },
+  "dashboard.creator-tax-form-modal.us-citizen.question": {
+    "message": "ABD vatandaşı mısınız?"
+  },
+  "dashboard.creator-withdraw-modal.complete-tax-form": {
+    "message": "Vergi formunu tamamla"
+  },
+  "dashboard.creator-withdraw-modal.continue-with-limit": {
+    "message": "Limit ile devam et"
+  },
+  "dashboard.creator-withdraw-modal.details-label": {
+    "message": "Detaylar"
+  },
+  "dashboard.creator-withdraw-modal.fee-breakdown-amount": {
+    "message": "Miktar"
+  },
+  "dashboard.creator-withdraw-modal.fee-breakdown-exchange-rate": {
+    "message": "Döviz kuru"
+  },
+  "dashboard.creator-withdraw-modal.fee-breakdown-fee": {
+    "message": "Ek Ücret"
+  },
+  "dashboard.creator-withdraw-modal.fee-breakdown-gift-card-value": {
+    "message": "Hediye kartı değeri"
+  },
+  "dashboard.creator-withdraw-modal.fee-breakdown-net-amount": {
+    "message": "Net miktar"
+  },
+  "dashboard.creator-withdraw-modal.fee-breakdown-usd-equivalent": {
+    "message": "USD karşılığı"
+  },
+  "dashboard.creator-withdraw-modal.kyc.business-entity": {
+    "message": "İşletme kuruluşu"
+  },
+  "dashboard.creator-withdraw-modal.kyc.entity-description": {
+    "message": "İşletme kuruluşu, şirket, ortaklık veya LLC gibi kayıtlı bir organizasyonu ifade eder."
+  },
+  "dashboard.creator-withdraw-modal.kyc.entity-question": {
+    "message": "Bireysel olarak mı yoksa işletme olarak mı çekim yapıyorsunuz?"
+  },
+  "dashboard.creator-withdraw-modal.kyc.private-individual": {
+    "message": "Özel şahıs"
+  },
+  "dashboard.creator-withdraw-modal.method-selection.country-placeholder": {
+    "message": "Ülkenizi seçin"
+  },
+  "dashboard.creator-withdraw-modal.method-selection.country-search-placeholder": {
+    "message": "Ülke ara..."
+  },
+  "dashboard.creator-withdraw-modal.method-selection.error-text": {
+    "message": "Ödeme yöntemleri yüklenemedi. Lütfen daha sonra tekrar deneyin."
+  },
+  "dashboard.creator-withdraw-modal.method-selection.error-title": {
+    "message": "Ödeme yöntemleri yüklenemedi"
+  },
+  "dashboard.creator-withdraw-modal.method-selection.region": {
+    "message": "Bölge"
+  },
+  "dashboard.creator-withdraw-modal.method-selection.region-tooltip": {
+    "message": "Bazı ödeme yöntemleri bazı bölgelerde mevcut değil."
+  },
+  "dashboard.creator-withdraw-modal.method-selection.select-method": {
+    "message": "Çekme yönteminizi seçin"
+  },
+  "dashboard.creator-withdraw-modal.method-selection.tax-limit-warning": {
+    "message": "Çekme limitiniz <b>{amount}</b>, daha fazla çekmek için <tax-link>vergi formu gerekir</tax-link>."
+  },
+  "dashboard.creator-withdraw-modal.muralpay-details.account-owner": {
+    "message": "Hesap sahibi"
+  },
+  "dashboard.creator-withdraw-modal.muralpay-details.bank-account-owner": {
+    "message": "Banka hesabı sahibi"
+  },
+  "dashboard.creator-withdraw-modal.muralpay-details.bank-account-owner-description": {
+    "message": "İşletme adına bu banka hesabını kullanmaya yetkili kişinin adını girin."
+  },
+  "dashboard.creator-withdraw-modal.muralpay-details.coin": {
+    "message": "Coin"
+  },
+  "dashboard.creator-withdraw-modal.muralpay-details.crypto-warning-header": {
+    "message": "Cüzdan adresinizi onaylayın"
+  },
+  "dashboard.creator-withdraw-modal.muralpay-details.document-number-national-id": {
+    "message": "Ulusal kimlik numarası"
+  },
+  "dashboard.creator-withdraw-modal.muralpay-details.document-number-national-id-placeholder": {
+    "message": "Ulusal kimlik numaranızı giriniz"
+  },
+  "dashboard.creator-withdraw-modal.muralpay-details.document-number-passport": {
+    "message": "Pasaport numarası"
+  },
+  "dashboard.creator-withdraw-modal.muralpay-details.document-number-passport-placeholder": {
+    "message": "Pasaport numaranızı giriniz"
+  },
+  "dashboard.creator-withdraw-modal.muralpay-details.document-number-resident-id": {
+    "message": "Kimlik numarası"
+  },
+  "dashboard.creator-withdraw-modal.muralpay-details.document-number-resident-id-placeholder": {
+    "message": "Kimlik numarasını girin"
+  },
+  "dashboard.creator-withdraw-modal.muralpay-details.document-number-ruc": {
+    "message": "RUC numarası"
+  },
+  "dashboard.creator-withdraw-modal.muralpay-details.document-number-ruc-placeholder": {
+    "message": "RUC numaranızı giriniz"
+  },
+  "dashboard.creator-withdraw-modal.muralpay-details.document-number-tax-id": {
+    "message": "Vergi numarası"
+  },
+  "dashboard.creator-withdraw-modal.muralpay-details.document-number-tax-id-placeholder": {
+    "message": "Vergi numarası giriniz"
+  },
+  "dashboard.creator-withdraw-modal.muralpay-details.network": {
+    "message": "Ağ"
+  },
+  "dashboard.creator-withdraw-modal.nearing-threshold": {
+    "message": "Çekme limitine ulaşıyorsunuz. Şu anda daha <b>{amountRemaining}</b> çekebilirsiniz, fakat daha fazlası vergi formu gerektirir."
+  },
+  "dashboard.creator-withdraw-modal.paypal-details.account": {
+    "message": "Hesap"
+  },
+  "dashboard.creator-withdraw-modal.paypal-details.disconnect-account": {
+    "message": "Hesabı kopar"
+  },
+  "dashboard.creator-withdraw-modal.paypal-details.payment-method": {
+    "message": "Ödeme yöntemi"
+  },
+  "dashboard.creator-withdraw-modal.paypal-details.paypal-account": {
+    "message": "PayPal hesabı"
+  },
+  "dashboard.creator-withdraw-modal.paypal-details.paypal-auth-description": {
+    "message": "Ödemeleri doğrudan almak için PayPal hesabınızı bağlayın."
+  },
+  "dashboard.creator-withdraw-modal.paypal-details.save-success": {
+    "message": "Venmo kullanıcı adı başarıyla kaydedildi!"
+  },
+  "dashboard.creator-withdraw-modal.paypal-details.sign-in-with-paypal": {
+    "message": "PayPal ile giriş yap"
+  },
+  "dashboard.creator-withdraw-modal.paypal-details.venmo-description": {
+    "message": "Ödeme almak için Venmo kullanıcı adınızı girin."
+  },
+  "dashboard.creator-withdraw-modal.paypal-details.venmo-handle": {
+    "message": "Venmo kullanıcı adı"
+  },
+  "dashboard.creator-withdraw-modal.paypal-details.venmo-handle-placeholder": {
+    "message": "@kullanıcıadı"
+  },
+  "dashboard.creator-withdraw-modal.stage.completion": {
+    "message": "Tamamla"
+  },
+  "dashboard.creator-withdraw-modal.stage.method-selection": {
+    "message": "Yöntem"
+  },
+  "dashboard.creator-withdraw-modal.stage.tax-form": {
+    "message": "Vergi formu"
+  },
+  "dashboard.creator-withdraw-modal.tax-form-required.body": {
+    "message": "Mevcut <b>{available}</b> bakiyenizin tamamını çekmek için aşağıdaki formu doldurun. Bu vergi raporlaması için gereklidir ve sadece bir kez yapılması yeterlidir."
+  },
+  "dashboard.creator-withdraw-modal.tax-form-required.body-with-limit": {
+    "message": "Vergi düzenlemelerine uygun kalmamız için Icarus'in vergi kayıtları için W-9 veya W-8 formunu doldurmanız gerekir."
+  },
+  "dashboard.creator-withdraw-modal.tax-form-required.header": {
+    "message": "Vergi formu gerekli"
+  },
+  "dashboard.creator-withdraw-modal.tremendous-details.available-denominations-label": {
+    "message": "Mevcut değerler"
+  },
+  "dashboard.creator-withdraw-modal.tremendous-details.balance-worth-hint": {
+    "message": "{usdBalance} bakiyenizin şu anki değeri {localBalance}."
+  },
+  "dashboard.creator-withdraw-modal.tremendous-details.enter-amount-hint": {
+    "message": "Bu değere yakın hediye kartlarını bul."
+  },
+  "dashboard.creator-withdraw-modal.tremendous-details.enter-denomination-placeholder": {
+    "message": "Miktar giriniz"
+  },
+  "dashboard.creator-withdraw-modal.tremendous-details.payment-method": {
+    "message": "Ödeme Yöntemi"
+  },
+  "dashboard.creator-withdraw-modal.tremendous-details.reward": {
+    "message": "Ödül"
+  },
+  "dashboard.creator-withdraw-modal.tremendous-details.reward-placeholder": {
+    "message": "Ödül seç"
+  },
+  "dashboard.creator-withdraw-modal.tremendous-details.reward-plural": {
+    "message": "Ödüller"
+  },
+  "dashboard.creator-withdraw-modal.tremendous-details.search-amount-label": {
+    "message": "Miktar arayın"
+  },
+  "dashboard.creator-withdraw-modal.tremendous-details.select-denomination-hint": {
+    "message": "Birim seçin:"
+  },
+  "dashboard.creator-withdraw-modal.tremendous-details.select-denomination-required": {
+    "message": "Devam etmek için lütfen bir birim seçiniz"
+  },
+  "dashboard.creator-withdraw-modal.tremendous-details.unverified-email-header": {
+    "message": "Doğrulanmamış E-posta"
+  },
+  "dashboard.creator-withdraw-modal.tremendous-details.unverified-email-message": {
+    "message": "Girdiğiniz teslimat e-postası Icarus hesabınızla ilişkili değil. Icarus yanlış e-posta adresine gönderilen ödülleri kurtaramaz."
+  },
+  "dashboard.creator-withdraw-modal.tremendous-details.usd-paypal-warning-header": {
+    "message": "Daha düşük ücretler mevcut"
+  },
+  "dashboard.creator-withdraw-modal.tremendous-details.usd-paypal-warning-message": {
+    "message": "PayPal International için USD seçtiniz. Daha iyi ücretler için <direct-paypal-link>doğrudan PayPal'a geçin</direct-paypal-link> (≈%6 yerine ≈%2)."
+  },
+  "dashboard.creator-withdraw-modal.withdraw-button": {
+    "message": "Para Çek"
+  },
+  "dashboard.creator-withdraw-modal.withdraw-limit": {
+    "message": "Para Çekme limiti"
+  },
+  "dashboard.creator-withdraw-modal.withdraw-limit-used": {
+    "message": "<b>{withdrawLimit}</b> çekme limitinizi kadarını kullandınız. Daha fazla çekmek için vergi formunu gerekir."
+  },
+  "dashboard.revenue.available-now": {
+    "message": "Şu anda mevcut"
+  },
+  "dashboard.revenue.balance": {
+    "message": "Bakiye"
+  },
+  "dashboard.revenue.estimated-tooltip.msg1": {
+    "message": "Tahmini gelir, kullanılabilir hale gelene kadar değişikliğe tabi olabilir."
+  },
+  "dashboard.revenue.estimated-tooltip.msg2": {
+    "message": "Icarus'in gelirinizi nasıl işlediği hakkında bilgi almak için tıklayın."
+  },
+  "dashboard.revenue.estimated-with-date": {
+    "message": "Tahminen {date}"
+  },
+  "dashboard.revenue.processing": {
+    "message": "İşleniyor"
+  },
+  "dashboard.revenue.processing.tooltip": {
+    "message": "Gelir ay sonuna kadar işlemde kalır, ardından 60 gün sonra kullanılabilir hale gelir."
+  },
+  "dashboard.revenue.stats.received": {
+    "message": "Alındı"
+  },
+  "dashboard.revenue.stats.transactions": {
+    "message": "İşlemler"
+  },
+  "dashboard.revenue.stats.withdrawn": {
+    "message": "Çekilen"
+  },
+  "dashboard.revenue.tos": {
+    "message": "Icarus'e proje yükleyerek ve hesabınızdan para çekerek <terms-link>Ödül Programı Şartlarımızı</terms-link> kabul etmiş olursunuz. <info-link>Ödül Programı</info-link> hakkında daha fazla bilgi edinin."
+  },
+  "dashboard.revenue.transactions.btn.download-csv": {
+    "message": "CSV olarak indir"
+  },
+  "dashboard.revenue.transactions.header": {
+    "message": "İşlemler"
+  },
+  "dashboard.revenue.transactions.none": {
+    "message": "İşlem bulunamadı"
+  },
+  "dashboard.revenue.transactions.none.desc": {
+    "message": "Ödeme ve para çekimleriniz burada görünür."
+  },
+  "dashboard.revenue.transactions.see-all": {
+    "message": "Hepsini göster"
+  },
+  "dashboard.revenue.withdraw.blocked-tin-mismatch": {
+    "message": "TIN veya SSN numaranız IRS kayıtlarıyla eşleşmediği için para çekme işlemleriniz geçici olarak engellendi. Vergi formunuzu sıfırlamak ve yeniden göndermek için destekle iletişime geçin."
+  },
+  "dashboard.revenue.withdraw.card.description": {
+    "message": "Mevcut bakiyenizden herhangi bir ödeme yöntemine para çekin."
+  },
+  "dashboard.revenue.withdraw.card.title": {
+    "message": "Para Çek"
+  },
+  "dashboard.revenue.withdraw.header": {
+    "message": "Para Çek"
+  },
+  "dashboard.withdraw.completion.account": {
+    "message": "Hesap"
+  },
+  "dashboard.withdraw.completion.amount": {
+    "message": "Miktar"
+  },
+  "dashboard.withdraw.completion.date": {
+    "message": "Tarih"
+  },
+  "dashboard.withdraw.completion.email-confirmation": {
+    "message": "<b>{email}</b> adresinde çekiminizi tamamlamanız için gerekli talimatları içeren bir e-posta alıcaksınız."
+  },
+  "dashboard.withdraw.completion.exchange-rate": {
+    "message": "Döviz kuru"
+  },
+  "dashboard.withdraw.completion.fee": {
+    "message": "Ücret"
+  },
+  "dashboard.withdraw.completion.method": {
+    "message": "Yöntem"
+  },
+  "dashboard.withdraw.completion.net-amount": {
+    "message": "Net miktar"
+  },
+  "dashboard.withdraw.completion.recipient": {
+    "message": "Alıcı"
+  },
+  "dashboard.withdraw.completion.title": {
+    "message": "Çekme tamamlandı"
+  },
+  "dashboard.withdraw.completion.transactions-button": {
+    "message": "İşlemler"
+  },
+  "dashboard.withdraw.completion.wallet": {
+    "message": "Cüzdan"
+  },
+  "dashboard.withdraw.error.account-not-linked.text": {
+    "message": "Lütfen çekim yapmadan önce ödeme hesabınızı bağlayın."
+  },
+  "dashboard.withdraw.error.account-not-linked.title": {
+    "message": "Hesap bağlı değil"
+  },
+  "dashboard.withdraw.error.email-verification.text": {
+    "message": "Çekim yapmadan önce e-postanızı doğrulamanız gerekir."
+  },
+  "dashboard.withdraw.error.email-verification.title": {
+    "message": "E-posta doğrulaması gerekiyor"
+  },
+  "dashboard.withdraw.error.generic.text": {
+    "message": "Çekim talebinizi gönderemedik, lütfen detaylarınızı kontrol edin veya desteğe ulaşın.\n{error}"
+  },
+  "dashboard.withdraw.error.generic.title": {
+    "message": "Çekilemiyor"
+  },
+  "dashboard.withdraw.error.insufficient-balance.text": {
+    "message": "Bu çekimi gerçekleştirmek için yeterli miktarınız yok."
+  },
+  "dashboard.withdraw.error.insufficient-balance.title": {
+    "message": "Yetersiz bakiye"
+  },
+  "dashboard.withdraw.error.invalid-address.text": {
+    "message": "Verdiğiniz adres doğrulanamadı. Lütfen adres bilgilerinizi kontrol edin."
+  },
+  "dashboard.withdraw.error.invalid-address.title": {
+    "message": "Adres doğrulama başarısız"
+  },
+  "dashboard.withdraw.error.invalid-bank.text": {
+    "message": "Verdiğiniz banka hesap bilgileri geçersiz. Lütfen bilgilerinizi doğrulayın."
+  },
+  "dashboard.withdraw.error.invalid-bank.title": {
+    "message": "Geçersiz banka bilgileri"
+  },
+  "dashboard.withdraw.error.invalid-wallet.text": {
+    "message": "Verdiğiniz kripto cüzdan adresi geçersiz. Lütfen tekrar kontrol edin ve deneyin."
+  },
+  "dashboard.withdraw.error.invalid-wallet.title": {
+    "message": "Geçersiz cüzdan adresi"
+  },
+  "dashboard.withdraw.error.minimum-not-met.text": {
+    "message": "Para çekme tutarı (ücretler sonrası) minimum gereksinimi karşılamıyor. Lütfen para çekme tutarınızı artırın."
+  },
+  "dashboard.withdraw.error.minimum-not-met.title": {
+    "message": "Miktar çok düşük"
+  },
+  "dashboard.withdraw.error.paypal-country-mismatch.text": {
+    "message": "Lütfen bölgeniz için doğru PayPal transfer seçeneğini kullanın (ABD veya Uluslararası)."
+  },
+  "dashboard.withdraw.error.paypal-country-mismatch.title": {
+    "message": "PayPal bölgesi eşleşmiyor"
+  },
+  "dashboard.withdraw.error.tax-form.text": {
+    "message": "Çekme talebi için vergi formu doldurmanız gerekir."
+  },
+  "dashboard.withdraw.error.tax-form.title": {
+    "message": "Lütfen vergi formunu tamamlayınız"
+  },
+  "error.collection.404.list_item.1": {
+    "message": "Koleksiyonun URL'ini yanlış yazmış olabilirsin."
+  },
+  "error.collection.404.list_item.2": {
+    "message": "Koleksiyon gizli olabilir."
+  },
+  "error.collection.404.list_item.3": {
+    "message": "Koleksiyon Icarus'in moderasyon ekibi tarafından <tou-link>Kullanım Koşullarımızı</tou-link> ihlal ettiği için kaldırılmış olabilir."
+  },
+  "error.collection.404.list_title": {
+    "message": "Neden?"
+  },
+  "error.collection.404.title": {
+    "message": "Koleksiyon bulunamadı"
+  },
+  "error.generic.404.subtitle": {
+    "message": "Aradığın sayfa yokmuş gibi duruyor."
+  },
+  "error.generic.404.title": {
+    "message": "Sayfa bulunamadı"
+  },
+  "error.generic.451.subtitle": {
+    "message": "Bu sayfa, devlet sansürü veya süren yasal işlemlerden dolayı engellendi."
+  },
+  "error.generic.451.title": {
+    "message": "Bu içerik, yasal nedenlerden dolayı erişilemez"
+  },
+  "error.generic.default.list_item.1": {
+    "message": "<status-link>Durum sayfamızdan</status-link> Icarus'in çöküp çökmediğini kontrol edin."
+  },
+  "error.generic.default.list_item.2": {
+    "message": "Bu yaşanmaya devam ederse Icarus Ekibini <discord-link>Discord sunucumuza</discord-link> katılarak bilgilendirmek isteyebilirsin."
+  },
+  "error.generic.default.list_title": {
+    "message": "Lütfen bir kaç dakika içinde tekrar dene."
+  },
+  "error.generic.default.subtitle": {
+    "message": "Bir şey ters gitti."
+  },
+  "error.generic.default.title": {
+    "message": "Hay aksi!"
+  },
+  "error.organization.404.list_item.1": {
+    "message": "Organizasyonun URL'ini yanlış yazmış olabilirsin."
+  },
+  "error.organization.404.list_item.2": {
+    "message": "Organizasyonun sahibi URL'i değiştirmiş veya silmiş olabilir."
+  },
+  "error.organization.404.list_item.3": {
+    "message": "Organizasyon Icarus'in moderasyon ekibi tarafından <tou-link>Kullanım Koşullarımızı</tou-link> ihlal ettiği için kaldırılmış olabilir."
+  },
+  "error.organization.404.list_title": {
+    "message": "Neden?"
+  },
+  "error.organization.404.title": {
+    "message": "Organizasyon bulunamadı"
+  },
+  "error.project.404.list_item.1": {
+    "message": "Projenin URL'ini yanlış yazmış olabilirsin."
+  },
+  "error.project.404.list_item.2": {
+    "message": "Projenin sahibi URL'i değiştirmiş, projeyi gizlemiş veya silmiş olabilir."
+  },
+  "error.project.404.list_item.3": {
+    "message": "Proje Icarus'in moderasyon ekibi tarafından <tou-link>Kullanım Koşullarımızı</tou-link> ihlal ettiği için kaldırılmış olabilir."
+  },
+  "error.project.404.list_title": {
+    "message": "Neden?"
+  },
+  "error.project.404.title": {
+    "message": "Proje bulunamadı"
+  },
+  "error.user.404.list_item.1": {
+    "message": "Kullanıcının ismini yanlış yazmış olabilirsin."
+  },
+  "error.user.404.list_item.2": {
+    "message": "Kullanıcı, adını değiştirmiş veya hesabını silmiş olabilir."
+  },
+  "error.user.404.list_item.3": {
+    "message": "Kullanıcının hesabı Icarus'in <tou-link>Kullanım Koşullarını</tou-link> ihlal ettiği için kaldırılmış olabilir."
+  },
+  "error.user.404.list_title": {
+    "message": "Neden?"
+  },
+  "error.user.404.title": {
+    "message": "Kullanıcı bulunamadı"
+  },
+  "frog": {
+    "message": "Kurbağalandın! 🐸"
+  },
+  "frog.altText": {
+    "message": "Bir kurbağa labirentinin fotogerçekçi bir çizimi"
+  },
+  "frog.title": {
+    "message": "Kurbağa"
+  },
+  "hosting-marketing.available-locations": {
+    "message": "Kuzey Amerika, Avrupa ve Güneydoğu Asya'da mevcut."
+  },
+  "hosting-marketing.billing.monthly": {
+    "message": "Aylık Ödeme"
+  },
+  "hosting-marketing.billing.quarterly": {
+    "message": "3 Aylık Ödeme"
+  },
+  "hosting-marketing.billing.save-with-quarterly": {
+    "message": "3 aylık ödeme ile 16% indirim alın!"
+  },
+  "hosting-marketing.billing.starting-at": {
+    "message": "{price} / ay'dan başlayan fiyatlarla"
+  },
+  "hosting-marketing.billing.yearly": {
+    "message": "Yıllık ödeme"
+  },
+  "hosting-marketing.faq.burst-threads": {
+    "message": "İşlemci seri iş parçacıkları nasıl çalışır?"
+  },
+  "hosting-marketing.faq.burst-threads.answer": {
+    "message": "Sunucunuz yoğun yük altında olduğunda, gecikme artışlarını ve kararsızlığı azaltmak için geçici olarak ek işlemci iş parçacığı erişimi sağlıyoruz. Bu, TPS'nin 20'nin altına düşmesini önleyerek mümkün olan en sorunsuz deneyimi sağlar. Bu ek işlemci iş parçacıkları yalnızca yüksek yük dönemlerinde kısa süreliğine kullanılabilir olduğundan, Spark raporlarında veya diğer profil oluşturma araçlarında görünmeyebilir."
+  },
+  "hosting-marketing.faq.cpu-kind": {
+    "message": "Icarus Hosting sunucuları ne tür işlemcilerle çalışır?"
+  },
+  "hosting-marketing.faq.cpu-kind.answer": {
+    "message": "Icarus Hosting sunucuları, 5+ GHz hızında AMD Ryzen 7900 ve 7950X3D eşdeğer işlemciler ve DDR5 bellek ile çalışır."
+  },
+  "hosting-marketing.faq.currency": {
+    "message": "Fiyatlar hangi para birimindedir?"
+  },
+  "hosting-marketing.faq.currency.answer": {
+    "message": "Tüm fiyatlar Dolar (USD) birimindedir."
+  },
+  "hosting-marketing.faq.ddos-protection": {
+    "message": "Icarus Hosting sunucularında DDoS koruması var mı?"
+  },
+  "hosting-marketing.faq.ddos-protection.answer": {
+    "message": "Evet. Tüm Icarus Hosting sunucuları DDoS korumasıyla gelir ve bazı konumlarda 17 Tbps’e kadar kapasiteye sahiptir."
+  },
+  "hosting-marketing.faq.heading": {
+    "message": "Sıkça Sorulan Sorular"
+  },
+  "hosting-marketing.faq.how-fast": {
+    "message": "Icarus Hosting sunucuları ne kadar hızlı?"
+  },
+  "hosting-marketing.faq.how-fast.answer.one": {
+    "message": "Icarus Hosting sunucuları çok modern ve yüksek performanslı donanımlar kullanmaktadır. Ancak bunun sunucunuzun çalışma hızına tam olarak nasıl yansıyacağını söylemek zordur, çünkü bunu etkileyen birçok faktör vardır, örneğin sunucunuzda çalıştırdığınız modlar, veri paketleri, eklentiler veya kullanıcı davranışları gibi."
+  },
+  "hosting-marketing.faq.how-fast.answer.two": {
+    "message": "Ortaya çıkan performans sorunlarının çoğu, sunucunun gecikmesine neden olan optimize edilmemiş bir mod paketi, mod, veri paketi veya eklentinin hatasından kaynaklanmaktadır. Sunucularımız çok yüksek kaliteli olduğundan, sunucuda çalıştırdığınız içerik için uygun bir plan seçtiğiniz sürece çok fazla sorun yaşamazsınız."
+  },
+  "hosting-marketing.faq.increase-storage": {
+    "message": "Sunucumun depolamasını arttırabilir miyim?"
+  },
+  "hosting-marketing.faq.increase-storage.answer": {
+    "message": "Evet, sunucunuzdaki depolama alanı ek ücret ödemeden artırılabilir. Daha fazla depolama alanına ihtiyacınız varsa Icarus Destek ekibiyle iletişime geçin."
+  },
+  "hosting-marketing.faq.location": {
+    "message": "Icarus Hosting sunucuları nerede bulunuyor? Bölge seçebilir miyim?"
+  },
+  "hosting-marketing.faq.location.answer": {
+    "message": "Şu anda Kuzey Amerika, Avrupa ve Güneydoğu Asya'da satın alabileceğiniz sunucularımız bulunmaktadır. Gelecekte daha fazla bölge eklenecektir! Bölgenizi değiştirmek isterseniz, lütfen destek ekibiyle iletişime geçin."
+  },
+  "hosting-marketing.faq.versions-loaders": {
+    "message": "Hangi Minecraft sürümleri ve yükleyiciler kullanılabilir?"
+  },
+  "hosting-marketing.faq.versions-loaders.answer.one": {
+    "message": "Icarus Hosting sunucuları, snapshot sürümleri de dahil olmak üzere 1.2.5 sürümüne kadar geriye giden Minecraft: Java Edition'ın tüm sürümlerini çalıştırabilir."
+  },
+  "hosting-marketing.faq.versions-loaders.answer.two": {
+    "message": "Ayrıca, modlar için Fabric, Quilt, Forge ve NeoForge, eklentiler için Paper ve Purpur dahil olmak üzere birçok mod ve eklenti yükleyicilerini destekliyoruz. Kullanılabilirlik, mod veya eklenti yükleyicisinin seçilen Minecraft sürümünü destekleyip desteklemediğine bağlıdır."
+  },
+  "hosting-marketing.get-started": {
+    "message": "Başlayın"
+  },
+  "hosting-marketing.hero.button.manage-your-servers": {
+    "message": "Sunucularınızı yönetin"
+  },
+  "hosting-marketing.hero.button.start-a-new-server": {
+    "message": "Yeni bir sunucu başlatın"
+  },
+  "hosting-marketing.hero.button.start-your-server": {
+    "message": "Sunucunuzu başlatın"
+  },
+  "hosting-marketing.hero.host-with-Icarus": {
+    "message": "Bir sonraki sunucunuzu Icarus Hosting ile açın"
+  },
+  "hosting-marketing.hero.hosting-description": {
+    "message": "Icarus Hosting, kendi Minecraft: Java Edition sunucunuzu açmanın en kolay yoludur. Icarus platformunda en sevdiğiniz modları ve mod paketlerini sorunsuz bir şekilde yükleyin ve oynayın."
+  },
+  "hosting-marketing.included.advanced-networking": {
+    "message": "Gelişmiş ağ yönetimi"
+  },
+  "hosting-marketing.included.advanced-networking.description": {
+    "message": "Sunucunuza kendi alan adınızı ekleyin, gerektiren modlar için 15 adede kadar bağlantı noktası ayırın ve daha fazlasını yapın."
+  },
+  "hosting-marketing.included.backups-included": {
+    "message": "Yedeklemeler dahil"
+  },
+  "hosting-marketing.included.backups-included.description": {
+    "message": "Her sunucu, güvenli bir şekilde saklanan 15 yedekleme ile birlikte gelir."
+  },
+  "hosting-marketing.included.custom-url": {
+    "message": "Özel URL"
+  },
+  "hosting-marketing.included.custom-url.description": {
+    "message": "Sunucunuzu özel bir <contrast>Icarus.gg</contrast> URL'si ile paylaşın."
+  },
+  "hosting-marketing.included.description": {
+    "message": "Her sunucuya, yalnızca Icarus'in sunabileceği bir deneyim sağlamak için tasarlanmış bir sürü özellik dahildir."
+  },
+  "hosting-marketing.included.file-manager": {
+    "message": "Kullanımı kolay dosya yöneticisi"
+  },
+  "hosting-marketing.included.file-manager.description": {
+    "message": "Dosyaları kolaylıkla arayın, yönetin, düzenleyin ve doğrudan sunucunuza yükleyin."
+  },
+  "hosting-marketing.included.heading": {
+    "message": "İhtiyacınız olan tüm özelliklere sahiptir."
+  },
+  "hosting-marketing.included.help": {
+    "message": "İhtiyacınız olduğunda yardım"
+  },
+  "hosting-marketing.included.help.description": {
+    "message": "Sunucunuzla ilgili yardım için Icarus ekibine istediğiniz zaman ulaşabilirsiniz."
+  },
+  "hosting-marketing.included.powerful-console": {
+    "message": "Güçlü bir konsol, sunucu özellikleri yöneticisi ve daha fazlası"
+  },
+  "hosting-marketing.included.powerful-console.description": {
+    "message": "Icarus Hosting, sunucunuzu yönetmek için güçlü araçlar sunar."
+  },
+  "hosting-marketing.included.sftp-access": {
+    "message": "Güvenli Dosya Aktarım Protokolü erişimi"
+  },
+  "hosting-marketing.included.sftp-access.description": {
+    "message": "Icarus Hosting'de yerleşik Güvenli Dosya Aktarım Protokolü ile sunucunuzun dosyalarına doğrudan erişin."
+  },
+  "hosting-marketing.included.with-your-server": {
+    "message": "Sunucunuza dahildir"
+  },
+  "hosting-marketing.know-what-you-need": {
+    "message": "İhtiyacınız olan şeyi tam olarak biliyor musunuz?"
+  },
+  "hosting-marketing.medal.info": {
+    "message": "5 gün boyunca <orange>Medal</orange> tarafından desteklenen ücretsiz bir <orange>3 GB sunucu</orange>yu deneyin"
+  },
+  "hosting-marketing.medal.learn-more": {
+    "message": "Daha fazla öğrenin"
+  },
+  "hosting-marketing.medal.text-secondary": {
+    "message": "Sınırlı süreli teklif. Kredi kartı gerekli değildir. ABD sunucuları için geçerlidir."
+  },
+  "hosting-marketing.pick-customized-plan": {
+    "message": "İhtiyacınız olan özelliklere sahip özelleştirilmiş bir plan seçin."
+  },
+  "hosting-marketing.server-for-everyone": {
+    "message": "Herkes için bir sunucu var"
+  },
+  "hosting-marketing.why.all-on-Icarus": {
+    "message": "Icarus ile her şeyi yönetin"
+  },
+  "hosting-marketing.why.all-on-Icarus.description": {
+    "message": "Sunucunuz, modlarınız, oyuncular ve daha fazlası Icarus'te. Platformlar arasında geçiş yapmanıza gerek yok."
+  },
+  "hosting-marketing.why.consistently-fast": {
+    "message": "Tutarlı şekilde hızlı"
+  },
+  "hosting-marketing.why.consistently-fast.description": {
+    "message": "Altyapımız asla aşırı yüklenmez, yani Icarus ile açılan her sunucu her zaman tam performansıyla çalışır."
+  },
+  "hosting-marketing.why.description": {
+    "message": "Icarus'teki binlerce mod paketinden seçin veya kendinizinkini kullanın. Oynamaya hazır olduğunuzda arkadaşlarınızı çağırın."
+  },
+  "hosting-marketing.why.heading": {
+    "message": "Mod paketi bulun sunucu olsun."
+  },
+  "hosting-marketing.why.modern-reliable-hosting": {
+    "message": "Modern ve güvenilir hosting deneyimleyin"
+  },
+  "hosting-marketing.why.modern-reliable-hosting.description": {
+    "message": "Icarus Hosting sunucuları, <contrast>DDR5 RAM ile yüksek-performans AMD İşlemcilerde</contrast> ve sunucunuzun düzgünce çalışmasını sağlamak için özel yapılmış yazılımda çalışır."
+  },
+  "hosting-marketing.why.where-mods-are": {
+    "message": "Modlarınızın olduğu yerde oynayın"
+  },
+  "hosting-marketing.why.where-mods-are.description": {
+    "message": "Icarus Hosting, mod ve mod paketi kurulum sürecini kesintisiz hale getirir."
+  },
+  "hosting-marketing.why.why-Icarus-hosting": {
+    "message": "Niye Icarus Hosting?"
+  },
+  "hosting-marketing.why.your-favorite-mods": {
+    "message": "Tüm favori modlarınız"
+  },
+  "hosting-marketing.why.your-favorite-mods.description": {
+    "message": "Vanilla, Fabric, Forge, Quilt ve NeoForge arasından seçin. Icarus'de varsa sunucunuzda çalışır."
+  },
+  "hosting.plan.out-of-stock": {
+    "message": "Stokta yok"
+  },
+  "hosting.plan.select-plan": {
+    "message": "Plan seç"
+  },
+  "landing.button.discover-mods": {
+    "message": "Modları keşfet"
+  },
+  "landing.button.go-to-dashboard": {
+    "message": "Panele git"
+  },
+  "landing.creator.feature.constantly-evolving.description": {
+    "message": "Icarus ekibinden sürekli güncellemelerle mümkün olan en iyi modlama deneyimini edinin."
+  },
+  "landing.creator.feature.constantly-evolving.title": {
+    "message": "Sürekli Gelişen"
+  },
+  "landing.creator.feature.data-statistics.description": {
+    "message": "Sayfa görüntülenmeleri, indirme sayısı ve hasılat üzerine detaylı raporlar elde edin."
+  },
+  "landing.creator.feature.data-statistics.title": {
+    "message": "Veriler ve İstatistikler"
+  },
+  "landing.creator.feature.discovery.description": {
+    "message": "Arama, ana sayfamız, Discord sunucumuz ve gelecek yollar üzerinden binlerce kullanıcı tarafından projenizin keşfedilmesini sağlayın!"
+  },
+  "landing.creator.feature.discovery.title": {
+    "message": "Keşif"
+  },
+  "landing.creator.feature.diverse-ecosystem.description": {
+    "message": "Siz yeni bir sürüm çıkarır çıkarmaz otomatik yüklemeler için Minotaur üzerinden yapım araçlanızı entegre edin."
+  },
+  "landing.creator.feature.diverse-ecosystem.title": {
+    "message": "Çeşitli Ekosistem"
+  },
+  "landing.creator.feature.monetization.description": {
+    "message": "Proje sayfalarınızdan reklam geliri elde edinin ve istediğiniz an çekim yapın"
+  },
+  "landing.creator.feature.monetization.title": {
+    "message": "Para Kazanma"
+  },
+  "landing.creator.feature.team-management.description": {
+    "message": "Kolaylıkla takım arkadaşlarınızı davet edin ve rol ve izinleri yönetin"
+  },
+  "landing.creator.feature.team-management.title": {
+    "message": "Takım Yönetimi"
+  },
+  "landing.error.failedToLoadRandomProjects": {
+    "message": "Rastgele proje yüklenemedi :("
+  },
+  "landing.feature.follow.description": {
+    "message": "Favori projeleriniz güncellendiğinde bildirilin ve geride kalmayın."
+  },
+  "landing.feature.follow.heading": {
+    "message": "Sevdiğiniz projeleri takip edin"
+  },
+  "landing.feature.launcher.description": {
+    "message": "Icarus'in açık-kaynak API'ı başlatıcıların Icarus ile tam bağlantı kurmasını sağlar. Icarus; <link>kendi uygulamamız</link> veya ATLauncher, MultiMC ve Prism Launcher gibi öne çıkan başlatıcılar aracığılıyla kullanılabilir."
+  },
+  "landing.feature.launcher.heading": {
+    "message": "Favori başlatıcınız ile oynayın"
+  },
+  "landing.feature.search.description": {
+    "message": "Icarus'in ışık hızı araması ve güçlü filtreleriyle istediğinizi bulun."
+  },
+  "landing.feature.search.heading": {
+    "message": "İstediğinizi kolay ve hızlıca bulun"
+  },
+  "landing.heading.the-place-for-minecraft": {
+    "message": "Minecraft {content} için bir numaralı yer"
+  },
+  "landing.heading.the-place-for-minecraft.data-packs": {
+    "message": "veri paketleri"
+  },
+  "landing.heading.the-place-for-minecraft.modpacks": {
+    "message": "mod paketleri"
+  },
+  "landing.heading.the-place-for-minecraft.mods": {
+    "message": "modları"
+  },
+  "landing.heading.the-place-for-minecraft.plugins": {
+    "message": "pluginleri"
+  },
+  "landing.heading.the-place-for-minecraft.resource-packs": {
+    "message": "kaynak paketleri"
+  },
+  "landing.heading.the-place-for-minecraft.servers": {
+    "message": "sunucuları"
+  },
+  "landing.heading.the-place-for-minecraft.shaders": {
+    "message": "shaderları"
+  },
+  "landing.launcher.atlauncher-label": {
+    "message": "ATLauncher"
+  },
+  "landing.launcher.graphic-alt": {
+    "message": "Basitleştirilmiş bir Minecraft penceresinin temsili, Mojang Studios logosu Icarus yeşilli."
+  },
+  "landing.launcher.Icarus-app-label": {
+    "message": "Icarus Launcher"
+  },
+  "landing.launcher.prism-launcher-label": {
+    "message": "Prism Launcher"
+  },
+  "landing.notifications.has-been-updated": {
+    "message": "{title} güncellendi!"
+  },
+  "landing.notifications.heading": {
+    "message": "Bildirimler"
+  },
+  "landing.notifications.received-time": {
+    "message": "{time} alındı"
+  },
+  "landing.notifications.version-released": {
+    "message": "{version} sürümü {gameVersion} için yayınlandı"
+  },
+  "landing.section.for-creators.description": {
+    "message": "İçeriklerinize çevrim içi bir yer verin ve büyük ilgili oyuncu kitleye ulaşın."
+  },
+  "landing.section.for-creators.label": {
+    "message": "Yapımcılar İçin"
+  },
+  "landing.section.for-creators.tagline": {
+    "message": "İçeriğinizi dünya ile paylaşın"
+  },
+  "landing.section.for-players.description": {
+    "message": "Büyülü biyomlardan lanetli zindanlara kadar, oyununu sonraki seviyeye taşıyacak içerikler bulacağından emin olabilirsin."
+  },
+  "landing.section.for-players.label": {
+    "message": "Oyuncular İçin"
+  },
+  "landing.section.for-players.tagline": {
+    "message": "{count}'un üzerinde içerik keşfedin"
+  },
+  "landing.subheading": {
+    "message": "Topluluk odaklı açık kaynak platformumuzda Minecraft içerikleri keşfedin, oynayın ve paylaşın."
+  },
+  "layout.action.change-theme": {
+    "message": "Tema değiştir"
+  },
+  "layout.action.create-new": {
+    "message": "Yeni oluştur..."
+  },
+  "layout.action.file-lookup": {
+    "message": "Dosya bulma"
+  },
+  "layout.action.lookup-by-email": {
+    "message": "E-posta ile arama"
+  },
+  "layout.action.manage-affiliates": {
+    "message": "Ortaklık linklerini yönet"
+  },
+  "layout.action.manage-server-notices": {
+    "message": "Sunucu bildirimlerini yönet"
+  },
+  "layout.action.new-collection": {
+    "message": "Yeni koleksiyon"
+  },
+  "layout.action.new-organization": {
+    "message": "Yeni organizasyon"
+  },
+  "layout.action.new-project": {
+    "message": "Yeni proje"
+  },
+  "layout.action.new-server-project": {
+    "message": "Yeni Sunucu"
+  },
+  "layout.action.publish": {
+    "message": "Yayınla"
+  },
+  "layout.action.reports": {
+    "message": "Raporları incele"
+  },
+  "layout.action.review-projects": {
+    "message": "Proje incelemesi"
+  },
+  "layout.action.tech-review": {
+    "message": "Teknoloji incelemesi"
+  },
+  "layout.avatar.alt": {
+    "message": "Avatarınız"
+  },
+  "layout.banner.account-action": {
+    "message": "Kullanıcı eylemi zorunlu"
+  },
+  "layout.banner.add-email.button": {
+    "message": "Hesap ayarlarını ziyaret et"
+  },
+  "layout.banner.add-email.description": {
+    "message": "Güvenlik sebebiyle Icarus hesabınıza bir e-posta adresi kaydetmeniz gerek."
+  },
+  "layout.banner.build-fail.description": {
+    "message": "Icarus'in önucunun bu dağıtımı API'den durum oluşturamadı. Bu bir kesintiden veya yapılandırmadaki bir hatadan kaynaklı olabilir. API mevcutken tekrar derleyin. Hata kodları: {errors}; şu anki API adresi: {url}"
+  },
+  "layout.banner.build-fail.title": {
+    "message": "Derleme esnasında API'den durum oluştururken hata."
+  },
+  "layout.banner.preview.description": {
+    "message": "Icarus'in resmi web sitesine erişmek istediyseniz, <link>https://Icarus.com</link> adresini ziyaret edin. Bu önizleme dağıtımı, Icarus yetkilileri tarafından test amaçlı kullanılmaktadır. <branch-link>{owner}/{branch}</branch-link> @ {commit} kullanılarak oluşturulmuştur."
+  },
+  "layout.banner.preview.title": {
+    "message": "Bu, Icarus web sitesinin önizleme dağıtımıdır."
+  },
+  "layout.banner.staging.description": {
+    "message": "Hazırlama ortamı, Icarus yapım veritabanından tamamen ayrıdır. Bu test ve hata ayıklama amaçları için kullanılır ve yapım profilinden daha yeni olan Icarus'in arka ucunun veya ön ucunun geliştirmekte olan sürümlerini çalıştırıyor olabilir. "
+  },
+  "layout.banner.staging.title": {
+    "message": "Icarus'in hazırlama ortamını görüntülüyorsunuz"
+  },
+  "layout.banner.subscription-payment-failed.button": {
+    "message": "Fatura bilgisini güncelle"
+  },
+  "layout.banner.subscription-payment-failed.description": {
+    "message": "Bir veya birden fazla abonelikler yenilenemedi. Lütfen erişiminizi kaybetmeyi engellemek için ödeme tercihinizi güncelleyin!"
+  },
+  "layout.banner.subscription-payment-failed.title": {
+    "message": "Fatura eylemi zorunlu."
+  },
+  "layout.banner.tax.action": {
+    "message": "Vergi formunu doldurun"
+  },
+  "layout.banner.tax.description": {
+    "message": "Bu yıl Icarus'ten {threshold} üzerinde çekim yaptınız. Vergi düzenlemelerine uymak için bir vergi formu doldurmanız gerekmektedir. Bu form teslim edilene kadar para çekme işlemleriniz durdurulmuştur."
+  },
+  "layout.banner.tax.title": {
+    "message": "Vergi formu gereklidir"
+  },
+  "layout.banner.tin-mismatch.action": {
+    "message": "Destekle iletişime geçin"
+  },
+  "layout.banner.tin-mismatch.description": {
+    "message": "Vergi kimlik numaranız (TIN) veya sosyal güvenlik numaranız (SSN) IRS kayıtlarıyla eşleşmediği için para çekme işlemleriniz geçici olarak kilitlenmiştir. Vergi formunuzu sıfırlamak ve yeniden göndermek için lütfen destek ekibiyle iletişime geçin."
+  },
+  "layout.banner.tin-mismatch.title": {
+    "message": "Vergi formu başarısız oldu"
+  },
+  "layout.banner.verify-email.action": {
+    "message": "Doğrulama e-postasını yeniden gönder"
+  },
+  "layout.banner.verify-email.description": {
+    "message": "Güvenlik sebebiyle Icarus hesabınızın e-posta adresini doğrulamanız gerek."
+  },
+  "layout.footer.about": {
+    "message": "Hakkında"
+  },
+  "layout.footer.about.careers": {
+    "message": "Kariyerler"
+  },
+  "layout.footer.about.changelog": {
+    "message": "Değişiklikler"
+  },
+  "layout.footer.about.news": {
+    "message": "Haberler"
+  },
+  "layout.footer.about.rewards-program": {
+    "message": "Ödül Programı"
+  },
+  "layout.footer.about.status": {
+    "message": "Durum"
+  },
+  "layout.footer.legal": {
+    "message": "Yasal"
+  },
+  "layout.footer.legal-disclaimer": {
+    "message": "RESMİ BİR MINECRAFT HİZMETİ DEĞİLDİR. MOJANG VEYA MICROSOFT TARAFINDAN ONAYLANMAMIŞTIR VEYA İLİŞKİLİ DEĞİLDİR."
+  },
+  "layout.footer.legal.copyright-policy": {
+    "message": "Telif Hakkı Politikası ve DMCA"
+  },
+  "layout.footer.legal.privacy-policy": {
+    "message": "Gizlillik ilkesi"
+  },
+  "layout.footer.legal.rules": {
+    "message": "İçerik Kuralları"
+  },
+  "layout.footer.legal.security-notice": {
+    "message": "Güvenlik Bildirisi"
+  },
+  "layout.footer.legal.terms-of-use": {
+    "message": "Kullanım Koşulları"
+  },
+  "layout.footer.Icarus-information": {
+    "message": "Icarus bilgileri"
+  },
+  "layout.footer.open-source": {
+    "message": "Icarus <github-link>açık kaynaklıdır</github-link>."
+  },
+  "layout.footer.products": {
+    "message": "Ürünler"
+  },
+  "layout.footer.products.app": {
+    "message": "Icarus Launcher"
+  },
+  "layout.footer.products.plus": {
+    "message": "Icarus+"
+  },
+  "layout.footer.products.servers": {
+    "message": "Icarus Hosting"
+  },
+  "layout.footer.resources": {
+    "message": "Kaynaklar"
+  },
+  "layout.footer.resources.api-docs": {
+    "message": "API dokümantasyonu"
+  },
+  "layout.footer.resources.help-center": {
+    "message": "Yardım Merkezi"
+  },
+  "layout.footer.resources.report-issues": {
+    "message": "Sorunları bildir"
+  },
+  "layout.footer.resources.translate": {
+    "message": "Çevir"
+  },
+  "layout.footer.social.bluesky": {
+    "message": "Bluesky"
+  },
+  "layout.footer.social.discord": {
+    "message": "Discord"
+  },
+  "layout.footer.social.github": {
+    "message": "GitHub"
+  },
+  "layout.footer.social.mastodon": {
+    "message": "Mastodon"
+  },
+  "layout.footer.social.x": {
+    "message": "X"
+  },
+  "layout.menu-toggle.action": {
+    "message": "Menü aç/kapa"
+  },
+  "layout.meta.description": {
+    "message": "Icarus üzerinden Minecraft modları, pluginleri, veri paketleri, shaderları, kaynak paketleri ve mod paketleri indir. Modern ve kullanımı kolay bir arayüz ve API ile Icarus üzerinden projeler keşfet ve yayınla."
+  },
+  "layout.meta.og-description": {
+    "message": "Minecraft içeriği keşfet ve yayınla!"
+  },
+  "layout.mobile.close-menu": {
+    "message": "Menüyü kapat"
+  },
+  "layout.mobile.open-menu": {
+    "message": "Menüyü aç"
+  },
+  "layout.nav.active-reports": {
+    "message": "Aktif Raporlar"
+  },
+  "layout.nav.discover": {
+    "message": "Keşfet"
+  },
+  "layout.nav.discover-content": {
+    "message": "İçerik keşfet"
+  },
+  "layout.nav.get-Icarus-app": {
+    "message": "Icarus Launcher yükle"
+  },
+  "layout.nav.home": {
+    "message": "Anasayfa"
+  },
+  "layout.nav.host-a-server": {
+    "message": "Sunucu kur"
+  },
+  "layout.nav.Icarus-app": {
+    "message": "Icarus Launcher"
+  },
+  "layout.nav.Icarus-home-page": {
+    "message": "Icarus ana sayfası"
+  },
+  "layout.nav.my-servers": {
+    "message": "Sunucularım"
+  },
+  "layout.nav.organizations": {
+    "message": "Organizasyonlar"
+  },
+  "layout.nav.profile": {
+    "message": "Profil"
+  },
+  "layout.nav.projects": {
+    "message": "Projeler"
+  },
+  "layout.nav.revenue": {
+    "message": "Gelir"
+  },
+  "layout.nav.saved-projects": {
+    "message": "Kayıtlı projeler"
+  },
+  "layout.nav.search": {
+    "message": "Arama"
+  },
+  "layout.nav.upgrade-to-Icarus-plus": {
+    "message": "Icarus+ Kullan"
+  },
+  "moderation.moderate": {
+    "message": "Yönet"
+  },
+  "moderation.page.projects": {
+    "message": "Projeler"
+  },
+  "moderation.page.reports": {
+    "message": "Bildiriler"
+  },
+  "moderation.page.technicalReview": {
+    "message": "Teknik İnceleme"
+  },
+  "muralpay.account-type.checking": {
+    "message": "Vadesiz hesap"
+  },
+  "muralpay.account-type.savings": {
+    "message": "Vadeli hesap"
+  },
+  "muralpay.country.at": {
+    "message": "Avusturya"
+  },
+  "muralpay.country.be": {
+    "message": "Belçika"
+  },
+  "muralpay.country.cy": {
+    "message": "Kıbrıs"
+  },
+  "muralpay.country.de": {
+    "message": "Almanya"
+  },
+  "muralpay.country.ee": {
+    "message": "Estonya"
+  },
+  "muralpay.country.es": {
+    "message": "İspanya"
+  },
+  "muralpay.country.fi": {
+    "message": "Finlandiya"
+  },
+  "muralpay.country.fr": {
+    "message": "Fransa"
+  },
+  "muralpay.country.gr": {
+    "message": "Yunanistan"
+  },
+  "muralpay.country.ie": {
+    "message": "İrlanda"
+  },
+  "muralpay.country.it": {
+    "message": "İtalya"
+  },
+  "muralpay.country.lt": {
+    "message": "Litvanya"
+  },
+  "muralpay.country.lu": {
+    "message": "Lüksemburg"
+  },
+  "muralpay.country.lv": {
+    "message": "Letonya"
+  },
+  "muralpay.country.mt": {
+    "message": "Malta"
+  },
+  "muralpay.country.nl": {
+    "message": "Hollanda"
+  },
+  "muralpay.country.pt": {
+    "message": "Portekiz"
+  },
+  "muralpay.country.sk": {
+    "message": "Slovakya"
+  },
+  "muralpay.document-type.national-id": {
+    "message": "Kimlik"
+  },
+  "muralpay.document-type.passport": {
+    "message": "Pasaport"
+  },
+  "muralpay.document-type.resident-id": {
+    "message": "Kimlik belgesi"
+  },
+  "muralpay.document-type.ruc": {
+    "message": "RUC"
+  },
+  "muralpay.document-type.tax-id": {
+    "message": "Vergi kimlik numarası"
+  },
+  "muralpay.field.account-number": {
+    "message": "Hesap numarası"
+  },
+  "muralpay.field.account-number-cbu-cvu": {
+    "message": "Hesap numarası (CBU/CVU)"
+  },
+  "muralpay.field.account-number-cci": {
+    "message": "Hesap numarası (CCI)"
+  },
+  "muralpay.field.account-number-type": {
+    "message": "Hesap numarası türü"
+  },
+  "muralpay.field.account-type": {
+    "message": "Hesap türü"
+  },
+  "muralpay.field.bank-account-number": {
+    "message": "Hesap numarası"
+  },
+  "muralpay.field.clabe": {
+    "message": "CLABE"
+  },
+  "muralpay.field.country": {
+    "message": "Ülke"
+  },
+  "muralpay.field.cpf-cnpj": {
+    "message": "CPF/CNPJ"
+  },
+  "muralpay.field.cuit-cuil": {
+    "message": "CUIT/CUIL"
+  },
+  "muralpay.field.document-type": {
+    "message": "Belge türü"
+  },
+  "muralpay.field.iban": {
+    "message": "IBAN"
+  },
+  "muralpay.field.phone-number": {
+    "message": "Telefon numarası"
+  },
+  "muralpay.field.pix-email": {
+    "message": "PIX e-posta"
+  },
+  "muralpay.field.pix-key-type": {
+    "message": "PIX anahtar türü"
+  },
+  "muralpay.field.pix-phone": {
+    "message": "PIX telefon"
+  },
+  "muralpay.field.random-key": {
+    "message": "Rastgele anahtar"
+  },
+  "muralpay.field.routing-number": {
+    "message": "Routing numarası"
+  },
+  "muralpay.field.swift-bic": {
+    "message": "SWIFT/BIC"
+  },
+  "muralpay.field.wallet-address": {
+    "message": "Cüzdan adresi"
+  },
+  "muralpay.help.cbu-cvu": {
+    "message": "Clave Bancaria Uniforme veya Clave Virtual Uniforme"
+  },
+  "muralpay.help.cci": {
+    "message": "Código de Cuenta Interbancaria"
+  },
+  "muralpay.help.clabe": {
+    "message": "Clave Bancaria Estandarizada (Meksika banka hesap numarası)"
+  },
+  "muralpay.help.cpf-cnpj": {
+    "message": "Brezilya vergi kimlik numarası"
+  },
+  "muralpay.help.cuit-cuil": {
+    "message": "Arjantin vergi kimlik numarası"
+  },
+  "muralpay.help.iban": {
+    "message": "Uluslararası Banka Hesap Numarası"
+  },
+  "muralpay.help.swift-bic": {
+    "message": "Banka Tanımlayıcı Kodu"
+  },
+  "muralpay.pix-type.bank-account": {
+    "message": "Banka hesabı"
+  },
+  "muralpay.pix-type.document": {
+    "message": "CPF/CNPJ"
+  },
+  "muralpay.pix-type.email": {
+    "message": "E-posta"
+  },
+  "muralpay.pix-type.phone": {
+    "message": "Telefon numarası"
+  },
+  "muralpay.placeholder.account-number": {
+    "message": "Hesap numarasını girin"
+  },
+  "muralpay.placeholder.cbu-cvu": {
+    "message": "CBU veya CVU girin"
+  },
+  "muralpay.placeholder.cbu-cvu-type": {
+    "message": "CBU veya CVU"
+  },
+  "muralpay.placeholder.cci": {
+    "message": "20 haneli CCI girin"
+  },
+  "muralpay.placeholder.cuit-cuil": {
+    "message": "CUIT veya CUIL girin"
+  },
+  "muralpay.placeholder.enter-account-number": {
+    "message": "Hesap numarasını girin"
+  },
+  "muralpay.placeholder.enter-clabe": {
+    "message": "18 haneli CLABE girin"
+  },
+  "muralpay.placeholder.enter-cpf-cnpj": {
+    "message": "CPF veya CNPJ girin"
+  },
+  "muralpay.placeholder.enter-iban": {
+    "message": "IBAN girin"
+  },
+  "muralpay.placeholder.enter-pix-email": {
+    "message": "PIX e-posta girin"
+  },
+  "muralpay.placeholder.enter-random-key": {
+    "message": "Rastgele anahtar giriniz"
+  },
+  "muralpay.placeholder.enter-routing-number": {
+    "message": "9 haneli routing numarasını girin"
+  },
+  "muralpay.placeholder.enter-swift-bic": {
+    "message": "SWIFT/BIC kodunu girin"
+  },
+  "muralpay.placeholder.iban-crc": {
+    "message": "Kosta Rika IBAN girin"
+  },
+  "muralpay.placeholder.phone-cop": {
+    "message": "+57..."
+  },
+  "muralpay.placeholder.pix-phone": {
+    "message": "+55..."
+  },
+  "muralpay.placeholder.wallet-address-eth": {
+    "message": "0x..."
+  },
+  "muralpay.rail.fiat-ars.name": {
+    "message": "Banka Havalesi (ARS)"
+  },
+  "muralpay.rail.fiat-brl.name": {
+    "message": "PIX Transfer (BRL)"
+  },
+  "muralpay.rail.fiat-clp.name": {
+    "message": "Banka Havalesi (CLP)"
+  },
+  "muralpay.rail.fiat-cop.name": {
+    "message": "Banka Havalesi (COP)"
+  },
+  "muralpay.rail.fiat-crc.name": {
+    "message": "Banka Havalesi (CRC)"
+  },
+  "muralpay.rail.fiat-eur.name": {
+    "message": "Banka Havalesi (EUR)"
+  },
+  "muralpay.rail.fiat-mxn.name": {
+    "message": "Banka Havalesi (MXN)"
+  },
+  "muralpay.rail.fiat-pen.name": {
+    "message": "Banka Havalesi (PEN)"
+  },
+  "muralpay.rail.fiat-usd-peru.name": {
+    "message": "Banka Havalesi (USD - Peru)"
+  },
+  "muralpay.rail.fiat-usd.name": {
+    "message": "Banka Havalesi (USD)"
+  },
+  "muralpay.rail.fiat-zar.name": {
+    "message": "Banka Havalesi (ZAR)"
+  },
+  "muralpay.rail.usdc-base.name": {
+    "message": "USDC (Base)"
+  },
+  "muralpay.rail.usdc-celo.name": {
+    "message": "USDC (Celo)"
+  },
+  "muralpay.rail.usdc-ethereum.name": {
+    "message": "USDC (Ethereum)"
+  },
+  "muralpay.rail.usdc-polygon.name": {
+    "message": "Kripto (USDC)"
+  },
+  "muralpay.warning.wallet-address": {
+    "message": "Cüzdan adresinizi iki kez kontrol edin. Yanlış adrese gönderilen fonlar kurtarılamaz."
+  },
+  "profile.bio.fallback.creator": {
+    "message": "Bir Icarus içerik üreticisi."
+  },
+  "profile.bio.fallback.user": {
+    "message": "Bir Icarus kullanıcısı."
+  },
+  "profile.button.billing": {
+    "message": "Kullanıcı faturasını yönet"
+  },
+  "profile.button.edit-role": {
+    "message": "Rolü düzenle"
+  },
+  "profile.button.info": {
+    "message": "Kullanıcı ayrıntılarını görüntüle"
+  },
+  "profile.button.manage-projects": {
+    "message": "Projeleri yönet"
+  },
+  "profile.button.remove-affiliate": {
+    "message": "Ortaklıktan kaldır"
+  },
+  "profile.button.set-affiliate": {
+    "message": "Ortak olarak ayarla"
+  },
+  "profile.details.label.auth-providers": {
+    "message": "Kimlik doğrulama sağlayıcıları"
+  },
+  "profile.details.label.email": {
+    "message": "Eposta"
+  },
+  "profile.details.label.email-verified": {
+    "message": "E-posta doğrulandı"
+  },
+  "profile.details.label.has-password": {
+    "message": "Parola var"
+  },
+  "profile.details.label.has-totp": {
+    "message": "TOTP var"
+  },
+  "profile.details.label.payment-methods": {
+    "message": "Ödeme yöntemleri"
+  },
+  "profile.details.tooltip.email-not-verified": {
+    "message": "Eposta doğrulanmadı"
+  },
+  "profile.details.tooltip.email-verified": {
+    "message": "Eposta doğrulandı"
+  },
+  "profile.error.not-found": {
+    "message": "Kullanıcı bulunamadı"
+  },
+  "profile.label.affiliate": {
+    "message": "Ortak"
+  },
+  "profile.label.badges": {
+    "message": "Rozetler"
+  },
+  "profile.label.collection": {
+    "message": "Koleksiyon"
+  },
+  "profile.label.downloads": {
+    "message": "{count} {countPlural, plural, one {indirme} other {indirmeler}}"
+  },
+  "profile.label.joined": {
+    "message": "Katılma:"
+  },
+  "profile.label.no-collections": {
+    "message": "Bu kullanıcının hiç koleksiyonu yok!"
+  },
+  "profile.label.no-collections-auth": {
+    "message": "Hiç koleksiyonun yok.\n<create-link>Oluşturmak</create-link> ister misin?"
+  },
+  "profile.label.no-projects": {
+    "message": "Bu kullanıcının hiç projesi yok!"
+  },
+  "profile.label.no-projects-auth": {
+    "message": "Hiç projen yok.\n<create-link>Oluşturmak</create-link> ister misin?"
+  },
+  "profile.label.organizations": {
+    "message": "Organizasyonlar"
+  },
+  "profile.label.projects": {
+    "message": "{count} {countPlural, plural, one {proje} other {projeler}}"
+  },
+  "profile.label.saving": {
+    "message": "Kaydediliyor..."
+  },
+  "profile.meta.description": {
+    "message": "{username} kullanıcısının Icarus'teki projelerini indir"
+  },
+  "profile.meta.description-with-bio": {
+    "message": "{bio} - {username} kullanıcısının Icarus'teki projelerini indir"
+  },
+  "profile.stats.projects-followers": {
+    "message": "{count, plural, one {<stat>{count}</stat> proje takipçisi} other {<stat>{count}</stat> proje takipçisi}}"
+  },
+  "profile.user-id": {
+    "message": "Kullanıcı Kimliği: {id}"
+  },
+  "project-member-header.error-decline": {
+    "message": "Ekip daveti reddedilemedi"
+  },
+  "project-member-header.error-join": {
+    "message": "Ekip daveti kabul edilemedi"
+  },
+  "project-member-header.invitation-no-role": {
+    "message": "Bu projeye katılmaya davet edildiniz. Lütfen daveti kabul edin veya reddedin."
+  },
+  "project-member-header.invitation-title": {
+    "message": "Projeye katılmaya davet"
+  },
+  "project-member-header.invitation-with-role": {
+    "message": "Bu projenin üyesi olmaya \"{role}\" rolüyle davet edildiniz."
+  },
+  "project-member-header.success-decline": {
+    "message": "Ekip davetini reddettiniz"
+  },
+  "project-member-header.success-join": {
+    "message": "Proje ekibine katıldınız"
+  },
+  "project-moderation-nags.publishing-checklist": {
+    "message": "Yayımlama kontrol listesi"
+  },
+  "project-moderation-nags.required": {
+    "message": "Zorunlu"
+  },
+  "project-moderation-nags.resubmit-for-review": {
+    "message": "İncelemeye yeniden gönder"
+  },
+  "project-moderation-nags.resubmit-for-review-desc": {
+    "message": "Projeniz Icarus personeli tarafından {status, select, rejected {reddedildi} withheld {alıkonuldu} other {{status}}}. Çoğu durumda, personelin mesajında belirtilen konuları ele aldıktan sonra inceleme için yeniden gönderebilirsiniz."
+  },
+  "project-moderation-nags.submit-checklist-tooltip": {
+    "message": "Yayımlama kontrol listesindeki gerekli adımları tamamlamalısınız!"
+  },
+  "project-moderation-nags.submit-for-review": {
+    "message": "İncelemeye gönder"
+  },
+  "project-moderation-nags.submit-for-review-button": {
+    "message": "İncelemeye gönder"
+  },
+  "project-moderation-nags.submit-for-review-desc": {
+    "message": "Projeniz sadece projenin üyeleri tarafından görüntülenebilir. Yayımlanabilmesi için moderatörler tarafından incelenmeli."
+  },
+  "project-moderation-nags.suggestion": {
+    "message": "Öneri"
+  },
+  "project-moderation-nags.visit-moderation-page": {
+    "message": "Moderasyon sayfasını ziyaret et"
+  },
+  "project-moderation-nags.warning": {
+    "message": "Uyarı"
+  },
+  "project-type.collection.plural": {
+    "message": "Koleksiyonlar"
+  },
+  "project-type.collection.singular": {
+    "message": "Koleksiyon"
+  },
+  "project-type.datapack.plural": {
+    "message": "Veri Paketleri"
+  },
+  "project-type.datapack.singular": {
+    "message": "Veri Paketi"
+  },
+  "project-type.minecraft_java_server.plural": {
+    "message": "Sunucular"
+  },
+  "project-type.minecraft_java_server.singular": {
+    "message": "Sunucu"
+  },
+  "project-type.mod.plural": {
+    "message": "Modlar"
+  },
+  "project-type.mod.singular": {
+    "message": "Mod"
+  },
+  "project-type.modpack.plural": {
+    "message": "Mod Paketleri"
+  },
+  "project-type.modpack.singular": {
+    "message": "Mod Paketi"
+  },
+  "project-type.plugin.plural": {
+    "message": "Pluginler"
+  },
+  "project-type.plugin.singular": {
+    "message": "Plugin"
+  },
+  "project-type.project.plural": {
+    "message": "Projeler"
+  },
+  "project-type.project.singular": {
+    "message": "Proje"
+  },
+  "project-type.resourcepack.plural": {
+    "message": "Kaynak Paketleri"
+  },
+  "project-type.resourcepack.singular": {
+    "message": "Kaynak Paketi"
+  },
+  "project-type.server.plural": {
+    "message": "Sunucular"
+  },
+  "project-type.server.singular": {
+    "message": "Sunucu"
+  },
+  "project-type.shader.plural": {
+    "message": "Shaderlar"
+  },
+  "project-type.shader.singular": {
+    "message": "Shader"
+  },
+  "project.about.details.created": {
+    "message": "{date} oluşturuldu"
+  },
+  "project.about.details.licensed": {
+    "message": "{license} lisanslı"
+  },
+  "project.about.details.published": {
+    "message": "{date} yayınlandı"
+  },
+  "project.about.details.submitted": {
+    "message": "{date} sunuldu"
+  },
+  "project.about.details.title": {
+    "message": "Detaylar"
+  },
+  "project.about.details.updated": {
+    "message": "{date} güncellendi"
+  },
+  "project.actions.create-server": {
+    "message": "Sunucu oluştur"
+  },
+  "project.actions.create-server-tooltip": {
+    "message": "Sunucu oluştur"
+  },
+  "project.actions.dont-show-again": {
+    "message": "Bir daha gösterme"
+  },
+  "project.actions.review-project": {
+    "message": "Projeyi incele"
+  },
+  "project.actions.servers-promo.description": {
+    "message": "Icarus Hosting arkadaşlarınla uğraşsız oynamanın en kolay yolu!"
+  },
+  "project.actions.servers-promo.pricing": {
+    "message": "{price}<small> / ay</small>'dan başlayan fiyatlarla"
+  },
+  "project.actions.servers-promo.title": {
+    "message": "Sunucu oluştur"
+  },
+  "project.collections.create-new": {
+    "message": "Yeni koleksiyon oluştur"
+  },
+  "project.collections.none-found": {
+    "message": "Koleksiyon bulunamadı."
+  },
+  "project.description.title": {
+    "message": "Açıklama"
+  },
+  "project.details.licensed": {
+    "message": "Lisans:"
+  },
+  "project.download.game-version": {
+    "message": "Oyun sürümü: {version}"
+  },
+  "project.download.game-version-error": {
+    "message": "Hata: oyun sürümü bulunamadı"
+  },
+  "project.download.game-version-tooltip": {
+    "message": "{title} sadece {version} sürümünde mevcut"
+  },
+  "project.download.game-version-unsupported-tooltip": {
+    "message": "{title}, {platform} için {gameVersion} sürümünü desteklemiyor"
+  },
+  "project.download.install-with-app": {
+    "message": "Icarus Launcher ile yükle"
+  },
+  "project.download.no-app": {
+    "message": "Icarus Launcher Yok Mu?"
+  },
+  "project.download.no-versions-available": {
+    "message": "{gameVersion} ve {platform} için sürüm mevcut değil."
+  },
+  "project.download.platform": {
+    "message": "Platform: {platform}"
+  },
+  "project.download.platform-error": {
+    "message": "Hata: platform bulunamadı"
+  },
+  "project.download.platform-tooltip": {
+    "message": "{title} sadece {platform} için mevcut"
+  },
+  "project.download.platform-unsupported-tooltip": {
+    "message": "{title}, {gameVersion} sürümünde {platform} desteklemiyor"
+  },
+  "project.download.search-game-versions": {
+    "message": "Oyun sürümü ara..."
+  },
+  "project.download.search-game-versions-label": {
+    "message": "Oyun sürümü ara..."
+  },
+  "project.download.select-game-version": {
+    "message": "Oyun sürümü seç"
+  },
+  "project.download.select-platform": {
+    "message": "Platform seç"
+  },
+  "project.download.show-all-versions": {
+    "message": "Tüm sürümleri göster"
+  },
+  "project.download.title": {
+    "message": "{title} Projesini Yükle"
+  },
+  "project.environment.migration-no-permission.message": {
+    "message": "Daha yeni Icarus'in Çevre sistemini yeniledik ve yeni seçenekler mevcut. Bu ayarları değiştirmek için yetkiniz yok ama projenin başka bir üyesine çevre meta verisinin doğrulanması gerektiği haberini verebilirsiniz."
+  },
+  "project.environment.migration-no-permission.title": {
+    "message": "Çevre meta verisi gözden geçirilmesi gerekiyor"
+  },
+  "project.environment.migration.learn-more": {
+    "message": "Bu değişiklik hakkında daha fazla öğren"
+  },
+  "project.environment.migration.message": {
+    "message": "Icarus’te Ortamlar sistemini baştan sona yeniledik ve artık yeni seçenekler mevcut. Lütfen meta verilerin doğru olduğunu doğrulayın."
+  },
+  "project.environment.migration.review-button": {
+    "message": "Ortam ayarlarını incele"
+  },
+  "project.environment.migration.title": {
+    "message": "Lütfen ortam meta verisini inceleyin"
+  },
+  "project.error.loading": {
+    "message": "Proje verisi yüklenirken hata{message}"
+  },
+  "project.error.page-not-found": {
+    "message": "Sayfa bulunamadı"
+  },
+  "project.error.project-not-found": {
+    "message": "Proje bulunamadı"
+  },
+  "project.gallery.title": {
+    "message": "Galeri"
+  },
+  "project.license.error": {
+    "message": "Lisans yazısı getirilemedi."
+  },
+  "project.license.loading": {
+    "message": "Lisans yazısı yükleniyor..."
+  },
+  "project.license.title": {
+    "message": "Lisans"
+  },
+  "project.moderation.title": {
+    "message": "Moderasyon"
+  },
+  "project.navigation.changelog": {
+    "message": "Değişiklikler"
+  },
+  "project.notification.icon-updated.message": {
+    "message": "Projenizin simgesi güncellendi."
+  },
+  "project.notification.icon-updated.title": {
+    "message": "Proje simgesi güncellendi"
+  },
+  "project.notification.updated.message": {
+    "message": "Projeniz güncellendi."
+  },
+  "project.notification.updated.title": {
+    "message": "Proje güncellendi"
+  },
+  "project.settings.general.name.description": {
+    "message": "Önek, ek veya açıklayıcılardan kaçının—sadece projenin asıl adı."
+  },
+  "project.settings.general.name.placeholder.1": {
+    "message": "ör. Nether Overhaul 2"
+  },
+  "project.settings.general.name.placeholder.2": {
+    "message": "ör. Construction Equipment"
+  },
+  "project.settings.general.name.placeholder.3": {
+    "message": "ör. Better than Caving"
+  },
+  "project.settings.general.name.placeholder.4": {
+    "message": "ör. Enhanced Portals"
+  },
+  "project.settings.general.name.placeholder.5": {
+    "message": "ör. Dangerous Mobs"
+  },
+  "project.settings.general.name.title": {
+    "message": "Ad"
+  },
+  "project.settings.general.tagline.description": {
+    "message": "Bir cümlede projenizi özetleyin."
+  },
+  "project.settings.general.tagline.placeholder.1": {
+    "message": "ör. Overhauls game progression to revolve around the Nether."
+  },
+  "project.settings.general.tagline.placeholder.2": {
+    "message": "ör. Adds wearable construction gear."
+  },
+  "project.settings.general.tagline.placeholder.3": {
+    "message": "ör. Adds realistic mineshaft-building mechanics."
+  },
+  "project.settings.general.tagline.placeholder.4": {
+    "message": "ör. Improves how Nether portals link to each other."
+  },
+  "project.settings.general.tagline.placeholder.5": {
+    "message": "ör. Adds powerful boss versions of the normal mobs to encounter in the night."
+  },
+  "project.settings.general.tagline.title": {
+    "message": "Kısa tanıtım cümlesi"
+  },
+  "project.settings.general.url.title": {
+    "message": "URL"
+  },
+  "project.settings.title": {
+    "message": "Ayarlar"
+  },
+  "project.settings.visit-dashboard": {
+    "message": "Projeler panelini ziyaret et"
+  },
+  "project.stats.downloads-label": {
+    "message": "indirme{count, plural, one {} other {}}"
+  },
+  "project.stats.followers-label": {
+    "message": "takipçi{count, plural, one {} other {}}"
+  },
+  "project.status.archived.message": {
+    "message": "{title} arşivlenmiş. {title}, yapımcı fikrini değiştirmediği sürece daha fazla güncelleme almayacak."
+  },
+  "project.versions.title": {
+    "message": "Sürümler"
+  },
+  "report.already-reported": {
+    "message": "Zaten {title} ögesini bildirdiniz"
+  },
+  "report.already-reported-description": {
+    "message": "Bu {item, select, project {proje} version {sürüm} user {kullanıcı} other {içerik}} için zaten açık bir raporunuz bulunuyor. Eklemek istediğiniz yeni bilgiler varsa mevcut raporunuza detay ekleyebilirsiniz."
+  },
+  "report.back-to-item": {
+    "message": "{item, select, project {projeye} version {sürüme} user {kullanıcıya} other {içeriğe}} geri dön"
+  },
+  "report.body.description": {
+    "message": "Eğer mümkünse ve alakalıysa bağlantılar ve görseller ekleyin. Boş ve yetersiz raporlar kapatılacak ve yok sayılacak."
+  },
+  "report.body.title": {
+    "message": "Lütfen raporunuzla ilgili ekstra bağlam sağlayın"
+  },
+  "report.checking": {
+    "message": "{item, select, project {proje} version {sürüm} user {kullanıcı} other {içerik}} kontrol ediliyor..."
+  },
+  "report.could-not-find": {
+    "message": "{item, select, project {proje} version {sürüm} user {kullanıcı} other {içerik}} bulunamadı"
+  },
+  "report.for.violation": {
+    "message": "Icarus <rules-link>Kuralları</rules-link> veya <terms-link>Kullanım Koşulları</terms-link> İhlali"
+  },
+  "report.for.violation.description": {
+    "message": "Örnekler kötü niyetli, spam, saldırgan, aldatıcı, yanıltıcı ve yasak içerikleri barındırır."
+  },
+  "report.form-not-for": {
+    "message": "Bu form şunun için değildir:"
+  },
+  "report.go-to-report": {
+    "message": "Bildirmeye git"
+  },
+  "report.not-for.bug-reports": {
+    "message": "Hata bildirileri"
+  },
+  "report.not-for.bug-reports.description": {
+    "message": "<issues-link>Hata izleyicilerinden</issues-link> hataları bildirebilirsiniz."
+  },
+  "report.not-for.dmca": {
+    "message": "DMCA kaldırmaları"
+  },
+  "report.not-for.dmca.description": {
+    "message": "<policy-link>Telif Hakkı Politikası</policy-link>'mızı inceleyin."
+  },
+  "report.note.copyright.1": {
+    "message": "Lütfen bir DMCA kaldırma talebi *değil* ama yeniden yüklenmiş içeriğin bir bildirisini göndereceğinizi dikkate alın."
+  },
+  "report.note.copyright.2": {
+    "message": "Eğer bir DMCA kaldırma talebi (yasal bir eylem olan) iletmeyi kastediyorsanız, bunun yerine <copyright-policy-link>Telif Hakkı Politikası</copyright-policy-link>'na göz atın."
+  },
+  "report.note.malicious.1": {
+    "message": "Kötü niyetli ve yanıltıcı içeriklerin bildirimi, kod örnekleri gibi bu davranışın sağlam kanıtlarını içermeli."
+  },
+  "report.note.malicious.2": {
+    "message": "Microsoft Defender, VirusTotal veya AI malware tespitlerinden çıkan özetler, yeterli kanıt biçimlerinden değildir ve kabul edilmeyecektir."
+  },
+  "report.please-report": {
+    "message": "Lütfen bildirin:"
+  },
+  "report.question.content-id": {
+    "message": "{item, select, project {projenin} version {sürümün} user {kullanıcının} other {içeriğin}} kimliği nedir?"
+  },
+  "report.question.content-type": {
+    "message": "Ne tür bir içerik bildiriyorsunuz?"
+  },
+  "report.question.report-reason": {
+    "message": "Bu {item, select, project {proje} version {sürüm} user {kullanıcı} other {içerik}} Icarus kurallarından hangisini ihlal ediyor?"
+  },
+  "report.report-content": {
+    "message": "Moderatörlere içerik bildir"
+  },
+  "report.report-item": {
+    "message": "Moderatörlere {title} bildir"
+  },
+  "report.submit": {
+    "message": "Rapor gönder"
+  },
+  "scopes.analytics.description": {
+    "message": "Analiz verilerinize erişin"
+  },
+  "scopes.analytics.label": {
+    "message": "Analizleri oku"
+  },
+  "scopes.category.analytics": {
+    "message": "Veriler"
+  },
+  "scopes.category.collections": {
+    "message": "Koleksiyonlar"
+  },
+  "scopes.category.notifications": {
+    "message": "Bildirimler"
+  },
+  "scopes.category.organizations": {
+    "message": "Organizasyonlar"
+  },
+  "scopes.category.pats": {
+    "message": "PAT'lar"
+  },
+  "scopes.category.payouts": {
+    "message": "Ödemeler"
+  },
+  "scopes.category.projects": {
+    "message": "Projeler"
+  },
+  "scopes.category.reports": {
+    "message": "Raporlar"
+  },
+  "scopes.category.sessions": {
+    "message": "Oturumlar"
+  },
+  "scopes.category.threads": {
+    "message": "Ad"
+  },
+  "scopes.category.user-account": {
+    "message": "Kullanıcı hesabı"
+  },
+  "scopes.category.versions": {
+    "message": "Sürümler"
+  },
+  "scopes.collectionCreate.description": {
+    "message": "Koleksiyon oluştur"
+  },
+  "scopes.collectionCreate.label": {
+    "message": "Koleksiyon oluştur"
+  },
+  "scopes.collectionDelete.description": {
+    "message": "Koleksiyon sil"
+  },
+  "scopes.collectionDelete.label": {
+    "message": "Koleksiyon sil"
+  },
+  "scopes.collectionRead.description": {
+    "message": "Koleksiyon oku"
+  },
+  "scopes.collectionRead.label": {
+    "message": "Koleksiyon oku"
+  },
+  "scopes.collectionWrite.description": {
+    "message": "Koleksiyonlara yaz"
+  },
+  "scopes.collectionWrite.label": {
+    "message": "Koleksiyon yaz"
+  },
+  "scopes.notificationRead.description": {
+    "message": "Bildirimlerinizi görün"
+  },
+  "scopes.notificationRead.label": {
+    "message": "Bildirim oku"
+  },
+  "scopes.notificationWrite.description": {
+    "message": "Bildirimlerinizi silin/gösterin"
+  },
+  "scopes.notificationWrite.label": {
+    "message": "Bildirim yaz"
+  },
+  "scopes.organizationCreate.description": {
+    "message": "Organizasyon oluştur"
+  },
+  "scopes.organizationCreate.label": {
+    "message": "Organizasyon oluştur"
+  },
+  "scopes.organizationDelete.description": {
+    "message": "Organizasyon kaldır"
+  },
+  "scopes.organizationDelete.label": {
+    "message": "Organizasyon kaldır"
+  },
+  "scopes.organizationRead.description": {
+    "message": "Organizasyon oku"
+  },
+  "scopes.organizationRead.label": {
+    "message": "Organizasyon oku"
+  },
+  "scopes.organizationWrite.description": {
+    "message": "Organizasyonlara yaz"
+  },
+  "scopes.organizationWrite.label": {
+    "message": "Organizasyon yaz"
+  },
+  "scopes.patCreate.description": {
+    "message": "Kişisel API tokenleri oluştur"
+  },
+  "scopes.patCreate.label": {
+    "message": "PAT oluştur"
+  },
+  "scopes.patDelete.description": {
+    "message": "Kişisel API tokenlerinizi silin"
+  },
+  "scopes.patDelete.label": {
+    "message": "PAT sil"
+  },
+  "scopes.patRead.description": {
+    "message": "Oluşturulmuş API tokenlerini göster"
+  },
+  "scopes.patRead.label": {
+    "message": "PAT oku"
+  },
+  "scopes.patWrite.description": {
+    "message": "Kişisel API tokenlerini düzenle"
+  },
+  "scopes.patWrite.label": {
+    "message": "PAT yaz"
+  },
+  "scopes.payoutsRead.description": {
+    "message": "Ödeme verilerinizi okuyun"
+  },
+  "scopes.payoutsRead.label": {
+    "message": "Ödemeleri oku"
+  },
+  "scopes.payoutsWrite.description": {
+    "message": "Para çek"
+  },
+  "scopes.payoutsWrite.label": {
+    "message": "Ödemeleri yaz"
+  },
+  "scopes.performAnalytics.description": {
+    "message": "Analiz eylemlerini gerçekleştir"
+  },
+  "scopes.performAnalytics.label": {
+    "message": "Analiz uygula"
+  },
+  "scopes.projectCreate.description": {
+    "message": "Yeni proje oluştur"
+  },
+  "scopes.projectCreate.label": {
+    "message": "Proje oluştur"
+  },
+  "scopes.projectDelete.description": {
+    "message": "Projelerinizi silin"
+  },
+  "scopes.projectDelete.label": {
+    "message": "Proje sil"
+  },
+  "scopes.projectRead.description": {
+    "message": "Tüm projelerinizi okuyun"
+  },
+  "scopes.projectRead.label": {
+    "message": "Proje oku"
+  },
+  "scopes.projectWrite.description": {
+    "message": "Proje verilerine yazın"
+  },
+  "scopes.projectWrite.label": {
+    "message": "Proje yaz"
+  },
+  "scopes.reportCreate.description": {
+    "message": "Bildiri oluştur"
+  },
+  "scopes.reportCreate.label": {
+    "message": "Bildiri oluştur"
+  },
+  "scopes.reportDelete.description": {
+    "message": "Bildiri sil"
+  },
+  "scopes.reportDelete.label": {
+    "message": "Bildiri sil"
+  },
+  "scopes.reportRead.description": {
+    "message": "Bildiri oku"
+  },
+  "scopes.reportRead.label": {
+    "message": "Bildiri oku"
+  },
+  "scopes.reportWrite.description": {
+    "message": "Bildiri düzenle"
+  },
+  "scopes.reportWrite.label": {
+    "message": "Bildiri yaz"
+  },
+  "scopes.sessionAccess.description": {
+    "message": "Icarus tarafından verilen oturumlara eriş"
+  },
+  "scopes.sessionAccess.label": {
+    "message": "Oturumlara eriş"
+  },
+  "scopes.sessionDelete.description": {
+    "message": "Oturumları sil"
+  },
+  "scopes.sessionDelete.label": {
+    "message": "Oturum sil"
+  },
+  "scopes.sessionRead.description": {
+    "message": "Aktif oturumları oku"
+  },
+  "scopes.sessionRead.label": {
+    "message": "Oturum oku"
+  },
+  "scopes.threadRead.description": {
+    "message": "Konu başlıklarını oku"
+  },
+  "scopes.threadRead.label": {
+    "message": "Konu başlıklarını oku"
+  },
+  "scopes.threadWrite.description": {
+    "message": "Konu başlıklarına yaz"
+  },
+  "scopes.threadWrite.label": {
+    "message": "Konu yaz"
+  },
+  "scopes.userAuthWrite.description": {
+    "message": "Kimlik doğrulama verilerinizi değiştirin"
+  },
+  "scopes.userAuthWrite.label": {
+    "message": "Kimlik doğrulama veri yaz"
+  },
+  "scopes.userDelete.description": {
+    "message": "Hesabınızı silin"
+  },
+  "scopes.userDelete.label": {
+    "message": "Hesap sil"
+  },
+  "scopes.userRead.description": {
+    "message": "Herkese açık profil bilgilerinize erişin"
+  },
+  "scopes.userRead.label": {
+    "message": "Kullanıcı verisi oku"
+  },
+  "scopes.userReadEmail.description": {
+    "message": "Kendi e-postanızı okuyun"
+  },
+  "scopes.userReadEmail.label": {
+    "message": "Kullanıcı e-postası oku"
+  },
+  "scopes.userWrite.description": {
+    "message": "Profilinize yazın"
+  },
+  "scopes.userWrite.label": {
+    "message": "Kullanıcı verisi yaz"
+  },
+  "scopes.versionCreate.description": {
+    "message": "Yeni sürümler oluştur"
+  },
+  "scopes.versionCreate.label": {
+    "message": "Sürüm oluştur"
+  },
+  "scopes.versionDelete.description": {
+    "message": "Bir sürüm sil"
+  },
+  "scopes.versionDelete.label": {
+    "message": "Sürüm sil"
+  },
+  "scopes.versionRead.description": {
+    "message": "Tüm sürümleri oku"
+  },
+  "scopes.versionRead.label": {
+    "message": "Sürüm oku"
+  },
+  "scopes.versionWrite.description": {
+    "message": "Sürüm verisine yaz"
+  },
+  "scopes.versionWrite.label": {
+    "message": "Sürüm yaz"
+  },
+  "search.filter.game-version-shader-message": {
+    "message": "Eski sürümler için olan shader paketleri, büyük olasılıkla yeni sürümlerde de sadece küçük sorunlarla çalışacaktır."
+  },
+  "search.filter.locked.server": {
+    "message": "Sunucu tarafından sağlanıyor"
+  },
+  "search.filter.locked.server-game-version.title": {
+    "message": "Oyun sürümü sunucu tarafından sağlanıyor"
+  },
+  "search.filter.locked.server-loader.title": {
+    "message": "Yükleyici sunucu tarafından sağlanıyor"
+  },
+  "search.filter.locked.server.sync": {
+    "message": "Sunucuyla eşle"
+  },
+  "servers.notice.actions": {
+    "message": "Eylemler"
+  },
+  "servers.notice.begins": {
+    "message": "Başlıyor"
+  },
+  "servers.notice.dismissable": {
+    "message": "Görmezden Gelinebilir"
+  },
+  "servers.notice.expires": {
+    "message": "Son kullanma tarihi"
+  },
+  "servers.notice.id": {
+    "message": "ID"
+  },
+  "servers.notice.level": {
+    "message": "Seviye"
+  },
+  "servers.notice.undismissable": {
+    "message": "Görmezden Gelinemez"
+  },
+  "servers.notices.create-notice": {
+    "message": "Bildiri oluştur"
+  },
+  "servers.notices.no-notices": {
+    "message": "Bildiriler yok"
+  },
+  "servers.plan.large.description": {
+    "message": "15–25 oyuncu, mod paketleri veya ağır modlu sunucu için ideal."
+  },
+  "servers.plan.medium.description": {
+    "message": "6–15 oyuncu ve birden fazla mod için iyi."
+  },
+  "servers.plan.small.description": {
+    "message": "1–5 arkadaş ve birkaç hafif mod için mükemmel."
+  },
+  "settings.account.button.complete-setup": {
+    "message": "Kurulumu tamamla"
+  },
+  "settings.account.data-export.action.download": {
+    "message": "Dışa aktarmayı indir"
+  },
+  "settings.account.data-export.action.generate": {
+    "message": "Dışa akatma oluştur"
+  },
+  "settings.account.data-export.action.generating": {
+    "message": "Dışa aktarma oluşturuluyor..."
+  },
+  "settings.account.data-export.description": {
+    "message": "Icarus'e yüklediğiniz tüm kişisel verilerinizin bir kopyasını talep edin. Bu işlemin tamamlanması birkaç dakika sürebilir."
+  },
+  "settings.account.data-export.title": {
+    "message": "Veri dışa aktarma"
+  },
+  "settings.account.delete.confirm.description": {
+    "message": "Bu işlem, **tüm kullanıcı verilerinizi ve takip ettiğiniz hesapları anında siler**. Projeleriniz silinmez. Hesabınızı silme işlemi geri alınamaz.<br><br>Hesabınızla ilgili yardıma ihtiyacınız varsa, [Icarus Discord](https://discord.Icarus.com) üzerinden destek alabilirsiniz."
+  },
+  "settings.account.delete.confirm.proceed": {
+    "message": "Hesabı sil"
+  },
+  "settings.account.delete.confirm.title": {
+    "message": "Hesabınızı silmek istediğinizden emin misiniz?"
+  },
+  "settings.account.delete.section.action": {
+    "message": "Hesabı sil"
+  },
+  "settings.account.delete.section.description": {
+    "message": "Hesabınızı sildiğinizde geri dönüş yoktur. Hesabınızı silmek, projeler hariç olmak olmak üzere tüm ekli verilerin sunucularımızdan silinmesine neden olur."
+  },
+  "settings.account.delete.section.title": {
+    "message": "Hesabı sil"
+  },
+  "settings.account.email.action.save": {
+    "message": "Epostayı kaydet"
+  },
+  "settings.account.email.field.label": {
+    "message": "Eposta adresi"
+  },
+  "settings.account.email.field.placeholder": {
+    "message": "Eposta adresinizi girin..."
+  },
+  "settings.account.email.modal.header.add": {
+    "message": "E-posta Ekle"
+  },
+  "settings.account.email.modal.header.change": {
+    "message": "Eposta değiştirme"
+  },
+  "settings.account.email.modal.notice": {
+    "message": "Hesap detaylarınız herkesse gösterilmez."
+  },
+  "settings.account.password.action.remove": {
+    "message": "Parolayı kaldır"
+  },
+  "settings.account.password.action.save": {
+    "message": "Parolayı kaydet"
+  },
+  "settings.account.password.error.mismatch": {
+    "message": "Parolalar uyuşmuyor!"
+  },
+  "settings.account.password.field.confirm-current.description": {
+    "message": "Devam etmek için lütfen şifrenizi girin."
+  },
+  "settings.account.password.field.confirm-current.label": {
+    "message": "Parolayı onayla"
+  },
+  "settings.account.password.field.confirm-current.placeholder": {
+    "message": "Parolayı onayla"
+  },
+  "settings.account.password.field.confirm-new.label": {
+    "message": "Yeni parolayı onayla"
+  },
+  "settings.account.password.field.confirm-new.placeholder": {
+    "message": "Yeni parolayı onayla"
+  },
+  "settings.account.password.field.new.label": {
+    "message": "Yeni parola"
+  },
+  "settings.account.password.field.new.placeholder": {
+    "message": "Yeni parola"
+  },
+  "settings.account.password.field.old.label": {
+    "message": "Eski parola"
+  },
+  "settings.account.password.field.old.placeholder": {
+    "message": "Eski parola"
+  },
+  "settings.account.password.modal.header.add": {
+    "message": "Parola ekle"
+  },
+  "settings.account.password.modal.header.change": {
+    "message": "Parolayı değiştir"
+  },
+  "settings.account.password.modal.header.remove": {
+    "message": "Parolayı kaldır"
+  },
+  "settings.account.providers.action.add": {
+    "message": "Ekle"
+  },
+  "settings.account.providers.modal.header": {
+    "message": "Doğrulama sağlayıcıları"
+  },
+  "settings.account.providers.table.actions": {
+    "message": "Eylemler"
+  },
+  "settings.account.providers.table.provider": {
+    "message": "Sağlayıcı"
+  },
+  "settings.account.security.email.action.add": {
+    "message": "Eposta ekle"
+  },
+  "settings.account.security.email.action.change": {
+    "message": "Eposta değiştir"
+  },
+  "settings.account.security.email.description": {
+    "message": "Hesabınıza bağlı e-posta adresini değiştirir."
+  },
+  "settings.account.security.email.title": {
+    "message": "Eposta"
+  },
+  "settings.account.security.password.action.add": {
+    "message": "Parola ekle"
+  },
+  "settings.account.security.password.action.change": {
+    "message": "Parolayı değiştir"
+  },
+  "settings.account.security.password.description.change": {
+    "message": "Hesabınıza giriş yapmak için kullanılan şifreyi değiştirin."
+  },
+  "settings.account.security.password.description.change-or-remove": {
+    "message": "Hesabınızla ilişkili e-posta adresini değiştirir."
+  },
+  "settings.account.security.password.description.set": {
+    "message": "Hesabınıza giriş yapmak için kalıcı bir şifre belirleyin."
+  },
+  "settings.account.security.password.title": {
+    "message": "Parola"
+  },
+  "settings.account.security.providers.description": {
+    "message": "Hesabınıza giriş yöntemleri ekleyin veya kaldırın; GitHub, GitLab, Microsoft, Discord, Steam ve Google dahil."
+  },
+  "settings.account.security.title": {
+    "message": "Hesap güvenliği"
+  },
+  "settings.account.security.two-factor.action.remove": {
+    "message": "İki aşamalı doğrulamayı kaldır"
+  },
+  "settings.account.security.two-factor.action.setup": {
+    "message": "İki aşamalı doğrulama kur"
+  },
+  "settings.account.security.two-factor.description": {
+    "message": "Hesabınıza giriş yaparken ek bir güvenlik katmanı ekleyin."
+  },
+  "settings.account.security.two-factor.title": {
+    "message": "İki aşamalı doğrulama"
+  },
+  "settings.account.two-factor.error.incorrect-code": {
+    "message": "Girilen kod yanlış!"
+  },
+  "settings.account.two-factor.field.code.label": {
+    "message": "Çift aşamalı kodu girin"
+  },
+  "settings.account.two-factor.field.code.placeholder": {
+    "message": "Kodu girin..."
+  },
+  "settings.account.two-factor.verify.label": {
+    "message": "Kodu onayla"
+  },
+  "settings.applications.about": {
+    "message": "Hakkında"
+  },
+  "settings.applications.button.add-more": {
+    "message": "Daha fazla ekle"
+  },
+  "settings.applications.button.add-redirect-uri": {
+    "message": "Yönlendirme URI'ları ekle"
+  },
+  "settings.applications.button.cancel": {
+    "message": "İptal"
+  },
+  "settings.applications.button.create": {
+    "message": "Uygulama oluştur"
+  },
+  "settings.applications.button.delete": {
+    "message": "Sil"
+  },
+  "settings.applications.button.edit": {
+    "message": "Düzenle"
+  },
+  "settings.applications.button.new": {
+    "message": "Yeni uygulama"
+  },
+  "settings.applications.button.save-changes": {
+    "message": "Değişiklikleri kaydet"
+  },
+  "settings.applications.button.upload-icon": {
+    "message": "Simge yükle"
+  },
+  "settings.applications.client-id": {
+    "message": "İşlemci ID'si"
+  },
+  "settings.applications.client-secret": {
+    "message": "İşlemci sırrı"
+  },
+  "settings.applications.created-on": {
+    "message": "{date} tarihinde oluşturuldu"
+  },
+  "settings.applications.delete.confirm.button": {
+    "message": "Bu uygulamayı sil"
+  },
+  "settings.applications.delete.confirm.description": {
+    "message": "Bu işlem, uygulamayı kalıcı olarak silecek ve tüm erişim jetonlarını iptal edecektir. (sonsuza dek!)"
+  },
+  "settings.applications.delete.confirm.title": {
+    "message": "Bu uygulamayı silmek istediğinizden emin misiniz?"
+  },
+  "settings.applications.description.intro": {
+    "message": "Uygulamalar, Icarus kullanıcılarının ürünlerinizde kimlik doğrulaması yapması için kullanılabilir. Daha fazla bilgi için <docs-link>Icarus'in API belgelerine</docs-link> göz atın."
+  },
+  "settings.applications.field.description": {
+    "message": "Açıklama"
+  },
+  "settings.applications.field.description.placeholder": {
+    "message": "..."
+  },
+  "settings.applications.field.icon": {
+    "message": "Simge"
+  },
+  "settings.applications.field.name": {
+    "message": "Ad"
+  },
+  "settings.applications.field.name.placeholder": {
+    "message": "Uygulamanın adını girin..."
+  },
+  "settings.applications.field.redirect-uri.placeholder": {
+    "message": ""
+  },
+  "settings.applications.field.redirect-uris": {
+    "message": "Yönlendirme URI'ları"
+  },
+  "settings.applications.field.scopes": {
+    "message": "Kapsamlar"
+  },
+  "settings.applications.field.url": {
+    "message": "URL"
+  },
+  "settings.applications.field.url.placeholder": {
+    "message": "https://ornek.com"
+  },
+  "settings.applications.modal.header": {
+    "message": "Proje bilgileri"
+  },
+  "settings.applications.notification.icon-updated.description": {
+    "message": "Uygulamanızın simgesi güncellendi."
+  },
+  "settings.applications.notification.icon-updated.title": {
+    "message": "Simge güncellendi"
+  },
+  "settings.applications.secret.disclaimer": {
+    "message": "Gizli anahtar sadece bir kez gösterilir. Pencereyi kapadığınızda kaybolacaktır. Güvenliğiniz için paylaşmayın!"
+  },
+  "settings.authorizations.about-this-app": {
+    "message": "Bu uygulama hakkında"
+  },
+  "settings.authorizations.by": {
+    "message": "tarafından"
+  },
+  "settings.authorizations.description": {
+    "message": "Icarus hesabınızla bir uygulamayı yetkilendirdiğinizde, ona hesabınıza erişim izni vermiş olursunuz. Hesabınıza verilen erişimi dilediğiniz zaman burada yönetebilir ve gözden geçirebilirsiniz."
+  },
+  "settings.authorizations.empty-state": {
+    "message": "Yetkilendirdiğiniz uygulamalar şu anda görüntülenemiyor, bunu düzeltmek için çalışıyoruz. Lütfen bu sayfayı daha sonra tekrar ziyaret edin."
+  },
+  "settings.authorizations.head-title": {
+    "message": "Yetkiler"
+  },
+  "settings.authorizations.revoke.action": {
+    "message": "Kaldır"
+  },
+  "settings.billing.interval.quarter": {
+    "message": "çeyrek"
+  },
+  "settings.billing.interval.quarterly.adjective": {
+    "message": "çeyreklik"
+  },
+  "settings.billing.interval.year": {
+    "message": "yıl"
+  },
+  "settings.billing.interval.yearly": {
+    "message": "yıllık"
+  },
+  "settings.billing.midas.benefits.ad-free": {
+    "message": "Icarus Launcher ve Icarus.com'da reklamsız gezinme"
+  },
+  "settings.billing.midas.benefits.badge": {
+    "message": "Profilinde Icarus+ rozeti"
+  },
+  "settings.billing.midas.benefits.support": {
+    "message": "Icarus ve üreticilerini direkt olarak destekleyin"
+  },
+  "settings.billing.midas.benefits.title": {
+    "message": "Yararlar"
+  },
+  "settings.billing.midas.upsell": {
+    "message": "Icarus Plus’a abone olun!"
+  },
+  "settings.billing.modal.cancel.action": {
+    "message": "Aboneliği iptal et"
+  },
+  "settings.billing.modal.cancel.description": {
+    "message": "Bu aboneliğinizi iptal eder. Şu anki faturalandırma döngüsünün sonuna kadar özelliklerden faydalanmaya devam edersiniz."
+  },
+  "settings.billing.modal.cancel.title": {
+    "message": "Aboneliğinizi iptal etmek istediğinizden emin misiniz?"
+  },
+  "settings.billing.modal.delete.action": {
+    "message": "Bu ödeme yönetimini kaldır"
+  },
+  "settings.billing.modal.delete.description": {
+    "message": "Bu eylem, bu ödeme yöntemini sonsuza dek kaldıracak (yani gerçekten sonsuza dek)."
+  },
+  "settings.billing.modal.delete.title": {
+    "message": "Bu ödeme yöntemini kaldırmak istediğinizden emin misiniz?"
+  },
+  "settings.billing.next": {
+    "message": "Sonraki:"
+  },
+  "settings.billing.or-yearly-save": {
+    "message": "Veya {price} / yıl %({percent} tasarruf edin)!"
+  },
+  "settings.billing.payment_method.action.add": {
+    "message": "Ödeme yöntemi ekle"
+  },
+  "settings.billing.payment_method.action.history": {
+    "message": "Geçmiş ücretleri göster"
+  },
+  "settings.billing.payment_method.action.primary": {
+    "message": "Birincil yap"
+  },
+  "settings.billing.payment_method.card_expiry": {
+    "message": "Son Kullanma Tarihi {month}/{year}"
+  },
+  "settings.billing.payment_method.none": {
+    "message": "Herhangi bir ödeme yöntemi eklemediniz."
+  },
+  "settings.billing.payment_method.primary": {
+    "message": "Birincil"
+  },
+  "settings.billing.payment_method.title": {
+    "message": "Ödeme yöntemleri"
+  },
+  "settings.billing.plan.title": {
+    "message": "{size} Plan"
+  },
+  "settings.billing.price.per-interval": {
+    "message": "{price} / {interval}"
+  },
+  "settings.billing.price.slash-interval": {
+    "message": "/{interval}"
+  },
+  "settings.billing.pyro.linked-server.server-id": {
+    "message": "Sunucu Kimliği:{id}"
+  },
+  "settings.billing.pyro.linked-server.stripe-id": {
+    "message": "Stripe Kimliği: {id}"
+  },
+  "settings.billing.pyro.ram": {
+    "message": "{gb} GB RAM"
+  },
+  "settings.billing.pyro.resubscribe.error.title": {
+    "message": "Yeniden abone olurken hata"
+  },
+  "settings.billing.pyro.status.processing": {
+    "message": "Ödemeniz işleniyor. Sunucunuz ödeme tamamlandığında aktifleşecektir."
+  },
+  "settings.billing.pyro.storage": {
+    "message": "{gb} GB RAM"
+  },
+  "settings.billing.pyro.swap": {
+    "message": "{gb} GB Değişim"
+  },
+  "settings.billing.pyro_subscription.description": {
+    "message": "Icarus Sunucu aboneliklerini yönet."
+  },
+  "settings.billing.pyro_subscription.title": {
+    "message": "Icarus Sunucu Abonelikleri"
+  },
+  "settings.billing.subscribe": {
+    "message": "Abone ol"
+  },
+  "settings.billing.subscription.description": {
+    "message": "Icarus aboneliklerinizi yönetin."
+  },
+  "settings.billing.subscription.title": {
+    "message": "Abonelikler"
+  },
+  "settings.billing.switch.tooltip.monthly-additional-per-year": {
+    "message": "Aylık faturalandırma size yıllık ek olarak {amount} maliyet çıkaracaktır"
+  },
+  "settings.billing.switches-to-billing-on": {
+    "message": "{date} tarihinde {interval} ödemeye geçer"
+  },
+  "settings.billing.update-method": {
+    "message": "Güncelleme metodu"
+  },
+  "settings.billing.upgrade": {
+    "message": "Güncelle"
+  },
+  "settings.display.banner.developer-mode.button": {
+    "message": "Geliştirme modunu devre dışı bırak"
+  },
+  "settings.display.banner.developer-mode.description": {
+    "message": "<strong>Geliştirme modu</strong> aktif. Icarus'te bulunan çeşitli şeylerin dahilî kimliklerini gösterir, Icarus API kullanan bir geliştiriciyseniz kullanışlı olabilir. Sayfanın en altındaki Icarus logosuna 5 kere tıklayarak açılır ve kapanır."
+  },
+  "settings.display.flags.description": {
+    "message": "Bu cihazdaki belli özellikleri etkinlestir veya devre dışı bırak."
+  },
+  "settings.display.flags.title": {
+    "message": "Özellik aç/kapa"
+  },
+  "settings.display.notification.developer-mode-deactivated.text": {
+    "message": "Geliştirme modu kapatıldı"
+  },
+  "settings.display.notification.developer-mode-deactivated.title": {
+    "message": "Geliştirme modu kapalı"
+  },
+  "settings.display.project-list-layouts.datapack": {
+    "message": "Veri Paketleri sayfası"
+  },
+  "settings.display.project-list-layouts.description": {
+    "message": "Bu cihazda proje listelerini gösteren her sayfa için tercih ettiğiniz düzeni seçin."
+  },
+  "settings.display.project-list-layouts.mod": {
+    "message": "Modlar sayfası"
+  },
+  "settings.display.project-list-layouts.mode.gallery": {
+    "message": "Galeri"
+  },
+  "settings.display.project-list-layouts.modpack": {
+    "message": "Mod paketleri sayfası"
+  },
+  "settings.display.project-list-layouts.plugin": {
+    "message": "Pluginler sayfası"
+  },
+  "settings.display.project-list-layouts.resourcepack": {
+    "message": "Kaynak Paketleri sayfası"
+  },
+  "settings.display.project-list-layouts.server": {
+    "message": "Sunucular sayfası"
+  },
+  "settings.display.project-list-layouts.shader": {
+    "message": "Shaderlar sayfası"
+  },
+  "settings.display.project-list-layouts.title": {
+    "message": "Proje liste düzenleri"
+  },
+  "settings.display.project-list-layouts.user": {
+    "message": "Kullanıcı profili sayfaları"
+  },
+  "settings.display.project-list.layouts.collection": {
+    "message": "Koleksiyon"
+  },
+  "settings.display.sidebar.advanced-rendering.description": {
+    "message": "Donanım hızlandırmalı işleme olmadan performans sorunlarına yol açabilecek bulanıklık efektleri gibi gelişmiş işlemeyi etkinleştirir."
+  },
+  "settings.display.sidebar.advanced-rendering.title": {
+    "message": "Gelişmiş işleme"
+  },
+  "settings.display.sidebar.external-links-new-tab.description": {
+    "message": "Icarus'in dışına giden bağlantıların yeni bir sekmede açılmasını sağla. Bu ayara bakılmaksızın, aynı alan adındaki ve Markdown açıklamalarındaki bağlantılar aynı sekmede açılacak ve reklamlardaki, düzenleme sayfalarındaki bağlantılar yeni bir sekmede açılacak."
+  },
+  "settings.display.sidebar.external-links-new-tab.title": {
+    "message": "Dış bağlantıları yeni sekmede aç"
+  },
+  "settings.display.sidebar.hide-app-promos.description": {
+    "message": "\"Icarus Launcher Edin\" tuşlarını ana navigasyondan gizler. Icarus Launcher sayfası hala açılış sayfasında veya alt bilgide bulunabilir."
+  },
+  "settings.display.sidebar.hide-app-promos.title": {
+    "message": "Icarus Launcher tanıtımlarını gizle"
+  },
+  "settings.display.sidebar.left-aligned-content-sidebar.title": {
+    "message": "İçerik sayfalarında sola hizalı kenar çubuğu"
+  },
+  "settings.display.sidebar.right-aligned-content-sidebar.description": {
+    "message": "Kenar çubuğunu sayfa içeriğinin soluna hizalar."
+  },
+  "settings.display.sidebar.right-aligned-filters-sidebar.description": {
+    "message": "Filtre kenar çubuğunu, arama sonuçlarının sağına hizalar."
+  },
+  "settings.display.sidebar.right-aligned-filters-sidebar.title": {
+    "message": "Arama sayfalarında kenar çubuğunu sağa hizalar"
+  },
+  "settings.display.theme.description": {
+    "message": "Bu cihazda Icarus için tercih ettiğiniz renk temasını seçin."
+  },
+  "settings.display.theme.title": {
+    "message": "Renk teması"
+  },
+  "settings.head-title": {
+    "message": "Görüntü Ayarları"
+  },
+  "settings.pats.action.create": {
+    "message": "Bir PAT yarat"
+  },
+  "settings.pats.description": {
+    "message": "PAT'ler Icarus API’sine erişmek için kullanılabilir. Bunlar istendiği zaman oluşturulabilir ve iptal edilebilir. Daha fazla bilgi için <doc-link>Icarus API dokümantasyonuna</doc-link> bakın."
+  },
+  "settings.pats.modal.create.action": {
+    "message": "PAT oluştur"
+  },
+  "settings.pats.modal.create.expires.label": {
+    "message": "Son kullanma tarihi"
+  },
+  "settings.pats.modal.create.name.label": {
+    "message": "Ad"
+  },
+  "settings.pats.modal.create.name.placeholder": {
+    "message": "PAT'ın adını girin..."
+  },
+  "settings.pats.modal.create.title": {
+    "message": "Kişisel erişim token'i (PAT) oluştur"
+  },
+  "settings.pats.modal.delete.action": {
+    "message": "Bu tokeni sil"
+  },
+  "settings.pats.modal.delete.description": {
+    "message": "Bu işlem, bu tokeni sonsuza dek (gerçekten de sonsuza dek) kaldıracak."
+  },
+  "settings.pats.modal.delete.title": {
+    "message": "Bu tokeni silmek istediğinizden emin misiniz?"
+  },
+  "settings.pats.modal.edit.title": {
+    "message": "Kişisel erişim tokenini (PAT'ı) düzenle"
+  },
+  "settings.pats.token.action.edit": {
+    "message": "Token düzenle"
+  },
+  "settings.pats.token.action.revoke": {
+    "message": "Token iptal et"
+  },
+  "settings.pats.token.expired-ago": {
+    "message": "{ago} son kullanma tarihi geçti"
+  },
+  "settings.pats.token.expires-in": {
+    "message": "{inTime} son kullanma tarihi geçecek"
+  },
+  "settings.pats.token.last-used": {
+    "message": "En son {ago} kullanıldı"
+  },
+  "settings.pats.token.never-used": {
+    "message": "Hiç kullanılmadı"
+  },
+  "settings.profile.bio.description": {
+    "message": "Herkese kendinden biraz bahsedebileceğin kısa tanım."
+  },
+  "settings.profile.bio.title": {
+    "message": "Hakkında"
+  },
+  "settings.profile.description": {
+    "message": "Profil bilgin Icarus'te ve <docs-link>Icarus API</docs-link> herkese açık görüntülenebilir."
+  },
+  "settings.profile.head-title": {
+    "message": "Profil Ayarları"
+  },
+  "settings.profile.profile-info": {
+    "message": "Profil bilgisi"
+  },
+  "settings.profile.profile-picture.title": {
+    "message": "Profil resmi"
+  },
+  "settings.profile.username.description": {
+    "message": "Profilini tanımlamak için büyük-küçük harf hassasiyetli özel bir ad."
+  },
+  "settings.sessions.action.revoke-session": {
+    "message": "Oturumu iptal et"
+  },
+  "settings.sessions.created-ago": {
+    "message": "{ago} oluşturuldu"
+  },
+  "settings.sessions.current-session": {
+    "message": "Mevcut oturum"
+  },
+  "settings.sessions.description": {
+    "message": "Şu an Icarus hesabınızla giriş yapılmış tüm cihazlar burada. Her birinden teker teker çıkış yapabilirsiniz.\n\nEğer tanımadığınız bir girdi varsa, o cihazdan çıkış yapın ve Icarus hesabınızın parolasını derhal değiştirin."
+  },
+  "settings.sessions.last-accessed-ago": {
+    "message": "En son {ago} erişildi"
+  },
+  "settings.sessions.unknown-os": {
+    "message": "Bilinmeyen İşletim Sistemi"
+  },
+  "settings.sessions.unknown-platform": {
+    "message": "Bilinmeyen platform"
+  },
+  "settings.sidebar.label.account": {
+    "message": "Hesap"
+  },
+  "settings.sidebar.label.developer": {
+    "message": "Geliştirici"
+  },
+  "ui.latest-news-row.latest-news": {
+    "message": "Icarus'ten haberler"
+  },
+  "ui.latest-news-row.view-all": {
+    "message": "Bütün haberleri gör"
+  },
+  "ui.newsletter-button.subscribe": {
+    "message": "Abone ol"
+  },
+  "ui.newsletter-button.subscribed": {
+    "message": "Abone Olundu!"
+  },
+  "ui.newsletter-button.tooltip": {
+    "message": "Icarus haber mektuplarına abone ol"
+  },
+  "version.environment.none.description": {
+    "message": "Bu sürüm için ortam belirtilmemiş."
+  },
+  "version.environment.none.title": {
+    "message": "Ortam ayarlanmamış"
+  },
+  "version.environment.unknown.description": {
+    "message": "\"{environment}\" ortamı tanınmıyor."
+  },
+  "version.environment.unknown.title": {
+    "message": "Bilinmeyen ortam"
+  }
+}
+

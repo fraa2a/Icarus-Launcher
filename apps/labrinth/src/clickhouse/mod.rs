@@ -1,0 +1,267 @@
+use hyper_rustls::HttpsConnectorBuilder;
+use hyper_util::rt::TokioExecutor;
+
+mod fetch;
+
+pub use fetch::*;
+
+use crate::env::ENV;
+use crate::queue::server_ping;
+use crate::routes::analytics::MINECRAFT_SERVER_PLAYS;
+
+pub const DOWNLOADS: &str = "downloads";
+pub const PLAYTIME: &str = "playtime";
+
+pub async fn init_client() -> clickhouse::error::Result<clickhouse::Client> {
+    init_client_with_database(&ENV.CLICKHOUSE_DATABASE).await
+}
+
+pub async fn init_client_with_database(
+    database: &str,
+) -> clickhouse::error::Result<clickhouse::Client> {
+    const MINECRAFT_JAVA_SERVER_PINGS: &str = server_ping::CLICKHOUSE_TABLE;
+
+    let client = {
+        let https_connector = HttpsConnectorBuilder::new()
+            .with_native_roots()?
+            .https_or_http()
+            .enable_all_versions()
+            .build();
+        let hyper_client =
+            hyper_util::client::legacy::Client::builder(TokioExecutor::new())
+                .build(https_connector);
+
+        clickhouse::Client::with_http_client(hyper_client)
+            .with_url(&ENV.CLICKHOUSE_URL)
+            .with_user(&ENV.CLICKHOUSE_USER)
+            .with_password(&ENV.CLICKHOUSE_PASSWORD)
+            .with_validation(false)
+    };
+
+    client
+        .query(&format!("CREATE DATABASE IF NOT EXISTS {database}"))
+        .execute()
+        .await?;
+
+    let clickhouse_replicated = ENV.CLICKHOUSE_REPLICATED;
+    let cluster_line = if clickhouse_replicated {
+        "ON cluster '{cluster}'"
+    } else {
+        ""
+    };
+
+    let engine = if clickhouse_replicated {
+        "ReplicatedMergeTree('/clickhouse/{installation}/{cluster}/tables/{shard}/{database}/{table}', '{replica}')"
+    } else {
+        "MergeTree()"
+    };
+
+    // For the Clickhouse database on the staging environment, set a TTL to avoid accumulating too much data
+    let ttl = if database == "staging_analytics" {
+        "TTL toDateTime(recorded) + INTERVAL 1 DAY"
+    } else {
+        ""
+    };
+
+    client
+        .query(&format!(
+            "
+            CREATE TABLE IF NOT EXISTS {database}.views {cluster_line}
+            (
+                recorded DateTime64(4),
+                domain String,
+                site_path String,
+
+                user_id UInt64,
+                project_id UInt64,
+                monetized Bool DEFAULT True,
+
+                ip IPv6,
+                country String,
+                user_agent String,
+                headers Array(Tuple(String, String))
+            )
+            ENGINE = {engine}
+            {ttl}
+            PRIMARY KEY (project_id, recorded, ip)
+            SETTINGS index_granularity = 8192
+            "
+        ))
+        .execute()
+        .await?;
+
+    client
+        .query(&format!(
+            "
+            CREATE TABLE IF NOT EXISTS {database}.{DOWNLOADS} {cluster_line}
+            (
+                recorded DateTime64(4),
+                domain String,
+                site_path String,
+
+                user_id UInt64,
+                project_id UInt64,
+                version_id UInt64,
+
+                ip IPv6,
+                country String,
+                user_agent String,
+                headers Array(Tuple(String, String))
+            )
+            ENGINE = {engine}
+            {ttl}
+            PRIMARY KEY (project_id, recorded, ip)
+            SETTINGS index_granularity = 8192
+            "
+        ))
+        .execute()
+        .await?;
+
+    client
+        .query(&format!(
+            "
+            CREATE TABLE IF NOT EXISTS {database}.{PLAYTIME} {cluster_line}
+            (
+                recorded DateTime64(4),
+                seconds UInt64,
+
+                user_id UInt64,
+                project_id UInt64,
+                version_id UInt64,
+
+                loader String,
+                game_version String,
+                parent UInt64
+            )
+            ENGINE = {engine}
+            {ttl}
+            PRIMARY KEY (project_id, recorded, user_id)
+            SETTINGS index_granularity = 8192
+            "
+        ))
+        .execute()
+        .await?;
+
+    client
+        .query(&format!(
+            "
+            CREATE TABLE IF NOT EXISTS {database}.affiliate_code_clicks {cluster_line}
+            (
+                recorded DateTime64(4),
+                domain String,
+
+                user_id UInt64,
+                affiliate_code_id UInt64,
+
+                ip IPv6,
+                country String,
+                user_agent String,
+                headers Array(Tuple(String, String))
+            )
+            ENGINE = {engine}
+            {ttl}
+            PRIMARY KEY (affiliate_code_id, recorded)
+            SETTINGS index_granularity = 8192
+            "
+        ))
+        .execute()
+        .await?;
+
+    client
+        .query(&format!(
+            "
+            CREATE TABLE IF NOT EXISTS {database}.{MINECRAFT_JAVA_SERVER_PINGS} {cluster_line}
+            (
+                recorded DateTime64(4),
+                project_id UInt64,
+                address String,
+                online Bool,
+                latency_ms Nullable(UInt32),
+                description Nullable(String),
+                version_name Nullable(String),
+                version_protocol Nullable(Int32),
+                players_online Nullable(Int32),
+                players_max Nullable(Int32)
+            )
+            ENGINE = {engine}
+            {ttl}
+            PRIMARY KEY (project_id, recorded)
+            SETTINGS index_granularity = 8192
+            "
+        ))
+        .execute()
+        .await?;
+
+    client
+        .query(&format!(
+            "
+            CREATE TABLE IF NOT EXISTS {database}.{MINECRAFT_SERVER_PLAYS} {cluster_line}
+            (
+                recorded DateTime64(4),
+                user_id UInt64,
+                project_id UInt64,
+                minecraft_uuid UUID
+            )
+            ENGINE = {engine}
+            {ttl}
+            PRIMARY KEY (project_id, recorded)
+            SETTINGS index_granularity = 8192
+            "
+        ))
+        .execute()
+        .await?;
+
+    client
+        .query(&format!(
+            "
+            ALTER TABLE {database}.{MINECRAFT_SERVER_PLAYS} {cluster_line}
+            ADD COLUMN IF NOT EXISTS minecraft_uuid UUID
+            "
+        ))
+        .execute()
+        .await?;
+
+    client
+        .query(&format!(
+            "
+            ALTER TABLE {database}.{MINECRAFT_SERVER_PLAYS} {cluster_line}
+            ADD COLUMN IF NOT EXISTS ip IPv6 DEFAULT toIPv6('::')
+            "
+        ))
+        .execute()
+        .await?;
+
+    client
+        .query(&format!(
+            "
+            ALTER TABLE {database}.{MINECRAFT_JAVA_SERVER_PINGS} {cluster_line}
+            DROP COLUMN IF EXISTS port
+            "
+        ))
+        .execute()
+        .await?;
+
+    client
+        .query(&format!(
+            "
+            ALTER TABLE {database}.{DOWNLOADS} {cluster_line}
+            ADD COLUMN IF NOT EXISTS reason String,
+            ADD COLUMN IF NOT EXISTS game_version String,
+            ADD COLUMN IF NOT EXISTS loader String
+            "
+        ))
+        .execute()
+        .await?;
+
+    client
+        .query(&format!(
+            "
+            ALTER TABLE {database}.{PLAYTIME} {cluster_line}
+            ADD COLUMN IF NOT EXISTS country String
+            "
+        ))
+        .execute()
+        .await?;
+
+    Ok(client.with_database(database))
+}

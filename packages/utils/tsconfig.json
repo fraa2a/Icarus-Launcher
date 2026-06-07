@@ -1,0 +1,3 @@
+{
+	"extends": "@icarus/tooling-config/typescript/vue.json"
+}

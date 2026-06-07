@@ -1,0 +1,11 @@
+[package]
+name = "pteron_playground"
+edition.workspace = true
+
+[dependencies]
+enumset = { workspace = true }
+pteron = { workspace = true, features = ["cli"] }
+tokio = { workspace = true, features = ["macros", "rt-multi-thread"] }
+
+[lints]
+workspace = true

@@ -1,0 +1,154 @@
+<template>
+	<div class="flex flex-col gap-2">
+		<div class="flex items-center gap-2">
+			<div class="relative flex-1">
+				<StyledInput
+					ref="amountInput"
+					:model-value="modelValue"
+					type="number"
+					:step="0.01"
+					:min="minAmount"
+					:max="safeMaxAmount"
+					:disabled="isDisabled"
+					:placeholder="formatMessage(formFieldPlaceholders.amountPlaceholder)"
+					wrapper-class="w-full"
+					@update:model-value="handleStyledInput"
+				/>
+			</div>
+			<Combobox
+				v-if="showCurrencySelector"
+				:model-value="selectedCurrency"
+				:options="currencyOptions"
+				class="w-min"
+				@update:model-value="$emit('update:selectedCurrency', $event)"
+			>
+				<template #option="{ item }">
+					<span class="font-semibold leading-tight">{{ item.label }}</span>
+				</template>
+			</Combobox>
+			<ButtonStyled>
+				<button class="px-4 py-2" :disabled="isDisabled" @click="setMaxAmount">
+					{{ formatMessage(commonMessages.maxButton) }}
+				</button>
+			</ButtonStyled>
+		</div>
+		<div>
+			<span class="my-1 mt-0 text-secondary">{{ formatMoney(safeMaxAmount) }} available.</span>
+			<Transition name="fade">
+				<span v-if="isBelowMinimum" class="text-red">
+					Amount must be at least {{ formatMoney(minAmount) }}.
+				</span>
+			</Transition>
+			<Transition name="fade">
+				<span v-if="isAboveMaximum" class="text-red">
+					Amount cannot exceed {{ formatMoney(safeMaxAmount) }}.
+				</span>
+			</Transition>
+		</div>
+	</div>
+</template>
+
+<script setup lang="ts">
+import {
+	ButtonStyled,
+	Combobox,
+	commonMessages,
+	formFieldPlaceholders,
+	StyledInput,
+	useFormatMoney,
+	useVIntl,
+} from '@icarus/ui'
+import { computed, ref, watch } from 'vue'
+
+const props = withDefaults(
+	defineProps<{
+		modelValue: number | undefined
+		maxAmount: number
+		minAmount?: number
+		showCurrencySelector?: boolean
+		selectedCurrency?: string
+		currencyOptions?: Array<{ value: string; label: string }>
+	}>(),
+	{
+		minAmount: 0.01,
+		showCurrencySelector: false,
+		currencyOptions: () => [],
+	},
+)
+
+const emit = defineEmits<{
+	'update:modelValue': [value: number | undefined]
+	'update:selectedCurrency': [value: string]
+}>()
+
+const { formatMessage } = useVIntl()
+const formatMoney = useFormatMoney()
+const amountInput = ref<InstanceType<typeof StyledInput> | null>(null)
+
+const safeMaxAmount = computed(() => {
+	return Math.max(0, props.maxAmount)
+})
+
+const isDisabled = computed(() => {
+	return safeMaxAmount.value < 0.01
+})
+
+const isBelowMinimum = computed(() => {
+	return (
+		props.modelValue !== undefined && props.modelValue > 0 && props.modelValue < props.minAmount
+	)
+})
+
+const isAboveMaximum = computed(() => {
+	return props.modelValue !== undefined && props.modelValue > safeMaxAmount.value
+})
+
+function setMaxAmount() {
+	const maxValue = safeMaxAmount.value
+	emit('update:modelValue', maxValue)
+}
+
+function handleStyledInput(val: string | number) {
+	const value = String(val)
+
+	if (value && value.includes('.')) {
+		const parts = value.split('.')
+		if (parts[1] && parts[1].length > 2) {
+			const rounded = Math.floor(parseFloat(value) * 100) / 100
+			emit('update:modelValue', rounded)
+			return
+		}
+	}
+
+	const numValue = value === '' ? undefined : parseFloat(value)
+	emit('update:modelValue', numValue)
+}
+
+watch(
+	() => props.modelValue,
+	(newAmount) => {
+		if (newAmount !== undefined && newAmount !== null) {
+			if (newAmount > safeMaxAmount.value) {
+				emit('update:modelValue', safeMaxAmount.value)
+			} else if (newAmount < 0) {
+				emit('update:modelValue', 0)
+			}
+		}
+	},
+)
+</script>
+
+<style scoped>
+.fade-enter-active {
+	transition: opacity 200ms ease-out;
+}
+
+.fade-leave-active {
+	transition: opacity 150ms ease-in;
+}
+
+.fade-enter-from,
+.fade-leave-to {
+	opacity: 0;
+}
+</style>
