@@ -38,24 +38,35 @@ fn build_java_jars() {
         out_dir.join("java/libs").display()
     );
 
-    let gradle_path = fs::canonicalize(
-        #[cfg(target_os = "windows")]
-        "java\\gradlew.bat",
-        #[cfg(not(target_os = "windows"))]
-        "java/gradlew",
-    )
-    .unwrap();
+	let mut build_dir_str = OsString::from("-Dorg.gradle.project.buildDir=");
+	build_dir_str.push(out_dir.join("java"));
+	let java_dir = dunce::canonicalize("java").unwrap();
+	let exit_status = {
+		#[cfg(target_os = "windows")]
+		{
+			let gradle_path = fs::canonicalize("java\\gradlew.bat").unwrap();
+			Command::new(gradle_path)
+				.arg(build_dir_str)
+				.arg("build")
+				.arg("--no-daemon")
+				.arg("--console=rich")
+				.current_dir(&java_dir)
+				.status()
+		}
 
-    let mut build_dir_str = OsString::from("-Dorg.gradle.project.buildDir=");
-    build_dir_str.push(out_dir.join("java"));
-    let exit_status = Command::new(gradle_path)
-        .arg(build_dir_str)
-        .arg("build")
-        .arg("--no-daemon")
-        .arg("--console=rich")
-        .current_dir(dunce::canonicalize("java").unwrap())
-        .status()
-        .expect("Failed to wait on Gradle build");
+		#[cfg(not(target_os = "windows"))]
+		{
+			Command::new("sh")
+				.arg("gradlew")
+				.arg(build_dir_str)
+				.arg("build")
+				.arg("--no-daemon")
+				.arg("--console=rich")
+				.current_dir(&java_dir)
+				.status()
+		}
+	}
+	.expect("Failed to wait on Gradle build");
 
     if !exit_status.success() {
         println!("cargo::error=Gradle build failed with {exit_status}");
