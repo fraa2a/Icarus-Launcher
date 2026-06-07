@@ -93,7 +93,11 @@ jobs:
           dasel put -f packages/app-lib/Cargo.toml -t string -v "${APP_VERSION#v}" 'package.version'
           dasel put -f apps/app-frontend/package.json -t string -v "${APP_VERSION#v}" 'version'
 
-          cp packages/app-lib/.env.prod packages/app-lib/.env
+          if [[ -f packages/app-lib/.env.prod ]]; then
+            cp packages/app-lib/.env.prod packages/app-lib/.env
+          else
+            : > packages/app-lib/.env
+          fi
 
       - name: 💨 Setup Turbo cache
         uses: rharkor/caching-for-turbo@v1.8
@@ -137,4 +141,3 @@ jobs:
             target/release/bundle/nsis/Icarus_*-setup.exe*
             target/release/bundle/nsis/Icarus_*-setup.nsis.zip*
             target/release/Icarus.exe
-
