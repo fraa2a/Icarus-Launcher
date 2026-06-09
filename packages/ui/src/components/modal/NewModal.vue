@@ -428,11 +428,12 @@ function handleKeyDown(event: KeyboardEvent) {
 	visibility: hidden;
 	pointer-events: none;
 	transform: translate(v-bind(mouseXOffset), v-bind(mouseYOffset));
-	transition: all 0.2s ease-out;
+	transition: none;
 
 	&.shown {
 		visibility: visible;
 		transform: translate(0, 0);
+		transition: all 0.2s ease-out;
 
 		> .modal-body {
 			opacity: 1;
