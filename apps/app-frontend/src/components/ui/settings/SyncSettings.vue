@@ -15,11 +15,10 @@ const labels: Record<string, string> = {
 	shaderpacks: 'Shaderpacks',
 	schematics: 'Litematica Schematics',
 	'options.txt': 'Game Options',
-	'servers.dat': 'Server List',
 }
 
 const allFolderTargets = ['saves', 'screenshots', 'resourcepacks', 'shaderpacks', 'schematics']
-const allFileTargets = ['options.txt', 'servers.dat']
+const allFileTargets = ['options.txt']
 
 function isEnabled(type: 'folder' | 'file', key: string) {
 	return type === 'folder'

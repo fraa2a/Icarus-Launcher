@@ -7594,7 +7594,7 @@ dependencies = [
 
 [[package]]
 name = "pteron"
-version = "0.2.5"
+version = "0.2.8"
 dependencies = [
  "ariadne",
  "async-compression",
@@ -7671,7 +7671,7 @@ dependencies = [
 
 [[package]]
 name = "pteron_gui"
-version = "0.2.5"
+version = "0.2.8"
 dependencies = [
  "async_zip",
  "chrono",

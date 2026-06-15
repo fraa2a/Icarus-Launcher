@@ -10,7 +10,7 @@ const FOLDER_TARGETS: &[&str] = &[
     "shaderpacks",
     "schematics",
 ];
-const FILE_TARGETS: &[&str] = &["options.txt", "servers.dat"];
+const FILE_TARGETS: &[&str] = &["options.txt"];
 
 fn folder_enabled(name: &str, ov: &Option<InstanceSyncOverrides>) -> bool {
     match ov {
@@ -31,15 +31,35 @@ fn file_enabled(name: &str, ov: &Option<InstanceSyncOverrides>) -> bool {
         None => true,
         Some(ov) => match name {
             "options.txt" => ov.options_txt.unwrap_or(true),
-            "servers.dat" => ov.servers_dat.unwrap_or(true),
             _ => true,
         },
-    }
+	}
+}
+
+fn ensure_sync_source_file(
+	src: &Path,
+	dst: &Path,
+) -> std::io::Result<()> {
+	if src.exists() {
+		return Ok(());
+	}
+
+	if let Some(parent) = src.parent() {
+		std::fs::create_dir_all(parent)?;
+	}
+
+	if dst.exists() {
+		std::fs::copy(dst, src)?;
+	} else {
+		let _ = std::fs::File::create(src);
+	}
+
+	Ok(())
 }
 
 pub fn apply_sync_to_instance(
-    _sync_settings: &SyncSettings,
-    instance_dot_minecraft: &Path,
+	_sync_settings: &SyncSettings,
+	instance_dot_minecraft: &Path,
     synced_dir: &Path,
     sync_enabled: bool,
     sync_overrides: &Option<InstanceSyncOverrides>,
@@ -76,22 +96,15 @@ pub fn apply_sync_to_instance(
         let Some(path) = SafePath::new(file) else {
             continue;
         };
-        let src = path.to_path(synced_dir);
-        let dst = path.to_path(instance_dot_minecraft);
-        let enabled = sync_enabled && file_enabled(file, sync_overrides);
+		let src = path.to_path(synced_dir);
+		let dst = path.to_path(instance_dot_minecraft);
+		let enabled = sync_enabled && file_enabled(file, sync_overrides);
 
-        if enabled {
-            if !src.exists() {
-                if let Some(parent) = src.parent() {
-                    std::fs::create_dir_all(parent)?;
-                }
-                if *file != "servers.dat" {
-                    let _ = std::fs::File::create(&src);
-                }
-            }
-            if dst.exists() && !linking::is_targeting_file(&src, &dst) {
-                let _ = std::fs::remove_file(&dst);
-            }
+		if enabled {
+			ensure_sync_source_file(&src, &dst)?;
+			if dst.exists() && !linking::is_targeting_file(&src, &dst) {
+				let _ = std::fs::remove_file(&dst);
+			}
             if !dst.exists() && src.exists() {
                 if let Some(parent) = dst.parent() {
                     std::fs::create_dir_all(parent)?;
@@ -103,5 +116,7 @@ pub fn apply_sync_to_instance(
         }
     }
 
-    Ok(())
+	Ok(())
 }
+
+

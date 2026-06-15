@@ -17,7 +17,6 @@ const localOverrides = ref({
 	shaderpacks: instance.value.sync_overrides?.shaderpacks ?? undefined,
 	schematics: instance.value.sync_overrides?.schematics ?? undefined,
 	options_txt: instance.value.sync_overrides?.options_txt ?? undefined,
-	servers_dat: instance.value.sync_overrides?.servers_dat ?? undefined,
 })
 
 const items = computed(() => [
@@ -27,7 +26,6 @@ const items = computed(() => [
 	{ key: 'shaderpacks', label: 'Shaderpacks' },
 	{ key: 'schematics', label: 'Litematica Schematics' },
 	{ key: 'options_txt', label: 'Game Options' },
-	{ key: 'servers_dat', label: 'Server List' },
 ])
 
 async function toggleEnabled(v: boolean) {

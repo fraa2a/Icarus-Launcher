@@ -41,7 +41,6 @@ export type InstanceSyncOverrides = {
 	shaderpacks?: boolean
 	schematics?: boolean
 	options_txt?: boolean
-	servers_dat?: boolean
 }
 
 type InstallStage =

@@ -16,7 +16,7 @@ impl Default for SyncSettings {
     fn default() -> Self {
         Self {
             enabled: true,
-            files: vec!["options.txt".to_string(), "servers.dat".to_string()],
+            files: vec!["options.txt".to_string()],
             folders: vec![
                 "saves".to_string(),
                 "screenshots".to_string(),

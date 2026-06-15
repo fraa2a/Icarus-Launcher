@@ -29,7 +29,6 @@ pub struct InstanceSyncOverrides {
     pub shaderpacks: Option<bool>,
     pub schematics: Option<bool>,
     pub options_txt: Option<bool>,
-    pub servers_dat: Option<bool>,
 }
 
 // Represent a Minecraft instance.

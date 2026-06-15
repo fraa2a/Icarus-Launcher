@@ -26,7 +26,6 @@ fn build_default_sync_overrides(sync: &crate::state::SyncSettings) -> InstanceSy
         shaderpacks: Some(has_folder("shaderpacks")),
         schematics: Some(has_folder("schematics")),
         options_txt: Some(has_file("options.txt")),
-        servers_dat: Some(has_file("servers.dat")),
     }
 }
 
