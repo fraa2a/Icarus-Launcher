@@ -233,10 +233,22 @@ provideInstallationSettings({
 			)
 			return []
 		}
-		if (loader === 'fabric' || loader === 'quilt') {
-			return manifest.value.gameVersions[0]?.loaders ?? []
+		const entry = manifest.value.gameVersions?.find((item) => item.id === gameVersion)
+		if (entry?.versionGroup) {
+			return (
+				manifest.value.versionGroups?.find((group) => group.id === entry.versionGroup)
+					?.loaders ?? []
+			)
 		}
-		return manifest.value.gameVersions?.find((item) => item.id === gameVersion)?.loaders ?? []
+		const placeholder = manifest.value.gameVersions?.find(
+			(item) => item.id === '${modrinth.gameVersion}',
+		)
+		if (placeholder) {
+			return manifest.value.gameVersions?.some((item) => item.id === gameVersion)
+				? placeholder.loaders
+				: []
+		}
+		return entry?.loaders ?? []
 	},
 
 	resolveHasSnapshots(loader) {
