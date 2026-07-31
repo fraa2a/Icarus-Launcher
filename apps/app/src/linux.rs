@@ -30,7 +30,7 @@ pub(crate) fn configure_webkit() -> io::Result<()> {
 		command.env(NVIDIA_DISABLE_EXPLICIT_SYNC, "1");
 	}
 	if dmabuf_renderer.is_none() {
-		command.env(WEBKIT_DISABLE_DMABUF_RENDERER, "0");
+		command.env(WEBKIT_DISABLE_DMABUF_RENDERER, "1");
 	}
 
 	Err(command.exec())
