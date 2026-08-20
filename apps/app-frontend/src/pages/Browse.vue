@@ -348,13 +348,20 @@ onUnmounted(() => {
 })
 
 const offline = ref(!navigator.onLine)
-window.addEventListener('offline', () => {
+const handleOffline = () => {
 	debugLog('went offline')
 	offline.value = true
-})
-window.addEventListener('online', () => {
+}
+const handleOnline = () => {
 	debugLog('went online')
 	offline.value = false
+}
+window.addEventListener('offline', handleOffline)
+window.addEventListener('online', handleOnline)
+
+onUnmounted(() => {
+	window.removeEventListener('offline', handleOffline)
+	window.removeEventListener('online', handleOnline)
 })
 
 const messages = defineMessages({
