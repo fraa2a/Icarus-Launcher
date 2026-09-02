@@ -1,10 +1,10 @@
 use crate::api::Result;
 use async_zip::base::read::seek::ZipFileReader;
+use pteron::profile::get_full_path;
 use serde::Serialize;
 use std::io::Cursor;
 use tauri::Runtime;
 use tauri_plugin_dialog::DialogExt;
-use pteron::profile::get_full_path;
 
 pub fn init<R: Runtime>() -> tauri::plugin::TauriPlugin<R> {
     tauri::plugin::Builder::new("files")
@@ -26,7 +26,7 @@ pub struct ExtractDryRunResult {
 pub async fn file_read_dragged_file(path: String) -> Result<Vec<u8>> {
     let metadata = tokio::fs::metadata(&path).await?;
     if !metadata.is_file() {
-        return Err(theseus::Error::from(theseus::ErrorKind::OtherError(
+        return Err(pteron::Error::from(pteron::ErrorKind::OtherError(
             "Dropped path is not a file".to_string(),
         ))
         .into());
