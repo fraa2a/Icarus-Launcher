@@ -296,6 +296,7 @@ async function checkUserChanges() {
 	try {
 		const defaultId = await get_default_user()
 		if (defaultId !== currentUserId.value) {
+			await accountsCard.value?.refreshValues()
 			await loadCurrentUser()
 			await loadCapes()
 			await loadSkins()
