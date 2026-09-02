@@ -9,7 +9,7 @@ import {
 	StyledInput,
 	useVIntl,
 } from '@icarus/ui'
-import { open } from '@tauri-apps/plugin-dialog'
+import { save } from '@tauri-apps/plugin-dialog'
 import { ref, watch } from 'vue'
 
 import { PackageIcon, VersionIcon } from '@/assets/icons'
@@ -132,15 +132,20 @@ const exportPack = async () => {
 			}
 		})
 	})
-	const outputPath = await open({
-		directory: true,
-		multiple: false,
+	const outputPath = await save({
+		defaultPath: `${nameInput.value} ${versionInput.value}.mrpack`,
+		filters: [
+			{
+				name: 'Modrinth Modpack',
+				extensions: ['mrpack'],
+			},
+		],
 	})
 
 	if (outputPath) {
 		export_profile_mrpack(
 			props.instance.path,
-			outputPath + `/${nameInput.value} ${versionInput.value}.mrpack`,
+			outputPath,
 			filesToExport,
 			versionInput.value,
 			exportDescription.value,
