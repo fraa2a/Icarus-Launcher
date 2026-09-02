@@ -1312,8 +1312,10 @@ impl Profile {
         project_path: &str,
     ) -> crate::Result<()> {
         if let Ok(path) = crate::api::profile::get_full_path(profile_path).await
+            && let Err(error) = io::remove_file(path.join(project_path)).await
+            && error.kind() != std::io::ErrorKind::NotFound
         {
-            io::remove_file(path.join(project_path)).await?;
+            return Err(error.into());
         }
 
         Ok(())
