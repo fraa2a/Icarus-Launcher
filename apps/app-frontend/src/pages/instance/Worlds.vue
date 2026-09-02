@@ -94,7 +94,11 @@
 				<ButtonStyled type="transparent" hover-color-fill="none">
 					<button :disabled="refreshingAll" @click="refreshAllWorlds">
 						<RefreshCwIcon :class="refreshingAll ? 'animate-spin' : ''" />
-						{{ formatMessage(commonMessages.refreshButton) }}
+						{{
+							formatMessage(
+								refreshingAll ? messages.refreshingButton : commonMessages.refreshButton,
+							)
+						}}
 					</button>
 				</ButtonStyled>
 			</div>
@@ -285,6 +289,10 @@ const messages = defineMessages({
 		id: 'app.instance.worlds.filter-offline',
 		defaultMessage: 'Offline',
 	},
+	refreshingButton: {
+		id: 'app.instance.worlds.refreshing',
+		defaultMessage: 'Refreshing...',
+	},
 })
 
 const { formatMessage } = useVIntl()
@@ -372,7 +380,7 @@ const isLinux = platform() === 'linux'
 const linuxRefreshCount = ref(0)
 
 const protocolVersion = ref<ProtocolVersion | null>(null)
-
+const protocolVersionReady = ref(false)
 const gameVersions = ref<GameVersion[]>([])
 const supportsServerQuickPlay = computed(() =>
 	hasServerQuickPlaySupport(gameVersions.value, instance.value.game_version),
@@ -386,8 +394,16 @@ watch(
 	(data) => {
 		if (data) {
 			worlds.value = [...data]
-			refreshServers(worlds.value, serverData.value, protocolVersion.value)
 			hadNoWorlds.value = worlds.value.length === 0
+			// Manual refresh handles its own server pings to avoid double-pinging
+			if (!refreshingAll.value) {
+				void refreshServers(
+					worlds.value,
+					serverData.value,
+					protocolVersion.value,
+					protocolVersionReady.value,
+				)
+			}
 		}
 	},
 	{ immediate: true },
@@ -487,9 +503,14 @@ async function initWorldsTab() {
 	unlistenProfile = _unlistenProfile
 	protocolVersion.value = resolvedProtocolVersion
 	gameVersions.value = resolvedGameVersions
+	protocolVersionReady.value = true
+
+	if (worlds.value.length > 0) {
+		refreshServers(worlds.value, serverData.value, protocolVersion.value)
+	}
 }
 
-await initWorldsTab()
+void initWorldsTab()
 
 async function refreshServer(address: string) {
 	if (!serverData.value[address]) {
@@ -497,6 +518,7 @@ async function refreshServer(address: string) {
 			refreshing: true,
 		}
 	}
+	if (!protocolVersionReady.value) return
 	await refreshServerData(serverData.value[address], protocolVersion.value, address)
 }
 
@@ -507,8 +529,28 @@ async function refreshAllWorlds() {
 	}
 
 	refreshingAll.value = true
-	await queryClient.invalidateQueries({ queryKey: ['worlds', instance.value.path] })
-	refreshingAll.value = false
+	try {
+		// Show loading on server rows immediately while the list refreshes
+		for (const world of worlds.value) {
+			if (world.type === 'server') {
+				if (!serverData.value[world.address]) {
+					serverData.value[world.address] = { refreshing: true }
+				} else {
+					serverData.value[world.address].refreshing = true
+				}
+			}
+		}
+
+		await queryClient.invalidateQueries({ queryKey: ['worlds', instance.value.path] })
+		await refreshServers(
+			worlds.value,
+			serverData.value,
+			protocolVersion.value,
+			protocolVersionReady.value,
+		)
+	} finally {
+		refreshingAll.value = false
+	}
 }
 
 async function addServer(server: ServerWorld) {
@@ -576,12 +618,11 @@ async function joinWorld(world: World) {
 		const managedProjectId = instance.value.linked_data?.project_id
 		if (managedProjectId && isManagedServerWorld(world)) {
 			await playServerProject(managedProjectId).catch(handleJoinError)
-			
+
 			startingInstance.value = false
 			return
 		}
 		await start_join_server(instance.value.path, world.address).catch(handleJoinError)
-		
 	} else if (world.type === 'singleplayer') {
 		await start_join_singleplayer_world(instance.value.path, world.path).catch(handleJoinError)
 	}

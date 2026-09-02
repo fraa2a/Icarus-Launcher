@@ -251,6 +251,9 @@
   "app.instance.worlds.no-worlds-heading": {
     "message": "No servers or worlds added"
   },
+  "app.instance.worlds.refreshing": {
+    "message": "Refreshing..."
+  },
   "app.instance.worlds.remove-server-description": {
     "message": "'{name}' will be removed from your list, including in-game, and there will be no way to recover it."
   },
