@@ -18,8 +18,6 @@ use std::time::{self};
 use tokio::sync::Semaphore;
 use tokio::{fs::File, io::AsyncWriteExt};
 
-pub const DOWNLOAD_META_HEADER: &str = "modrinth-download-meta";
-
 #[derive(Debug, derive_more::Display, Clone, Copy, Serialize, Deserialize)]
 #[serde(rename_all = "snake_case")]
 #[display(rename_all = "snake_case")]
@@ -34,12 +32,6 @@ pub struct DownloadMeta {
     pub reason: DownloadReason,
     pub game_version: String,
     pub loader: String,
-}
-
-impl DownloadMeta {
-    pub fn to_header_value(&self) -> String {
-        serde_json::to_string(self).unwrap_or_default()
-    }
 }
 
 #[derive(Debug)]
@@ -282,7 +274,7 @@ pub async fn fetch_advanced_with_client(
     sha1: Option<&str>,
     json_body: Option<serde_json::Value>,
     header: Option<(&str, &str)>,
-    download_meta: Option<&DownloadMeta>,
+    _download_meta: Option<&DownloadMeta>,
     loading_bar: Option<(&LoadingBarId, f64)>,
     semaphore: &FetchSemaphore,
     exec: impl sqlx::Executor<'_, Database = sqlx::Sqlite>,
@@ -303,9 +295,6 @@ pub async fn fetch_advanced_with_client(
         None
     };
 
-    let download_meta_header = download_meta
-        .map(|m| (DOWNLOAD_META_HEADER.to_string(), m.to_header_value()));
-
     for attempt in 1..=(FETCH_ATTEMPTS + 1) {
         if is_api_url && GLOBAL_FETCH_FENCE.is_blocked() {
             return Err(ErrorKind::ApiIsDownError.into());
@@ -323,11 +312,6 @@ pub async fn fetch_advanced_with_client(
 
         if let Some(ref creds) = creds {
             req = req.header("Authorization", &creds.session);
-        }
-
-        if let Some((name, value)) = &download_meta_header {
-            tracing::info!("Sending download analytics: {value}");
-            req = req.header(name.as_str(), value.as_str());
         }
 
         let result = req.send().await;
@@ -451,28 +435,6 @@ pub async fn fetch_mirrors(
     }
 
     unreachable!()
-}
-
-/// Posts a JSON to a URL
-#[tracing::instrument(skip(json_body, semaphore))]
-pub async fn post_json(
-    url: &str,
-    json_body: serde_json::Value,
-    semaphore: &FetchSemaphore,
-    exec: impl sqlx::Executor<'_, Database = sqlx::Sqlite>,
-) -> crate::Result<()> {
-    let _permit = semaphore.0.acquire().await?;
-
-    let mut req = INSECURE_REQWEST_CLIENT.post(url).json(&json_body);
-
-    if let Some(creds) =
-        crate::state::ModrinthCredentials::get_active(exec).await?
-    {
-        req = req.header("Authorization", &creds.session);
-    }
-
-    req.send().await?.error_for_status()?;
-    Ok(())
 }
 
 pub async fn read_json<T>(

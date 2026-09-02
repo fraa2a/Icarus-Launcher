@@ -800,9 +800,7 @@ impl Process {
         // Now fully complete- update playtime one last time
         update_playtime(&mut last_updated_playtime, &profile_path, true).await;
 
-        // Publish play time update
-        // Allow failure, it will be stored locally and sent next time
-        // Sent in another thread as first call may take a couple seconds and hold up process ending
+        // Consolidate the session playtime into the local profile total.
         let profile = profile_path.clone();
         tokio::spawn(async move {
             if let Err(e) = profile::try_update_playtime(&profile).await {
