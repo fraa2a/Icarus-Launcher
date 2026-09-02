@@ -26,23 +26,31 @@ const overrideHooks = ref(
 		!!instance.value.hooks.wrapper ||
 		!!instance.value.hooks.post_exit,
 )
-const hooks = ref(instance.value.hooks ?? globalSettings.hooks)
-
-const editProfileObject = computed(() => {
-	const editProfile: {
-		hooks?: Hooks
-	} = {}
-
-	// When hooks are not overridden per-instance, we want to clear them
-	editProfile.hooks = overrideHooks.value ? hooks.value : {}
-
-	return editProfile
+const hooksRaw = instance.value.hooks ?? globalSettings.hooks
+const hooks = ref({
+	pre_launch: hooksRaw.pre_launch ?? '',
+	wrapper: hooksRaw.wrapper ?? '',
+	post_exit: hooksRaw.post_exit ?? '',
 })
+
+const editProfileObject = computed<{ hooks: Hooks }>(() => ({
+	hooks: overrideHooks.value
+		? {
+				pre_launch: hooks.value.pre_launch ?? '',
+				wrapper: hooks.value.wrapper ?? '',
+				post_exit: hooks.value.post_exit ?? '',
+			}
+		: {
+				pre_launch: '',
+				wrapper: '',
+				post_exit: '',
+			},
+}))
 
 watch(
 	[overrideHooks, hooks],
 	async () => {
-		await edit(instance.value.path, editProfileObject.value)
+		await edit(instance.value.path, editProfileObject.value).catch(handleError)
 	},
 	{ deep: true },
 )

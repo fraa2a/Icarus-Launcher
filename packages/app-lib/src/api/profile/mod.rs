@@ -26,14 +26,90 @@ use std::collections::{HashMap, HashSet};
 use crate::data::Settings;
 use crate::server_address::ServerAddress;
 use dashmap::DashMap;
-use std::iter::FromIterator;
 use std::{
     future::Future,
     path::{Path, PathBuf},
     sync::Arc,
 };
-use tokio::io::AsyncReadExt;
 use tokio::{fs::File, process::Command, sync::RwLock};
+use tokio_util::compat::FuturesAsyncWriteCompatExt;
+
+const NEVER_EXPORTABLE_PATH_PREFIXES: &[&str] =
+    &["profile.json", "Icarus_logs", ".fabric", "__MACOSX"];
+const NEVER_EXPORTABLE_PATH_SUFFIXES: &[&str] = &[".DS_Store"];
+
+#[derive(Default)]
+struct ExportSelectionNode {
+    selected: bool,
+    has_included_rule: bool,
+    children: HashMap<String, ExportSelectionNode>,
+}
+
+#[derive(Default)]
+struct ExportSelection {
+    root: ExportSelectionNode,
+}
+
+impl ExportSelection {
+    fn new(included_paths: Vec<String>) -> Self {
+        let mut selection = Self::default();
+
+        for path in included_paths {
+            let Ok(path) = SafeRelativeUtf8UnixPathBuf::try_from(path) else {
+                continue;
+            };
+            if path.as_str().is_empty() || !is_path_exportable(&path) {
+                continue;
+            }
+            selection.root.insert(path.as_str());
+        }
+
+        selection
+    }
+
+    fn is_included(&self, path: &SafeRelativeUtf8UnixPathBuf) -> bool {
+        self.resolve(path).0
+    }
+
+    fn should_visit_directory(
+        &self,
+        path: &SafeRelativeUtf8UnixPathBuf,
+    ) -> bool {
+        let (selected, node) = self.resolve(path);
+        selected || node.is_some_and(|node| node.has_included_rule)
+    }
+
+    fn resolve(
+        &self,
+        path: &SafeRelativeUtf8UnixPathBuf,
+    ) -> (bool, Option<&ExportSelectionNode>) {
+        let mut node = &self.root;
+        let mut selected = node.selected;
+
+        for segment in path.as_str().split('/') {
+            let Some(child) = node.children.get(segment) else {
+                return (selected, None);
+            };
+            node = child;
+            selected |= node.selected;
+        }
+
+        (selected, Some(node))
+    }
+}
+
+impl ExportSelectionNode {
+    fn insert(&mut self, path: &str) {
+        self.has_included_rule = true;
+
+        let mut node = self;
+        for segment in path.split('/') {
+            node = node.children.entry(segment.to_string()).or_default();
+            node.has_included_rule = true;
+        }
+        node.selected = true;
+    }
+}
 
 pub mod create;
 pub mod sync;
@@ -599,81 +675,87 @@ pub async fn export_mrpack(
         ))
     })?;
 
-    // remove .DS_Store files from included_export_candidates
-    let included_export_candidates = included_export_candidates
-        .into_iter()
-        .filter(|x| {
-            if let Some(f) = PathBuf::from(x).file_name()
-                && f.to_string_lossy().starts_with(".DS_Store")
-            {
-                return false;
-            }
-            true
-        })
-        .collect::<Vec<_>>();
-
+    let export_selection = ExportSelection::new(included_export_candidates);
     let profile_base_path = get_full_path(profile_path).await?;
 
     let mut file = File::create(&export_path)
         .await
         .map_err(|e| IOError::with_path(e, &export_path))?;
-    let mut writer = ZipFileWriter::with_tokio(&mut file);
+    let mut writer = ZipFileWriter::with_tokio(&mut file).force_no_zip64();
 
     // Create mrpack json configuration file
     let version_id = version_id.unwrap_or("1.0.0".to_string());
     let mut packfile =
         create_mrpack_json(&profile, version_id, description).await?;
-    let included_candidates_set = HashSet::<_>::from_iter(
-        included_export_candidates.iter().map(|x| x.as_str()),
-    );
-    packfile
+    packfile.files.retain(|file| {
+        is_path_exportable(&file.path)
+            && export_selection.is_included(&file.path)
+    });
+    let packfile_paths = packfile
         .files
-        .retain(|f| included_candidates_set.contains(f.path.as_str()));
+        .iter()
+        .map(|file| file.path.as_str().to_string())
+        .collect::<HashSet<_>>();
 
-    // Build vec of all files in the folder
-    let mut path_list = Vec::new();
-    add_all_recursive_folder_paths(&profile_base_path, &mut path_list).await?;
-
-    // Initialize loading bar
     let loading_bar = init_loading(
         LoadingBarType::ZipExtract {
             profile_path: profile.path.clone(),
             profile_name: profile.name.clone(),
         },
-        path_list.len() as f64,
+        1.0,
         "Exporting profile to .mrpack",
     )
     .await?;
 
-    // Iterate over every file in the folder
-    // Every file that is NOT in the config file is added to the zip, in overrides
-    for path in path_list {
-        emit_loading(&loading_bar, 1.0, None)?;
-
-        let relative_path = pack_get_relative_path(&profile_base_path, &path)?;
-
-        if packfile.files.iter().any(|f| f.path == relative_path)
-            || !included_candidates_set
-                .iter()
-                .any(|x| relative_path.starts_with(&**x))
+    let mut directories = vec![profile_base_path.clone()];
+    while let Some(directory) = directories.pop() {
+        let mut read_dir = io::read_dir(&directory).await?;
+        while let Some(entry) = read_dir
+            .next_entry()
+            .await
+            .map_err(|e| IOError::with_path(e, &directory))?
         {
-            continue;
-        }
+            let path = entry.path();
+            let relative_path =
+                pack_get_relative_path(&profile_base_path, &path)?;
+            if !is_path_exportable(&relative_path) {
+                continue;
+            }
 
-        // File is not in the config file, add it to the .mrpack zip
-        if path.is_file() {
-            let mut file = File::open(&path)
+            let file_type = entry
+                .file_type()
                 .await
                 .map_err(|e| IOError::with_path(e, &path))?;
-            let mut data = Vec::new();
-            file.read_to_end(&mut data)
+            if file_type.is_dir() {
+                if export_selection.should_visit_directory(&relative_path) {
+                    directories.push(path);
+                }
+                continue;
+            }
+            if !file_type.is_file()
+                || !export_selection.is_included(&relative_path)
+                || packfile_paths.contains(relative_path.as_str())
+            {
+                continue;
+            }
+
+            let mut stream = writer
+                .write_entry_stream(
+                    ZipEntryBuilder::new(
+                        format!("overrides/{relative_path}").into(),
+                        Compression::Deflate,
+                    )
+                    .build(),
+                )
+                .await?
+                .compat_write();
+            let mut source = File::open(&path)
                 .await
                 .map_err(|e| IOError::with_path(e, &path))?;
-            let builder = ZipEntryBuilder::new(
-                format!("overrides/{relative_path}").into(),
-                Compression::Deflate,
-            );
-            writer.write_entry_whole(builder, &data).await?;
+            tokio::io::copy(&mut source, &mut stream)
+                .await
+                .map_err(IOError::from)?;
+            stream.into_inner().close().await?;
         }
     }
 
@@ -686,8 +768,22 @@ pub async fn export_mrpack(
     writer.write_entry_whole(builder, &data).await?;
 
     writer.close().await?;
+    emit_loading(&loading_bar, 1.0, None)?;
 
     Ok(())
+}
+
+fn is_path_exportable(relative_path: &SafeRelativeUtf8UnixPathBuf) -> bool {
+    let path = relative_path.as_str();
+
+    !NEVER_EXPORTABLE_PATH_PREFIXES.iter().any(|prefix| {
+        path == *prefix
+            || path
+                .strip_prefix(prefix)
+                .is_some_and(|suffix| suffix.starts_with('/'))
+    }) && !NEVER_EXPORTABLE_PATH_SUFFIXES
+        .iter()
+        .any(|suffix| path.ends_with(suffix))
 }
 
 // Given a folder path, populate a Vec of all the subfolders and files, at most 2 layers deep
@@ -713,7 +809,16 @@ pub async fn get_pack_export_candidates(
         .map_err(|e| IOError::with_path(e, &profile_base_dir))?
     {
         let path = entry.path();
-        if path.is_dir() {
+        let relative_path = pack_get_relative_path(&profile_base_dir, &path)?;
+        if !is_path_exportable(&relative_path) {
+            continue;
+        }
+
+        let file_type = entry
+            .file_type()
+            .await
+            .map_err(|e| IOError::with_path(e, &path))?;
+        if file_type.is_dir() {
             // Two layers of files/folders if its a folder
             let mut read_dir = io::read_dir(&path).await?;
             while let Some(entry) = read_dir
@@ -721,14 +826,24 @@ pub async fn get_pack_export_candidates(
                 .await
                 .map_err(|e| IOError::with_path(e, &profile_base_dir))?
             {
-                path_list.push(pack_get_relative_path(
-                    &profile_base_dir,
-                    &entry.path(),
-                )?);
+                let path = entry.path();
+                let file_type = entry
+                    .file_type()
+                    .await
+                    .map_err(|e| IOError::with_path(e, &path))?;
+                if !file_type.is_dir() && !file_type.is_file() {
+                    continue;
+                }
+
+                let relative_path =
+                    pack_get_relative_path(&profile_base_dir, &path)?;
+                if is_path_exportable(&relative_path) {
+                    path_list.push(relative_path);
+                }
             }
-        } else {
+        } else if file_type.is_file() {
             // One layer of files/folders if its a file
-            path_list.push(pack_get_relative_path(&profile_base_dir, &path)?);
+            path_list.push(relative_path);
         }
     }
     Ok(path_list)
@@ -959,13 +1074,13 @@ pub async fn create_mrpack_json(
         )
         .await?
         .into_iter()
-        .filter_map(|(path, file)| match file.metadata {
-            Some(metadata) => Some((path, metadata.version_id)),
-            _ => None,
+        .filter_map(|(path, file)| {
+            file.metadata
+                .map(|metadata| (path, file.hash, metadata.version_id))
         })
         .collect::<Vec<_>>();
     let versions = CachedEntry::get_version_many(
-        &projects.iter().map(|x| &*x.1).collect::<Vec<_>>(),
+        &projects.iter().map(|x| &*x.2).collect::<Vec<_>>(),
         None,
         &state.pool,
         &state.api_semaphore,
@@ -974,51 +1089,46 @@ pub async fn create_mrpack_json(
 
     let files = projects
         .into_iter()
-        .filter_map(|(path, version_id)| {
-            if let Some(version) = versions.iter().find(|x| x.id == version_id)
-            {
-                let mut env = HashMap::new();
-                // TODO: envtype should be a controllable option (in general or at least .mrpack exporting)
-                // For now, assume required.
-                // env.insert(EnvType::Client, project.client_side.clone());
-                // env.insert(EnvType::Server, project.server_side.clone());
-                env.insert(EnvType::Client, SideType::Required);
-                env.insert(EnvType::Server, SideType::Required);
+        .filter_map(|(path, hash, version_id)| {
+            let version = versions.iter().find(|x| x.id == version_id)?;
+            let file = version.files.iter().find(|file| {
+                file.hashes
+                    .get("sha1")
+                    .is_some_and(|file_hash| file_hash == &hash)
+            })?;
 
-                let Some(primary_file) = version.files.first() else {
-                    return Some(Err(crate::ErrorKind::OtherError(format!(
-                        "No primary file found for mod at: {path}"
-                    ))
-                    .as_error()));
-                };
+            let mut env = HashMap::new();
+            // TODO: envtype should be a controllable option (in general or at least .mrpack exporting)
+            // For now, assume required.
+            // env.insert(EnvType::Client, project.client_side.clone());
+            // env.insert(EnvType::Server, project.server_side.clone());
+            env.insert(EnvType::Client, SideType::Required);
+            env.insert(EnvType::Server, SideType::Required);
 
-                let file_size = primary_file.size;
-                let downloads = vec![primary_file.url.clone()];
-                let hashes = primary_file
-                    .hashes
-                    .clone()
-                    .into_iter()
-                    .map(|(h1, h2)| (PackFileHash::from(h1), h2))
-                    .collect();
+            let file_size = file.size;
+            let downloads = vec![file.url.clone()];
+            let hashes = file
+                .hashes
+                .clone()
+                .into_iter()
+                .map(|(h1, h2)| (PackFileHash::from(h1), h2))
+                .collect();
 
-                Some(Ok(PackFile {
-                    path: match path.try_into() {
-                        Ok(path) => path,
-                        Err(_) => {
-                            return Some(Err(crate::ErrorKind::OtherError(
-                                "Invalid file path in project".into(),
-                            )
-                            .as_error()));
-                        }
-                    },
-                    hashes,
-                    env: Some(env),
-                    downloads,
-                    file_size,
-                }))
-            } else {
-                None
-            }
+            Some(Ok(PackFile {
+                path: match path.try_into() {
+                    Ok(path) => path,
+                    Err(_) => {
+                        return Some(Err(crate::ErrorKind::OtherError(
+                            "Invalid file path in project".into(),
+                        )
+                        .as_error()));
+                    }
+                },
+                hashes,
+                env: Some(env),
+                downloads,
+                file_size,
+            }))
         })
         .collect::<crate::Result<Vec<PackFile>>>()?;
 
@@ -1060,4 +1170,57 @@ pub fn sanitize_profile_name(input: &str) -> String {
         ['/', '\\', '?', '*', ':', '\'', '\"', '|', '<', '>', '!'],
         "_",
     )
+}
+
+#[cfg(test)]
+mod export_tests {
+    use super::*;
+
+    fn relative_path(path: &str) -> SafeRelativeUtf8UnixPathBuf {
+        SafeRelativeUtf8UnixPathBuf::try_from(path.to_string()).unwrap()
+    }
+
+    #[test]
+    fn export_selection_matches_path_segments() {
+        let selection = ExportSelection::new(vec!["config".to_string()]);
+
+        assert!(selection.is_included(&relative_path("config")));
+        assert!(selection.is_included(&relative_path("config/example.toml")));
+        assert!(
+            !selection
+                .is_included(&relative_path("config-backup/example.toml"))
+        );
+    }
+
+    #[test]
+    fn export_selection_visits_only_selected_branches() {
+        let selection = ExportSelection::new(vec![
+            "resourcepacks/example/assets".to_string(),
+        ]);
+
+        assert!(
+            selection.should_visit_directory(&relative_path("resourcepacks"))
+        );
+        assert!(
+            selection.should_visit_directory(&relative_path(
+                "resourcepacks/example"
+            ))
+        );
+        assert!(
+            !selection.should_visit_directory(&relative_path("shaderpacks"))
+        );
+    }
+
+    #[test]
+    fn export_denylist_matches_whole_path_segments_and_suffixes() {
+        assert!(!is_path_exportable(&relative_path("profile.json")));
+        assert!(!is_path_exportable(&relative_path(
+            "Icarus_logs/latest.log"
+        )));
+        assert!(!is_path_exportable(&relative_path("config/.DS_Store")));
+        assert!(is_path_exportable(&relative_path(
+            "Icarus_logs-backup/latest.log"
+        )));
+        assert!(is_path_exportable(&relative_path("config/profile.json")));
+    }
 }
