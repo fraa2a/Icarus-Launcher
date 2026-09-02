@@ -20,11 +20,8 @@ pub use crate::{State, state::Profile};
 use async_zip::tokio::write::ZipFileWriter;
 use async_zip::{Compression, ZipEntryBuilder};
 use path_util::SafeRelativeUtf8UnixPathBuf;
-use serde_json::json;
-use tracing::{info, warn};
 
 use std::collections::{HashMap, HashSet};
-use std::time::Duration;
 
 use crate::data::Settings;
 use crate::server_address::ServerAddress;
@@ -870,62 +867,6 @@ async fn run_credentials(
         mc_set_options.push(("fullscreen".to_string(), "true".to_string()));
     }
 
-    // For server projects: track this play in analytics
-    if let Some(linked_data) = &profile.linked_data {
-        let project_id = &linked_data.project_id;
-        if !project_id.trim().is_empty() {
-            let server_id = uuid::Uuid::new_v4().to_string();
-
-            let join_result = fetch::INSECURE_REQWEST_CLIENT
-                .post("https://sessionserver.mojang.com/session/minecraft/join")
-                .json(&json!({
-                    "accessToken": &credentials.access_token,
-                    "selectedProfile": credentials.offline_profile.id.simple().to_string(),
-                    "serverId": &server_id,
-                }))
-                .timeout(Duration::from_secs(5))
-                .send()
-                .await;
-
-            match join_result {
-                Ok(resp) if resp.status().is_success() => {
-                    let result = fetch::post_json(
-                        concat!(
-                            env!("MODRINTH_API_BASE_URL"),
-                            "analytics/minecraft-server-play"
-                        ),
-                        json!({
-                            "project_id": &linked_data.project_id,
-                            "username": &credentials.offline_profile.name,
-                            "server_id": &server_id,
-                        }),
-                        &state.api_semaphore,
-                        &state.pool,
-                    )
-                    .await;
-
-                    match result {
-                        Ok(()) => {
-                            info!(
-                                "Tracked server play for '{project_id}' in analytics"
-                            )
-                        }
-                        Err(err) => {
-                            warn!("Failed to report server play: {err:?}")
-                        }
-                    }
-                }
-                Ok(resp) => warn!(
-                    "Failed to join Mojang session server: HTTP {}",
-                    resp.status()
-                ),
-                Err(err) => {
-                    warn!("Failed to join Mojang session server: {err:?}")
-                }
-            }
-        }
-    }
-
     crate::launcher::launch_minecraft(
         &java_args,
         &env_args,
@@ -952,11 +893,9 @@ pub async fn kill(path: &str) -> crate::Result<()> {
     Ok(())
 }
 
-/// Update playtime- sending a request to the server to update the playtime
+/// Consolidates recently recorded playtime into the local total.
 #[tracing::instrument]
 pub async fn try_update_playtime(path: &str) -> crate::Result<()> {
-    let state = State::get().await?;
-
     let profile = get(path).await?.ok_or_else(|| {
         crate::ErrorKind::OtherError(format!(
             "Tried to update playtime for a nonexistent or unloaded profile at path {path}!"
@@ -964,42 +903,7 @@ pub async fn try_update_playtime(path: &str) -> crate::Result<()> {
     })?;
     let updated_recent_playtime = profile.recent_time_played;
 
-    let res = if updated_recent_playtime > 0 {
-        // Create update struct to send to labrinth
-        let modrinth_pack_version_id =
-            profile.linked_data.as_ref().map(|l| l.version_id.clone());
-        let playtime_update_json = json!({
-            "seconds": updated_recent_playtime,
-            "loader": profile.loader.as_str(),
-            "game_version": profile.game_version,
-            "parent": modrinth_pack_version_id,
-        });
-        // Copy this struct for every Modrinth project in the profile
-        let mut hashmap: HashMap<String, serde_json::Value> = HashMap::new();
-
-        for (_, project) in profile
-            .get_projects(None, &state.pool, &state.api_semaphore)
-            .await?
-        {
-            if let Some(metadata) = project.metadata {
-                hashmap
-                    .insert(metadata.version_id, playtime_update_json.clone());
-            }
-        }
-
-        fetch::post_json(
-            concat!(env!("MODRINTH_API_BASE_URL"), "analytics/playtime"),
-            serde_json::to_value(hashmap)?,
-            &state.api_semaphore,
-            &state.pool,
-        )
-        .await
-    } else {
-        Ok(())
-    };
-
-    // If successful, update the profile metadata to match submitted
-    if res.is_ok() {
+    if updated_recent_playtime > 0 {
         edit(&profile.path, |prof| {
             prof.submitted_time_played += updated_recent_playtime;
             prof.recent_time_played = 0;
@@ -1009,7 +913,7 @@ pub async fn try_update_playtime(path: &str) -> crate::Result<()> {
         .await?;
     }
 
-    res
+    Ok(())
 }
 
 /// Creates a json configuration for a .mrpack zipped file
