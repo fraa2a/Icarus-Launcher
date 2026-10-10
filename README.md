@@ -1,3 +1,6 @@
+> [!attention] Archived Fork
+> This fork is **OUTDATED**, broken and old, you should look at the new version at: [fraa2a/Icarus](https://github.com/fraa2a/Icarus)
+
 # 💜 **Icarus Launcher**
 
 [![Latest Release](https://img.shields.io/github/v/release/fraa2a/Icarus-Launcher?color=ea76cb&label=Latest%20Release&style=for-the-badge)](https://github.com/fraa2a/Icarus-Launcher/releases)
