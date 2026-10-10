@@ -1,4 +1,4 @@
-> [!attention] Archived Fork
+> [!WARNING] Archived Fork
 > This fork is **OUTDATED**, broken and old, you should look at the new version at: [fraa2a/Icarus](https://github.com/fraa2a/Icarus)
 
 # 💜 **Icarus Launcher**
